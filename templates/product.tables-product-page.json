@@ -45,15 +45,6 @@
           "type": "price",
           "settings": {}
         },
-        "promotion_alert_L7ipQp": {
-          "type": "promotion_alert",
-          "settings": {
-            "text_color": "#049b6e",
-            "icon": "currency-circle-dollar",
-            "heading": "Bulk Discounts Available When Ordering 5+",
-            "description": "<p>For more information, <a href=\"/pages/bulk-order-discounts\" target=\"_blank\" title=\"Bulk Order Discounts & Net 30 Accounts\">click here</a></p>"
-          }
-        },
         "icon_with_text": {
           "type": "icon-with-text",
           "disabled": true,
@@ -77,18 +68,27 @@
             "show_inventory_quantity": true
           }
         },
-        "rich_text_HVryJN": {
-          "type": "rich-text",
-          "settings": {
-            "text": "<p><em>Disclaimer – All finishes, edges, bases, and other options shown are examples of available customizations. Finishes displayed may not be available on all models — see product options for current selections. Colors are approximate.</em></p>"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_quantity_selector": true,
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
+          }
+        },
+        "rich_text_HVryJN": {
+          "type": "rich-text",
+          "settings": {
+            "text": "<p><em>Disclaimer – All finishes, edges, bases, and other options shown are examples of available customizations. Finishes displayed may not be available on all models — see product options for current selections. Colors are approximate.</em></p>"
+          }
+        },
+        "promotion_alert_L7ipQp": {
+          "type": "promotion_alert",
+          "settings": {
+            "text_color": "#049b6e",
+            "icon": "currency-circle-dollar",
+            "heading": "Bulk Discounts Available When Ordering 5+",
+            "description": "<p>For more information, <a href=\"/pages/bulk-order-discounts\" target=\"_blank\" title=\"Bulk Order Discounts & Net 30 Accounts\">click here</a></p>"
           }
         },
         "payment_info": {
@@ -103,7 +103,7 @@
             "heading_size": "h5",
             "description": "<p><em>Your payment information is processed securely. We do not store credit card details nor have access to your credit card information.</em></p>",
             "show_payment_icons": true,
-            "show_below_product_media": false
+            "show_below_product_media": true
           }
         },
         "description": {
@@ -246,11 +246,11 @@
         "meta",
         "judge_me_reviews_preview_badge_affX98",
         "price",
-        "promotion_alert_L7ipQp",
         "icon_with_text",
         "inventory",
-        "rich_text_HVryJN",
         "buy_buttons",
+        "rich_text_HVryJN",
+        "promotion_alert_L7ipQp",
         "payment_info",
         "description",
         "variant_picker",
