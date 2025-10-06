@@ -92,7 +92,8 @@
     {% comment %} Custom metafield for head tag like GTag tracking {% endcomment %}
     {{ shop.metafields.foxtheme.code_head.value }}
     {% comment %} End custom metafield for head tag like GTag tracking {% endcomment %}
-  </head>
+    {% render 'rapid-search-settings' %}
+</head>
 
   <body
     class="{{ request.page_type }}-template {{ template.suffix }} blocks-corner--{{ settings.blocks_corner_radius }}{% if request.design_mode %} shopify-design-mode{% endif %}"
