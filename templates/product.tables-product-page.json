@@ -112,6 +112,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "swatch_type": "shopify_swatch",
@@ -139,15 +140,17 @@
         },
         "pickup_availability": {
           "type": "pickup_availability",
+          "disabled": true,
           "settings": {}
         },
         "complementary": {
           "type": "complementary",
+          "disabled": true,
           "settings": {
             "block_heading": "Perfect Match With",
             "heading_size": "h4",
             "show_below_product_media": false,
-            "make_collapsible_row": false,
+            "make_collapsible_row": true,
             "icon": "tag",
             "product_list_limit": 6,
             "layout": "grid",
@@ -661,7 +664,7 @@
       "name": "t:sections.rich-text.name",
       "settings": {
         "container": "fixed",
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-2",
         "use_color_scheme_in_container": false,
         "content_spacing": "fitted",
         "content_alignment": "left",
