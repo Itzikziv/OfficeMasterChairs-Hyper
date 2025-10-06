@@ -1,1 +1,1032 @@
-{"sections":{"main":{"type":"main-product","blocks":{"badges":{"type":"badges","disabled":true,"settings":{"show_soldout_badge":false,"show_sale_badge":false,"sale_badge_type":"text"}},"title":{"type":"title","settings":{"heading_size":"h3"}},"meta":{"type":"meta","settings":{"link_color":"#666666","show_vendor":true,"show_product_type":false,"show_sku":true,"show_barcode":false}},"judge_me_reviews_preview_badge_affX98":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{}},"price":{"type":"price","settings":{}},"promotion_alert_L7ipQp":{"type":"promotion_alert","disabled":true,"settings":{"text_color":"#049b6e","icon":"lightning","heading":"Bulk Discounts Available When Ordering 5+","description":"<p>For more information, <a href=\"\/pages\/bulk-order-discounts\" target=\"_blank\" title=\"Bulk Order Discounts & Net 30 Accounts\">click here<\/a><\/p>"}},"icon_with_text":{"type":"icon-with-text","disabled":true,"settings":{"layout":"horizontal","title_font":"body-bolder","title_size":"text-base","icon_1":"check","heading_1":"Modern","icon_2":"check","heading_2":"Eco-certified","icon_3":"check","heading_3":"Warranty"}},"inventory":{"type":"inventory","settings":{"text_style":"body","inventory_threshold":10,"show_inventory_quantity":true}},"buy_buttons":{"type":"buy_buttons","settings":{"show_quantity_selector":true,"show_dynamic_checkout":false,"show_gift_card_recipient":true}},"payment_info":{"type":"payment_info","settings":{"color_scheme":"scheme-1","heading":"","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h5","description":"<p><em>Your payment information is processed securely. We do not store credit card details nor have access to your credit card information.<\/em><\/p>","show_payment_icons":true,"show_below_product_media":false}},"rich_text_GKTNWc":{"type":"rich-text","settings":{"text":"<p>Arms are sold in pairs. Casters are sold in sets of 5 wheels.<\/p>"}},"description":{"type":"description","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","swatch_type":"shopify_swatch","swatch_style":"square","swatch_size":32,"button_style":"normal","size_title":"Size","size_chart_from_page":""}},"icon_with_text_UAYgQU":{"type":"icon-with-text","disabled":true,"settings":{"layout":"vertical","title_font":"body","title_size":"text-base","icon_1":"car-simple","heading_1":"Free International Shipping over $500","icon_2":"arrow-up-left","heading_2":"Free Returns Within 30 days","icon_3":"star-four","heading_3":""}},"pickup_availability":{"type":"pickup_availability","settings":{}},"complementary":{"type":"complementary","settings":{"block_heading":"Perfect Match With","heading_size":"h4","show_below_product_media":false,"make_collapsible_row":false,"icon":"tag","product_list_limit":6,"layout":"grid","columns":3,"image_ratio":"1\/1","enable_quick_add":true}},"collapsible-row-2":{"type":"collapsible_tab","settings":{"heading":"Features","heading_size":"h4","icon":"none","content":"","page":"","default_open":true,"show_below_product_media":true}},"collapsible-row-1":{"type":"collapsible_tab","settings":{"heading":"Specifications","heading_size":"h4","icon":"none","content":"<p>This is the content<\/p>","page":"content","default_open":false,"show_below_product_media":true}},"collapsible-row-3":{"type":"collapsible_tab","disabled":true,"settings":{"heading":"Downloads \/ Info","heading_size":"h4","icon":"none","content":"","page":"","default_open":false,"show_below_product_media":true}},"collapsible_tab_pnt6Q8":{"type":"collapsible_tab","disabled":true,"settings":{"heading":"Warranty","heading_size":"h4","icon":"none","content":"","page":"","default_open":false,"show_below_product_media":true}},"collapsible_tab_gqPcD6":{"type":"collapsible_tab","disabled":true,"settings":{"heading":"Shipping","heading_size":"h4","icon":"none","content":"<p>Each OM Seating product is built from scratch and requires time to be manufactured. <br\/><br\/>Lead time is typically up to 7-10 business days, however for a most updated production time estimate, please reach out to us via the chat or email at <a href=\"mailto:cs@estorescorp.com\" target=\"_blank\" title=\"mailto:cs@estorescorp.com\">cs@estorescorp.com<\/a><\/p>","page":"","default_open":false,"show_below_product_media":true}},"divider_pPz3Kw":{"type":"divider","settings":{"show_below_product_media":false}},"social_sharing":{"type":"social_sharing","disabled":true,"settings":{}},"sticky_atc_bar_7HgNgP":{"type":"sticky-atc-bar","settings":{"visibility":"all","style":"minimalist","container":"full","show_atc_button":true,"show_dynamic_checkout_buttons":false,"show_quantity":true}}},"block_order":["badges","title","meta","judge_me_reviews_preview_badge_affX98","price","promotion_alert_L7ipQp","icon_with_text","inventory","buy_buttons","payment_info","rich_text_GKTNWc","description","variant_picker","icon_with_text_UAYgQU","pickup_availability","complementary","collapsible-row-2","collapsible-row-1","collapsible-row-3","collapsible_tab_pnt6Q8","collapsible_tab_gqPcD6","divider_pPz3Kw","social_sharing","sticky_atc_bar_7HgNgP"],"custom_css":["@media (min-width: 1280px) {.product {padding-inline: 5rem; }}",".btn--primary {padding: 16px 32px; \/* bigger overall size *\/ font-size: 16px; \/* larger text *\/ min-height: 5px; \/* ensures height grows *\/}"," \/* Mobile adjustments *\/"],"settings":{"color_scheme":"scheme-14","use_color_scheme_in_container":false,"enable_sticky_info":true,"media_size":"small","gallery_layout":"vertical-carousel","mobile_thumbnails":"show","show_image_border":false,"enable_image_zoom":true,"enable_video_looping":true,"padding_top":12,"padding_bottom":60}},"tabs_content_8rnbnj":{"type":"tabs-content","blocks":{"tab_LAiiEa":{"type":"tab","disabled":true,"settings":{"navigation_title":"Choosing Arms","content":"<p>Choosing the right arms is crucial for an optimal ergonomic setup. Use this guide to help you choose the best arms for your needs.<\/p>","custom_liquid":"{%- assign _uid = 'arms-full-' | append: product.id -%}\n\n<div id=\"{{ _uid }}\" class=\"arms-section\">\n  <style>\n    #{{ _uid }} { --border:#e5e7eb; --bg:#fff; --note:#fffbe6; --note-border:#facc15; --muted:#6b7280; }\n    #{{ _uid }} * { box-sizing: border-box; }\n\n    \/* === GUIDE: 3 Cards + Compatibility Tip === *\/\n    #{{ _uid }} .steps-cards { margin: 18px 0 12px; }\n    #{{ _uid }} .steps-cards .grid {\n      display: grid;\n      grid-template-columns: repeat(3, 1fr);\n      gap: 12px;\n    }\n    #{{ _uid }} .steps-cards .card {\n      background: var(--bg);\n      border: 1px solid var(--border);\n      border-radius: 12px;\n      padding: 16px;\n      display: flex;\n      flex-direction: column;\n      gap: 8px;\n      min-height: 1px;\n    }\n    #{{ _uid }} .steps-cards .step {\n      display: flex;\n      align-items: baseline;\n      gap: 10px;\n      margin: 0 0 4px;\n      line-height: 1.2;\n    }\n    #{{ _uid }} .steps-cards .num {\n      font-size: 1.8rem;\n      font-weight: 800;\n      letter-spacing: -0.01em;\n    }\n    #{{ _uid }} .steps-cards .title {\n      font-size: 1.75rem;\n      font-weight: 800;\n      margin: 0;\n    }\n    #{{ _uid }} .steps-cards p,\n    #{{ _uid }} .steps-cards ul {\n      margin: 0;\n      line-height: 1.45;\n    }\n    #{{ _uid }} .steps-cards ul { padding-left: 18px; }\n    #{{ _uid }} .steps-cards li { margin: 3px 0; }\n\n    \/* Compatibility Notice *\/\n    #{{ _uid }} .compat {\n      margin: 10px 0 16px;\n      display: flex; gap: 10px; align-items: center;\n      background: var(--note);\n      border: 1px solid var(--note-border);\n      border-radius: 10px;\n      padding: 10px 12px;\n      font-size: 1.2rem; line-height: 1.45; color: #5b4a00;\n    }\n    #{{ _uid }} .compat svg { width: 20px; height: 20px; color: #d97706; flex-shrink: 0; }\n\n    @media (max-width: 980px) {\n      #{{ _uid }} .steps-cards .grid { grid-template-columns: 1fr; }\n      #{{ _uid }} .steps-cards .card { padding: 18px; }\n      #{{ _uid }} .steps-cards .num { font-size: 2rem; }\n      #{{ _uid }} .steps-cards .title { font-size: 1.8rem; }\n      #{{ _uid }} .steps-cards p, #{{ _uid }} .steps-cards ul { font-size:1.25rem; }\n    }\n\n    \/* === ACCORDION + TABLES === *\/\n    #{{ _uid }} .arms-dimension {\n      border: 1px solid var(--border);\n      border-radius: 8px;\n      margin-bottom: 8px; \/* tighter spacing *\/\n      overflow: hidden;\n    }\n    #{{ _uid }} .arms-header {\n      background: #fff;\n      padding: 14px 18px; \/* compact height *\/\n      cursor: pointer;\n      display: flex; justify-content: space-between; align-items: center;\n      font-size: 1.9rem; font-weight: 800; \/* header stays large *\/\n    }\n    #{{ _uid }} .arms-header .arrow { font-size: 1.2rem; transition: transform .2s ease; }\n    #{{ _uid }} .arms-header.open .arrow { transform: rotate(180deg); }\n    #{{ _uid }} .arms-content { display: none; padding: 0 14px 14px; }\n\n    \/* Tables scoped only to this section *\/\n    #{{ _uid }} .arms-content table { width: 100%; border-collapse: collapse; margin-top: 10px; }\n    #{{ _uid }} .arms-content th, #{{ _uid }} .arms-content td {\n      text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border);\n    }\n    #{{ _uid }} .arms-content th { font-weight: 700; background: #f3f4f6; }\n    #{{ _uid }} .arms-content td { color: #111; }\n    #{{ _uid }} .muted { color: var(--muted); }\n  <\/style>\n\n  <!-- GUIDE: 3 Cards -->\n  <div class=\"steps-cards\">\n    <div class=\"grid\">\n      <!-- STEP 1 -->\n      <div class=\"card\">\n        <div class=\"step\">\n          <span class=\"num\">1.<\/span>\n          <h3 class=\"title\">Pick Your Adjustability<\/h3>\n        <\/div>\n        <ul>\n          <li>1D — Height only<\/li>\n          <li>2D — Height & Width (best everyday choice)<\/li>\n          <li>3D — Height, Width + Pivot or Fore-Aft<\/li>\n          <li>4D\/4D+ — Height, Width, Pivot & Fore-Aft<\/li>\n        <\/ul>\n      <\/div>\n\n      <!-- STEP 2 -->\n      <div class=\"card\">\n        <div class=\"step\">\n          <span class=\"num\">2.<\/span>\n          <h3 class=\"title\">Measure Your Elbow Height<\/h3>\n        <\/div>\n        <ul>\n          <li>Sit in your current chair with arms resting relaxed and elbows near 90°.<\/li>\n          <li>Armrests should be level with your desk surface.<\/li>\n          <li>Use a tape measure to find the distance from the seat to the top of the armrest — that’s your needed range.<\/li>\n        <\/ul>\n      <\/div>\n\n      <!-- STEP 3 -->\n      <div class=\"card\">\n        <div class=\"step\">\n          <span class=\"num\">3.<\/span>\n          <h3 class=\"title\">Find Your Match Below<\/h3>\n        <\/div>\n        <p> <li>\nPick the group (Fixed, 1D, 2D, 3D, 4D) from Step 1, then use your elbow height from Step 2 to choose the right arms.<\/p>\n      <\/div>\n    <\/div>\n\n    <!-- Compatibility Notice -->\n    <div class=\"compat\">\n      <svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm.75 5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zM11 10h2v7h-2v-7z\"\/><\/svg>\n      <span>Arm availability can vary by product. Only arms shown in the Options section above are compatible with this chair.<\/span>\n    <\/div>\n  <\/div>\n\n  <!-- === ACCORDION TABLES === -->\n\n  <!-- FIXED -->\n  <div class=\"arms-dimension\">\n    <div class=\"arms-header\" onclick=\"\n      var root=this.closest('.arms-section');\n      var content=this.nextElementSibling;\n      var isOpen=content.style.display==='block';\n      root.querySelectorAll('.arms-content').forEach(c=>{ if(c!==content){c.style.display='none';}});\n      root.querySelectorAll('.arms-header').forEach(h=>{ if(h!==this){h.classList.remove('open');}});\n      if(isOpen){ content.style.display='none'; this.classList.remove('open'); } else { content.style.display='block'; this.classList.add('open'); }\">\n      Fixed Arms\n      <span class=\"arrow\">▼<\/span>\n    <\/div>\n    <div class=\"arms-content\">\n      <table>\n        <thead>\n          <tr><th>Arm Model<\/th><th>Type<\/th><th>Features<\/th><th>Min Height (approx. from seat pan)<\/th><th>Max Height (approx. from seat pan)<\/th><\/tr>\n        <\/thead>\n        <tbody>\n          <tr><td><strong>KR48<\/strong><\/td><td>Average height<\/td><td>Fixed loop<\/td><td>9.75\"<\/td><td>9.75\"<\/td><\/tr>\n        <\/tbody>\n      <\/table>\n    <\/div>\n  <\/div>\n\n  <!-- 1D -->\n  <div class=\"arms-dimension\">\n    <div class=\"arms-header\" onclick=\"\n      var root=this.closest('.arms-section');\n      var content=this.nextElementSibling;\n      var isOpen=content.style.display==='block';\n      root.querySelectorAll('.arms-content').forEach(c=>{ if(c!==content){c.style.display='none';}});\n      root.querySelectorAll('.arms-header').forEach(h=>{ if(h!==this){h.classList.remove('open');}});\n      if(isOpen){ content.style.display='none'; this.classList.remove('open'); } else { content.style.display='block'; this.classList.add('open'); }\">\n      1D Arms\n      <span class=\"arrow\">▼<\/span>\n    <\/div>\n    <div class=\"arms-content\">\n      <table>\n        <thead>\n          <tr><th>Arm Model<\/th><th>Type<\/th><th>Features<\/th><th>Min Height (approx. from seat pan)<\/th><th>Max Height (approx. from seat pan)<\/th><\/tr>\n        <\/thead>\n        <tbody>\n          <tr><td><strong>BR2<\/strong><\/td><td>Average height<\/td><td>Width-only, loop design (BC only)<\/td><td>–<\/td><td>–<\/td><\/tr>\n          <tr><td><strong>AR81<\/strong><\/td><td>Average height<\/td><td>Width-only, polished aluminum loop<\/td><td>8.25\"<\/td><td>8.25\"<\/td><\/tr>\n          <tr><td><strong>JR77<\/strong><\/td><td>Average height<\/td><td>Height-only<\/td><td>8.25\"<\/td><td>12.5\"<\/td><\/tr>\n          <tr><td><strong>JR77M<\/strong><\/td><td>Average height<\/td><td>Height-only, Memosoft<\/td><td>8.25\"<\/td><td>12.5\"<\/td><\/tr>\n          <tr><td><strong>JRBN<\/strong><\/td><td>Tall height<\/td><td>Height-only, fold-back ballistic<\/td><td>9.25\"<\/td><td>11.75\"<\/td><\/tr>\n          <tr><td><strong>JRPD<\/strong><\/td><td>Tall height<\/td><td>Height-only, fold-back Memosoft (Police)<\/td><td>9.25\"<\/td><td>11.75\"<\/td><\/tr>\n          <tr><td><strong>KR21<\/strong><\/td><td>Average height<\/td><td>Height-only, knob T-arm<\/td><td>8.5\"<\/td><td>10.75\"<\/td><\/tr>\n          <tr><td><strong>KR23<\/strong><\/td><td>Short height<\/td><td>Height-only<\/td><td>6.5\"<\/td><td>10\"<\/td><\/tr>\n          <tr><td><strong>KR25<\/strong><\/td><td>Average height<\/td><td>Height-only, natural grip<\/td><td>8.25\"<\/td><td>11\"<\/td><\/tr>\n          <tr><td><strong>KR25M<\/strong><\/td><td>Average height<\/td><td>Height-only, Memosoft natural grip<\/td><td>8.25\"<\/td><td>11\"<\/td><\/tr>\n        <\/tbody>\n      <\/table>\n    <\/div>\n  <\/div>\n\n  <!-- 2D -->\n  <div class=\"arms-dimension\">\n    <div class=\"arms-header\" onclick=\"\n      var root=this.closest('.arms-section');\n      var content=this.nextElementSibling;\n      var isOpen=content.style.display==='block';\n      root.querySelectorAll('.arms-content').forEach(c=>{ if(c!==content){c.style.display='none';}});\n      root.querySelectorAll('.arms-header').forEach(h=>{ if(h!==this){h.classList.remove('open');}});\n      if(isOpen){ content.style.display='none'; this.classList.remove('open'); } else { content.style.display='block'; this.classList.add('open'); }\">\n      2D Arms\n      <span class=\"arrow\">▼<\/span>\n    <\/div>\n    <div class=\"arms-content\">\n      <table>\n        <thead>\n          <tr><th>Arm Model<\/th><th>Type<\/th><th>Features<\/th><th>Min Height (approx. from seat pan)<\/th><th>Max Height (approx. from seat pan)<\/th><\/tr>\n        <\/thead>\n        <tbody>\n          <tr><td><strong>BR5<\/strong><\/td><td>Average height<\/td><td>Height + Width (BC only)<\/td><td>–<\/td><td>–<\/td><\/tr>\n          <tr><td><strong>JR39<\/strong><\/td><td>Average height<\/td><td>Height + Width, forward slant<\/td><td>7.25\"<\/td><td>11.5\"<\/td><\/tr>\n          <tr><td><strong>JR39M<\/strong><\/td><td>Average height<\/td><td>Height + Width, forward slant, Memosoft<\/td><td>7.25\"<\/td><td>11.5\"<\/td><\/tr>\n          <tr><td><strong>KR200<\/strong><\/td><td>Short height<\/td><td>Height + Width, removable T<\/td><td>6.25\"<\/td><td>8.25\"<\/td><\/tr>\n          <tr><td><strong>KR200M<\/strong><\/td><td>Short height<\/td><td>Height + Width, Memosoft removable T<\/td><td>6.25\"<\/td><td>9\"<\/td><\/tr>\n          <tr><td><strong>KR100M<\/strong><\/td><td>Short height<\/td><td>Height + Width, Memosoft removable T<\/td><td>5.25\"<\/td><td>8\"<\/td><\/tr>\n          <tr><td><strong>KR300<\/strong><\/td><td>Tall height<\/td><td>Height + Width, tall T<\/td><td>7.75\"<\/td><td>10.5\"<\/td><\/tr>\n          <tr><td><strong>KR300M<\/strong><\/td><td>Tall height<\/td><td>Height + Width, tall Memosoft<\/td><td>7.75\"<\/td><td>10.5\"<\/td><\/tr>\n        <\/tbody>\n      <\/table>\n    <\/div>\n  <\/div>\n\n  <!-- 3D -->\n  <div class=\"arms-dimension\">\n    <div class=\"arms-header\" onclick=\"\n      var root=this.closest('.arms-section');\n      var content=this.nextElementSibling;\n      var isOpen=content.style.display==='block';\n      root.querySelectorAll('.arms-content').forEach(c=>{ if(c!==content){c.style.display='none';}});\n      root.querySelectorAll('.arms-header').forEach(h=>{ if(h!==this){h.classList.remove('open');}});\n      if(isOpen){ content.style.display='none'; this.classList.remove('open'); } else { content.style.display='block'; this.classList.add('open'); }\">\n      3D Arms\n      <span class=\"arrow\">▼<\/span>\n    <\/div>\n    <div class=\"arms-content\">\n      <table>\n        <thead>\n          <tr><th>Arm Model<\/th><th>Type<\/th><th>Features<\/th><th>Min Height (approx. from seat pan)<\/th><th>Max Height (approx. from seat pan)<\/th><\/tr>\n        <\/thead>\n        <tbody>\n          <tr><td><strong>AR485<\/strong><\/td><td>Average height<\/td><td>Height + Width + Pivot, polished aluminum<\/td><td>7.0\"<\/td><td>11\"<\/td><\/tr>\n        <\/tbody>\n      <\/table>\n    <\/div>\n  <\/div>\n\n  <!-- 4D \/ 4D+ -->\n  <div class=\"arms-dimension\">\n    <div class=\"arms-header\" onclick=\"\n      var root=this.closest('.arms-section');\n      var content=this.nextElementSibling;\n      var isOpen=content.style.display==='block';\n      root.querySelectorAll('.arms-content').forEach(c=>{ if(c!==content){c.style.display='none';}});\n      root.querySelectorAll('.arms-header').forEach(h=>{ if(h!==this){h.classList.remove('open');}});\n      if(isOpen){ content.style.display='none'; this.classList.remove('open'); } else { content.style.display='block'; this.classList.add('open'); }\">\n      4D & 4D+ Arms\n      <span class=\"arrow\">▼<\/span>\n    <\/div>\n    <div class=\"arms-content\">\n      <table>\n        <thead>\n          <tr><th>Arm Model<\/th><th>Type<\/th><th>Features<\/th><th>Min Height (approx. from seat pan)<\/th><th>Max Height (approx. from seat pan)<\/th><\/tr>\n        <\/thead>\n        <tbody>\n          <tr><td><strong>JR49<\/strong><\/td><td>Tall height<\/td><td>Height + Width + RP-45 pivot + Fore\/Aft<\/td><td>8.75\"<\/td><td>13\"<\/td><\/tr>\n          <tr><td><strong>JR59<\/strong><\/td><td>Tall height<\/td><td>Height + Width + RP-50 6-way Omni<\/td><td>8.5\"<\/td><td>12.75\"<\/td><\/tr>\n          <tr><td><strong>JR69<\/strong><\/td><td>Tall height<\/td><td>Height + Width + RP-65 pivot\/Fore-Aft<\/td><td>8.25\"<\/td><td>12.5\"<\/td><\/tr>\n\n          <tr><td><strong>KR200-45<\/strong><\/td><td>Average height<\/td><td>Height + Width + RP-45 pivot\/Fore-Aft<\/td><td>7.75\"<\/td><td>10.5\"<\/td><\/tr>\n          <tr><td><strong>KR200-65<\/strong><\/td><td>Average height<\/td><td>Height + Width + RP-65 lockable top<\/td><td>7\"<\/td><td>9.75\"<\/td><\/tr>\n          <tr><td><strong>KR200-50<\/strong><\/td><td>Average height<\/td><td>Height + Width + RP-50 Omni (4D+)<\/td><td>7.75\"<\/td><td>10.5\"<\/td><\/tr>\n\n          <tr><td><strong>KR100-45<\/strong><\/td><td>Short height<\/td><td>Height + Width + RP-45 pivot\/Fore-Aft<\/td><td>6.75\"<\/td><td>9.5\"<\/td><\/tr>\n          <tr><td><strong>KR100-65<\/strong><\/td><td>Short height<\/td><td>Height + Width + RP-65 lockable top<\/td><td>6\"<\/td><td>8.75\"<\/td><\/tr>\n          <tr><td><strong>KR100-50<\/strong><\/td><td>Short height<\/td><td>Height + Width + RP-50 Omni (4D+)<\/td><td>6.75\"<\/td><td>9.5\"<\/td><\/tr>\n          <tr><td><strong>KR100-51M<\/strong><\/td><td>Average height<\/td><td>Ultra mobility track arm, RP-51M, 360° pivot<\/td><td>7.5\"<\/td><td>10.25\"<\/td><\/tr>\n\n          <tr><td><strong>KR300-45<\/strong><\/td><td>Tall height<\/td><td>Height + Width + RP-45 pivot\/Fore-Aft<\/td><td>9.25\"<\/td><td>12\"<\/td><\/tr>\n          <tr><td><strong>KR300-65<\/strong><\/td><td>Tall height<\/td><td>Height + Width + RP-65 lockable top<\/td><td>8.5\"<\/td><td>11.25\"<\/td><\/tr>\n          <tr><td><strong>KR300-50<\/strong><\/td><td>Tall height<\/td><td>Height + Width + RP-50 Omni (4D+)<\/td><td>9.25\"<\/td><td>12\"<\/td><\/tr>\n\n          <tr><td><strong>JR77-65<\/strong><\/td><td>Tall height<\/td><td>Height + Width + RP-65 pivot\/Fore-Aft<\/td><td>9.5\"<\/td><td>13.75\"<\/td><\/tr>\n        <\/tbody>\n      <\/table>\n    <\/div>\n  <\/div>\n<\/div>","page":""}},"tab_NMCB3R":{"type":"tab","settings":{"navigation_title":"Arms Guide","content":"<p>Choosing the right arms is crucial for an optimal ergonomic setup. Use this guide to help you choose the best arms for your needs.<\/p>","custom_liquid":"{%- assign _uid = 'arms-full-' | append: product.id -%}\n\n<div id=\"{{ _uid }}\" class=\"arms-section\">\n  <style>\n    #{{ _uid }} { --border:#e5e7eb; --bg:#fff; --note:#fffbe6; --note-border:#facc15; --muted:#6b7280; }\n    #{{ _uid }} * { box-sizing: border-box; }\n\n    \/* === GUIDE: 3 Cards + Compatibility Tip === *\/\n    #{{ _uid }} .steps-cards { margin: 18px 0 12px; }\n    #{{ _uid }} .steps-cards .grid {\n      display: grid;\n      grid-template-columns: repeat(3, 1fr);\n      gap: 12px;\n    }\n    #{{ _uid }} .steps-cards .card {\n      background: var(--bg);\n      border: 1px solid var(--border);\n      border-radius: 12px;\n      padding: 16px;\n      display: flex;\n      flex-direction: column;\n      gap: 8px;\n      min-height: 1px;\n    }\n    #{{ _uid }} .steps-cards .step {\n      display: flex;\n      align-items: baseline;\n      gap: 10px;\n      margin: 0 0 4px;\n      line-height: 1.2;\n    }\n    #{{ _uid }} .steps-cards .num {\n      font-size: 1.8rem;\n      font-weight: 800;\n      letter-spacing: -0.01em;\n    }\n    #{{ _uid }} .steps-cards .title {\n      font-size: 1.75rem;\n      font-weight: 800;\n      margin: 0;\n    }\n    #{{ _uid }} .steps-cards p,\n    #{{ _uid }} .steps-cards ul {\n      margin: 0;\n      line-height: 1.45;\n    }\n    #{{ _uid }} .steps-cards ul { padding-left: 18px; }\n    #{{ _uid }} .steps-cards li { margin: 3px 0; }\n\n    \/* Compatibility Notice *\/\n    #{{ _uid }} .compat {\n      margin: 10px 0 16px;\n      display: flex; gap: 10px; align-items: center;\n      background: var(--note);\n      border: 1px solid var(--note-border);\n      border-radius: 10px;\n      padding: 10px 12px;\n      font-size: 1.2rem; line-height: 1.45; color: #5b4a00;\n    }\n    #{{ _uid }} .compat svg { width: 20px; height: 20px; color: #d97706; flex-shrink: 0; }\n\n    @media (max-width: 980px) {\n      #{{ _uid }} .steps-cards .grid { grid-template-columns: 1fr; }\n      #{{ _uid }} .steps-cards .card { padding: 18px; }\n      #{{ _uid }} .steps-cards .num { font-size: 2rem; }\n      #{{ _uid }} .steps-cards .title { font-size: 1.8rem; }\n      #{{ _uid }} .steps-cards p, #{{ _uid }} .steps-cards ul { font-size:1.25rem; }\n    }\n\n    \/* === ACCORDION + TABLE === *\/\n    #{{ _uid }} .arms-dimension {\n      border: 1px solid var(--border);\n      border-radius: 8px;\n      margin-bottom: 8px;\n      overflow: hidden;\n    }\n    #{{ _uid }} .arms-header {\n      background: #fff;\n      padding: 14px 18px;\n      cursor: pointer;\n      display: flex; justify-content: space-between; align-items: center;\n      font-size: 1.9rem; font-weight: 800;\ncolor: #000;\n    }\n    #{{ _uid }} .arms-header .arrow { font-size: 1.2rem; transition: transform .2s ease; }\n    #{{ _uid }} .arms-header.open .arrow { transform: rotate(180deg); }\n    #{{ _uid }} .arms-content { display: none; padding: 0 14px 14px; }\n\n    \/* Tables scoped only to this section *\/\n    #{{ _uid }} .arms-content table { width: 100%; border-collapse: collapse; margin-top: 10px; }\n    #{{ _uid }} .arms-content th, #{{ _uid }} .arms-content td {\n      text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border);\n    }\n    #{{ _uid }} .arms-content th { font-weight: 700; background: #f3f4f6; }\n    #{{ _uid }} .arms-content td { color: #111; }\n    #{{ _uid }} .muted { color: var(--muted); }\n  <\/style>\n\n  <!-- GUIDE: 3 Cards -->\n  <div class=\"steps-cards\">\n    <div class=\"grid\">\n      <!-- STEP 1 -->\n      <div class=\"card\">\n        <div class=\"step\">\n          <span class=\"num\">1.<\/span>\n          <h3 class=\"title\">Pick Your Adjustability<\/h3>\n        <\/div>\n        <ul>\n          <li>1D — Height only<\/li>\n          <li>2D — Height & Width (best everyday choice)<\/li>\n          <li>3D — Height, Width + Pivot or Fore-Aft<\/li>\n          <li>4D\/4D+ — Height, Width, Pivot & Fore-Aft<\/li>\n        <\/ul>\n      <\/div>\n\n      <!-- STEP 2 -->\n      <div class=\"card\">\n        <div class=\"step\">\n          <span class=\"num\">2.<\/span>\n          <h3 class=\"title\">Measure Your Elbow Height<\/h3>\n        <\/div>\n        <ul>\n          <li>Sit in your current chair with arms resting relaxed and elbows near 90°.<\/li>\n          <li>Armrests should be level with your desk surface.<\/li>\n          <li>Measure seat to top-of-armrest — that’s your needed range.<\/li>\n        <\/ul>\n      <\/div>\n\n      <!-- STEP 3 -->\n      <div class=\"card\">\n        <div class=\"step\">\n          <span class=\"num\">3.<\/span>\n          <h3 class=\"title\">Find Your Match Below<\/h3>\n        <\/div>\n        <p>Pick the required adjustability (Fixed, 1D, 2D, 3D, 4D) from Step 1, then use your elbow-height range from Step 2 to choose the right arms from the table below.<\/p>\n      <\/div>\n    <\/div>\n\n    <!-- Compatibility Notice -->\n    <div class=\"compat\">\n      <svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm.75 5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zM11 10h2v7h-2v-7z\"\/><\/svg>\n      <span>Arm availability can vary by product. Only arms shown in the Options section above are compatible with this chair.<\/span>\n    <\/div>\n  <\/div>\n\n  <!-- === ONE ACCORDION FOR ALL ARMS === -->\n  <div class=\"arms-dimension\">\n    <div class=\"arms-header\" onclick=\"\n      var content=this.nextElementSibling;\n      var isOpen=content.style.display==='block';\n      if(isOpen){ content.style.display='none'; this.classList.remove('open'); } \n      else { content.style.display='block'; this.classList.add('open'); }\">\n      View Arms Table\n      <span class=\"arrow\">▼<\/span>\n    <\/div>\n    <div class=\"arms-content\">\n      <table>\n        <thead>\n          <tr>\n            <th>Dimension<\/th>\n            <th>Arm Model<\/th>\n            <th>Type<\/th>\n            <th>Features<\/th>\n            <th>Min Height (approx. from seat pan)<\/th>\n            <th>Max Height (approx. from seat pan)<\/th>\n          <\/tr>\n        <\/thead>\n        <tbody>\n          <!-- FIXED -->\n          <tr><td>Fixed<\/td><td><strong>KR48<\/strong><\/td><td>Average height<\/td><td>Fixed loop<\/td><td>9.75\"<\/td><td>9.75\"<\/td><\/tr>\n\n          <!-- 1D -->\n          <tr><td>1D<\/td><td><strong>BR2<\/strong><\/td><td>Average height<\/td><td>Width-only, loop design (BC only)<\/td><td>–<\/td><td>–<\/td><\/tr>\n          <tr><td>1D<\/td><td><strong>AR81<\/strong><\/td><td>Average height<\/td><td>Width-only, polished aluminum loop<\/td><td>8.25\"<\/td><td>8.25\"<\/td><\/tr>\n          <tr><td>1D<\/td><td><strong>JR77<\/strong><\/td><td>Average height<\/td><td>Height-only<\/td><td>8.25\"<\/td><td>12.5\"<\/td><\/tr>\n          <tr><td>1D<\/td><td><strong>JR77M<\/strong><\/td><td>Average height<\/td><td>Height-only, Memosoft<\/td><td>8.25\"<\/td><td>12.5\"<\/td><\/tr>\n          <tr><td>1D<\/td><td><strong>JRBN<\/strong><\/td><td>Tall height<\/td><td>Height-only, fold-back ballistic<\/td><td>9.25\"<\/td><td>11.75\"<\/td><\/tr>\n          <tr><td>1D<\/td><td><strong>JRPD<\/strong><\/td><td>Tall height<\/td><td>Height-only, fold-back Memosoft (Police)<\/td><td>9.25\"<\/td><td>11.75\"<\/td><\/tr>\n          <tr><td>1D<\/td><td><strong>KR21<\/strong><\/td><td>Average height<\/td><td>Height-only, knob T-arm<\/td><td>8.5\"<\/td><td>10.75\"<\/td><\/tr>\n          <tr><td>1D<\/td><td><strong>KR23<\/strong><\/td><td>Short height<\/td><td>Height-only<\/td><td>6.5\"<\/td><td>10\"<\/td><\/tr>\n          <tr><td>1D<\/td><td><strong>KR25<\/strong><\/td><td>Average height<\/td><td>Height-only, natural grip<\/td><td>8.25\"<\/td><td>11\"<\/td><\/tr>\n          <tr><td>1D<\/td><td><strong>KR25M<\/strong><\/td><td>Average height<\/td><td>Height-only, Memosoft natural grip<\/td><td>8.25\"<\/td><td>11\"<\/td><\/tr>\n\n          <!-- 2D -->\n          <tr><td>2D<\/td><td><strong>BR5<\/strong><\/td><td>Average height<\/td><td>Height + Width (BC only)<\/td><td>–<\/td><td>–<\/td><\/tr>\n          <tr><td>2D<\/td><td><strong>JR39<\/strong><\/td><td>Average height<\/td><td>Height + Width, forward slant<\/td><td>7.25\"<\/td><td>11.5\"<\/td><\/tr>\n          <tr><td>2D<\/td><td><strong>JR39M<\/strong><\/td><td>Average height<\/td><td>Height + Width, forward slant, Memosoft<\/td><td>7.25\"<\/td><td>11.5\"<\/td><\/tr>\n          <tr><td>2D<\/td><td><strong>KR200<\/strong><\/td><td>Short height<\/td><td>Height + Width, removable T<\/td><td>6.25\"<\/td><td>8.25\"<\/td><\/tr>\n          <tr><td>2D<\/td><td><strong>KR200M<\/strong><\/td><td>Short height<\/td><td>Height + Width, Memosoft removable T<\/td><td>6.25\"<\/td><td>9\"<\/td><\/tr>\n          <tr><td>2D<\/td><td><strong>KR100M<\/strong><\/td><td>Short height<\/td><td>Height + Width, Memosoft removable T<\/td><td>5.25\"<\/td><td>8\"<\/td><\/tr>\n          <tr><td>2D<\/td><td><strong>KR300<\/strong><\/td><td>Tall height<\/td><td>Height + Width, tall T<\/td><td>7.75\"<\/td><td>10.5\"<\/td><\/tr>\n          <tr><td>2D<\/td><td><strong>KR300M<\/strong><\/td><td>Tall height<\/td><td>Height + Width, tall Memosoft<\/td><td>7.75\"<\/td><td>10.5\"<\/td><\/tr>\n\n          <!-- 3D -->\n          <tr><td>3D<\/td><td><strong>AR485<\/strong><\/td><td>Average height<\/td><td>Height + Width + Pivot, polished aluminum<\/td><td>7.0\"<\/td><td>11\"<\/td><\/tr>\n\n          <!-- 4D \/ 4D+ -->\n          <tr><td>4D<\/td><td><strong>JR49<\/strong><\/td><td>Tall height<\/td><td>Height + Width + RP-45 pivot + Fore\/Aft<\/td><td>8.75\"<\/td><td>13\"<\/td><\/tr>\n          <tr><td>4D<\/td><td><strong>JR59<\/strong><\/td><td>Tall height<\/td><td>Height + Width + RP-50 6-way Omni<\/td><td>8.5\"<\/td><td>12.75\"<\/td><\/tr>\n          <tr><td>4D<\/td><td><strong>JR69<\/strong><\/td><td>Tall height<\/td><td>Height + Width + RP-65 pivot\/Fore-Aft<\/td><td>8.25\"<\/td><td>12.5\"<\/td><\/tr>\n\n          <tr><td>4D<\/td><td><strong>KR200-45<\/strong><\/td><td>Average height<\/td><td>Height + Width + RP-45 pivot\/Fore-Aft<\/td><td>7.75\"<\/td><td>10.5\"<\/td><\/tr>\n          <tr><td>4D<\/td><td><strong>KR200-65<\/strong><\/td><td>Average height<\/td><td>Height + Width + RP-65 lockable top<\/td><td>7\"<\/td><td>9.75\"<\/td><\/tr>\n          <tr><td>4D+<\/td><td><strong>KR200-50<\/strong><\/td><td>Average height<\/td><td>Height + Width + RP-50 Omni (4D+)<\/td><td>7.75\"<\/td><td>10.5\"<\/td><\/tr>\n\n          <tr><td>4D<\/td><td><strong>KR100-45<\/strong><\/td><td>Short height<\/td><td>Height + Width + RP-45 pivot\/Fore-Aft<\/td><td>6.75\"<\/td><td>9.5\"<\/td><\/tr>\n          <tr><td>4D<\/td><td><strong>KR100-65<\/strong><\/td><td>Short height<\/td><td>Height + Width + RP-65 lockable top<\/td><td>6\"<\/td><td>8.75\"<\/td><\/tr>\n          <tr><td>4D+<\/td><td><strong>KR100-50<\/strong><\/td><td>Short height<\/td><td>Height + Width + RP-50 Omni (4D+)<\/td><td>6.75\"<\/td><td>9.5\"<\/td><\/tr>\n          <tr><td>4D+<\/td><td><strong>KR100-51M<\/strong><\/td><td>Average height<\/td><td>Ultra mobility track arm, RP-51M, 360° pivot<\/td><td>7.5\"<\/td><td>10.25\"<\/td><\/tr>\n\n          <tr><td>4D<\/td><td><strong>KR300-45<\/strong><\/td><td>Tall height<\/td><td>Height + Width + RP-45 pivot\/Fore-Aft<\/td><td>9.25\"<\/td><td>12\"<\/td><\/tr>\n          <tr><td>4D<\/td><td><strong>KR300-65<\/strong><\/td><td>Tall height<\/td><td>Height + Width + RP-65 lockable top<\/td><td>8.5\"<\/td><td>11.25\"<\/td><\/tr>\n          <tr><td>4D+<\/td><td><strong>KR300-50<\/strong><\/td><td>Tall height<\/td><td>Height + Width + RP-50 Omni (4D+)<\/td><td>9.25\"<\/td><td>12\"<\/td><\/tr>\n\n          <tr><td>4D<\/td><td><strong>JR77-65<\/strong><\/td><td>Tall height<\/td><td>Height + Width + RP-65 pivot\/Fore-Aft<\/td><td>9.5\"<\/td><td>13.75\"<\/td><\/tr>\n        <\/tbody>\n      <\/table>\n    <\/div>\n  <\/div>\n<\/div>","page":""}},"tab_ichTFY":{"type":"tab","disabled":true,"settings":{"navigation_title":"Fabric Guide","content":"<p>With over 200 fabrics and multiple fabric materials, we understand that choosing a fabric can be overwhelming. Use the guide and table below to get a better understanding of how to select the right fabric for you.<\/p>","custom_liquid":"{%- assign _uid = 'fabric-type-compact-block-' | append: product.id -%}\n\n<div id=\"{{ _uid }}\">\n\n  <!-- GUIDE BLOCK -->\n\n  <div class=\"fabric-guide-basics\">\n    <style>\n      #{{ _uid }} { --border:#e5e7eb; --muted:#6b7280; --notice-bg:#fffbe6; --notice-border:#facc15; }\n      #{{ _uid }} * { box-sizing:border-box; }\n\n      .fabric-guide-basics {\n        background: #fff;\n        border: 1px solid var(--border);\n        border-radius: 12px;\n        padding: 22px 26px;\n        margin: 20px 0;\n      }\n      .fabric-guide-basics .grid {\n        display: grid;\n        grid-template-columns: 1fr 1fr;\n        gap: 10px 22px;\n      }\n      .fabric-guide-basics .item strong {\n        display: block;\n        margin-bottom: 2px;\n        font-size: 1.75rem;\n        font-weight: 800;\n        line-height: 1.2;\n        color: #111;\n      }\n\n      \/* Notice boxes *\/\n      .fabric-guide-basics .notice {\n        margin-top: 16px;\n        display: flex; gap: 10px; align-items: center;\n        background: var(--notice-bg);\n        border: 1px solid var(--notice-border);\n        border-radius: 10px;\n        padding: 8px 12px;\n        font-size: 1.2rem;\n        color: #5b4a00;\n      }\n      .fabric-guide-basics .notice .icon {\n        display: flex; align-items: center; justify-content: center;\n        width: 22px; height: 22px; line-height: 0;\n      }\n      .fabric-guide-basics .notice svg { width: 20px; height: 20px; color: #d97706; }\n\n      @media (max-width: 880px) {\n        .fabric-guide-basics .grid { grid-template-columns: 1fr; }\n      }\n\n      \/* TYPE ACCORDIONS *\/\n      .type {\n        border: 1px solid var(--border);\n        border-radius: 10px;\n        background: #fff;\n        margin-bottom: 12px;\n        overflow: hidden;\n      }\n      .type-header {\n        padding: 14px 18px;\n        cursor: pointer;\n        display: flex; justify-content: space-between; align-items: center;\n        background: #fff;\n      }\n      .type-header h4 {\n        margin: 0;\n        font-size: 1.75rem;\n        font-weight: 700;\n        color: #111;\n      }\n      .type-header .arrow { font-size: 1.5rem; transition: transform .2s ease; }\n#{{ _uid }} .type-header h4 {\n  font-size: 1.9rem !important;\n  font-weight: 700 !important;\n  color: #111 !important;\n  margin: 0;\n}\n      .type-header.open .arrow { transform: rotate(180deg); }\n      .type-content { display: none; padding: 14px; }\n\n      \/* Section headings inside accordion *\/\n      .type-content h5 {\n        margin: 0 0 6px;\n        font-weight: 700;\n        font-size: 1.6rem;\n        color: #111;\n      }\n\n      \/* Swatches (hover zoom + code label) *\/\n      .swatch-list { display: flex; gap: 6px; flex-wrap: wrap; }\n      .swatch-wrap { width: 64px; }\n      .swatch {\n        position: relative;\n        width: 64px; height: 64px;\n        border: 1px solid var(--border); border-radius: 6px;\n        overflow: hidden; background: #fafafa;\n      }\n      .swatch img { width: 100%; height: 100%; object-fit: cover; display: block; }\n      .code {\n        font-size: .9rem;\n        text-align: center; color: var(--muted);\n        margin-top: 2px; width: 64px; line-height: 1.1;\n      }\n      .swatch .zoom {\n        pointer-events: none;\n        position: absolute; z-index: 50;\n        top: -8px; left: 72px;\n        width: 220px; height: 220px;\n        border: 1px solid var(--border);\n        border-radius: 10px; background: #fff;\n        box-shadow: 0 8px 22px rgba(0,0,0,.16);\n        opacity: 0;\n        transition: opacity .12s ease, transform .12s ease;\n      }\n      .swatch:hover .zoom { opacity: 1; transform: scale(1); }\n      .swatch .zoom img { width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 10px; }\n      @media (max-width: 640px) { .swatch .zoom { left: 0; top: -236px; } }\n\n      \/* Patterns *\/\n      .pat {\n        display: flex; justify-content: space-between;\n        padding: 4px 6px;\n        border: 1px solid var(--border); border-radius: 4px;\n        margin-bottom: 4px;\n      }\n      .pat .pname { font-weight: 700; }\n      .pat .pcodes { color: var(--muted); }\n\n      \/* Show More button *\/\n      .toggle-wrap { text-align: center; margin: 14px 0; }\n      .toggle-btn {\n        background: transparent; border: none; cursor: pointer;\n        font-size: 1.08rem; padding: 6px 10px; display: inline-flex; gap: 8px; align-items: center;\n      }\n      .toggle-btn .arrow-icon { display: inline-block; font-size: 1.4rem; transition: transform .2s ease; }\n      .toggle-btn.open .arrow-icon { transform: rotate(180deg); }\n    <\/style>\n\n    <div class=\"grid\">\n      <div class=\"item\"><strong>Fabric Type<\/strong> The material (Leather, Vinyl, Woven, Mesh, Crypton, Knit).<\/div>\n      <div class=\"item\"><strong>Pattern<\/strong> The style\/collection within a grade. Each pattern is tied to a fabric type.<\/div>\n      <div class=\"item\"><strong>Grade<\/strong> The quality\/price tier, written as G1, G2, G3. Higher grades = more premium options.<\/div>\n      <div class=\"item\"><strong>Fabric Codes<\/strong> The item numbers for ordering or requesting swatches.<\/div>\n    <\/div>\n\n    <!-- Availability Notice -->\n    <div class=\"notice\">\n      <span class=\"icon\" aria-hidden=\"true\">\n        <svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm.75 5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zM11 10h2v7h-2v-7z\"\/><\/svg>\n      <\/span>\n      <span>Fabric availability can vary by product. Only fabrics shown in the options above are compatible with this chair.<\/span>\n    <\/div>\n\n    <!-- Options Library Notice -->\n    <div class=\"notice\">\n      <span class=\"icon\" aria-hidden=\"true\">\n        <svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm.75 5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zM11 10h2v7h-2v-7z\"\/><\/svg>\n      <\/span>\n      <span>The Options Library has in-depth details on all fabrics and arms. <a href=\"https:\/\/www.officemasterchairs.com\/pages\/office-master-all-options-library\">Open Options Library<\/a><\/span>\n    <\/div>\n  <\/div>\n\n  <!-- Visible Accordions -->\n  {% assign visible_types = \"Woven,Knit,Vinyl,Leather\" | split: \",\" %}\n  {% for t in visible_types %}\n  <div class=\"type\">\n    <div class=\"type-header {% if forloop.first %}open{% endif %}\" onclick=\"\n      var root=this.closest('#{{ _uid }}');\n      var content=this.nextElementSibling;\n      var isOpen=content.style.display==='block';\n      root.querySelectorAll('.type-content').forEach(c=>{ c.style.display='none'; });\n      root.querySelectorAll('.type-header').forEach(h=>{ h.classList.remove('open'); });\n      if(isOpen){ content.style.display='none'; this.classList.remove('open'); }\n      else { content.style.display='block'; this.classList.add('open'); }\">\n      <h4>{{ t }}<\/h4>\n      <span class=\"arrow\">▼<\/span>\n    <\/div>\n    <div class=\"type-content\" {% if forloop.first %}style=\"display:block;\"{% endif %}>\n      <h5>Suggested Fabrics<\/h5>\n      <div class=\"swatch-list\">\n        <div class=\"swatch-wrap\">\n          <div class=\"swatch\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/6725\/7293\/files\/XT408_-_Ink_II.jpg?v=1750250342\">\n            <div class=\"zoom\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/6725\/7293\/files\/XT408_-_Ink_II.jpg?v=1750250342\"><\/div>\n          <\/div>\n          <div class=\"code\">XT408<\/div>\n        <\/div>\n        <div class=\"swatch-wrap\">\n          <div class=\"swatch\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/6725\/7293\/files\/303_-_Tinto_II.jpg?v=1750250342\">\n            <div class=\"zoom\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/6725\/7293\/files\/303_-_Tinto_II.jpg?v=1750250342\"><\/div>\n          <\/div>\n          <div class=\"code\">303<\/div>\n        <\/div>\n      <\/div>\n      <h5>Patterns & Codes<\/h5>\n      <div class=\"pat\"><span class=\"pname\">Example Pattern<\/span><span class=\"pcodes\">1000–1009<\/span><\/div>\n    <\/div>\n  <\/div>\n  {% endfor %}\n\n  <!-- Hidden Accordions -->\n  <div id=\"{{ _uid }}-more\" style=\"display:none;\">\n    {% assign hidden_types = \"Crypton,PVC-Free,Mesh\" | split: \",\" %}\n    {% for t in hidden_types %}\n    <div class=\"type\">\n      <div class=\"type-header\" onclick=\"\n        var root=this.closest('#{{ _uid }}');\n        var content=this.nextElementSibling;\n        var isOpen=content.style.display==='block';\n        root.querySelectorAll('.type-content').forEach(c=>{ c.style.display='none'; });\n        root.querySelectorAll('.type-header').forEach(h=>{ h.classList.remove('open'); });\n        if(isOpen){ content.style.display='none'; this.classList.remove('open'); }\n        else { content.style.display='block'; this.classList.add('open'); }\">\n        <h4>{{ t }}<\/h4>\n        <span class=\"arrow\">▼<\/span>\n      <\/div>\n      <div class=\"type-content\">\n        <h5>Suggested Fabrics<\/h5>\n        <div class=\"swatch-list\">\n          <div class=\"swatch-wrap\">\n            <div class=\"swatch\">\n              <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/6725\/7293\/files\/OM5_GR12_Mesh_Charcoal_Grey.jpg?v=1749721697\">\n              <div class=\"zoom\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/6725\/7293\/files\/OM5_GR12_Mesh_Charcoal_Grey.jpg?v=1749721697\"><\/div>\n            <\/div>\n            <div class=\"code\">GR12<\/div>\n          <\/div>\n        <\/div>\n        <h5>Patterns & Codes<\/h5>\n        <div class=\"pat\"><span class=\"pname\">Example Hidden Pattern<\/span><span class=\"pcodes\">2000–2009<\/span><\/div>\n      <\/div>\n    <\/div>\n    {% endfor %}\n  <\/div>\n\n  <div class=\"toggle-wrap\">\n    <button class=\"toggle-btn\" type=\"button\" aria-label=\"Toggle more fabric types\"\n      onclick=\"var more=document.getElementById('{{ _uid }}-more');var btn=this;if(more.style.display==='none'){more.style.display='block';btn.classList.add('open');btn.querySelector('.toggle-text').textContent='Show Less';}else{more.style.display='none';btn.classList.remove('open');btn.querySelector('.toggle-text').textContent='Show More';}\">\n      <span class=\"toggle-text\">Show More<\/span>\n      <span class=\"arrow-icon\">▼<\/span>\n    <\/button>\n  <\/div>\n<\/div>","page":""}},"tab_iVWCtm":{"type":"tab","settings":{"navigation_title":"Fabric Guide","content":"<p>With over 200 fabrics and multiple fabric materials, we understand that choosing a fabric can be overwhelming. Use the guide and table below to get a better understanding of how to select the right fabric for you.<\/p>","custom_liquid":"{%- assign _uid = 'fabric-type-compact-block-' | append: product.id -%}\n\n<div id=\"{{ _uid }}\">\n\n  <!-- GUIDE BLOCK -->\n  <div class=\"fabric-guide-basics\">\n    <style>\n      #{{ _uid }} {\n        --border:#e5e7eb;\n        --muted:#6b7280;\n        --notice-bg:#fffbe6;\n        --notice-border:#facc15;\n      }\n      #{{ _uid }} * { box-sizing:border-box; }\n\n      .fabric-guide-basics {\n        background: #fff;\n        border: 1px solid var(--border);\n        border-radius: 12px;\n        padding: 22px 26px;\n        margin: 20px 0;\n      }\n      .fabric-guide-basics .grid {\n        display: grid;\n        grid-template-columns: 1fr 1fr;\n        gap: 22px 22px;\n      }\n      .fabric-guide-basics .item strong {\n        display: block;\n        margin-bottom: 2px;\n        font-size: 1.75rem;\n        font-weight: 800;\n        line-height: 1.2;\n        color: #111;\n      }\n\n      \/* Availability Notice *\/\n      .fabric-guide-basics .notice {\n        margin-top: 16px;\n        display: flex;\n        gap: 10px;\n        align-items: center;\n        background: var(--notice-bg);\n        border: 1px solid var(--notice-border);\n        border-radius: 10px;\n        padding: 8px 12px;\n        font-size: 1.2rem;\n        color: #5b4a00;\n      }\n      .fabric-guide-basics .notice .icon {\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 22px;\n        height: 22px;\n        line-height: 0;\n      }\n      .fabric-guide-basics .notice svg {\n        width: 20px;\n        height: 20px;\n        color: #d97706;\n      }\n\n      @media (max-width: 880px) {\n        .fabric-guide-basics .grid { grid-template-columns: 1fr; }\n      }\n\n      \/* Accordion + Table *\/\n      .fabric-accordion {\n        border: 1px solid var(--border);\n        border-radius: 10px;\n        background: #fff;\n        margin-top: 20px;\n        overflow: hidden;\n      }\n      .fabric-header {\n        padding: 14px 18px;\n        cursor: pointer;\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        background: #fff;\n        font-size: 1.9rem;\n        font-weight: 700;\n        color: #111;\n      }\n      .fabric-header .arrow { font-size: 1.4rem; transition: transform .2s ease; }\n      .fabric-header.open .arrow { transform: rotate(180deg); }\n      .fabric-content { display: none; padding: 14px; }\n\n      .fabric-content table {\n        width: 100%;\n        border-collapse: collapse;\n        margin-top: 10px;\n      }\n      .fabric-content th, .fabric-content td {\n        text-align: left;\n        padding: 6px 8px;\n        border-bottom: 1px solid var(--border);\n      }\n      .fabric-content th {\n        font-weight: 700;\n        background: #f3f4f6;\n      }\n      .fabric-content td { color: #111; }\n\n      \/* Options Library section *\/\n      .options-library {\n        margin-top: 24px;\n      }\n      .options-library h4 {\n        margin: 0 0 8px;\n        font-size: 1.75rem;\n        font-weight: 700;\n        color: #111;\n      }\n      .options-library p {\n        margin: 0 0 12px;\n        font-size: 1.25rem;\n        color: #333;\n      }\n      .options-library .btn {\n        display: inline-block;\n        background: #000;\n        color: #fff;\n        padding: 10px 20px;\n        border-radius: 6px;\n        text-decoration: none;\n        font-size: 1.35rem;\n        font-weight: 500;\n        white-space: nowrap;\n      }\n    <\/style>\n\n    <div class=\"grid\">\n      <div class=\"item\"><strong>Fabric Type<\/strong> The material (Leather, Vinyl, Woven, Mesh, Crypton, Knit).<\/div>\n      <div class=\"item\"><strong>Pattern<\/strong> The style\/collection within a grade. Each pattern is tied to a fabric type.<\/div>\n      <div class=\"item\"><strong>Grade<\/strong> The quality\/price tier, written as G1, G2, G3. Higher grades = more premium options.<\/div>\n      <div class=\"item\"><strong>Fabric Codes<\/strong> The specific fabric and color within the collection. For example - 1020-Black.<\/div>\n\n      <!-- Options Library row as 2-column -->\n      <div class=\"item\">\n        <strong>Options Library<\/strong> In depth resource where you can find complete information and swatches on each pattern and fabric.\n      <\/div>\n      <div class=\"item\" style=\"display:flex; align-items:center;\">\n        <a class=\"btn\"\n           href=\"https:\/\/www.officemasterchairs.com\/pages\/office-master-all-options-library\"\n           target=\"_blank\" rel=\"noopener noreferrer\">\n          View Options Library\n        <\/a>\n      <\/div>\n    <\/div>\n\n    <!-- Availability Notice (moved to bottom) -->\n    <div class=\"notice\">\n      <span class=\"icon\"><svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm.75 5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zM11 10h2v7h-2v-7z\"\/><\/svg><\/span>\n      <span>Fabric availability can vary by product. Only fabrics shown in the options above are compatible with this chair.<\/span>\n    <\/div>\n\n    <!-- Single Accordion -->\n    <div class=\"fabric-accordion\">\n      <div class=\"fabric-header\" onclick=\"\n        var content=this.nextElementSibling;\n        var isOpen=content.style.display==='block';\n        if(isOpen){ content.style.display='none'; this.classList.remove('open'); }\n        else { content.style.display='block'; this.classList.add('open'); }\">\n        View Fabrics Table\n        <span class=\"arrow\">▼<\/span>\n      <\/div>\n      <div class=\"fabric-content\">\n        <table>\n          <thead>\n            <tr>\n              <th>Grade<\/th>\n              <th>Pattern<\/th>\n              <th>Type \/ Material<\/th>\n              <th>Codes<\/th>\n              <th>Cleanability<\/th>\n              <th>Abrasion<\/th>\n            <\/tr>\n          <\/thead>\n          <tbody>\n            <tr><td>G1<\/td><td>Basic<\/td><td>Woven<\/td><td>1001–1020<\/td><td>WS<\/td><td>150,000+<\/td><\/tr>\n            <tr><td>G1<\/td><td>Spice<\/td><td>Woven<\/td><td>1161–1168<\/td><td>WS<\/td><td>150,000+<\/td><\/tr>\n            <tr><td>G1<\/td><td>Celestial<\/td><td>Woven<\/td><td>1200–1204<\/td><td>WS<\/td><td>150,000+<\/td><\/tr>\n            <tr><td>G2<\/td><td>Chess<\/td><td>Woven<\/td><td>2293–2298<\/td><td>WS<\/td><td>100,000+<\/td><\/tr>\n            <tr><td>G2<\/td><td>Clue<\/td><td>Woven<\/td><td>2400–2409<\/td><td>W<\/td><td>40,000+<\/td><\/tr>\n            <tr><td>G2<\/td><td>Drift<\/td><td>Woven<\/td><td>2700–2709<\/td><td>BC & WS<\/td><td>100,000+<\/td><\/tr>\n            <tr><td>G2<\/td><td>Knack<\/td><td>Woven<\/td><td>2542–2548<\/td><td>WS<\/td><td>100,000+<\/td><\/tr>\n            <tr><td>G2<\/td><td>SoftSit<\/td><td>Knit<\/td><td>2570–2589<\/td><td>WS<\/td><td>100,000+<\/td><\/tr>\n            <tr><td>G2<\/td><td>Track<\/td><td>Woven<\/td><td>2710–2714<\/td><td>W<\/td><td>40,000+<\/td><\/tr>\n            <tr><td>G3<\/td><td>Beau<\/td><td>Woven<\/td><td>3800–3810<\/td><td>BC & WS<\/td><td>100,000+<\/td><\/tr>\n            <tr><td>G3<\/td><td>Bliss<\/td><td>Woven<\/td><td>3900–3908<\/td><td>W<\/td><td>150,000+<\/td><\/tr>\n            <tr><td>G3<\/td><td>Cinema<\/td><td>PVC-Free<\/td><td>3P30–3P40<\/td><td>BC & WS<\/td><td>150,000+<\/td><\/tr>\n            <tr><td>G3<\/td><td>Free<\/td><td>Woven<\/td><td>3401–3406<\/td><td>WS<\/td><td>100,000+<\/td><\/tr>\n            <tr><td>G3<\/td><td>Illusion<\/td><td>Vinyl<\/td><td>3V80–3V89<\/td><td>BC & WS<\/td><td>100,000+<\/td><\/tr>\n            <tr><td>G3<\/td><td>Line Up<\/td><td>Woven<\/td><td>3501–3508<\/td><td>WS<\/td><td>100,000+<\/td><\/tr>\n            <tr><td>G3<\/td><td>Stage<\/td><td>Vinyl<\/td><td>W & BC<\/td><td>150,000+<\/td><\/tr>\n            <tr><td>G3<\/td><td>XOX<\/td><td>Woven<\/td><td>3702–3709<\/td><td>S<\/td><td>80,000+<\/td><\/tr>\n            <tr><td>G4<\/td><td>Cover Cloth<\/td><td>Crypton<\/td><td>4C00–4C08<\/td><td>W & BC<\/td><td>150,000+<\/td><\/tr>\n            <tr><td>G4<\/td><td>Hopsack<\/td><td>Vinyl<\/td><td>4V10–4V19<\/td><td>BC & WS<\/td><td>100,000+<\/td><\/tr>\n            <tr><td>G4<\/td><td>Rocket<\/td><td>Woven<\/td><td>4500–4507<\/td><td>WS<\/td><td>100,000+<\/td><\/tr>\n            <tr><td>G5<\/td><td>Architect<\/td><td>Knit<\/td><td>5700–5709<\/td><td>W<\/td><td>150,000+<\/td><\/tr>\n            <tr><td>G5<\/td><td>Comfortknit Solids<\/td><td>Knit<\/td><td>5501–5539<\/td><td>W<\/td><td>150,000+<\/td><\/tr>\n            <tr><td>G5<\/td><td>Myth<\/td><td>Knit<\/td><td>5200–5208<\/td><td>WS<\/td><td>150,000+<\/td><\/tr>\n            <tr><td>LG1<\/td><td>Evita Leather<\/td><td>Leather<\/td><td>LBLK–LWHT<\/td><td>—<\/td><td>—<\/td><\/tr>\n            <tr><td>LG2<\/td><td>Lena<\/td><td>Leather<\/td><td>LDEL–LORC<\/td><td>—<\/td><td>—<\/td><\/tr>\n            <tr><td>LG3<\/td><td>Vulcano<\/td><td>Leather<\/td><td>LMIT, LSTG<\/td><td>—<\/td><td>—<\/td><\/tr>\n            <tr><td>-<\/td><td>Neighborhood<\/td><td>Mesh<\/td><td>5300–5308<\/td><td>WS<\/td><td>80+<\/td><\/tr>\n            <tr><td>-<\/td><td>Zodiac<\/td><td>Mesh<\/td><td>2300–2310<\/td><td>WS<\/td><td>80+<\/td><\/tr>\n          <\/tbody>\n        <\/table>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","page":""}},"image_with_text_gdbXnW":{"type":"image_with_text","settings":{"navigation_title":"Cylinder Guide","image":"shopify:\/\/shop_images\/OM_Seating_Cylinder_Comparison_Chart.png","desktop_image_position":"left","image_aspect_ratio":"adapt","heading":"","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h4","subheading":"","description":"<p>The cylinder controls the seat height range of your chair. In the chart to the left, you can see how each cylinder changes the chair height compared to the standard 5\" cylinder (shown as “standard” in the table).<\/p>","description_size":"text-base","button_label":"","button_link":"","button_style":"btn--primary","button_icon":"none","icon_1":"none","heading_1":"","icon_2":"none","heading_2":"","icon_3":"check","heading_3":""}},"image_with_text_H9VePh":{"type":"image_with_text","settings":{"navigation_title":"Casters Guide","image":"shopify:\/\/shop_images\/OM_Seating_Caster_Comparison_Chart.png","desktop_image_position":"left","image_aspect_ratio":"adapt","heading":"","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h4","subheading":"","description":"<p>The right caster depends on the type of floor you’ll be using your chair on. <\/p><p>The chart on the left shows which caster performs best across different surfaces - from soft carpet to hard concrete.<\/p>","description_size":"text-base","button_label":"","button_link":"","button_style":"btn--primary","button_icon":"none","icon_1":"none","heading_1":"","icon_2":"none","heading_2":"","icon_3":"check","heading_3":""}},"image_with_text_zW4LXG":{"type":"image_with_text","disabled":true,"settings":{"navigation_title":"Adjustment Guide","image":"{{ product.metafields.custom.product_mechanism_image.value }}","desktop_image_position":"left","image_aspect_ratio":"adapt","heading":"","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"hd2","subheading":"","description":"<p>Every OM Seating chair is built with ergonomic mechanisms that let you fine-tune comfort and support throughout the day. <\/p><p>The image to the left highlights the specific mechanism on this model and shows the available adjustments.<\/p>","description_size":"text-base","button_label":"","button_link":"","button_style":"btn--primary","button_icon":"none","icon_1":"none","heading_1":"","icon_2":"check","heading_2":"","icon_3":"none","heading_3":""}},"image_with_text_wRgNeJ":{"type":"image_with_text","disabled":true,"settings":{"navigation_title":"Test for Fit","image":"shopify:\/\/shop_images\/Ultimate_Test_For_Fit_JPG.jpg","desktop_image_position":"left","image_aspect_ratio":"adapt","heading":"","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"hd2","subheading":"","description":"","description_size":"text-base","button_label":"","button_link":"","button_style":"btn--primary","button_icon":"none","icon_1":"none","heading_1":"","icon_2":"none","heading_2":"","icon_3":"none","heading_3":""}}},"block_order":["tab_LAiiEa","tab_NMCB3R","tab_ichTFY","tab_iVWCtm","image_with_text_gdbXnW","image_with_text_H9VePh","image_with_text_zW4LXG","image_with_text_wRgNeJ"],"disabled":true,"custom_css":["@media (min-width: 1024px) {.tabs__panel {padding-inline: 5rem; }}",".tabs-nav--buttons button {padding: 16px 32px; font-size: 18px; min-height: 55px; min-width: 160px;}"," \/* Mobile adjustments *\/@media (max-width: 768px) {.tabs-nav--buttons button {padding: 10px 16px; font-size: 15px; min-height: 44px; min-width: 120px; }}"],"settings":{"container":"full","color_scheme":"scheme-1","navigation_style":"headings","navigation_alignment":"center","padding_top":60,"padding_bottom":30,"show_section_divider":false,"divider_width":"fixed"}},"slideshow_VGhFGA":{"type":"slideshow","blocks":{"slide_9tNaQe":{"type":"slide","settings":{"color_scheme":"scheme-inverse","background":"{{ product.metafields.custom.product_feature_image.value }}","image_overlay_opacity":35,"content_position":"top-left","text_alignment":"center","subheading":"","title":"PT Paramount Collection","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h3","description":"","description_size":"text-base","button_label":"","button_link":"","button_style":"btn--primary","button_icon":"none","enable_preload_image":false}},"slide_q7CnNj":{"type":"slide","settings":{"color_scheme":"scheme-inverse","background":"{{ product.metafields.custom.product_feature_image.value }}","image_overlay_opacity":35,"content_position":"top-left","text_alignment":"center","subheading":"","title":"PT Paramount Collection Gallery","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h3","description":"","description_size":"text-base","button_label":"","button_link":"","button_style":"btn--primary","button_icon":"none","enable_preload_image":false}},"slide_XQBRUk":{"type":"slide","settings":{"color_scheme":"scheme-inverse","background":"{{ product.metafields.custom.product_feature_image.value }}","image_overlay_opacity":35,"content_position":"top-left","text_alignment":"center","subheading":"","title":"PT Paramount Collection Gallery","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h3","description":"","description_size":"text-base","button_label":"","button_link":"","button_style":"btn--primary","button_icon":"none","enable_preload_image":false}}},"block_order":["slide_9tNaQe","slide_q7CnNj","slide_XQBRUk"],"disabled":true,"name":"t:sections.slideshow.name","settings":{"container":"fixed","slide_height":"small","show_controls":true,"autoplay":false,"autoplay_delay":3,"show_text_below":false,"text_alignment_mobile":"center","accessibility_info":"Slideshow about our brand"}},"image_with_text_overlay_Cqtc4P":{"type":"image-with-text-overlay","blocks":{"subheading_ixdajm":{"type":"subheading","disabled":true,"settings":{"subheading":"Introducing"}},"heading_eQRJHh":{"type":"heading","settings":{"heading":"{{ product.metafields.custom.product_feature_header.value }}","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"hd2"}},"text_E6JM4N":{"type":"text","settings":{"text":"<p>{{ product.metafields.custom.product_feature_text | metafield_tag }}<\/p>","text_size":"text-lg"}}},"block_order":["subheading_ixdajm","heading_eQRJHh","text_E6JM4N"],"disabled":true,"name":"t:sections.image-with-text-overlay.name","settings":{"container":"fixed","image":"{{ product.metafields.custom.product_feature_image.value }}","desktop_height":"extra-medium","overlay_opacity":35,"enable_parallax":false,"parallax_direction":"vertical","color_scheme":"","content_position":"middle-left","content_alignment":"left","mobile_height":"auto","content_position_mobile":"middle-center-mobile","content_alignment_mobile":"left","padding_top":50,"padding_bottom":50,"enable_preload_image":false}},"image_with_feature_VVEak8":{"type":"image-with-feature","blocks":{"column_4zCKmy":{"type":"column","settings":{"icon":"check","max_width":38,"max_width_mb":32,"title":"Full Manufacturer Warranties","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h6","heading_font":"heading","text":"<p>Every chair and table is backed by the official warranty.<\/p>","text_size":"text-base"}},"column_K8MkWQ":{"type":"column","settings":{"icon":"check","max_width":38,"max_width_mb":32,"title":"Guaranteed Quality","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h6","heading_font":"heading","text":"<p>Shop confidently knowing you’re buying authentic, factory-fresh products.<\/p>","text_size":"text-base"}},"column_wxnjme":{"type":"column","settings":{"icon":"check","max_width":38,"max_width_mb":32,"title":"Safe & Secure Purchases","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h6","heading_font":"heading","text":"<p>Transparent policies and verified sourcing give you peace of mind.<\/p>","text_size":"text-base"}},"column_W33qHi":{"type":"column","settings":{"icon":"check","max_width":38,"max_width_mb":32,"title":"Expert Product Knowledge","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h6","heading_font":"heading","text":"<p>Our team is trained directly on OM Seating and Special-T solutions.<\/p>","text_size":"text-base"}}},"block_order":["column_4zCKmy","column_K8MkWQ","column_wxnjme","column_W33qHi"],"name":"t:sections.image-with-feature.presets","settings":{"container":"fixed","color_scheme":"scheme-1","image":"shopify:\/\/shop_images\/Authorized_Dealer_Image_Horizontal_1.svg","image_ratio":"4\/3","enable_sticky":true,"section_header_alignment":"left","section_header_alignment_mobile":"inherit","subheading":"","heading":"An Official Dealer for OM Seating & Special-T","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h3","description":"<p>We’re proud to be an authorized reseller for OM Seating and Special-T, bringing you direct access to their high-quality products with the full support you deserve.<\/p>","text_size":"text-base","show_section_divider":true,"divider_width":"fixed","padding_top":60,"padding_bottom":60}},"1758007826e5a7d4fb":{"type":"apps","blocks":{"judge_me_reviews_review_widget_W3wLPT":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{"review_data":"sample_data","max_width":1200}}},"block_order":["judge_me_reviews_review_widget_W3wLPT"],"settings":{"include_margins":true,"padding_top":0,"padding_bottom":0}},"comparison_table_dDRPPg":{"type":"comparison-table","blocks":{"heading_CPFEDJ":{"type":"heading","settings":{"icon-1":"none","title-1":"Price","icon-2":"none","title-2":"Seat Height","icon-3":"none","title-3":"Adjustability","icon-4":"none","title-4":"Overall Dimensions","icon-5":"none","title-5":"Intended User Size","icon-6":"none","title-6":"Weight Capacity","icon-7":"none","title-7":"Warranty","icon-8":"chat","title-8":"","icon-9":"chat","title-9":"","icon-10":"chat","title-10":""}},"content_bzxehr":{"type":"content","settings":{"product":"office-master-pt79-paramount-value-extra-tall-back-multi-function-chair","text-1":"<p>$699.99<\/p>","text-2":"<p>17-23\"<\/p>","text-3":"<ul><li>Height<\/li><li>Back<\/li><li>Test<\/li><li>Test<\/li><li>Test<\/li><\/ul>","text-4":"<p>18-45\"<\/p>","text-5":"<p>Up to 1,000 nits<\/p>","text-6":"","text-7":"","text-8":"","text-9":"","text-10":""}},"content_7cDVnc":{"type":"content","settings":{"product":"office-master-ptym-paramount-value-mid-back-ergonomic-office-chair","text-1":"<p>Inspired to create a chair where the back and arms are moulded<\/p>","text-2":"<p>46mm or 42mm<\/p>","text-3":"<p>Up to 18 hours<\/p>","text-4":"<p>S10 SiP<\/p>","text-5":"<p>Up to 2,000 nits<\/p>","text-6":"","text-7":"","text-8":"","text-9":"","text-10":""}},"content_4LQWnd":{"type":"content","settings":{"product":"office-master-pt69-paramount-value-high-back-ergonomic-office-chair","text-1":"<p>$499.99<\/p>","text-2":"<p>18\"-22\"<\/p>","text-3":"<ul><li>Height<\/li><li>Back<\/li><li>Test<\/li><li>Test<\/li><li>Test<\/li><\/ul>","text-4":"<p>S9 SiP<\/p>","text-5":"<p>Up to 3,000 nits<\/p>","text-6":"","text-7":"","text-8":"","text-9":"","text-10":""}}},"block_order":["heading_CPFEDJ","content_bzxehr","content_7cDVnc","content_4LQWnd"],"disabled":true,"name":"t:sections.comparison-table.name","settings":{"container":"fixed","color_scheme":"","header_layout":"horizontal","section_header_alignment":"left","section_header_alignment_mobile":"inherit","subheading":"","heading":"Comparison Table","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h1","description":"<p>Compare similar products within the Paramount Collection<\/p>","text_size":"text-base","button_label":"","button_link":"","button_style":"btn--primary","button_icon":"none","icon_size":20,"text_line_limit":"2-lines","show_view_more_button":true,"show_section_divider":false,"divider_width":"fixed","padding_top":50,"padding_bottom":50}},"collapsible_tabs_pkbGAq":{"type":"collapsible-tabs","blocks":{"heading_hrb9XV":{"type":"heading","disabled":true,"settings":{"sub_heading":"","heading":"Product","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h3"}},"collapsible_item_jpUrVn":{"type":"collapsible_item","settings":{"icon":"none","heading":"Which fabric option should I choose?","content":"<p>Fabrics are grouped by Grade, and each grade contains different Patterns (these are essentially collections). <\/p><p>On the product page, you’ll first pick a Grade, then browse the full list of fabrics in that grade to select your exact fabric (e.g., <em>1200-Oberon<\/em>).<\/p><ul><li><strong>Grade<\/strong> – Grades (G1, G2, G3, etc.) are price tiers, with higher grades offering more premium styles and materials.<\/li><li><strong>Pattern<\/strong> – A style or collection within a Grade. Each pattern comes in a range of colors with the same design, and type (material).<\/li><li><strong>Type (Material)<\/strong> – The fabric material, such as woven, knit, vinyl, leather, mesh, etc.<br\/><\/li><\/ul><p>For full details please refer to the <a href=\"https:\/\/www.officemasterchairs.com\/pages\/office-master-all-options-library\" target=\"_blank\" title=\"https:\/\/www.officemasterchairs.com\/pages\/office-master-all-options-library\">Options Library Page.<\/a><\/p>","custom_liquid":"","page":"","open":false,"use_subtext_color":false}},"collapsible_item_mtcpkd":{"type":"collapsible_item","settings":{"icon":"none","heading":"Which arms options should I choose?","content":"<p>Arm selection is mainly based on adjustability and fit (height from seat):<\/p><ul><li><strong>Adjustability Levels<\/strong> – 1D (height or width only), 2D (height + width), 3D (height, width + pivot or fore-aft), 4D\/4D+ (full range of height, width, pivot, and fore-aft).<\/li><li><strong>Measure Your Elbow Height<\/strong> – Sit comfortably with arms at 90°, then measure from the seat to the top of your elbow to find the correct arm range.<\/li><li><strong>Match Your Group<\/strong> – Combine your preferred adjustability (Fixed, 1D–4D) with your elbow height to find the best fit.<br\/><\/li><\/ul><p>Refer to our <strong>Choosing Arms Guide<\/strong> above for the full list of arm options, grouped by adjustability. <\/p>","custom_liquid":"","page":"","open":false,"use_subtext_color":false}},"collapsible_item_8BaybV":{"type":"collapsible_item","settings":{"icon":"none","heading":"Is there a warranty on this product?","content":"","custom_liquid":"","page":"","open":false,"use_subtext_color":false}},"collapsible_item_TwVgQi":{"type":"collapsible_item","settings":{"icon":"none","heading":"How long will it take to ship?","content":"<p>All OM Seating chairs are manufactured upon order and typically ship within 7-10 business days. Replacement parts such as arms, cylinders, and casters, may ship out sooner.<br\/><br\/>Delivery times can vary based on your location. For the most accurate lead time, please reach out to us via chat or email at <a><strong>cs@estorescorp.com<\/strong><\/a><\/p>","custom_liquid":"","page":"","open":false,"use_subtext_color":false}},"collapsible_item_PmLGmK":{"type":"collapsible_item","settings":{"icon":"none","heading":"Are there bulk discounts available?","content":"<p>Yes!<\/p><p>Bulk discounts are available for orders of 5 or more chairs. Discounts are tiered, meaning the more you purchase, the greater the savings. For example, smaller bulk orders may qualify for a modest percentage off, while larger orders receive a higher discount.<\/p><p><a href=\"https:\/\/www.officemasterchairs.com\/pages\/bulk-order-discounts\" target=\"_blank\" title=\"https:\/\/www.officemasterchairs.com\/pages\/bulk-order-discounts\">View the Bulk Order Discounts Page here<\/a><\/p>","custom_liquid":"","page":"","open":false,"use_subtext_color":false}},"collapsible_item_BM8Cie":{"type":"collapsible_item","settings":{"icon":"none","heading":"What is your return policy if the chair doesn’t work for me?","content":"<p>Chairs can be returned within 30 days in their original packaging and condition. Because each chair is custom-built, a restocking fee will apply. You’ll need an RMA (Return Merchandize Authorization) number before sending anything back. Full details are available on our <a href=\"https:\/\/www.officemasterchairs.com\/policies\/refund-policy\" target=\"_blank\" title=\"https:\/\/www.officemasterchairs.com\/policies\/refund-policy\">Return Policy page<\/a>, or you can email <a href=\"mailto:cs@estorescorp.com\" target=\"_blank\" title=\"mailto:cs@estorescorp.com\"><strong>cs@estorescorp.com<\/strong><\/a> for assistance.<\/p>","custom_liquid":"","page":"","open":false,"use_subtext_color":false}}},"block_order":["heading_hrb9XV","collapsible_item_jpUrVn","collapsible_item_mtcpkd","collapsible_item_8BaybV","collapsible_item_TwVgQi","collapsible_item_PmLGmK","collapsible_item_BM8Cie"],"disabled":true,"name":"t:sections.collapsible-tabs.name","settings":{"container":"fixed","color_scheme":"scheme-10","header_layout":"vertical","section_header_alignment":"center","section_header_alignment_mobile":"inherit","subheading":"","heading":"Frequently Asked Questions","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h2","description":"","text_size":"text-base","button_label":"More questions? Feel free to contact us","button_link":"https:\/\/www.officemasterchairs.com\/pages\/contact","button_style":"btn--underline","button_icon":"none","column_gap":"large","row_gap":"inherit","item_style":"standard","item_color_scheme":"","item_heading_font":"heading","item_heading_size":"h5","item_icon_size":"extra-large","padding_top":50,"padding_bottom":50,"show_section_divider":false,"divider_width":"fixed"}},"related-products":{"type":"related-products","settings":{"container":"fixed","color_scheme":"scheme-1","section_header_alignment":"left","section_header_alignment_mobile":"inherit","subheading":"","heading":"You May Also Like","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h2","description":"","limit":6,"columns":5,"column_gap":"medium","row_gap":"inherit","enable_slider":true,"navigation_position":"bottom","pcard_image_ratio":"","columns_mobile":"2","swipe_on_mobile":true,"show_progress_bar":true,"padding_top":60,"padding_bottom":0,"show_section_divider":false,"divider_width":"fixed"}}},"order":["main","tabs_content_8rnbnj","slideshow_VGhFGA","image_with_text_overlay_Cqtc4P","image_with_feature_VVEak8","1758007826e5a7d4fb","comparison_table_dDRPPg","collapsible_tabs_pkbGAq","related-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "badges": {
+          "type": "badges",
+          "disabled": true,
+          "settings": {
+            "show_soldout_badge": false,
+            "show_sale_badge": false,
+            "sale_badge_type": "text"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h3"
+          }
+        },
+        "meta": {
+          "type": "meta",
+          "settings": {
+            "link_color": "#666666",
+            "show_vendor": true,
+            "show_product_type": false,
+            "show_sku": true,
+            "show_barcode": false
+          }
+        },
+        "judge_me_reviews_preview_badge_affX98": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "promotion_alert_L7ipQp": {
+          "type": "promotion_alert",
+          "disabled": true,
+          "settings": {
+            "text_color": "#049b6e",
+            "icon": "lightning",
+            "heading": "Bulk Discounts Available When Ordering 5+",
+            "description": "<p>For more information, <a href=\"/pages/bulk-order-discounts\" target=\"_blank\" title=\"Bulk Order Discounts & Net 30 Accounts\">click here</a></p>"
+          }
+        },
+        "icon_with_text": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "horizontal",
+            "title_font": "body-bolder",
+            "title_size": "text-base",
+            "icon_1": "check",
+            "heading_1": "Modern",
+            "icon_2": "check",
+            "heading_2": "Eco-certified",
+            "icon_3": "check",
+            "heading_3": "Warranty"
+          }
+        },
+        "inventory": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "payment_info": {
+          "type": "payment_info",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5",
+            "description": "<p><em>Your payment information is processed securely. We do not store credit card details nor have access to your credit card information.</em></p>",
+            "show_payment_icons": true,
+            "show_below_product_media": false
+          }
+        },
+        "rich_text_GKTNWc": {
+          "type": "rich-text",
+          "settings": {
+            "text": "<p>Arms are sold in pairs. Casters are sold in sets of 5 wheels.</p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_type": "shopify_swatch",
+            "swatch_style": "square",
+            "swatch_size": 32,
+            "button_style": "normal",
+            "size_title": "Size",
+            "size_chart_from_page": ""
+          }
+        },
+        "icon_with_text_UAYgQU": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "vertical",
+            "title_font": "body",
+            "title_size": "text-base",
+            "icon_1": "car-simple",
+            "heading_1": "Free International Shipping over $500",
+            "icon_2": "arrow-up-left",
+            "heading_2": "Free Returns Within 30 days",
+            "icon_3": "star-four",
+            "heading_3": ""
+          }
+        },
+        "pickup_availability": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "complementary": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Perfect Match With",
+            "heading_size": "h4",
+            "show_below_product_media": false,
+            "make_collapsible_row": false,
+            "icon": "tag",
+            "product_list_limit": 6,
+            "layout": "grid",
+            "columns": 3,
+            "image_ratio": "1/1",
+            "enable_quick_add": true
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Features",
+            "heading_size": "h4",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.product_features_tab | metafield_tag }}",
+            "page": "",
+            "default_open": true,
+            "show_below_product_media": true
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "heading_size": "h4",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "page": "content",
+            "default_open": false,
+            "show_below_product_media": true
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Downloads / Info",
+            "heading_size": "h4",
+            "icon": "none",
+            "content": "",
+            "page": "",
+            "default_open": false,
+            "show_below_product_media": true
+          }
+        },
+        "collapsible_tab_pnt6Q8": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Warranty",
+            "heading_size": "h4",
+            "icon": "none",
+            "content": "",
+            "page": "",
+            "default_open": false,
+            "show_below_product_media": true
+          }
+        },
+        "collapsible_tab_gqPcD6": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping",
+            "heading_size": "h4",
+            "icon": "none",
+            "content": "<p>Each OM Seating product is built from scratch and requires time to be manufactured. <br/><br/>Lead time is typically up to 7-10 business days, however for a most updated production time estimate, please reach out to us via the chat or email at <a href=\"mailto:cs@estorescorp.com\" target=\"_blank\" title=\"mailto:cs@estorescorp.com\">cs@estorescorp.com</a></p>",
+            "page": "",
+            "default_open": false,
+            "show_below_product_media": true
+          }
+        },
+        "divider_pPz3Kw": {
+          "type": "divider",
+          "settings": {
+            "show_below_product_media": false
+          }
+        },
+        "social_sharing": {
+          "type": "social_sharing",
+          "disabled": true,
+          "settings": {}
+        },
+        "sticky_atc_bar_7HgNgP": {
+          "type": "sticky-atc-bar",
+          "settings": {
+            "visibility": "all",
+            "style": "minimalist",
+            "container": "full",
+            "show_atc_button": true,
+            "show_dynamic_checkout_buttons": false,
+            "show_quantity": true
+          }
+        }
+      },
+      "block_order": [
+        "badges",
+        "title",
+        "meta",
+        "judge_me_reviews_preview_badge_affX98",
+        "price",
+        "promotion_alert_L7ipQp",
+        "icon_with_text",
+        "inventory",
+        "buy_buttons",
+        "payment_info",
+        "rich_text_GKTNWc",
+        "description",
+        "variant_picker",
+        "icon_with_text_UAYgQU",
+        "pickup_availability",
+        "complementary",
+        "collapsible-row-2",
+        "collapsible-row-1",
+        "collapsible-row-3",
+        "collapsible_tab_pnt6Q8",
+        "collapsible_tab_gqPcD6",
+        "divider_pPz3Kw",
+        "social_sharing",
+        "sticky_atc_bar_7HgNgP"
+      ],
+      "custom_css": [
+        "@media (min-width: 1280px) {.product {padding-inline: 5rem; }}",
+        ".btn--primary {padding: 16px 32px; /* bigger overall size */ font-size: 16px; /* larger text */ min-height: 5px; /* ensures height grows */}",
+        " /* Mobile adjustments */"
+      ],
+      "settings": {
+        "color_scheme": "scheme-14",
+        "use_color_scheme_in_container": false,
+        "enable_sticky_info": true,
+        "media_size": "small",
+        "gallery_layout": "vertical-carousel",
+        "mobile_thumbnails": "show",
+        "show_image_border": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": true,
+        "padding_top": 12,
+        "padding_bottom": 60
+      }
+    },
+    "tabs_content_8rnbnj": {
+      "type": "tabs-content",
+      "blocks": {
+        "tab_LAiiEa": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "navigation_title": "Choosing Arms",
+            "content": "<p>Choosing the right arms is crucial for an optimal ergonomic setup. Use this guide to help you choose the best arms for your needs.</p>",
+            "custom_liquid": "{%- assign _uid = 'arms-full-' | append: product.id -%}\n\n<div id=\"{{ _uid }}\" class=\"arms-section\">\n  <style>\n    #{{ _uid }} { --border:#e5e7eb; --bg:#fff; --note:#fffbe6; --note-border:#facc15; --muted:#6b7280; }\n    #{{ _uid }} * { box-sizing: border-box; }\n\n    /* === GUIDE: 3 Cards + Compatibility Tip === */\n    #{{ _uid }} .steps-cards { margin: 18px 0 12px; }\n    #{{ _uid }} .steps-cards .grid {\n      display: grid;\n      grid-template-columns: repeat(3, 1fr);\n      gap: 12px;\n    }\n    #{{ _uid }} .steps-cards .card {\n      background: var(--bg);\n      border: 1px solid var(--border);\n      border-radius: 12px;\n      padding: 16px;\n      display: flex;\n      flex-direction: column;\n      gap: 8px;\n      min-height: 1px;\n    }\n    #{{ _uid }} .steps-cards .step {\n      display: flex;\n      align-items: baseline;\n      gap: 10px;\n      margin: 0 0 4px;\n      line-height: 1.2;\n    }\n    #{{ _uid }} .steps-cards .num {\n      font-size: 1.8rem;\n      font-weight: 800;\n      letter-spacing: -0.01em;\n    }\n    #{{ _uid }} .steps-cards .title {\n      font-size: 1.75rem;\n      font-weight: 800;\n      margin: 0;\n    }\n    #{{ _uid }} .steps-cards p,\n    #{{ _uid }} .steps-cards ul {\n      margin: 0;\n      line-height: 1.45;\n    }\n    #{{ _uid }} .steps-cards ul { padding-left: 18px; }\n    #{{ _uid }} .steps-cards li { margin: 3px 0; }\n\n    /* Compatibility Notice */\n    #{{ _uid }} .compat {\n      margin: 10px 0 16px;\n      display: flex; gap: 10px; align-items: center;\n      background: var(--note);\n      border: 1px solid var(--note-border);\n      border-radius: 10px;\n      padding: 10px 12px;\n      font-size: 1.2rem; line-height: 1.45; color: #5b4a00;\n    }\n    #{{ _uid }} .compat svg { width: 20px; height: 20px; color: #d97706; flex-shrink: 0; }\n\n    @media (max-width: 980px) {\n      #{{ _uid }} .steps-cards .grid { grid-template-columns: 1fr; }\n      #{{ _uid }} .steps-cards .card { padding: 18px; }\n      #{{ _uid }} .steps-cards .num { font-size: 2rem; }\n      #{{ _uid }} .steps-cards .title { font-size: 1.8rem; }\n      #{{ _uid }} .steps-cards p, #{{ _uid }} .steps-cards ul { font-size:1.25rem; }\n    }\n\n    /* === ACCORDION + TABLES === */\n    #{{ _uid }} .arms-dimension {\n      border: 1px solid var(--border);\n      border-radius: 8px;\n      margin-bottom: 8px; /* tighter spacing */\n      overflow: hidden;\n    }\n    #{{ _uid }} .arms-header {\n      background: #fff;\n      padding: 14px 18px; /* compact height */\n      cursor: pointer;\n      display: flex; justify-content: space-between; align-items: center;\n      font-size: 1.9rem; font-weight: 800; /* header stays large */\n    }\n    #{{ _uid }} .arms-header .arrow { font-size: 1.2rem; transition: transform .2s ease; }\n    #{{ _uid }} .arms-header.open .arrow { transform: rotate(180deg); }\n    #{{ _uid }} .arms-content { display: none; padding: 0 14px 14px; }\n\n    /* Tables scoped only to this section */\n    #{{ _uid }} .arms-content table { width: 100%; border-collapse: collapse; margin-top: 10px; }\n    #{{ _uid }} .arms-content th, #{{ _uid }} .arms-content td {\n      text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border);\n    }\n    #{{ _uid }} .arms-content th { font-weight: 700; background: #f3f4f6; }\n    #{{ _uid }} .arms-content td { color: #111; }\n    #{{ _uid }} .muted { color: var(--muted); }\n  </style>\n\n  <!-- GUIDE: 3 Cards -->\n  <div class=\"steps-cards\">\n    <div class=\"grid\">\n      <!-- STEP 1 -->\n      <div class=\"card\">\n        <div class=\"step\">\n          <span class=\"num\">1.</span>\n          <h3 class=\"title\">Pick Your Adjustability</h3>\n        </div>\n        <ul>\n          <li>1D — Height only</li>\n          <li>2D — Height & Width (best everyday choice)</li>\n          <li>3D — Height, Width + Pivot or Fore-Aft</li>\n          <li>4D/4D+ — Height, Width, Pivot & Fore-Aft</li>\n        </ul>\n      </div>\n\n      <!-- STEP 2 -->\n      <div class=\"card\">\n        <div class=\"step\">\n          <span class=\"num\">2.</span>\n          <h3 class=\"title\">Measure Your Elbow Height</h3>\n        </div>\n        <ul>\n          <li>Sit in your current chair with arms resting relaxed and elbows near 90°.</li>\n          <li>Armrests should be level with your desk surface.</li>\n          <li>Use a tape measure to find the distance from the seat to the top of the armrest — that’s your needed range.</li>\n        </ul>\n      </div>\n\n      <!-- STEP 3 -->\n      <div class=\"card\">\n        <div class=\"step\">\n          <span class=\"num\">3.</span>\n          <h3 class=\"title\">Find Your Match Below</h3>\n        </div>\n        <p> <li>\nPick the group (Fixed, 1D, 2D, 3D, 4D) from Step 1, then use your elbow height from Step 2 to choose the right arms.</p>\n      </div>\n    </div>\n\n    <!-- Compatibility Notice -->\n    <div class=\"compat\">\n      <svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm.75 5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zM11 10h2v7h-2v-7z\"/></svg>\n      <span>Arm availability can vary by product. Only arms shown in the Options section above are compatible with this chair.</span>\n    </div>\n  </div>\n\n  <!-- === ACCORDION TABLES === -->\n\n  <!-- FIXED -->\n  <div class=\"arms-dimension\">\n    <div class=\"arms-header\" onclick=\"\n      var root=this.closest('.arms-section');\n      var content=this.nextElementSibling;\n      var isOpen=content.style.display==='block';\n      root.querySelectorAll('.arms-content').forEach(c=>{ if(c!==content){c.style.display='none';}});\n      root.querySelectorAll('.arms-header').forEach(h=>{ if(h!==this){h.classList.remove('open');}});\n      if(isOpen){ content.style.display='none'; this.classList.remove('open'); } else { content.style.display='block'; this.classList.add('open'); }\">\n      Fixed Arms\n      <span class=\"arrow\">▼</span>\n    </div>\n    <div class=\"arms-content\">\n      <table>\n        <thead>\n          <tr><th>Arm Model</th><th>Type</th><th>Features</th><th>Min Height (approx. from seat pan)</th><th>Max Height (approx. from seat pan)</th></tr>\n        </thead>\n        <tbody>\n          <tr><td><strong>KR48</strong></td><td>Average height</td><td>Fixed loop</td><td>9.75\"</td><td>9.75\"</td></tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n\n  <!-- 1D -->\n  <div class=\"arms-dimension\">\n    <div class=\"arms-header\" onclick=\"\n      var root=this.closest('.arms-section');\n      var content=this.nextElementSibling;\n      var isOpen=content.style.display==='block';\n      root.querySelectorAll('.arms-content').forEach(c=>{ if(c!==content){c.style.display='none';}});\n      root.querySelectorAll('.arms-header').forEach(h=>{ if(h!==this){h.classList.remove('open');}});\n      if(isOpen){ content.style.display='none'; this.classList.remove('open'); } else { content.style.display='block'; this.classList.add('open'); }\">\n      1D Arms\n      <span class=\"arrow\">▼</span>\n    </div>\n    <div class=\"arms-content\">\n      <table>\n        <thead>\n          <tr><th>Arm Model</th><th>Type</th><th>Features</th><th>Min Height (approx. from seat pan)</th><th>Max Height (approx. from seat pan)</th></tr>\n        </thead>\n        <tbody>\n          <tr><td><strong>BR2</strong></td><td>Average height</td><td>Width-only, loop design (BC only)</td><td>–</td><td>–</td></tr>\n          <tr><td><strong>AR81</strong></td><td>Average height</td><td>Width-only, polished aluminum loop</td><td>8.25\"</td><td>8.25\"</td></tr>\n          <tr><td><strong>JR77</strong></td><td>Average height</td><td>Height-only</td><td>8.25\"</td><td>12.5\"</td></tr>\n          <tr><td><strong>JR77M</strong></td><td>Average height</td><td>Height-only, Memosoft</td><td>8.25\"</td><td>12.5\"</td></tr>\n          <tr><td><strong>JRBN</strong></td><td>Tall height</td><td>Height-only, fold-back ballistic</td><td>9.25\"</td><td>11.75\"</td></tr>\n          <tr><td><strong>JRPD</strong></td><td>Tall height</td><td>Height-only, fold-back Memosoft (Police)</td><td>9.25\"</td><td>11.75\"</td></tr>\n          <tr><td><strong>KR21</strong></td><td>Average height</td><td>Height-only, knob T-arm</td><td>8.5\"</td><td>10.75\"</td></tr>\n          <tr><td><strong>KR23</strong></td><td>Short height</td><td>Height-only</td><td>6.5\"</td><td>10\"</td></tr>\n          <tr><td><strong>KR25</strong></td><td>Average height</td><td>Height-only, natural grip</td><td>8.25\"</td><td>11\"</td></tr>\n          <tr><td><strong>KR25M</strong></td><td>Average height</td><td>Height-only, Memosoft natural grip</td><td>8.25\"</td><td>11\"</td></tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n\n  <!-- 2D -->\n  <div class=\"arms-dimension\">\n    <div class=\"arms-header\" onclick=\"\n      var root=this.closest('.arms-section');\n      var content=this.nextElementSibling;\n      var isOpen=content.style.display==='block';\n      root.querySelectorAll('.arms-content').forEach(c=>{ if(c!==content){c.style.display='none';}});\n      root.querySelectorAll('.arms-header').forEach(h=>{ if(h!==this){h.classList.remove('open');}});\n      if(isOpen){ content.style.display='none'; this.classList.remove('open'); } else { content.style.display='block'; this.classList.add('open'); }\">\n      2D Arms\n      <span class=\"arrow\">▼</span>\n    </div>\n    <div class=\"arms-content\">\n      <table>\n        <thead>\n          <tr><th>Arm Model</th><th>Type</th><th>Features</th><th>Min Height (approx. from seat pan)</th><th>Max Height (approx. from seat pan)</th></tr>\n        </thead>\n        <tbody>\n          <tr><td><strong>BR5</strong></td><td>Average height</td><td>Height + Width (BC only)</td><td>–</td><td>–</td></tr>\n          <tr><td><strong>JR39</strong></td><td>Average height</td><td>Height + Width, forward slant</td><td>7.25\"</td><td>11.5\"</td></tr>\n          <tr><td><strong>JR39M</strong></td><td>Average height</td><td>Height + Width, forward slant, Memosoft</td><td>7.25\"</td><td>11.5\"</td></tr>\n          <tr><td><strong>KR200</strong></td><td>Short height</td><td>Height + Width, removable T</td><td>6.25\"</td><td>8.25\"</td></tr>\n          <tr><td><strong>KR200M</strong></td><td>Short height</td><td>Height + Width, Memosoft removable T</td><td>6.25\"</td><td>9\"</td></tr>\n          <tr><td><strong>KR100M</strong></td><td>Short height</td><td>Height + Width, Memosoft removable T</td><td>5.25\"</td><td>8\"</td></tr>\n          <tr><td><strong>KR300</strong></td><td>Tall height</td><td>Height + Width, tall T</td><td>7.75\"</td><td>10.5\"</td></tr>\n          <tr><td><strong>KR300M</strong></td><td>Tall height</td><td>Height + Width, tall Memosoft</td><td>7.75\"</td><td>10.5\"</td></tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n\n  <!-- 3D -->\n  <div class=\"arms-dimension\">\n    <div class=\"arms-header\" onclick=\"\n      var root=this.closest('.arms-section');\n      var content=this.nextElementSibling;\n      var isOpen=content.style.display==='block';\n      root.querySelectorAll('.arms-content').forEach(c=>{ if(c!==content){c.style.display='none';}});\n      root.querySelectorAll('.arms-header').forEach(h=>{ if(h!==this){h.classList.remove('open');}});\n      if(isOpen){ content.style.display='none'; this.classList.remove('open'); } else { content.style.display='block'; this.classList.add('open'); }\">\n      3D Arms\n      <span class=\"arrow\">▼</span>\n    </div>\n    <div class=\"arms-content\">\n      <table>\n        <thead>\n          <tr><th>Arm Model</th><th>Type</th><th>Features</th><th>Min Height (approx. from seat pan)</th><th>Max Height (approx. from seat pan)</th></tr>\n        </thead>\n        <tbody>\n          <tr><td><strong>AR485</strong></td><td>Average height</td><td>Height + Width + Pivot, polished aluminum</td><td>7.0\"</td><td>11\"</td></tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n\n  <!-- 4D / 4D+ -->\n  <div class=\"arms-dimension\">\n    <div class=\"arms-header\" onclick=\"\n      var root=this.closest('.arms-section');\n      var content=this.nextElementSibling;\n      var isOpen=content.style.display==='block';\n      root.querySelectorAll('.arms-content').forEach(c=>{ if(c!==content){c.style.display='none';}});\n      root.querySelectorAll('.arms-header').forEach(h=>{ if(h!==this){h.classList.remove('open');}});\n      if(isOpen){ content.style.display='none'; this.classList.remove('open'); } else { content.style.display='block'; this.classList.add('open'); }\">\n      4D & 4D+ Arms\n      <span class=\"arrow\">▼</span>\n    </div>\n    <div class=\"arms-content\">\n      <table>\n        <thead>\n          <tr><th>Arm Model</th><th>Type</th><th>Features</th><th>Min Height (approx. from seat pan)</th><th>Max Height (approx. from seat pan)</th></tr>\n        </thead>\n        <tbody>\n          <tr><td><strong>JR49</strong></td><td>Tall height</td><td>Height + Width + RP-45 pivot + Fore/Aft</td><td>8.75\"</td><td>13\"</td></tr>\n          <tr><td><strong>JR59</strong></td><td>Tall height</td><td>Height + Width + RP-50 6-way Omni</td><td>8.5\"</td><td>12.75\"</td></tr>\n          <tr><td><strong>JR69</strong></td><td>Tall height</td><td>Height + Width + RP-65 pivot/Fore-Aft</td><td>8.25\"</td><td>12.5\"</td></tr>\n\n          <tr><td><strong>KR200-45</strong></td><td>Average height</td><td>Height + Width + RP-45 pivot/Fore-Aft</td><td>7.75\"</td><td>10.5\"</td></tr>\n          <tr><td><strong>KR200-65</strong></td><td>Average height</td><td>Height + Width + RP-65 lockable top</td><td>7\"</td><td>9.75\"</td></tr>\n          <tr><td><strong>KR200-50</strong></td><td>Average height</td><td>Height + Width + RP-50 Omni (4D+)</td><td>7.75\"</td><td>10.5\"</td></tr>\n\n          <tr><td><strong>KR100-45</strong></td><td>Short height</td><td>Height + Width + RP-45 pivot/Fore-Aft</td><td>6.75\"</td><td>9.5\"</td></tr>\n          <tr><td><strong>KR100-65</strong></td><td>Short height</td><td>Height + Width + RP-65 lockable top</td><td>6\"</td><td>8.75\"</td></tr>\n          <tr><td><strong>KR100-50</strong></td><td>Short height</td><td>Height + Width + RP-50 Omni (4D+)</td><td>6.75\"</td><td>9.5\"</td></tr>\n          <tr><td><strong>KR100-51M</strong></td><td>Average height</td><td>Ultra mobility track arm, RP-51M, 360° pivot</td><td>7.5\"</td><td>10.25\"</td></tr>\n\n          <tr><td><strong>KR300-45</strong></td><td>Tall height</td><td>Height + Width + RP-45 pivot/Fore-Aft</td><td>9.25\"</td><td>12\"</td></tr>\n          <tr><td><strong>KR300-65</strong></td><td>Tall height</td><td>Height + Width + RP-65 lockable top</td><td>8.5\"</td><td>11.25\"</td></tr>\n          <tr><td><strong>KR300-50</strong></td><td>Tall height</td><td>Height + Width + RP-50 Omni (4D+)</td><td>9.25\"</td><td>12\"</td></tr>\n\n          <tr><td><strong>JR77-65</strong></td><td>Tall height</td><td>Height + Width + RP-65 pivot/Fore-Aft</td><td>9.5\"</td><td>13.75\"</td></tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n</div>",
+            "page": ""
+          }
+        },
+        "tab_NMCB3R": {
+          "type": "tab",
+          "settings": {
+            "navigation_title": "Arms Guide",
+            "content": "<p>Choosing the right arms is crucial for an optimal ergonomic setup. Use this guide to help you choose the best arms for your needs.</p>",
+            "custom_liquid": "{%- assign _uid = 'arms-full-' | append: product.id -%}\n\n<div id=\"{{ _uid }}\" class=\"arms-section\">\n  <style>\n    #{{ _uid }} { --border:#e5e7eb; --bg:#fff; --note:#fffbe6; --note-border:#facc15; --muted:#6b7280; }\n    #{{ _uid }} * { box-sizing: border-box; }\n\n    /* === GUIDE: 3 Cards + Compatibility Tip === */\n    #{{ _uid }} .steps-cards { margin: 18px 0 12px; }\n    #{{ _uid }} .steps-cards .grid {\n      display: grid;\n      grid-template-columns: repeat(3, 1fr);\n      gap: 12px;\n    }\n    #{{ _uid }} .steps-cards .card {\n      background: var(--bg);\n      border: 1px solid var(--border);\n      border-radius: 12px;\n      padding: 16px;\n      display: flex;\n      flex-direction: column;\n      gap: 8px;\n      min-height: 1px;\n    }\n    #{{ _uid }} .steps-cards .step {\n      display: flex;\n      align-items: baseline;\n      gap: 10px;\n      margin: 0 0 4px;\n      line-height: 1.2;\n    }\n    #{{ _uid }} .steps-cards .num {\n      font-size: 1.8rem;\n      font-weight: 800;\n      letter-spacing: -0.01em;\n    }\n    #{{ _uid }} .steps-cards .title {\n      font-size: 1.75rem;\n      font-weight: 800;\n      margin: 0;\n    }\n    #{{ _uid }} .steps-cards p,\n    #{{ _uid }} .steps-cards ul {\n      margin: 0;\n      line-height: 1.45;\n    }\n    #{{ _uid }} .steps-cards ul { padding-left: 18px; }\n    #{{ _uid }} .steps-cards li { margin: 3px 0; }\n\n    /* Compatibility Notice */\n    #{{ _uid }} .compat {\n      margin: 10px 0 16px;\n      display: flex; gap: 10px; align-items: center;\n      background: var(--note);\n      border: 1px solid var(--note-border);\n      border-radius: 10px;\n      padding: 10px 12px;\n      font-size: 1.2rem; line-height: 1.45; color: #5b4a00;\n    }\n    #{{ _uid }} .compat svg { width: 20px; height: 20px; color: #d97706; flex-shrink: 0; }\n\n    @media (max-width: 980px) {\n      #{{ _uid }} .steps-cards .grid { grid-template-columns: 1fr; }\n      #{{ _uid }} .steps-cards .card { padding: 18px; }\n      #{{ _uid }} .steps-cards .num { font-size: 2rem; }\n      #{{ _uid }} .steps-cards .title { font-size: 1.8rem; }\n      #{{ _uid }} .steps-cards p, #{{ _uid }} .steps-cards ul { font-size:1.25rem; }\n    }\n\n    /* === ACCORDION + TABLE === */\n    #{{ _uid }} .arms-dimension {\n      border: 1px solid var(--border);\n      border-radius: 8px;\n      margin-bottom: 8px;\n      overflow: hidden;\n    }\n    #{{ _uid }} .arms-header {\n      background: #fff;\n      padding: 14px 18px;\n      cursor: pointer;\n      display: flex; justify-content: space-between; align-items: center;\n      font-size: 1.9rem; font-weight: 800;\ncolor: #000;\n    }\n    #{{ _uid }} .arms-header .arrow { font-size: 1.2rem; transition: transform .2s ease; }\n    #{{ _uid }} .arms-header.open .arrow { transform: rotate(180deg); }\n    #{{ _uid }} .arms-content { display: none; padding: 0 14px 14px; }\n\n    /* Tables scoped only to this section */\n    #{{ _uid }} .arms-content table { width: 100%; border-collapse: collapse; margin-top: 10px; }\n    #{{ _uid }} .arms-content th, #{{ _uid }} .arms-content td {\n      text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border);\n    }\n    #{{ _uid }} .arms-content th { font-weight: 700; background: #f3f4f6; }\n    #{{ _uid }} .arms-content td { color: #111; }\n    #{{ _uid }} .muted { color: var(--muted); }\n  </style>\n\n  <!-- GUIDE: 3 Cards -->\n  <div class=\"steps-cards\">\n    <div class=\"grid\">\n      <!-- STEP 1 -->\n      <div class=\"card\">\n        <div class=\"step\">\n          <span class=\"num\">1.</span>\n          <h3 class=\"title\">Pick Your Adjustability</h3>\n        </div>\n        <ul>\n          <li>1D — Height only</li>\n          <li>2D — Height & Width (best everyday choice)</li>\n          <li>3D — Height, Width + Pivot or Fore-Aft</li>\n          <li>4D/4D+ — Height, Width, Pivot & Fore-Aft</li>\n        </ul>\n      </div>\n\n      <!-- STEP 2 -->\n      <div class=\"card\">\n        <div class=\"step\">\n          <span class=\"num\">2.</span>\n          <h3 class=\"title\">Measure Your Elbow Height</h3>\n        </div>\n        <ul>\n          <li>Sit in your current chair with arms resting relaxed and elbows near 90°.</li>\n          <li>Armrests should be level with your desk surface.</li>\n          <li>Measure seat to top-of-armrest — that’s your needed range.</li>\n        </ul>\n      </div>\n\n      <!-- STEP 3 -->\n      <div class=\"card\">\n        <div class=\"step\">\n          <span class=\"num\">3.</span>\n          <h3 class=\"title\">Find Your Match Below</h3>\n        </div>\n        <p>Pick the required adjustability (Fixed, 1D, 2D, 3D, 4D) from Step 1, then use your elbow-height range from Step 2 to choose the right arms from the table below.</p>\n      </div>\n    </div>\n\n    <!-- Compatibility Notice -->\n    <div class=\"compat\">\n      <svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm.75 5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zM11 10h2v7h-2v-7z\"/></svg>\n      <span>Arm availability can vary by product. Only arms shown in the Options section above are compatible with this chair.</span>\n    </div>\n  </div>\n\n  <!-- === ONE ACCORDION FOR ALL ARMS === -->\n  <div class=\"arms-dimension\">\n    <div class=\"arms-header\" onclick=\"\n      var content=this.nextElementSibling;\n      var isOpen=content.style.display==='block';\n      if(isOpen){ content.style.display='none'; this.classList.remove('open'); } \n      else { content.style.display='block'; this.classList.add('open'); }\">\n      View Arms Table\n      <span class=\"arrow\">▼</span>\n    </div>\n    <div class=\"arms-content\">\n      <table>\n        <thead>\n          <tr>\n            <th>Dimension</th>\n            <th>Arm Model</th>\n            <th>Type</th>\n            <th>Features</th>\n            <th>Min Height (approx. from seat pan)</th>\n            <th>Max Height (approx. from seat pan)</th>\n          </tr>\n        </thead>\n        <tbody>\n          <!-- FIXED -->\n          <tr><td>Fixed</td><td><strong>KR48</strong></td><td>Average height</td><td>Fixed loop</td><td>9.75\"</td><td>9.75\"</td></tr>\n\n          <!-- 1D -->\n          <tr><td>1D</td><td><strong>BR2</strong></td><td>Average height</td><td>Width-only, loop design (BC only)</td><td>–</td><td>–</td></tr>\n          <tr><td>1D</td><td><strong>AR81</strong></td><td>Average height</td><td>Width-only, polished aluminum loop</td><td>8.25\"</td><td>8.25\"</td></tr>\n          <tr><td>1D</td><td><strong>JR77</strong></td><td>Average height</td><td>Height-only</td><td>8.25\"</td><td>12.5\"</td></tr>\n          <tr><td>1D</td><td><strong>JR77M</strong></td><td>Average height</td><td>Height-only, Memosoft</td><td>8.25\"</td><td>12.5\"</td></tr>\n          <tr><td>1D</td><td><strong>JRBN</strong></td><td>Tall height</td><td>Height-only, fold-back ballistic</td><td>9.25\"</td><td>11.75\"</td></tr>\n          <tr><td>1D</td><td><strong>JRPD</strong></td><td>Tall height</td><td>Height-only, fold-back Memosoft (Police)</td><td>9.25\"</td><td>11.75\"</td></tr>\n          <tr><td>1D</td><td><strong>KR21</strong></td><td>Average height</td><td>Height-only, knob T-arm</td><td>8.5\"</td><td>10.75\"</td></tr>\n          <tr><td>1D</td><td><strong>KR23</strong></td><td>Short height</td><td>Height-only</td><td>6.5\"</td><td>10\"</td></tr>\n          <tr><td>1D</td><td><strong>KR25</strong></td><td>Average height</td><td>Height-only, natural grip</td><td>8.25\"</td><td>11\"</td></tr>\n          <tr><td>1D</td><td><strong>KR25M</strong></td><td>Average height</td><td>Height-only, Memosoft natural grip</td><td>8.25\"</td><td>11\"</td></tr>\n\n          <!-- 2D -->\n          <tr><td>2D</td><td><strong>BR5</strong></td><td>Average height</td><td>Height + Width (BC only)</td><td>–</td><td>–</td></tr>\n          <tr><td>2D</td><td><strong>JR39</strong></td><td>Average height</td><td>Height + Width, forward slant</td><td>7.25\"</td><td>11.5\"</td></tr>\n          <tr><td>2D</td><td><strong>JR39M</strong></td><td>Average height</td><td>Height + Width, forward slant, Memosoft</td><td>7.25\"</td><td>11.5\"</td></tr>\n          <tr><td>2D</td><td><strong>KR200</strong></td><td>Short height</td><td>Height + Width, removable T</td><td>6.25\"</td><td>8.25\"</td></tr>\n          <tr><td>2D</td><td><strong>KR200M</strong></td><td>Short height</td><td>Height + Width, Memosoft removable T</td><td>6.25\"</td><td>9\"</td></tr>\n          <tr><td>2D</td><td><strong>KR100M</strong></td><td>Short height</td><td>Height + Width, Memosoft removable T</td><td>5.25\"</td><td>8\"</td></tr>\n          <tr><td>2D</td><td><strong>KR300</strong></td><td>Tall height</td><td>Height + Width, tall T</td><td>7.75\"</td><td>10.5\"</td></tr>\n          <tr><td>2D</td><td><strong>KR300M</strong></td><td>Tall height</td><td>Height + Width, tall Memosoft</td><td>7.75\"</td><td>10.5\"</td></tr>\n\n          <!-- 3D -->\n          <tr><td>3D</td><td><strong>AR485</strong></td><td>Average height</td><td>Height + Width + Pivot, polished aluminum</td><td>7.0\"</td><td>11\"</td></tr>\n\n          <!-- 4D / 4D+ -->\n          <tr><td>4D</td><td><strong>JR49</strong></td><td>Tall height</td><td>Height + Width + RP-45 pivot + Fore/Aft</td><td>8.75\"</td><td>13\"</td></tr>\n          <tr><td>4D</td><td><strong>JR59</strong></td><td>Tall height</td><td>Height + Width + RP-50 6-way Omni</td><td>8.5\"</td><td>12.75\"</td></tr>\n          <tr><td>4D</td><td><strong>JR69</strong></td><td>Tall height</td><td>Height + Width + RP-65 pivot/Fore-Aft</td><td>8.25\"</td><td>12.5\"</td></tr>\n\n          <tr><td>4D</td><td><strong>KR200-45</strong></td><td>Average height</td><td>Height + Width + RP-45 pivot/Fore-Aft</td><td>7.75\"</td><td>10.5\"</td></tr>\n          <tr><td>4D</td><td><strong>KR200-65</strong></td><td>Average height</td><td>Height + Width + RP-65 lockable top</td><td>7\"</td><td>9.75\"</td></tr>\n          <tr><td>4D+</td><td><strong>KR200-50</strong></td><td>Average height</td><td>Height + Width + RP-50 Omni (4D+)</td><td>7.75\"</td><td>10.5\"</td></tr>\n\n          <tr><td>4D</td><td><strong>KR100-45</strong></td><td>Short height</td><td>Height + Width + RP-45 pivot/Fore-Aft</td><td>6.75\"</td><td>9.5\"</td></tr>\n          <tr><td>4D</td><td><strong>KR100-65</strong></td><td>Short height</td><td>Height + Width + RP-65 lockable top</td><td>6\"</td><td>8.75\"</td></tr>\n          <tr><td>4D+</td><td><strong>KR100-50</strong></td><td>Short height</td><td>Height + Width + RP-50 Omni (4D+)</td><td>6.75\"</td><td>9.5\"</td></tr>\n          <tr><td>4D+</td><td><strong>KR100-51M</strong></td><td>Average height</td><td>Ultra mobility track arm, RP-51M, 360° pivot</td><td>7.5\"</td><td>10.25\"</td></tr>\n\n          <tr><td>4D</td><td><strong>KR300-45</strong></td><td>Tall height</td><td>Height + Width + RP-45 pivot/Fore-Aft</td><td>9.25\"</td><td>12\"</td></tr>\n          <tr><td>4D</td><td><strong>KR300-65</strong></td><td>Tall height</td><td>Height + Width + RP-65 lockable top</td><td>8.5\"</td><td>11.25\"</td></tr>\n          <tr><td>4D+</td><td><strong>KR300-50</strong></td><td>Tall height</td><td>Height + Width + RP-50 Omni (4D+)</td><td>9.25\"</td><td>12\"</td></tr>\n\n          <tr><td>4D</td><td><strong>JR77-65</strong></td><td>Tall height</td><td>Height + Width + RP-65 pivot/Fore-Aft</td><td>9.5\"</td><td>13.75\"</td></tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n</div>",
+            "page": ""
+          }
+        },
+        "tab_ichTFY": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "navigation_title": "Fabric Guide",
+            "content": "<p>With over 200 fabrics and multiple fabric materials, we understand that choosing a fabric can be overwhelming. Use the guide and table below to get a better understanding of how to select the right fabric for you.</p>",
+            "custom_liquid": "{%- assign _uid = 'fabric-type-compact-block-' | append: product.id -%}\n\n<div id=\"{{ _uid }}\">\n\n  <!-- GUIDE BLOCK -->\n\n  <div class=\"fabric-guide-basics\">\n    <style>\n      #{{ _uid }} { --border:#e5e7eb; --muted:#6b7280; --notice-bg:#fffbe6; --notice-border:#facc15; }\n      #{{ _uid }} * { box-sizing:border-box; }\n\n      .fabric-guide-basics {\n        background: #fff;\n        border: 1px solid var(--border);\n        border-radius: 12px;\n        padding: 22px 26px;\n        margin: 20px 0;\n      }\n      .fabric-guide-basics .grid {\n        display: grid;\n        grid-template-columns: 1fr 1fr;\n        gap: 10px 22px;\n      }\n      .fabric-guide-basics .item strong {\n        display: block;\n        margin-bottom: 2px;\n        font-size: 1.75rem;\n        font-weight: 800;\n        line-height: 1.2;\n        color: #111;\n      }\n\n      /* Notice boxes */\n      .fabric-guide-basics .notice {\n        margin-top: 16px;\n        display: flex; gap: 10px; align-items: center;\n        background: var(--notice-bg);\n        border: 1px solid var(--notice-border);\n        border-radius: 10px;\n        padding: 8px 12px;\n        font-size: 1.2rem;\n        color: #5b4a00;\n      }\n      .fabric-guide-basics .notice .icon {\n        display: flex; align-items: center; justify-content: center;\n        width: 22px; height: 22px; line-height: 0;\n      }\n      .fabric-guide-basics .notice svg { width: 20px; height: 20px; color: #d97706; }\n\n      @media (max-width: 880px) {\n        .fabric-guide-basics .grid { grid-template-columns: 1fr; }\n      }\n\n      /* TYPE ACCORDIONS */\n      .type {\n        border: 1px solid var(--border);\n        border-radius: 10px;\n        background: #fff;\n        margin-bottom: 12px;\n        overflow: hidden;\n      }\n      .type-header {\n        padding: 14px 18px;\n        cursor: pointer;\n        display: flex; justify-content: space-between; align-items: center;\n        background: #fff;\n      }\n      .type-header h4 {\n        margin: 0;\n        font-size: 1.75rem;\n        font-weight: 700;\n        color: #111;\n      }\n      .type-header .arrow { font-size: 1.5rem; transition: transform .2s ease; }\n#{{ _uid }} .type-header h4 {\n  font-size: 1.9rem !important;\n  font-weight: 700 !important;\n  color: #111 !important;\n  margin: 0;\n}\n      .type-header.open .arrow { transform: rotate(180deg); }\n      .type-content { display: none; padding: 14px; }\n\n      /* Section headings inside accordion */\n      .type-content h5 {\n        margin: 0 0 6px;\n        font-weight: 700;\n        font-size: 1.6rem;\n        color: #111;\n      }\n\n      /* Swatches (hover zoom + code label) */\n      .swatch-list { display: flex; gap: 6px; flex-wrap: wrap; }\n      .swatch-wrap { width: 64px; }\n      .swatch {\n        position: relative;\n        width: 64px; height: 64px;\n        border: 1px solid var(--border); border-radius: 6px;\n        overflow: hidden; background: #fafafa;\n      }\n      .swatch img { width: 100%; height: 100%; object-fit: cover; display: block; }\n      .code {\n        font-size: .9rem;\n        text-align: center; color: var(--muted);\n        margin-top: 2px; width: 64px; line-height: 1.1;\n      }\n      .swatch .zoom {\n        pointer-events: none;\n        position: absolute; z-index: 50;\n        top: -8px; left: 72px;\n        width: 220px; height: 220px;\n        border: 1px solid var(--border);\n        border-radius: 10px; background: #fff;\n        box-shadow: 0 8px 22px rgba(0,0,0,.16);\n        opacity: 0;\n        transition: opacity .12s ease, transform .12s ease;\n      }\n      .swatch:hover .zoom { opacity: 1; transform: scale(1); }\n      .swatch .zoom img { width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 10px; }\n      @media (max-width: 640px) { .swatch .zoom { left: 0; top: -236px; } }\n\n      /* Patterns */\n      .pat {\n        display: flex; justify-content: space-between;\n        padding: 4px 6px;\n        border: 1px solid var(--border); border-radius: 4px;\n        margin-bottom: 4px;\n      }\n      .pat .pname { font-weight: 700; }\n      .pat .pcodes { color: var(--muted); }\n\n      /* Show More button */\n      .toggle-wrap { text-align: center; margin: 14px 0; }\n      .toggle-btn {\n        background: transparent; border: none; cursor: pointer;\n        font-size: 1.08rem; padding: 6px 10px; display: inline-flex; gap: 8px; align-items: center;\n      }\n      .toggle-btn .arrow-icon { display: inline-block; font-size: 1.4rem; transition: transform .2s ease; }\n      .toggle-btn.open .arrow-icon { transform: rotate(180deg); }\n    </style>\n\n    <div class=\"grid\">\n      <div class=\"item\"><strong>Fabric Type</strong> The material (Leather, Vinyl, Woven, Mesh, Crypton, Knit).</div>\n      <div class=\"item\"><strong>Pattern</strong> The style/collection within a grade. Each pattern is tied to a fabric type.</div>\n      <div class=\"item\"><strong>Grade</strong> The quality/price tier, written as G1, G2, G3. Higher grades = more premium options.</div>\n      <div class=\"item\"><strong>Fabric Codes</strong> The item numbers for ordering or requesting swatches.</div>\n    </div>\n\n    <!-- Availability Notice -->\n    <div class=\"notice\">\n      <span class=\"icon\" aria-hidden=\"true\">\n        <svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm.75 5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zM11 10h2v7h-2v-7z\"/></svg>\n      </span>\n      <span>Fabric availability can vary by product. Only fabrics shown in the options above are compatible with this chair.</span>\n    </div>\n\n    <!-- Options Library Notice -->\n    <div class=\"notice\">\n      <span class=\"icon\" aria-hidden=\"true\">\n        <svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm.75 5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zM11 10h2v7h-2v-7z\"/></svg>\n      </span>\n      <span>The Options Library has in-depth details on all fabrics and arms. <a href=\"https://www.officemasterchairs.com/pages/office-master-all-options-library\">Open Options Library</a></span>\n    </div>\n  </div>\n\n  <!-- Visible Accordions -->\n  {% assign visible_types = \"Woven,Knit,Vinyl,Leather\" | split: \",\" %}\n  {% for t in visible_types %}\n  <div class=\"type\">\n    <div class=\"type-header {% if forloop.first %}open{% endif %}\" onclick=\"\n      var root=this.closest('#{{ _uid }}');\n      var content=this.nextElementSibling;\n      var isOpen=content.style.display==='block';\n      root.querySelectorAll('.type-content').forEach(c=>{ c.style.display='none'; });\n      root.querySelectorAll('.type-header').forEach(h=>{ h.classList.remove('open'); });\n      if(isOpen){ content.style.display='none'; this.classList.remove('open'); }\n      else { content.style.display='block'; this.classList.add('open'); }\">\n      <h4>{{ t }}</h4>\n      <span class=\"arrow\">▼</span>\n    </div>\n    <div class=\"type-content\" {% if forloop.first %}style=\"display:block;\"{% endif %}>\n      <h5>Suggested Fabrics</h5>\n      <div class=\"swatch-list\">\n        <div class=\"swatch-wrap\">\n          <div class=\"swatch\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0605/6725/7293/files/XT408_-_Ink_II.jpg?v=1750250342\">\n            <div class=\"zoom\"><img src=\"https://cdn.shopify.com/s/files/1/0605/6725/7293/files/XT408_-_Ink_II.jpg?v=1750250342\"></div>\n          </div>\n          <div class=\"code\">XT408</div>\n        </div>\n        <div class=\"swatch-wrap\">\n          <div class=\"swatch\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0605/6725/7293/files/303_-_Tinto_II.jpg?v=1750250342\">\n            <div class=\"zoom\"><img src=\"https://cdn.shopify.com/s/files/1/0605/6725/7293/files/303_-_Tinto_II.jpg?v=1750250342\"></div>\n          </div>\n          <div class=\"code\">303</div>\n        </div>\n      </div>\n      <h5>Patterns & Codes</h5>\n      <div class=\"pat\"><span class=\"pname\">Example Pattern</span><span class=\"pcodes\">1000–1009</span></div>\n    </div>\n  </div>\n  {% endfor %}\n\n  <!-- Hidden Accordions -->\n  <div id=\"{{ _uid }}-more\" style=\"display:none;\">\n    {% assign hidden_types = \"Crypton,PVC-Free,Mesh\" | split: \",\" %}\n    {% for t in hidden_types %}\n    <div class=\"type\">\n      <div class=\"type-header\" onclick=\"\n        var root=this.closest('#{{ _uid }}');\n        var content=this.nextElementSibling;\n        var isOpen=content.style.display==='block';\n        root.querySelectorAll('.type-content').forEach(c=>{ c.style.display='none'; });\n        root.querySelectorAll('.type-header').forEach(h=>{ h.classList.remove('open'); });\n        if(isOpen){ content.style.display='none'; this.classList.remove('open'); }\n        else { content.style.display='block'; this.classList.add('open'); }\">\n        <h4>{{ t }}</h4>\n        <span class=\"arrow\">▼</span>\n      </div>\n      <div class=\"type-content\">\n        <h5>Suggested Fabrics</h5>\n        <div class=\"swatch-list\">\n          <div class=\"swatch-wrap\">\n            <div class=\"swatch\">\n              <img src=\"https://cdn.shopify.com/s/files/1/0605/6725/7293/files/OM5_GR12_Mesh_Charcoal_Grey.jpg?v=1749721697\">\n              <div class=\"zoom\"><img src=\"https://cdn.shopify.com/s/files/1/0605/6725/7293/files/OM5_GR12_Mesh_Charcoal_Grey.jpg?v=1749721697\"></div>\n            </div>\n            <div class=\"code\">GR12</div>\n          </div>\n        </div>\n        <h5>Patterns & Codes</h5>\n        <div class=\"pat\"><span class=\"pname\">Example Hidden Pattern</span><span class=\"pcodes\">2000–2009</span></div>\n      </div>\n    </div>\n    {% endfor %}\n  </div>\n\n  <div class=\"toggle-wrap\">\n    <button class=\"toggle-btn\" type=\"button\" aria-label=\"Toggle more fabric types\"\n      onclick=\"var more=document.getElementById('{{ _uid }}-more');var btn=this;if(more.style.display==='none'){more.style.display='block';btn.classList.add('open');btn.querySelector('.toggle-text').textContent='Show Less';}else{more.style.display='none';btn.classList.remove('open');btn.querySelector('.toggle-text').textContent='Show More';}\">\n      <span class=\"toggle-text\">Show More</span>\n      <span class=\"arrow-icon\">▼</span>\n    </button>\n  </div>\n</div>",
+            "page": ""
+          }
+        },
+        "tab_iVWCtm": {
+          "type": "tab",
+          "settings": {
+            "navigation_title": "Fabric Guide",
+            "content": "<p>With over 200 fabrics and multiple fabric materials, we understand that choosing a fabric can be overwhelming. Use the guide and table below to get a better understanding of how to select the right fabric for you.</p>",
+            "custom_liquid": "{%- assign _uid = 'fabric-type-compact-block-' | append: product.id -%}\n\n<div id=\"{{ _uid }}\">\n\n  <!-- GUIDE BLOCK -->\n  <div class=\"fabric-guide-basics\">\n    <style>\n      #{{ _uid }} {\n        --border:#e5e7eb;\n        --muted:#6b7280;\n        --notice-bg:#fffbe6;\n        --notice-border:#facc15;\n      }\n      #{{ _uid }} * { box-sizing:border-box; }\n\n      .fabric-guide-basics {\n        background: #fff;\n        border: 1px solid var(--border);\n        border-radius: 12px;\n        padding: 22px 26px;\n        margin: 20px 0;\n      }\n      .fabric-guide-basics .grid {\n        display: grid;\n        grid-template-columns: 1fr 1fr;\n        gap: 22px 22px;\n      }\n      .fabric-guide-basics .item strong {\n        display: block;\n        margin-bottom: 2px;\n        font-size: 1.75rem;\n        font-weight: 800;\n        line-height: 1.2;\n        color: #111;\n      }\n\n      /* Availability Notice */\n      .fabric-guide-basics .notice {\n        margin-top: 16px;\n        display: flex;\n        gap: 10px;\n        align-items: center;\n        background: var(--notice-bg);\n        border: 1px solid var(--notice-border);\n        border-radius: 10px;\n        padding: 8px 12px;\n        font-size: 1.2rem;\n        color: #5b4a00;\n      }\n      .fabric-guide-basics .notice .icon {\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 22px;\n        height: 22px;\n        line-height: 0;\n      }\n      .fabric-guide-basics .notice svg {\n        width: 20px;\n        height: 20px;\n        color: #d97706;\n      }\n\n      @media (max-width: 880px) {\n        .fabric-guide-basics .grid { grid-template-columns: 1fr; }\n      }\n\n      /* Accordion + Table */\n      .fabric-accordion {\n        border: 1px solid var(--border);\n        border-radius: 10px;\n        background: #fff;\n        margin-top: 20px;\n        overflow: hidden;\n      }\n      .fabric-header {\n        padding: 14px 18px;\n        cursor: pointer;\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        background: #fff;\n        font-size: 1.9rem;\n        font-weight: 700;\n        color: #111;\n      }\n      .fabric-header .arrow { font-size: 1.4rem; transition: transform .2s ease; }\n      .fabric-header.open .arrow { transform: rotate(180deg); }\n      .fabric-content { display: none; padding: 14px; }\n\n      .fabric-content table {\n        width: 100%;\n        border-collapse: collapse;\n        margin-top: 10px;\n      }\n      .fabric-content th, .fabric-content td {\n        text-align: left;\n        padding: 6px 8px;\n        border-bottom: 1px solid var(--border);\n      }\n      .fabric-content th {\n        font-weight: 700;\n        background: #f3f4f6;\n      }\n      .fabric-content td { color: #111; }\n\n      /* Options Library section */\n      .options-library {\n        margin-top: 24px;\n      }\n      .options-library h4 {\n        margin: 0 0 8px;\n        font-size: 1.75rem;\n        font-weight: 700;\n        color: #111;\n      }\n      .options-library p {\n        margin: 0 0 12px;\n        font-size: 1.25rem;\n        color: #333;\n      }\n      .options-library .btn {\n        display: inline-block;\n        background: #000;\n        color: #fff;\n        padding: 10px 20px;\n        border-radius: 6px;\n        text-decoration: none;\n        font-size: 1.35rem;\n        font-weight: 500;\n        white-space: nowrap;\n      }\n    </style>\n\n    <div class=\"grid\">\n      <div class=\"item\"><strong>Fabric Type</strong> The material (Leather, Vinyl, Woven, Mesh, Crypton, Knit).</div>\n      <div class=\"item\"><strong>Pattern</strong> The style/collection within a grade. Each pattern is tied to a fabric type.</div>\n      <div class=\"item\"><strong>Grade</strong> The quality/price tier, written as G1, G2, G3. Higher grades = more premium options.</div>\n      <div class=\"item\"><strong>Fabric Codes</strong> The specific fabric and color within the collection. For example - 1020-Black.</div>\n\n      <!-- Options Library row as 2-column -->\n      <div class=\"item\">\n        <strong>Options Library</strong> In depth resource where you can find complete information and swatches on each pattern and fabric.\n      </div>\n      <div class=\"item\" style=\"display:flex; align-items:center;\">\n        <a class=\"btn\"\n           href=\"https://www.officemasterchairs.com/pages/office-master-all-options-library\"\n           target=\"_blank\" rel=\"noopener noreferrer\">\n          View Options Library\n        </a>\n      </div>\n    </div>\n\n    <!-- Availability Notice (moved to bottom) -->\n    <div class=\"notice\">\n      <span class=\"icon\"><svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm.75 5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zM11 10h2v7h-2v-7z\"/></svg></span>\n      <span>Fabric availability can vary by product. Only fabrics shown in the options above are compatible with this chair.</span>\n    </div>\n\n    <!-- Single Accordion -->\n    <div class=\"fabric-accordion\">\n      <div class=\"fabric-header\" onclick=\"\n        var content=this.nextElementSibling;\n        var isOpen=content.style.display==='block';\n        if(isOpen){ content.style.display='none'; this.classList.remove('open'); }\n        else { content.style.display='block'; this.classList.add('open'); }\">\n        View Fabrics Table\n        <span class=\"arrow\">▼</span>\n      </div>\n      <div class=\"fabric-content\">\n        <table>\n          <thead>\n            <tr>\n              <th>Grade</th>\n              <th>Pattern</th>\n              <th>Type / Material</th>\n              <th>Codes</th>\n              <th>Cleanability</th>\n              <th>Abrasion</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr><td>G1</td><td>Basic</td><td>Woven</td><td>1001–1020</td><td>WS</td><td>150,000+</td></tr>\n            <tr><td>G1</td><td>Spice</td><td>Woven</td><td>1161–1168</td><td>WS</td><td>150,000+</td></tr>\n            <tr><td>G1</td><td>Celestial</td><td>Woven</td><td>1200–1204</td><td>WS</td><td>150,000+</td></tr>\n            <tr><td>G2</td><td>Chess</td><td>Woven</td><td>2293–2298</td><td>WS</td><td>100,000+</td></tr>\n            <tr><td>G2</td><td>Clue</td><td>Woven</td><td>2400–2409</td><td>W</td><td>40,000+</td></tr>\n            <tr><td>G2</td><td>Drift</td><td>Woven</td><td>2700–2709</td><td>BC & WS</td><td>100,000+</td></tr>\n            <tr><td>G2</td><td>Knack</td><td>Woven</td><td>2542–2548</td><td>WS</td><td>100,000+</td></tr>\n            <tr><td>G2</td><td>SoftSit</td><td>Knit</td><td>2570–2589</td><td>WS</td><td>100,000+</td></tr>\n            <tr><td>G2</td><td>Track</td><td>Woven</td><td>2710–2714</td><td>W</td><td>40,000+</td></tr>\n            <tr><td>G3</td><td>Beau</td><td>Woven</td><td>3800–3810</td><td>BC & WS</td><td>100,000+</td></tr>\n            <tr><td>G3</td><td>Bliss</td><td>Woven</td><td>3900–3908</td><td>W</td><td>150,000+</td></tr>\n            <tr><td>G3</td><td>Cinema</td><td>PVC-Free</td><td>3P30–3P40</td><td>BC & WS</td><td>150,000+</td></tr>\n            <tr><td>G3</td><td>Free</td><td>Woven</td><td>3401–3406</td><td>WS</td><td>100,000+</td></tr>\n            <tr><td>G3</td><td>Illusion</td><td>Vinyl</td><td>3V80–3V89</td><td>BC & WS</td><td>100,000+</td></tr>\n            <tr><td>G3</td><td>Line Up</td><td>Woven</td><td>3501–3508</td><td>WS</td><td>100,000+</td></tr>\n            <tr><td>G3</td><td>Stage</td><td>Vinyl</td><td>W & BC</td><td>150,000+</td></tr>\n            <tr><td>G3</td><td>XOX</td><td>Woven</td><td>3702–3709</td><td>S</td><td>80,000+</td></tr>\n            <tr><td>G4</td><td>Cover Cloth</td><td>Crypton</td><td>4C00–4C08</td><td>W & BC</td><td>150,000+</td></tr>\n            <tr><td>G4</td><td>Hopsack</td><td>Vinyl</td><td>4V10–4V19</td><td>BC & WS</td><td>100,000+</td></tr>\n            <tr><td>G4</td><td>Rocket</td><td>Woven</td><td>4500–4507</td><td>WS</td><td>100,000+</td></tr>\n            <tr><td>G5</td><td>Architect</td><td>Knit</td><td>5700–5709</td><td>W</td><td>150,000+</td></tr>\n            <tr><td>G5</td><td>Comfortknit Solids</td><td>Knit</td><td>5501–5539</td><td>W</td><td>150,000+</td></tr>\n            <tr><td>G5</td><td>Myth</td><td>Knit</td><td>5200–5208</td><td>WS</td><td>150,000+</td></tr>\n            <tr><td>LG1</td><td>Evita Leather</td><td>Leather</td><td>LBLK–LWHT</td><td>—</td><td>—</td></tr>\n            <tr><td>LG2</td><td>Lena</td><td>Leather</td><td>LDEL–LORC</td><td>—</td><td>—</td></tr>\n            <tr><td>LG3</td><td>Vulcano</td><td>Leather</td><td>LMIT, LSTG</td><td>—</td><td>—</td></tr>\n            <tr><td>-</td><td>Neighborhood</td><td>Mesh</td><td>5300–5308</td><td>WS</td><td>80+</td></tr>\n            <tr><td>-</td><td>Zodiac</td><td>Mesh</td><td>2300–2310</td><td>WS</td><td>80+</td></tr>\n          </tbody>\n        </table>\n      </div>\n    </div>\n  </div>\n</div>",
+            "page": ""
+          }
+        },
+        "image_with_text_gdbXnW": {
+          "type": "image_with_text",
+          "settings": {
+            "navigation_title": "Cylinder Guide",
+            "image": "shopify://shop_images/OM_Seating_Cylinder_Comparison_Chart.png",
+            "desktop_image_position": "left",
+            "image_aspect_ratio": "adapt",
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "subheading": "",
+            "description": "<p>The cylinder controls the seat height range of your chair. In the chart to the left, you can see how each cylinder changes the chair height compared to the standard 5\" cylinder (shown as “standard” in the table).</p>",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "icon_1": "none",
+            "heading_1": "",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "check",
+            "heading_3": ""
+          }
+        },
+        "image_with_text_H9VePh": {
+          "type": "image_with_text",
+          "settings": {
+            "navigation_title": "Casters Guide",
+            "image": "shopify://shop_images/OM_Seating_Caster_Comparison_Chart.png",
+            "desktop_image_position": "left",
+            "image_aspect_ratio": "adapt",
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "subheading": "",
+            "description": "<p>The right caster depends on the type of floor you’ll be using your chair on. </p><p>The chart on the left shows which caster performs best across different surfaces - from soft carpet to hard concrete.</p>",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "icon_1": "none",
+            "heading_1": "",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "check",
+            "heading_3": ""
+          }
+        },
+        "image_with_text_zW4LXG": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "navigation_title": "Adjustment Guide",
+            "image": "{{ product.metafields.custom.product_mechanism_image.value }}",
+            "desktop_image_position": "left",
+            "image_aspect_ratio": "adapt",
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "subheading": "",
+            "description": "<p>Every OM Seating chair is built with ergonomic mechanisms that let you fine-tune comfort and support throughout the day. </p><p>The image to the left highlights the specific mechanism on this model and shows the available adjustments.</p>",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "icon_1": "none",
+            "heading_1": "",
+            "icon_2": "check",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
+          }
+        },
+        "image_with_text_wRgNeJ": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "navigation_title": "Test for Fit",
+            "image": "shopify://shop_images/Ultimate_Test_For_Fit_JPG.jpg",
+            "desktop_image_position": "left",
+            "image_aspect_ratio": "adapt",
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "subheading": "",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "icon_1": "none",
+            "heading_1": "",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_LAiiEa",
+        "tab_NMCB3R",
+        "tab_ichTFY",
+        "tab_iVWCtm",
+        "image_with_text_gdbXnW",
+        "image_with_text_H9VePh",
+        "image_with_text_zW4LXG",
+        "image_with_text_wRgNeJ"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media (min-width: 1024px) {.tabs__panel {padding-inline: 5rem; }}",
+        ".tabs-nav--buttons button {padding: 16px 32px; font-size: 18px; min-height: 55px; min-width: 160px;}",
+        " /* Mobile adjustments */@media (max-width: 768px) {.tabs-nav--buttons button {padding: 10px 16px; font-size: 15px; min-height: 44px; min-width: 120px; }}"
+      ],
+      "settings": {
+        "container": "full",
+        "color_scheme": "scheme-1",
+        "navigation_style": "headings",
+        "navigation_alignment": "center",
+        "padding_top": 60,
+        "padding_bottom": 30,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "slideshow_VGhFGA": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_9tNaQe": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "background": "{{ product.metafields.custom.product_feature_image.value }}",
+            "image_overlay_opacity": 35,
+            "content_position": "top-left",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "PT Paramount Collection",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": false
+          }
+        },
+        "slide_q7CnNj": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "background": "{{ product.metafields.custom.product_feature_image.value }}",
+            "image_overlay_opacity": 35,
+            "content_position": "top-left",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "PT Paramount Collection Gallery",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": false
+          }
+        },
+        "slide_XQBRUk": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "background": "{{ product.metafields.custom.product_feature_image.value }}",
+            "image_overlay_opacity": 35,
+            "content_position": "top-left",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "PT Paramount Collection Gallery",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_9tNaQe",
+        "slide_q7CnNj",
+        "slide_XQBRUk"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.name",
+      "settings": {
+        "container": "fixed",
+        "slide_height": "small",
+        "show_controls": true,
+        "autoplay": false,
+        "autoplay_delay": 3,
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_with_text_overlay_Cqtc4P": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_ixdajm": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing"
+          }
+        },
+        "heading_eQRJHh": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.custom.product_feature_header.value }}",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
+          }
+        },
+        "text_E6JM4N": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.product_feature_text | metafield_tag }}</p>",
+            "text_size": "text-lg"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ixdajm",
+        "heading_eQRJHh",
+        "text_E6JM4N"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "fixed",
+        "image": "{{ product.metafields.custom.product_feature_image.value }}",
+        "desktop_height": "extra-medium",
+        "overlay_opacity": 35,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "mobile_height": "auto",
+        "content_position_mobile": "middle-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "enable_preload_image": false
+      }
+    },
+    "image_with_feature_VVEak8": {
+      "type": "image-with-feature",
+      "blocks": {
+        "column_4zCKmy": {
+          "type": "column",
+          "settings": {
+            "icon": "check",
+            "max_width": 38,
+            "max_width_mb": 32,
+            "title": "Full Manufacturer Warranties",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h6",
+            "heading_font": "heading",
+            "text": "<p>Every chair and table is backed by the official warranty.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "column_K8MkWQ": {
+          "type": "column",
+          "settings": {
+            "icon": "check",
+            "max_width": 38,
+            "max_width_mb": 32,
+            "title": "Guaranteed Quality",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h6",
+            "heading_font": "heading",
+            "text": "<p>Shop confidently knowing you’re buying authentic, factory-fresh products.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "column_wxnjme": {
+          "type": "column",
+          "settings": {
+            "icon": "check",
+            "max_width": 38,
+            "max_width_mb": 32,
+            "title": "Safe & Secure Purchases",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h6",
+            "heading_font": "heading",
+            "text": "<p>Transparent policies and verified sourcing give you peace of mind.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "column_W33qHi": {
+          "type": "column",
+          "settings": {
+            "icon": "check",
+            "max_width": 38,
+            "max_width_mb": 32,
+            "title": "Expert Product Knowledge",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h6",
+            "heading_font": "heading",
+            "text": "<p>Our team is trained directly on OM Seating and Special-T solutions.</p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "column_4zCKmy",
+        "column_K8MkWQ",
+        "column_wxnjme",
+        "column_W33qHi"
+      ],
+      "name": "t:sections.image-with-feature.presets",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "image": "shopify://shop_images/Authorized_Dealer_Image_Horizontal_1.svg",
+        "image_ratio": "4/3",
+        "enable_sticky": true,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "An Official Dealer for OM Seating & Special-T",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "<p>We’re proud to be an authorized reseller for OM Seating and Special-T, bringing you direct access to their high-quality products with the full support you deserve.</p>",
+        "text_size": "text-base",
+        "show_section_divider": true,
+        "divider_width": "fixed",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1758007826e5a7d4fb": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_W3wLPT": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_W3wLPT"
+      ],
+      "settings": {
+        "include_margins": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "comparison_table_dDRPPg": {
+      "type": "comparison-table",
+      "blocks": {
+        "heading_CPFEDJ": {
+          "type": "heading",
+          "settings": {
+            "icon-1": "none",
+            "title-1": "Price",
+            "icon-2": "none",
+            "title-2": "Seat Height",
+            "icon-3": "none",
+            "title-3": "Adjustability",
+            "icon-4": "none",
+            "title-4": "Overall Dimensions",
+            "icon-5": "none",
+            "title-5": "Intended User Size",
+            "icon-6": "none",
+            "title-6": "Weight Capacity",
+            "icon-7": "none",
+            "title-7": "Warranty",
+            "icon-8": "chat",
+            "title-8": "",
+            "icon-9": "chat",
+            "title-9": "",
+            "icon-10": "chat",
+            "title-10": ""
+          }
+        },
+        "content_bzxehr": {
+          "type": "content",
+          "settings": {
+            "product": "office-master-pt79-paramount-value-extra-tall-back-multi-function-chair",
+            "text-1": "<p>$699.99</p>",
+            "text-2": "<p>17-23\"</p>",
+            "text-3": "<ul><li>Height</li><li>Back</li><li>Test</li><li>Test</li><li>Test</li></ul>",
+            "text-4": "<p>18-45\"</p>",
+            "text-5": "<p>Up to 1,000 nits</p>",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_7cDVnc": {
+          "type": "content",
+          "settings": {
+            "product": "office-master-ptym-paramount-value-mid-back-ergonomic-office-chair",
+            "text-1": "<p>Inspired to create a chair where the back and arms are moulded</p>",
+            "text-2": "<p>46mm or 42mm</p>",
+            "text-3": "<p>Up to 18 hours</p>",
+            "text-4": "<p>S10 SiP</p>",
+            "text-5": "<p>Up to 2,000 nits</p>",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_4LQWnd": {
+          "type": "content",
+          "settings": {
+            "product": "office-master-pt69-paramount-value-high-back-ergonomic-office-chair",
+            "text-1": "<p>$499.99</p>",
+            "text-2": "<p>18\"-22\"</p>",
+            "text-3": "<ul><li>Height</li><li>Back</li><li>Test</li><li>Test</li><li>Test</li></ul>",
+            "text-4": "<p>S9 SiP</p>",
+            "text-5": "<p>Up to 3,000 nits</p>",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_CPFEDJ",
+        "content_bzxehr",
+        "content_7cDVnc",
+        "content_4LQWnd"
+      ],
+      "disabled": true,
+      "name": "t:sections.comparison-table.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "horizontal",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Comparison Table",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "<p>Compare similar products within the Paramount Collection</p>",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "icon_size": 20,
+        "text_line_limit": "2-lines",
+        "show_view_more_button": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "collapsible_tabs_pkbGAq": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "heading_hrb9XV": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "sub_heading": "",
+            "heading": "Product",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3"
+          }
+        },
+        "collapsible_item_jpUrVn": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Which fabric option should I choose?",
+            "content": "<p>Fabrics are grouped by Grade, and each grade contains different Patterns (these are essentially collections). </p><p>On the product page, you’ll first pick a Grade, then browse the full list of fabrics in that grade to select your exact fabric (e.g., <em>1200-Oberon</em>).</p><ul><li><strong>Grade</strong> – Grades (G1, G2, G3, etc.) are price tiers, with higher grades offering more premium styles and materials.</li><li><strong>Pattern</strong> – A style or collection within a Grade. Each pattern comes in a range of colors with the same design, and type (material).</li><li><strong>Type (Material)</strong> – The fabric material, such as woven, knit, vinyl, leather, mesh, etc.<br/></li></ul><p>For full details please refer to the <a href=\"https://www.officemasterchairs.com/pages/office-master-all-options-library\" target=\"_blank\" title=\"https://www.officemasterchairs.com/pages/office-master-all-options-library\">Options Library Page.</a></p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_mtcpkd": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Which arms options should I choose?",
+            "content": "<p>Arm selection is mainly based on adjustability and fit (height from seat):</p><ul><li><strong>Adjustability Levels</strong> – 1D (height or width only), 2D (height + width), 3D (height, width + pivot or fore-aft), 4D/4D+ (full range of height, width, pivot, and fore-aft).</li><li><strong>Measure Your Elbow Height</strong> – Sit comfortably with arms at 90°, then measure from the seat to the top of your elbow to find the correct arm range.</li><li><strong>Match Your Group</strong> – Combine your preferred adjustability (Fixed, 1D–4D) with your elbow height to find the best fit.<br/></li></ul><p>Refer to our <strong>Choosing Arms Guide</strong> above for the full list of arm options, grouped by adjustability. </p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_8BaybV": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Is there a warranty on this product?",
+            "content": "",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_TwVgQi": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "How long will it take to ship?",
+            "content": "<p>All OM Seating chairs are manufactured upon order and typically ship within 7-10 business days. Replacement parts such as arms, cylinders, and casters, may ship out sooner.<br/><br/>Delivery times can vary based on your location. For the most accurate lead time, please reach out to us via chat or email at <a><strong>cs@estorescorp.com</strong></a></p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_PmLGmK": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Are there bulk discounts available?",
+            "content": "<p>Yes!</p><p>Bulk discounts are available for orders of 5 or more chairs. Discounts are tiered, meaning the more you purchase, the greater the savings. For example, smaller bulk orders may qualify for a modest percentage off, while larger orders receive a higher discount.</p><p><a href=\"https://www.officemasterchairs.com/pages/bulk-order-discounts\" target=\"_blank\" title=\"https://www.officemasterchairs.com/pages/bulk-order-discounts\">View the Bulk Order Discounts Page here</a></p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_BM8Cie": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "What is your return policy if the chair doesn’t work for me?",
+            "content": "<p>Chairs can be returned within 30 days in their original packaging and condition. Because each chair is custom-built, a restocking fee will apply. You’ll need an RMA (Return Merchandize Authorization) number before sending anything back. Full details are available on our <a href=\"https://www.officemasterchairs.com/policies/refund-policy\" target=\"_blank\" title=\"https://www.officemasterchairs.com/policies/refund-policy\">Return Policy page</a>, or you can email <a href=\"mailto:cs@estorescorp.com\" target=\"_blank\" title=\"mailto:cs@estorescorp.com\"><strong>cs@estorescorp.com</strong></a> for assistance.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hrb9XV",
+        "collapsible_item_jpUrVn",
+        "collapsible_item_mtcpkd",
+        "collapsible_item_8BaybV",
+        "collapsible_item_TwVgQi",
+        "collapsible_item_PmLGmK",
+        "collapsible_item_BM8Cie"
+      ],
+      "disabled": true,
+      "name": "t:sections.collapsible-tabs.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-10",
+        "header_layout": "vertical",
+        "section_header_alignment": "center",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Frequently Asked Questions",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "More questions? Feel free to contact us",
+        "button_link": "https://www.officemasterchairs.com/pages/contact",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h5",
+        "item_icon_size": "extra-large",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "You May Also Like",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "limit": 6,
+        "columns": 5,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "tabs_content_8rnbnj",
+    "slideshow_VGhFGA",
+    "image_with_text_overlay_Cqtc4P",
+    "image_with_feature_VVEak8",
+    "1758007826e5a7d4fb",
+    "comparison_table_dDRPPg",
+    "collapsible_tabs_pkbGAq",
+    "related-products"
+  ]
+}
