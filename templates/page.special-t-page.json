@@ -1,1 +1,398 @@
-{"sections":{"main":{"type":"main-page","settings":{"container":"fixed","text_alignment":"center","padding_top":28,"padding_bottom":28}},"image_with_text_kA37xc":{"type":"image-with-text","blocks":{"heading_DbtDik":{"type":"heading","settings":{"heading":"","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h2"}},"text_HtqGJW":{"type":"text","settings":{"text":"<p>We are proud to partner with Special T, a trusted name in high-quality tables built for today’s dynamic workspaces. Special T offers a wide range of durable, customizable solutions, from training and conference tables to hospitality, café, and height-adjustable designs. Their products combine modern style with long-lasting performance, making them ideal for offices, schools, and collaborative environments. With Special T, every space can be equipped with tables that balance function, flexibility, and value.<\/p>","subtext_color":true}}},"block_order":["heading_DbtDik","text_HtqGJW"],"custom_css":[".image-with-text img {display: block; \/* ensures the image shows *\/ margin: 0 auto; \/* centers the image in its container *\/ max-width: 200px; height: auto;}",".image-with-text__media {flex: 0 0 30%; \/* image takes ~30% width *\/}"],"name":"t:sections.image-with-text.name","settings":{"container":"full","color_scheme":"","image":"shopify:\/\/shop_images\/Special_T_Logo.webp","image_position":"left","image_width":40,"desktop_content_position":"center","desktop_content_alignment":"left","mobile_content_alignment":"inherit","show_section_divider":false,"divider_width":"fixed","padding_top":0,"padding_bottom":20}},"collection_list_slider_rrMHrK":{"type":"collection-list-slider","blocks":{"featured_collection_dWwyLH":{"type":"featured_collection","settings":{"collection":"zia-collection","title":""}},"featured_collection_LcUAeW":{"type":"featured_collection","settings":{"collection":"kingston-collection","title":""}},"featured_collection_fnnGYK":{"type":"featured_collection","settings":{"collection":"link-collection","title":""}},"featured_collection_gWPqUA":{"type":"featured_collection","settings":{"collection":"ella-collection","title":""}},"featured_collection_EUpTLH":{"type":"featured_collection","settings":{"collection":"classix-collection","title":""}},"featured_collection_ynqetr":{"type":"featured_collection","settings":{"collection":"caliber-collection","title":""}},"featured_collection_DQfEkG":{"type":"featured_collection","settings":{"collection":"aim-collection","title":""}},"featured_collection_jgr3Gx":{"type":"featured_collection","settings":{"collection":"hike-collection","title":""}}},"block_order":["featured_collection_dWwyLH","featured_collection_LcUAeW","featured_collection_fnnGYK","featured_collection_gWPqUA","featured_collection_EUpTLH","featured_collection_ynqetr","featured_collection_DQfEkG","featured_collection_jgr3Gx"],"name":"t:sections.collection-list-slider.name","settings":{"container":"fixed","color_scheme":"","section_header_alignment":"left","section_header_alignment_mobile":"inherit","subheading":"","heading":"Special T Tables by Series","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h3","description":"<p>Explore tables organized by product series, each offering unique designs and features for different work environments.<\/p>","text_size":"text-base","button_label":"","button_link":"","button_style":"btn--underline","button_icon":"none","card_color_scheme":"","card_style":"standard","card_heading_size":"text-base","card_image_ratio":"4\/3","card_image_width":"full","card_image_padding":"none","rounded_card_image":false,"mobile_layout":"vertical","carousel_item_size":"fixed","columns_desktop":4,"carousel_control_color_scheme":"","padding_top":30,"padding_bottom":30,"show_section_divider":true,"divider_width":"fixed"}},"collection_list_slider_nBWnnJ":{"type":"collection-list-slider","blocks":{"featured_collection_Lt7Dhn":{"type":"featured_collection","settings":{"collection":"training-tables","title":""}},"featured_collection_r3pMkA":{"type":"featured_collection","settings":{"collection":"nesting-tables","title":""}},"featured_collection_M9CWcB":{"type":"featured_collection","settings":{"collection":"hospitality-tables","title":""}},"featured_collection_LGR3iF":{"type":"featured_collection","settings":{"collection":"break-room-cafe-tables","title":""}},"featured_collection_Y9cARf":{"type":"featured_collection","settings":{"collection":"conference-tables","title":""}},"featured_collection_C3tVtz":{"type":"featured_collection","settings":{"collection":"height-adjustable-tables","title":""}}},"block_order":["featured_collection_Lt7Dhn","featured_collection_r3pMkA","featured_collection_M9CWcB","featured_collection_LGR3iF","featured_collection_Y9cARf","featured_collection_C3tVtz"],"name":"t:sections.collection-list-slider.name","settings":{"container":"fixed","color_scheme":"","section_header_alignment":"left","section_header_alignment_mobile":"inherit","subheading":"","heading":"Special T Tables by Type","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h3","description":"<p>Browse tables by category: training, conference, café, hospitality, and more.<\/p>","text_size":"text-base","button_label":"","button_link":"","button_style":"btn--underline","button_icon":"none","card_color_scheme":"","card_style":"standard","card_heading_size":"text-base","card_image_ratio":"4\/3","card_image_width":"full","card_image_padding":"none","rounded_card_image":false,"mobile_layout":"vertical","carousel_item_size":"fixed","columns_desktop":4,"carousel_control_color_scheme":"","padding_top":30,"padding_bottom":30,"show_section_divider":true,"divider_width":"fixed"}},"featured_collection_rDttjE":{"type":"featured-collection","blocks":{"collection_g43QN4":{"type":"collection","settings":{"collection":"special-t-tables","title":"","show_banner":false,"color_scheme":"","card_link":"","image_overlay_opacity":0,"content_position":"top-left","content_alignment":"left","subheading":"","subheading_style":"","heading":"Collections","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h2","heading_size_mobile":"inherit","heading_size_custom":18,"description":"","text_size":"text-base","button_label":"Button label","button_style":"btn--primary","button_icon":"none"}}},"block_order":["collection_g43QN4"],"name":"t:sections.featured-collection.presets__1.name","settings":{"container":"fixed","color_scheme":"","section_header_alignment":"left","section_header_alignment_mobile":"inherit","subheading":"","heading":"Browse Tables","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h3","description":"","text_size":"text-base","button_label":"View All","button_link":"shopify:\/\/collections\/special-t-tables","button_style":"btn--underline","button_icon":"none","limit":12,"columns":6,"column_gap":"medium","row_gap":"inherit","enable_slider":true,"content_overflow":true,"navigation_position":"bottom","pcard_image_ratio":"","columns_mobile":"1","swipe_on_mobile":true,"show_progress_bar":true,"padding_top":30,"padding_bottom":30,"show_section_divider":true,"divider_width":"fixed"}},"rich_text_P7z3Nb":{"type":"rich-text","blocks":{"heading_mGJ4mt":{"type":"heading","settings":{"heading":"Still can't find what you're looking for?","highlight_style":"none","highlight_font_style":"italic","highlight_style_color":"","highlight_text_color":"","heading_size":"h3"}},"text_CqkEjf":{"type":"text","settings":{"text":"<p>While we don’t have the entire Special T catalog live on our site just yet, we can still help you find exactly what you need. If you’re looking for a specific table or custom configuration, our team can source it directly from Special T and create an order for you. You can easily reach out to us via chat and we’ll help you right away, or use the button below to get in touch.<\/p>","text_size":"text-base","text_line_limit":"none","button_style":"btn--underline","button_icon":"none"}},"button_WMxwY3":{"type":"button","settings":{"button_label":"Contact Us","button_link":"shopify:\/\/pages\/contact","button_style":"btn--primary","button_icon":"none"}}},"block_order":["heading_mGJ4mt","text_CqkEjf","button_WMxwY3"],"custom_css":[".rich-text p,.rich-text div {text-align: left;}"],"name":"t:sections.rich-text.name","settings":{"container":"fixed","color_scheme":"scheme-10","use_color_scheme_in_container":false,"content_spacing":"fitted","content_alignment":"center","padding_top":30,"padding_bottom":30,"show_section_divider":true,"divider_width":"fixed"}}},"order":["main","image_with_text_kA37xc","collection_list_slider_rrMHrK","collection_list_slider_nBWnnJ","featured_collection_rDttjE","rich_text_P7z3Nb"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_kA37xc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_DbtDik": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "text_HtqGJW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are proud to partner with Special T, a trusted name in high-quality tables built for today’s dynamic workspaces. Special T offers a wide range of durable, customizable solutions, from training and conference tables to hospitality, café, and height-adjustable designs. Their products combine modern style with long-lasting performance, making them ideal for offices, schools, and collaborative environments. With Special T, every space can be equipped with tables that balance function, flexibility, and value.</p>",
+            "subtext_color": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_DbtDik",
+        "text_HtqGJW"
+      ],
+      "custom_css": [
+        ".image-with-text img {display: block; /* ensures the image shows */ margin: 0 auto; /* centers the image in its container */ max-width: 200px; height: auto;}",
+        ".image-with-text__media {flex: 0 0 30%; /* image takes ~30% width */}"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "image": "shopify://shop_images/Special_T_Logo.webp",
+        "image_position": "left",
+        "image_width": 40,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "collection_list_slider_rrMHrK": {
+      "type": "collection-list-slider",
+      "blocks": {
+        "featured_collection_dWwyLH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "zia-collection",
+            "title": ""
+          }
+        },
+        "featured_collection_LcUAeW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kingston-collection",
+            "title": ""
+          }
+        },
+        "featured_collection_fnnGYK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "link-collection",
+            "title": ""
+          }
+        },
+        "featured_collection_gWPqUA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ella-collection",
+            "title": ""
+          }
+        },
+        "featured_collection_EUpTLH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "classix-collection",
+            "title": ""
+          }
+        },
+        "featured_collection_ynqetr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "caliber-collection",
+            "title": ""
+          }
+        },
+        "featured_collection_DQfEkG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aim-collection",
+            "title": ""
+          }
+        },
+        "featured_collection_jgr3Gx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hike-collection",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_dWwyLH",
+        "featured_collection_LcUAeW",
+        "featured_collection_fnnGYK",
+        "featured_collection_gWPqUA",
+        "featured_collection_EUpTLH",
+        "featured_collection_ynqetr",
+        "featured_collection_DQfEkG",
+        "featured_collection_jgr3Gx"
+      ],
+      "name": "t:sections.collection-list-slider.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Special T Tables by Series",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "<p>Explore tables organized by product series, each offering unique designs and features for different work environments.</p>",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "card_color_scheme": "",
+        "card_style": "standard",
+        "card_heading_size": "text-base",
+        "card_image_ratio": "4/3",
+        "card_image_width": "full",
+        "card_image_padding": "none",
+        "rounded_card_image": false,
+        "mobile_layout": "vertical",
+        "carousel_item_size": "fixed",
+        "columns_desktop": 4,
+        "carousel_control_color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "show_section_divider": true,
+        "divider_width": "fixed"
+      }
+    },
+    "collection_list_slider_nBWnnJ": {
+      "type": "collection-list-slider",
+      "blocks": {
+        "featured_collection_Lt7Dhn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "training-tables",
+            "title": ""
+          }
+        },
+        "featured_collection_r3pMkA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nesting-tables",
+            "title": ""
+          }
+        },
+        "featured_collection_M9CWcB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hospitality-tables",
+            "title": ""
+          }
+        },
+        "featured_collection_LGR3iF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "break-room-cafe-tables",
+            "title": ""
+          }
+        },
+        "featured_collection_Y9cARf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "conference-tables",
+            "title": ""
+          }
+        },
+        "featured_collection_C3tVtz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "height-adjustable-tables",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_Lt7Dhn",
+        "featured_collection_r3pMkA",
+        "featured_collection_M9CWcB",
+        "featured_collection_LGR3iF",
+        "featured_collection_Y9cARf",
+        "featured_collection_C3tVtz"
+      ],
+      "name": "t:sections.collection-list-slider.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Special T Tables by Type",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "<p>Browse tables by category: training, conference, café, hospitality, and more.</p>",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "card_color_scheme": "",
+        "card_style": "standard",
+        "card_heading_size": "text-base",
+        "card_image_ratio": "4/3",
+        "card_image_width": "full",
+        "card_image_padding": "none",
+        "rounded_card_image": false,
+        "mobile_layout": "vertical",
+        "carousel_item_size": "fixed",
+        "columns_desktop": 4,
+        "carousel_control_color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "show_section_divider": true,
+        "divider_width": "fixed"
+      }
+    },
+    "featured_collection_rDttjE": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_g43QN4": {
+          "type": "collection",
+          "settings": {
+            "collection": "special-t-tables",
+            "title": "",
+            "show_banner": false,
+            "color_scheme": "",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collection_g43QN4"
+      ],
+      "name": "t:sections.featured-collection.presets__1.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Browse Tables",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "View All",
+        "button_link": "shopify://collections/special-t-tables",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "limit": 12,
+        "columns": 6,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "content_overflow": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "show_section_divider": true,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_P7z3Nb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mGJ4mt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Still can't find what you're looking for?",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3"
+          }
+        },
+        "text_CqkEjf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>While we don’t have the entire Special T catalog live on our site just yet, we can still help you find exactly what you need. If you’re looking for a specific table or custom configuration, our team can source it directly from Special T and create an order for you. You can easily reach out to us via chat and we’ll help you right away, or use the button below to get in touch.</p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_WMxwY3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mGJ4mt",
+        "text_CqkEjf",
+        "button_WMxwY3"
+      ],
+      "custom_css": [
+        ".rich-text p,.rich-text div {text-align: left;}"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-2",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "fitted",
+        "content_alignment": "center",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "show_section_divider": true,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_kA37xc",
+    "collection_list_slider_rrMHrK",
+    "collection_list_slider_nBWnnJ",
+    "featured_collection_rDttjE",
+    "rich_text_P7z3Nb"
+  ]
+}
