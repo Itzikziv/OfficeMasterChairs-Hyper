@@ -278,7 +278,7 @@
       "settings": {
         "color_scheme": "scheme-14",
         "use_color_scheme_in_container": false,
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "media_size": "small",
         "gallery_layout": "vertical-carousel",
         "mobile_thumbnails": "show",
