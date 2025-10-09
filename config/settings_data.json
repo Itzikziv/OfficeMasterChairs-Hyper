@@ -133,6 +133,37 @@
         "type": "shopify://apps/rapid-search/blocks/script/bd827795-feaa-41a8-9219-2b83f238aa7d",
         "disabled": false,
         "settings": {}
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#000000",
+          "secondary_color": "#FFFFFF",
+          "ternary_color": "#6A6A6A",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": ""
+        }
+      },
+      "1602673961235493340": {
+        "type": "shopify://apps/impact-com/blocks/consent_mode/adac1a7f-d17f-4936-8a12-45628cdd8add",
+        "disabled": false,
+        "settings": {}
+      },
+      "1373006865992778634": {
+        "type": "shopify://apps/impact-com/blocks/utt/adac1a7f-d17f-4936-8a12-45628cdd8add",
+        "disabled": false,
+        "settings": {}
+      },
+      "8133853093390032344": {
+        "type": "shopify://apps/visual-quiz-builder-vqb/blocks/app-embed/82108934-e042-4d36-9032-f4f6674fae34",
+        "disabled": false,
+        "settings": {
+          "render": "shadow"
+        }
       }
     },
     "color_schemes": {

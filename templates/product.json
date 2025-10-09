@@ -108,6 +108,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         },
         "variant_picker": {
@@ -154,6 +155,25 @@
             "columns": 3,
             "image_ratio": "1/1",
             "enable_quick_add": true
+          }
+        },
+        "rich_text_cAgBnF": {
+          "type": "rich-text",
+          "settings": {
+            "text": "<h4>Description</h4>{{ product.description }}"
+          }
+        },
+        "collapsible_tab_mCf9pr": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Description",
+            "heading_size": "h4",
+            "icon": "check",
+            "content": "{{ product.description }}",
+            "page": "",
+            "default_open": true,
+            "show_below_product_media": false
           }
         },
         "collapsible-row-2": {
@@ -256,6 +276,8 @@
         "icon_with_text_UAYgQU",
         "pickup_availability",
         "complementary",
+        "rich_text_cAgBnF",
+        "collapsible_tab_mCf9pr",
         "collapsible-row-2",
         "collapsible-row-1",
         "collapsible-row-3",
