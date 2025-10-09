@@ -2317,7 +2317,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "[style*=\"product__thumbs-inner\"] > :first-child {object-fit: contain !important;}"
+      "[style*=\"--aspecttttt-ratio\"] > :first-child {object-fit: contain !important;}",
+      ".product__thumbs-inner > :first-child {object-fit: contain !important;}"
     ]
   }
 }
