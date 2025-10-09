@@ -675,7 +675,7 @@
         "description": "",
         "text_size": "text-base",
         "button_label": "All Chair Categories",
-        "button_link": "shopify://pages/all-chair-categories",
+        "button_link": "shopify://pages/office-chairs-and-tables-categories",
         "button_style": "btn--underline",
         "button_icon": "caret-right",
         "card_color_scheme": "scheme-1",
