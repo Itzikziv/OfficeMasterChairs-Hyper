@@ -596,6 +596,9 @@
     "show_separator_line": {
       "label": "Hiển thị dòng phân tách"
     },
+    "logo_sub_text": {
+      "label": "logo sub text"
+    },
     "image": {
       "label": "Hình ảnh",
       "name": "Hình ảnh",

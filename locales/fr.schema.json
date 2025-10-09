@@ -596,6 +596,9 @@
     "show_separator_line": {
       "label": "Afficher la ligne du séparateur"
     },
+    "logo_sub_text": {
+      "label": "logo sub text"
+    },
     "image": {
       "label": "Image",
       "name": "Image",
