@@ -2356,7 +2356,7 @@
     "custom_css": [
       "[style*=\"--aspecttttt-ratio\"] > :first-child {object-fit: contain !important;}",
       ".productxxxxx__thumbs-inner > :first-child {object-fit: contain !important;}",
-      "[style*=\"--aspecttttt-ratio\"]:not(.collection-card__image [style*=\"--aspecttttt-ratio\"]) > :first-child {object-fit: contain !important;}"
+      "[style*=\"--aspect-ratio\"]:not( .collection-card__image [style*=\"--aspect-ratio\"] ) > :first-child {object-fit: contain !important;}"
     ]
   }
 }
