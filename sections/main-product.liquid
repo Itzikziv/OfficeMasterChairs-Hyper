@@ -3566,3 +3566,19 @@
   ]
 }
 {% endschema %}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const model = "{{ product.selected_or_first_available_variant.sku | escape }}";
+
+    setTimeout(() => {
+      document.querySelectorAll(".optionLibraryLink").forEach((obj) => {
+        let sectionId = obj.getAttribute("optionId") || "";
+        if (sectionId) sectionId = "#" + sectionId;
+
+        obj.href = `https://www.officemasterchairs.com/pages/office-master-${model.toLowerCase()}-options-library${sectionId}`;
+        obj.target = "_blank";
+      });
+    }, 2000);
+  });
+</script>
