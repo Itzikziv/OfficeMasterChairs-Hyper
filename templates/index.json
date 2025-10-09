@@ -974,7 +974,7 @@
         "description": "<p>Discover our most popular Office Master (OM Seating) chair models</p>",
         "text_size": "text-base",
         "button_label": "View All Chairs",
-        "button_link": "shopify://pages/all-chair-categories",
+        "button_link": "shopify://pages/officemaster-om-seating-series",
         "button_style": "btn--plain",
         "button_icon": "caret-right",
         "limit": 12,
