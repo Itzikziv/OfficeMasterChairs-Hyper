@@ -157,6 +157,13 @@
         "type": "shopify://apps/impact-com/blocks/utt/adac1a7f-d17f-4936-8a12-45628cdd8add",
         "disabled": false,
         "settings": {}
+      },
+      "8133853093390032344": {
+        "type": "shopify://apps/visual-quiz-builder-vqb/blocks/app-embed/82108934-e042-4d36-9032-f4f6674fae34",
+        "disabled": false,
+        "settings": {
+          "render": "shadow"
+        }
       }
     },
     "color_schemes": {
