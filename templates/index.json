@@ -175,54 +175,6 @@
             "enable_preload_image": false
           }
         },
-        "slide_JhU8hg": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-inverse",
-            "background": "shopify://shop_images/Paramount_Value_Series_PT_Feature_4.jpg",
-            "image_overlay_opacity": 30,
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "subheading": "Proven ergonomic support at the best value",
-            "title": "Paramount Series (PT)",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "hd2",
-            "description": "",
-            "description_size": "text-base",
-            "button_label": "Shop Now",
-            "button_link": "shopify://collections/pt-value-chairs",
-            "button_style": "btn--primary",
-            "button_icon": "none",
-            "enable_preload_image": true
-          }
-        },
-        "slide_BrBzeK": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-inverse",
-            "background": "shopify://shop_images/Yes_Feature_3.jpg",
-            "image_overlay_opacity": 30,
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "subheading": "Sleek mesh comfort with sigh-worthy cushions.",
-            "title": "Yes Series (YS)",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "hd2",
-            "description": "",
-            "description_size": "text-base",
-            "button_label": "Shop Now",
-            "button_link": "shopify://collections/yes-mesh-office-chairs",
-            "button_style": "btn--primary",
-            "button_icon": "none",
-            "enable_preload_image": true
-          }
-        },
         "slide_PzpfKC": {
           "type": "slide",
           "settings": {
@@ -242,6 +194,30 @@
             "description_size": "text-base",
             "button_label": "Shop Now",
             "button_link": "shopify://collections/kingston-collection",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": true
+          }
+        },
+        "slide_JhU8hg": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "background": "shopify://shop_images/Paramount_Value_Series_PT_Feature_4.jpg",
+            "image_overlay_opacity": 30,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "subheading": "Proven ergonomic support at the best value",
+            "title": "Paramount Series (PT)",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/pt-value-chairs",
             "button_style": "btn--primary",
             "button_icon": "none",
             "enable_preload_image": true
@@ -270,14 +246,38 @@
             "button_icon": "none",
             "enable_preload_image": true
           }
+        },
+        "slide_BrBzeK": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "background": "shopify://shop_images/Yes_Feature_3.jpg",
+            "image_overlay_opacity": 30,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "subheading": "Sleek mesh comfort with sigh-worthy cushions.",
+            "title": "Yes Series (YS)",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/yes-mesh-office-chairs",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": true
+          }
         }
       },
       "block_order": [
         "slide_U9bPyj",
-        "slide_JhU8hg",
-        "slide_BrBzeK",
         "slide_PzpfKC",
-        "slide_pXBqBx"
+        "slide_JhU8hg",
+        "slide_pXBqBx",
+        "slide_BrBzeK"
       ],
       "settings": {
         "container": "full",
