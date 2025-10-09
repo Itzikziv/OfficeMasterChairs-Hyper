@@ -953,10 +953,39 @@
             "button_style": "btn--primary",
             "button_icon": "none"
           }
+        },
+        "collection_wY8W9p": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "show_banner": false,
+            "color_scheme": "scheme-1",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
         }
       },
       "block_order": [
-        "collection_CJ93Vi"
+        "collection_CJ93Vi",
+        "collection_wY8W9p"
       ],
       "name": "Chairs Best Sellers Collection",
       "settings": {
@@ -978,7 +1007,7 @@
         "button_style": "btn--plain",
         "button_icon": "caret-right",
         "limit": 12,
-        "columns": 6,
+        "columns": 5,
         "column_gap": "medium",
         "row_gap": "inherit",
         "enable_slider": true,
@@ -1213,6 +1242,77 @@
         "divider_width": "fixed",
         "padding_top": 60,
         "padding_bottom": 60
+      }
+    },
+    "featured_collection_bfTxiV": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_tFNwAi": {
+          "type": "collection",
+          "settings": {
+            "collection": "special-t-tables",
+            "title": "",
+            "show_banner": false,
+            "color_scheme": "",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collection_tFNwAi"
+      ],
+      "name": "Featured Tables",
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Popular Tables",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "<p>Discover our most popular Special T tables</p>",
+        "text_size": "text-base",
+        "button_label": "View All Tables",
+        "button_link": "shopify://pages/special-t-tables",
+        "button_style": "btn--plain",
+        "button_icon": "caret-right",
+        "limit": 12,
+        "columns": 5,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "content_overflow": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "1/1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
       }
     },
     "image_with_feature_cngPnK": {
@@ -2252,6 +2352,7 @@
     "featured_collection_KNdhc7",
     "collection_list_8wkRpn",
     "image_with_text_aXhRxw",
+    "featured_collection_bfTxiV",
     "image_with_feature_cngPnK",
     "image_with_text_bnnDLq",
     "1758007128d61203df",
