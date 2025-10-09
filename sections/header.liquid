@@ -79,9 +79,9 @@
     {%- endif -%}
 
     {%- if request.page_type == 'index' -%}
-      <h1 class="header__logo flex justify-center items-center z-1">
+      <h1 class="header__logo flex flex-col justify-center items-center z-1">
     {%- else -%}
-      <div class="header__logo flex justify-center items-center z-1">
+      <div class="header__logo flex flex-col justify-center items-center z-1">
     {%- endif -%}
     {%- if section.settings.header_layout == 'logo-left' or section.settings.header_layout == 'logo-left-search-center' and section.settings.enable_collapse_on_scroll -%}
       <button
@@ -137,6 +137,7 @@
       </h1>
     {%- else -%}
       </div>
+      <div class="text-sm text-subtext rte">An Authorized OM Seating and Special-T Dealer</div>
     {%- endif -%}
 
     <div class="header__search flex items-center z-2">
