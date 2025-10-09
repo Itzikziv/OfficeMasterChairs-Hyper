@@ -2354,7 +2354,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "[style*=\"--aspect-ratio\"]:not(.collection-card__image [style*=\"--aspect-ratio\"]) > :first-child {object-fit: contain !important;}"
+      "[style*=\"--aspect-ratio\"]:not(.collection-card__image [style*=\"--aspect-ratio\"]) > :first-child {object-fit: contain !important;}",
+      "@media (min-width: 768px) {.product__media, .product__media-wrapper, .product__media img {padding: 1rem; box-sizing: border-box; }}"
     ]
   }
 }
