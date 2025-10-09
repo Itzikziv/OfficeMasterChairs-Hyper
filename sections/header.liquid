@@ -19,6 +19,10 @@
 
   assign logo_sub_text =  section.settings.logo_sub_text
 
+  if logo_sub_text == "empty"
+    assign logo_sub_text = ''
+  endif
+
   if section.settings.show_sperator_line
     assign classes = classes | append: ' header--show-sperator-line'
   endif
@@ -136,9 +140,14 @@
       {%- endif -%}
     </a>
     {%- if request.page_type == 'index' -%}
+        {%- if logo_sub_text and logo_sub_text != blank -%}
+          <div class="text-sm text-subtext rte">{{ logo_sub_text }}</div>
+        {%- endif -%}
       </h1>
     {%- else -%}
-        <div class="text-sm text-subtext rte">An Authorized OM Seating and Special-T Dealer</div>
+        {%- if logo_sub_text and logo_sub_text != blank -%}
+          <div class="text-sm text-subtext rte">{{ logo_sub_text }}</div>
+        {%- endif -%}
       </div>
 
     {%- endif -%}
