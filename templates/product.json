@@ -162,9 +162,9 @@
             "heading": "Features",
             "heading_size": "h4",
             "icon": "none",
-            "content": "{{ product.metafields.custom.product_features_tab | metafield_tag }}",
+            "content": "<p>{{ product.metafields.custom.product_features_tab | metafield_tag }}</p>",
             "page": "",
-            "default_open": false,
+            "default_open": true,
             "show_below_product_media": true
           }
         },
@@ -722,6 +722,8 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget",
             "max_width": 1200
           }
         }

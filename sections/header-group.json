@@ -24,10 +24,23 @@
             "highlight_text_color": "#c4301c",
             "highlight_text_background_color": "#f0f2ff"
           }
+        },
+        "text_THRgyL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Welcome to our store",
+            "position": "center",
+            "highlight_text": "",
+            "highlight_text_style": "button",
+            "highlight_text_color": "",
+            "highlight_text_background_color": ""
+          }
         }
       },
       "block_order": [
-        "text_Ahn3nP"
+        "text_Ahn3nP",
+        "text_THRgyL"
       ],
       "custom_css": [],
       "settings": {
@@ -36,6 +49,47 @@
         "show_separator_line": false,
         "padding_top": 12,
         "padding_bottom": 12
+      }
+    },
+    "scrolling_promotion_4ckndH": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "text_HzVFr8": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "Shopping for business? Check out",
+            "text_size": "text-base",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
+        "image_J99JUE": {
+          "type": "image",
+          "settings": {
+            "image_height": 100,
+            "image_rounded": false,
+            "image_link": "",
+            "image_height_mobile": 60
+          }
+        }
+      },
+      "block_order": [
+        "text_HzVFr8",
+        "image_J99JUE"
+      ],
+      "disabled": true,
+      "name": "t:sections.scrolling-promotion.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "direction": "left",
+        "pause_on_hover": true,
+        "speed": 0.1,
+        "h_spacing": 0,
+        "show_section_divider": false,
+        "padding_top": 10,
+        "padding_bottom": 10
       }
     },
     "header": {
@@ -394,6 +448,7 @@
   },
   "order": [
     "topbar_3YD96h",
+    "scrolling_promotion_4ckndH",
     "header"
   ]
 }
