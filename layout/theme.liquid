@@ -93,7 +93,7 @@
     {{ shop.metafields.foxtheme.code_head.value }}
     {% comment %} End custom metafield for head tag like GTag tracking {% endcomment %}
     {% render 'rapid-search-settings' %}
-</head>
+{% include 'hulk_po_vd' %}</head>
 
   <body
     class="{{ request.page_type }}-template {{ template.suffix }} blocks-corner--{{ settings.blocks_corner_radius }}{% if request.design_mode %} shopify-design-mode{% endif %}"
