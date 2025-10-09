@@ -146,12 +146,9 @@
           </div>
         {%- endif -%}
         {%- if logo_sub_text and logo_sub_text != blank -%}
-          <div class="text-sm text-subtext rte">{{ logo_sub_text }}</div>
+          <div class="logo-sub-text text-sm-extra font-italicÎ text-subtext rte">{{ logo_sub_text }}</div>
         {%- endif -%}
     </div>
-
-
-
 
     <div class="header__search flex items-center z-2">
       {%- if section.settings.header_layout == 'logo-center' and section.settings.enable_collapse_on_scroll -%}
