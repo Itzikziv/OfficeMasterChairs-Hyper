@@ -956,6 +956,7 @@
         },
         "collection_wY8W9p": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "title": "",
