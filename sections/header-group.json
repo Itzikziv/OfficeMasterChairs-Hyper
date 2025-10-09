@@ -423,7 +423,7 @@
         "promotion_banner_PLwaD8"
       ],
       "settings": {
-        "container": "full",
+        "container": "fixed",
         "color_scheme": "scheme-1",
         "menu": "main-menu-live-copy",
         "menu_mobile": "",
