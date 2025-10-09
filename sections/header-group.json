@@ -38,6 +38,61 @@
         "padding_bottom": 12
       }
     },
+    "scrolling_promotion_4ckndH": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "text_HzVFr8": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "Free Shipping on Almost All Orders",
+            "text_size": "text-base",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
+        "text_HBtgUy": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "|",
+            "text_size": "text-base",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
+        "text_YgyQqq": {
+          "type": "text",
+          "settings": {
+            "text_link": "",
+            "text": "Shop for business",
+            "text_size": "text-base",
+            "text_opacity": 100,
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "text_HzVFr8",
+        "text_HBtgUy",
+        "text_YgyQqq"
+      ],
+      "disabled": true,
+      "name": "t:sections.scrolling-promotion.name",
+      "settings": {
+        "color_scheme": "",
+        "direction": "left",
+        "pause_on_hover": true,
+        "speed": 0.1,
+        "h_spacing": 0,
+        "show_section_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "header": {
       "type": "header",
       "blocks": {
@@ -394,6 +449,7 @@
   },
   "order": [
     "topbar_3YD96h",
+    "scrolling_promotion_4ckndH",
     "header"
   ]
 }
