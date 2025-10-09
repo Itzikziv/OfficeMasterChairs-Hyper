@@ -2355,7 +2355,8 @@
   "platform_customizations": {
     "custom_css": [
       "[style*=\"--aspecttttt-ratio\"] > :first-child {object-fit: contain !important;}",
-      ".product__thumbs-inner > :first-child {object-fit: contain !important;}"
+      ".productxxxxx__thumbs-inner > :first-child {object-fit: contain !important;}",
+      "[style*=\"--aspecttttt-ratio\"]:not(.collection-card__image [style*=\"--aspecttttt-ratio\"]) > :first-child {object-fit: contain !important;}"
     ]
   }
 }
