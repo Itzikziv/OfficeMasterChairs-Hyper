@@ -406,6 +406,7 @@
         },
         "image_with_text_zW4LXG": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "navigation_title": "Adjustment Guide",
             "image": "{{ product.metafields.custom.product_mechanism_image.value }}",
