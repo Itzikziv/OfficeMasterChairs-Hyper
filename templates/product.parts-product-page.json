@@ -98,7 +98,7 @@
             "heading_size": "h5",
             "description": "<p><em>Your payment information is processed securely. We do not store credit card details nor have access to your credit card information.</em></p>",
             "show_payment_icons": true,
-            "show_below_product_media": false
+            "show_below_product_media": true
           }
         },
         "rich_text_GKTNWc": {
@@ -109,7 +109,14 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
+        },
+        "rich_text_3eW8rB": {
+          "type": "rich-text",
+          "settings": {
+            "text": "<h4>Description</h4><p>{{ product.description }}</p>"
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -257,6 +264,7 @@
         "payment_info",
         "rich_text_GKTNWc",
         "description",
+        "rich_text_3eW8rB",
         "variant_picker",
         "icon_with_text_UAYgQU",
         "pickup_availability",

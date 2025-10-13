@@ -108,7 +108,14 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
+        },
+        "rich_text_pBTeHR": {
+          "type": "rich-text",
+          "settings": {
+            "text": "<h4>Description</h4><p>{{ product.description }}</p>"
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -257,6 +264,7 @@
         "promotion_alert_L7ipQp",
         "payment_info",
         "description",
+        "rich_text_pBTeHR",
         "variant_picker",
         "icon_with_text_UAYgQU",
         "pickup_availability",
