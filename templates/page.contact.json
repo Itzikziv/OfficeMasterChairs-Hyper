@@ -39,7 +39,7 @@
             "position": "right",
             "heading": "Need Help?",
             "heading_size": "h3",
-            "text": "<p>Feel free to reach out to us via email, chat, or phone and we will be happy to assist you!</p>",
+            "text": "<p>Feel free to reach out to us via email or chat, and we will be happy to assist you!</p>",
             "text_size": "text-base",
             "icon_1": "none",
             "icon_width_1": 32,
