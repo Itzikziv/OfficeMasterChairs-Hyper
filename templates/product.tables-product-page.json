@@ -675,6 +675,184 @@
         "divider_width": "fixed"
       }
     },
+    "comparison_table_dDRPPg": {
+      "type": "comparison-table",
+      "blocks": {
+        "heading_CPFEDJ": {
+          "type": "heading",
+          "settings": {
+            "icon-1": "none",
+            "title-1": "Price",
+            "icon-2": "none",
+            "title-2": "Seat Height",
+            "icon-3": "none",
+            "title-3": "Adjustability",
+            "icon-4": "none",
+            "title-4": "Overall Dimensions",
+            "icon-5": "none",
+            "title-5": "Intended User Size",
+            "icon-6": "none",
+            "title-6": "Weight Capacity",
+            "icon-7": "none",
+            "title-7": "Warranty",
+            "icon-8": "chat",
+            "title-8": "",
+            "icon-9": "chat",
+            "title-9": "",
+            "icon-10": "chat",
+            "title-10": ""
+          }
+        },
+        "content_bzxehr": {
+          "type": "content",
+          "settings": {
+            "product": "office-master-pt79-paramount-value-extra-tall-back-multi-function-chair",
+            "text-1": "<p>$699.99</p>",
+            "text-2": "<p>17-23\"</p>",
+            "text-3": "<ul><li>Height</li><li>Back</li><li>Test</li><li>Test</li><li>Test</li></ul>",
+            "text-4": "<p>18-45\"</p>",
+            "text-5": "<p>Up to 1,000 nits</p>",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_7cDVnc": {
+          "type": "content",
+          "settings": {
+            "product": "office-master-ptym-paramount-value-mid-back-ergonomic-office-chair",
+            "text-1": "<p>Inspired to create a chair where the back and arms are moulded</p>",
+            "text-2": "<p>46mm or 42mm</p>",
+            "text-3": "<p>Up to 18 hours</p>",
+            "text-4": "<p>S10 SiP</p>",
+            "text-5": "<p>Up to 2,000 nits</p>",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_4LQWnd": {
+          "type": "content",
+          "settings": {
+            "product": "office-master-pt69-paramount-value-high-back-ergonomic-office-chair",
+            "text-1": "<p>$499.99</p>",
+            "text-2": "<p>18\"-22\"</p>",
+            "text-3": "<ul><li>Height</li><li>Back</li><li>Test</li><li>Test</li><li>Test</li></ul>",
+            "text-4": "<p>S9 SiP</p>",
+            "text-5": "<p>Up to 3,000 nits</p>",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_CPFEDJ",
+        "content_bzxehr",
+        "content_7cDVnc",
+        "content_4LQWnd"
+      ],
+      "disabled": true,
+      "name": "t:sections.comparison-table.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "standing-column",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Recommended Chairs for Your Table",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "<p>Compare similar products within the Paramount Collection</p>",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "icon_size": 20,
+        "text_line_limit": "2-lines",
+        "show_view_more_button": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "featured_products_tab_By89HA": {
+      "type": "featured-products-tab",
+      "blocks": {
+        "tab_yHQtdD": {
+          "type": "tab",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "title": "Office Master PT78 Ergonomic High Back Chair",
+            "products": [
+              "office-master-pt78-paramount-value-high-back-office-chair"
+            ]
+          }
+        },
+        "tab_hV8EbN": {
+          "type": "tab",
+          "settings": {
+            "color_scheme": "",
+            "title": "Office Master YS89 Mesh High Back Chair",
+            "products": [
+              "office-master-ys89-yes-mesh-high-back-ergonomic-office-chair-with-headrest"
+            ]
+          }
+        },
+        "tab_DQ7PgE": {
+          "type": "tab",
+          "settings": {
+            "color_scheme": "",
+            "title": "OM5 Evolved Self Weighing Chair",
+            "products": [
+              "office-master-om5-ergonomic-self-weighing-mid-back-task-chair"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "tab_yHQtdD",
+        "tab_hV8EbN",
+        "tab_DQ7PgE"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured-products-tab.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "subheading": "",
+        "heading": "What chair pairs best with your table?",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "<p>We've made it easy to complete your workspace setup. Check out the recommended chairs to match your table:</p>",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "pcard_image_ratio": "1/1",
+        "swipe_on_mobile": true,
+        "show_section_divider": true,
+        "divider_width": "fixed",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "image_with_feature_VVEak8": {
       "type": "image-with-feature",
       "blocks": {
@@ -797,119 +975,6 @@
         "include_margins": true,
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "comparison_table_dDRPPg": {
-      "type": "comparison-table",
-      "blocks": {
-        "heading_CPFEDJ": {
-          "type": "heading",
-          "settings": {
-            "icon-1": "none",
-            "title-1": "Price",
-            "icon-2": "none",
-            "title-2": "Seat Height",
-            "icon-3": "none",
-            "title-3": "Adjustability",
-            "icon-4": "none",
-            "title-4": "Overall Dimensions",
-            "icon-5": "none",
-            "title-5": "Intended User Size",
-            "icon-6": "none",
-            "title-6": "Weight Capacity",
-            "icon-7": "none",
-            "title-7": "Warranty",
-            "icon-8": "chat",
-            "title-8": "",
-            "icon-9": "chat",
-            "title-9": "",
-            "icon-10": "chat",
-            "title-10": ""
-          }
-        },
-        "content_bzxehr": {
-          "type": "content",
-          "settings": {
-            "product": "office-master-pt79-paramount-value-extra-tall-back-multi-function-chair",
-            "text-1": "<p>$699.99</p>",
-            "text-2": "<p>17-23\"</p>",
-            "text-3": "<ul><li>Height</li><li>Back</li><li>Test</li><li>Test</li><li>Test</li></ul>",
-            "text-4": "<p>18-45\"</p>",
-            "text-5": "<p>Up to 1,000 nits</p>",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_7cDVnc": {
-          "type": "content",
-          "settings": {
-            "product": "office-master-ptym-paramount-value-mid-back-ergonomic-office-chair",
-            "text-1": "<p>Inspired to create a chair where the back and arms are moulded</p>",
-            "text-2": "<p>46mm or 42mm</p>",
-            "text-3": "<p>Up to 18 hours</p>",
-            "text-4": "<p>S10 SiP</p>",
-            "text-5": "<p>Up to 2,000 nits</p>",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_4LQWnd": {
-          "type": "content",
-          "settings": {
-            "product": "office-master-pt69-paramount-value-high-back-ergonomic-office-chair",
-            "text-1": "<p>$499.99</p>",
-            "text-2": "<p>18\"-22\"</p>",
-            "text-3": "<ul><li>Height</li><li>Back</li><li>Test</li><li>Test</li><li>Test</li></ul>",
-            "text-4": "<p>S9 SiP</p>",
-            "text-5": "<p>Up to 3,000 nits</p>",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_CPFEDJ",
-        "content_bzxehr",
-        "content_7cDVnc",
-        "content_4LQWnd"
-      ],
-      "disabled": true,
-      "name": "t:sections.comparison-table.name",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "header_layout": "horizontal",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Comparison Table",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h1",
-        "description": "<p>Compare similar products within the Paramount Collection</p>",
-        "text_size": "text-base",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn--primary",
-        "button_icon": "none",
-        "icon_size": 20,
-        "text_line_limit": "2-lines",
-        "show_view_more_button": true,
-        "show_section_divider": false,
-        "divider_width": "fixed",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     },
     "collapsible_tabs_pkbGAq": {
@@ -1082,9 +1147,10 @@
     "slideshow_VGhFGA",
     "image_with_text_overlay_Cqtc4P",
     "rich_text_Edz7aR",
+    "comparison_table_dDRPPg",
+    "featured_products_tab_By89HA",
     "image_with_feature_VVEak8",
     "1758007826e5a7d4fb",
-    "comparison_table_dDRPPg",
     "collapsible_tabs_pkbGAq",
     "related-products"
   ]
