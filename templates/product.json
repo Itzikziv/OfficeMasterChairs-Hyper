@@ -45,21 +45,6 @@
           "type": "price",
           "settings": {}
         },
-        "icon_with_text": {
-          "type": "icon-with-text",
-          "disabled": true,
-          "settings": {
-            "layout": "horizontal",
-            "title_font": "body-bolder",
-            "title_size": "text-base",
-            "icon_1": "check",
-            "heading_1": "Modern",
-            "icon_2": "check",
-            "heading_2": "Eco-certified",
-            "icon_3": "check",
-            "heading_3": "Warranty"
-          }
-        },
         "inventory": {
           "type": "inventory",
           "settings": {
@@ -266,7 +251,6 @@
         "meta",
         "judge_me_reviews_preview_badge_affX98",
         "price",
-        "icon_with_text",
         "inventory",
         "buy_buttons",
         "rich_text_nMAWNA",
