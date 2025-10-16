@@ -47,6 +47,7 @@
         },
         "custom_liquid_Bantdx": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.metafields.custom.free_shipping == true or product.tags contains 'Free Shipping' %}\n  <div class=\"free-shipping-badge\">\n    🚚 Free Shipping\n  </div>\n{% endif %}"
           }
