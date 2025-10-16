@@ -270,7 +270,8 @@
       "xr_button": "View in your space",
       "xr_button_label": "View in your space, loads item in augmented reality window",
       "include_taxes": "Tax included.",
-      "shipping_policy_html": "Taxes and <a href=\"{{ link }}\" class=\"btn--link text-sm-extra\">shipping</a> calculated at checkout",
+      "shipping_policy_html_orig": "Taxes and <a href=\"{{ link }}\" class=\"btn--link text-sm-extra\">shipping</a> calculated at checkout",
+      "shipping_policy_html": "",
       "free_policy_html": "\uD83D\uDE9A Free Shipping"
     },
     "compare": {
