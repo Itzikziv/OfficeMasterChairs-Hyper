@@ -102,7 +102,11 @@
               {%- if cart.taxes_included -%}
                 {{ 'products.product.include_taxes' | t }}
               {%- endif -%}
-              {%- if shop.shipping_policy.body != blank -%}
+              %- if product.metafields.custom.free_shipping == true or product.tags contains 'Free Shipping' -%}
+                <div class="free-shipping-badge">
+                  {{ 'products.product.free_policy_html' }}
+                </div>
+              {%- elsif shop.shipping_policy.body != blank -%}
                 {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
               {%- endif -%}
             </div>
