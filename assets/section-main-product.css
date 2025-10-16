@@ -130,7 +130,8 @@ product-info.use-color-scheme-in-container > .product {
 }
 
 .product__block {
-  --product-blocks-gap: 2.4rem;
+  /*--product-blocks-gap: 2.4rem;*/
+  --product-blocks-gap: 1.2rem;
   margin: var(--product-blocks-gap) 0;
 }
 .product__block iframe {
