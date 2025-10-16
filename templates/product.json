@@ -45,6 +45,12 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_Bantdx": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.free_shipping == true or product.tags contains 'Free Shipping' %}\n  <div class=\"free-shipping-badge\">\n    🚚 Free Shipping\n  </div>\n{% endif %}"
+          }
+        },
         "inventory": {
           "type": "inventory",
           "settings": {
@@ -251,6 +257,7 @@
         "meta",
         "judge_me_reviews_preview_badge_affX98",
         "price",
+        "custom_liquid_Bantdx",
         "inventory",
         "buy_buttons",
         "rich_text_nMAWNA",
