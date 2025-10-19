@@ -1014,7 +1014,7 @@
         "heading_size": "h2",
         "description": "",
         "limit": 6,
-        "columns": 4,
+        "columns": 5,
         "column_gap": "medium",
         "row_gap": "inherit",
         "enable_slider": true,
