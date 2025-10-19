@@ -1001,7 +1001,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "container": "fixed",
+        "container": "full",
         "color_scheme": "scheme-1",
         "section_header_alignment": "left",
         "section_header_alignment_mobile": "inherit",
@@ -1024,7 +1024,7 @@
         "swipe_on_mobile": true,
         "show_progress_bar": true,
         "padding_top": 60,
-        "padding_bottom": 50,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
