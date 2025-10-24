@@ -639,13 +639,13 @@
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
-            "heading_size": "h5"
+            "heading_size": "h3"
           }
         },
         "text_ARVMcW": {
           "type": "text",
           "settings": {
-            "text": "<p>Don’t see the table you need? We can source any Special-T model or custom configuration. Reach out via chat or email and we’ll help right away.</p>",
+            "text": "<p>Don’t see the table you need? We can source any Special-T model or custom configuration. Reach out via chat or <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">contact us</a> and we’ll help right away.</p>",
             "text_size": "text-base",
             "text_line_limit": "none",
             "button_style": "btn--underline",
@@ -762,6 +762,7 @@
         },
         "content_ee9XXd": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "product": "",
             "text-1": "",
