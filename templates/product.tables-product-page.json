@@ -639,13 +639,13 @@
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
-            "heading_size": "h3"
+            "heading_size": "h5"
           }
         },
         "text_ARVMcW": {
           "type": "text",
           "settings": {
-            "text": "<p>While we don’t have the entire Special T catalog live on our site just yet, we can still help you find exactly what you need. If you’re looking for a specific table or custom configuration, our team can source it directly from Special T and create an order for you. You can easily reach out to us via chat and we’ll help you right away, or use the button below to get in touch.</p>",
+            "text": "<p>Don’t see the table you need? We can source any Special-T model or custom configuration. Reach out via chat or email and we’ll help right away.</p>",
             "text_size": "text-base",
             "text_line_limit": "none",
             "button_style": "btn--underline",
@@ -654,10 +654,11 @@
         },
         "button_JqkP67": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Contact Us",
             "button_link": "shopify://pages/contact",
-            "button_style": "btn--primary",
+            "button_style": "btn--underline",
             "button_icon": "none"
           }
         }
@@ -675,10 +676,10 @@
         "container": "fixed",
         "color_scheme": "scheme-2",
         "use_color_scheme_in_container": false,
-        "content_spacing": "fitted",
+        "content_spacing": "tight",
         "content_alignment": "left",
-        "padding_top": 28,
-        "padding_bottom": 28,
+        "padding_top": 18,
+        "padding_bottom": 18,
         "show_section_divider": true,
         "divider_width": "fixed"
       }
@@ -692,17 +693,17 @@
             "icon-1": "none",
             "title-1": "Price",
             "icon-2": "none",
-            "title-2": "Seat Height",
+            "title-2": "Features",
             "icon-3": "none",
-            "title-3": "Adjustability",
+            "title-3": "Specifications",
             "icon-4": "none",
-            "title-4": "Overall Dimensions",
+            "title-4": "Intended User Size",
             "icon-5": "none",
-            "title-5": "Intended User Size",
+            "title-5": "Warranty",
             "icon-6": "none",
-            "title-6": "Weight Capacity",
+            "title-6": "",
             "icon-7": "none",
-            "title-7": "Warranty",
+            "title-7": "",
             "icon-8": "chat",
             "title-8": "",
             "icon-9": "chat",
@@ -714,12 +715,12 @@
         "content_bzxehr": {
           "type": "content",
           "settings": {
-            "product": "office-master-pt79-paramount-value-extra-tall-back-multi-function-chair",
+            "product": "{{ product.metafields.custom.chair_recommendation_1.value }}",
             "text-1": "<p>$699.99</p>",
-            "text-2": "<p>17-23\"</p>",
-            "text-3": "<ul><li>Height</li><li>Back</li><li>Test</li><li>Test</li><li>Test</li></ul>",
-            "text-4": "<p>18-45\"</p>",
-            "text-5": "<p>Up to 1,000 nits</p>",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "<p>Average User</p>",
+            "text-5": "{{ block.settings.product.metafields.custom.product_warranty_tab | metafield_tag }}",
             "text-6": "",
             "text-7": "",
             "text-8": "",
@@ -730,7 +731,7 @@
         "content_7cDVnc": {
           "type": "content",
           "settings": {
-            "product": "office-master-ptym-paramount-value-mid-back-ergonomic-office-chair",
+            "product": "{{ product.metafields.custom.chair_recommendation_2.value }}",
             "text-1": "<p>Inspired to create a chair where the back and arms are moulded</p>",
             "text-2": "<p>46mm or 42mm</p>",
             "text-3": "<p>Up to 18 hours</p>",
@@ -746,12 +747,28 @@
         "content_4LQWnd": {
           "type": "content",
           "settings": {
-            "product": "office-master-pt69-paramount-value-high-back-ergonomic-office-chair",
+            "product": "{{ product.metafields.custom.chair_recommendation_3.value }}",
             "text-1": "<p>$499.99</p>",
             "text-2": "<p>18\"-22\"</p>",
             "text-3": "<ul><li>Height</li><li>Back</li><li>Test</li><li>Test</li><li>Test</li></ul>",
             "text-4": "<p>S9 SiP</p>",
             "text-5": "<p>Up to 3,000 nits</p>",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_ee9XXd": {
+          "type": "content",
+          "settings": {
+            "product": "",
+            "text-1": "",
+            "text-2": "",
+            "text-3": "",
+            "text-4": "",
+            "text-5": "",
             "text-6": "",
             "text-7": "",
             "text-8": "",
@@ -764,14 +781,14 @@
         "heading_CPFEDJ",
         "content_bzxehr",
         "content_7cDVnc",
-        "content_4LQWnd"
+        "content_4LQWnd",
+        "content_ee9XXd"
       ],
-      "disabled": true,
       "name": "t:sections.comparison-table.name",
       "settings": {
         "container": "fixed",
         "color_scheme": "",
-        "header_layout": "standing-column",
+        "header_layout": "horizontal",
         "section_header_alignment": "left",
         "section_header_alignment_mobile": "inherit",
         "subheading": "",
@@ -780,19 +797,19 @@
         "highlight_font_style": "italic",
         "highlight_style_color": "",
         "highlight_text_color": "",
-        "heading_size": "h1",
-        "description": "<p>Compare similar products within the Paramount Collection</p>",
+        "heading_size": "h3",
+        "description": "<p>Compare our recommended seating options for this table. Each chair listed below has been selected for its ergonomic performance, build quality, and suitability for professional settings.</p>",
         "text_size": "text-base",
         "button_label": "",
         "button_link": "",
         "button_style": "btn--primary",
         "button_icon": "none",
-        "icon_size": 20,
-        "text_line_limit": "2-lines",
+        "icon_size": 10,
+        "text_line_limit": "4-lines",
         "show_view_more_button": true,
-        "show_section_divider": false,
+        "show_section_divider": true,
         "divider_width": "fixed",
-        "padding_top": 50,
+        "padding_top": 80,
         "padding_bottom": 50
       }
     },
