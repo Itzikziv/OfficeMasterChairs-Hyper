@@ -368,6 +368,9 @@
         "promotion_banner_Q9ha6m",
         "promotion_banner_PLwaD8"
       ],
+      "custom_css": [
+        "@media (max-width: 749px) {.logo-sub-text {display: none !important; }}"
+      ],
       "settings": {
         "container": "fixed",
         "color_scheme": "scheme-1",
