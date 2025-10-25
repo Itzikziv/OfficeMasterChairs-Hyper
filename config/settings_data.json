@@ -2362,11 +2362,9 @@
   "platform_customizations": {
     "custom_css": [
       "[style*=\"--aspect-ratio\"]:not(.collection-card__image [style*=\"--aspect-ratio\"]) > :first-child {object-fit: contain !important;}",
-      "/* make sure not to exceed the image actual size. fix the tall/wide images issue (tables vs chairs) */.product__media,.product__media-wrapper,.product__media img {width: auto; height: auto; max-width: 100%; max-height: 100%; display: block; margin: 0 auto; object-fit: contain;}",
-      "@media screen and (max-width: 749px) {.product__media, .product__media-wrapper, .product__media img {width: 100% !important; height: 100% !important; object-fit: contain !important; }}",
-      ".page-width-xxx,.container-xxx,.main-content-wrapper-xxx {max-width: 14000px; margin: 0 auto; width: 100%;}",
-      ".page-width-xxx {margin: 0 auto; padding-inline: 0;}",
-      ".free-shipping-badge {color: #16a34a; /* green */ font-weight: 600; /* font-size: 1rem; margin: 0em; */}",
+      "@media screen and (min-width: 750px) {.product__media, .product__media-wrapper, .product__media img {width: auto; height: auto; max-width: 100%; max-height: 100%; display: block; margin: 0 auto; object-fit: contain; }}",
+      "@media screen and (max-width: 749px) {.product__media-gallery-viewer-wrap {max-height: 60vh !important; /* adjust 55–70vh to taste */ position: relative !important; overflow: hidden !important; } .product__media-gallery-viewer-wrap .swiper, .product__media-gallery-viewer-wrap .swiper-wrapper, .product__media-gallery-viewer-wrap .swiper-slide {height: auto !important; } .product__media-gallery-viewer-wrap .media, .product__media-gallery-viewer-wrap img {width: 100% !important; height: auto !important; object-fit: contain !important; display: block !important; } .product__media-thumbnails {position: static !important; margin-top: 12px !important; z-index: 1 !important; } .product__media-gallery {margin-bottom: 1.5rem !important; }}",
+      ".free-shipping-badge {color: #16a34a; /* green */ font-weight: 600;}",
       "/* Fix uneven product image sizes in \"You May Also Like\" section */.related-products .media-wrapper.loaded {aspect-ratio: 1 / 1;}",
       ".related-products .products-grid-wrap.swiper {overflow: hidden !important;}",
       "@media screen and (max-width: 749px) {.product__media-gallery-viewer-wrap {max-height: 65vh !important; /* cap gallery height to 65% of viewport */ } .product__media-gallery-viewer-wrap img {height: auto !important; width: 100% !important; object-fit: contain !important; }}"
