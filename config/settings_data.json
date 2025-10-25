@@ -2368,8 +2368,7 @@
       ".page-width-xxx {margin: 0 auto; padding-inline: 0;}",
       ".free-shipping-badge {color: #16a34a; /* green */ font-weight: 600; /* font-size: 1rem; margin: 0em; */}",
       "/* Fix uneven product image sizes in \"You May Also Like\" section */.related-products .media-wrapper.loaded {aspect-ratio: 1 / 1;}",
-      ".related-products .products-grid-wrap.swiper {overflow: hidden !important;}",
-      "@media screen and (max-width: 749px) {.product__media-gallery-viewer-wrap {max-height: 65vh !important; /* cap gallery height to 65% of viewport */ } .product__media-gallery-viewer-wrap img {height: auto !important; width: 100% !important; object-fit: contain !important; }}"
+      ".related-products .products-grid-wrap.swiper {overflow: hidden !important;}"
     ]
   }
 }
