@@ -2369,7 +2369,7 @@
       ".free-shipping-badge {color: #16a34a; /* green */ font-weight: 600; /* font-size: 1rem; margin: 0em; */}",
       "/* Fix uneven product image sizes in \"You May Also Like\" section */.related-products .media-wrapper.loaded {aspect-ratio: 1 / 1;}",
       ".related-products .products-grid-wrap.swiper {overflow: hidden !important;}",
-      "@media screen and (max-width: 749px) {/* Limit total gallery height without cropping */ .product__media-gallery-viewer-wrap {max-height: 65vh !important; /* or try 60vh for smaller look */ overflow: visible !important; } /* Let image scale naturally within the capped area */ .product__media-gallery-viewer-wrap img {height: auto !important; width: 100% !important; object-fit: contain !important; } /* Ensure spacing below gallery */ .product__media-gallery {margin-bottom: 1.5rem !important; }}"
+      "@media screen and (max-width: 749px) {.product__media-gallery-viewer-wrap {max-height: 65vh !important; overflow: hidden !important; position: relative !important; } .product__media-gallery-viewer-wrap img {width: 100% !important; height: auto !important; object-fit: contain !important; display: block !important; margin: 0 auto !important; } .product__media-thumbnails, .product__media-gallery .swiper-wrapper {position: relative !important; margin-top: 10px !important; /* space between image and thumbs */ z-index: 2 !important; } .product__media-gallery {margin-bottom: 1.5rem !important; }}"
     ]
   }
 }
