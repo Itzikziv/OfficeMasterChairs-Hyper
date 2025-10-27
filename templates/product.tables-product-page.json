@@ -707,7 +707,7 @@
         "content_ee9XXd": {
           "type": "content",
           "settings": {
-            "product": "",
+            "product": "{{ product.metafields.custom.chair_recommendation_4.value }}",
             "text-1": "",
             "text-2": "",
             "text-3": "",
