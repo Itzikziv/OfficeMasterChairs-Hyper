@@ -784,6 +784,7 @@
         "content_4LQWnd",
         "content_ee9XXd"
       ],
+      "disabled": true,
       "name": "t:sections.comparison-table.name",
       "settings": {
         "container": "fixed",
