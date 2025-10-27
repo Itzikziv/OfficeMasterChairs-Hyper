@@ -628,6 +628,135 @@
         "enable_preload_image": false
       }
     },
+    "comparison_table_dDRPPg": {
+      "type": "comparison-table",
+      "blocks": {
+        "heading_CPFEDJ": {
+          "type": "heading",
+          "settings": {
+            "icon-1": "none",
+            "title-1": "Price",
+            "icon-2": "none",
+            "title-2": "Features",
+            "icon-3": "none",
+            "title-3": "Specifications",
+            "icon-4": "none",
+            "title-4": "Intended User Size",
+            "icon-5": "none",
+            "title-5": "Warranty",
+            "icon-6": "none",
+            "title-6": "",
+            "icon-7": "none",
+            "title-7": "",
+            "icon-8": "chat",
+            "title-8": "",
+            "icon-9": "chat",
+            "title-9": "",
+            "icon-10": "chat",
+            "title-10": ""
+          }
+        },
+        "content_bzxehr": {
+          "type": "content",
+          "settings": {
+            "product": "{{ product.metafields.custom.chair_recommendation_1.value }}",
+            "text-1": "",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "<p>Average User</p>",
+            "text-5": "{{ block.settings.product.metafields.custom.product_warranty_tab | metafield_tag }}",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_7cDVnc": {
+          "type": "content",
+          "settings": {
+            "product": "{{ product.metafields.custom.chair_recommendation_2.value }}",
+            "text-1": "",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "<p>Average User</p>",
+            "text-5": "{{ block.settings.product.metafields.custom.product_warranty_tab | metafield_tag }}",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_4LQWnd": {
+          "type": "content",
+          "settings": {
+            "product": "{{ product.metafields.custom.chair_recommendation_3.value }}",
+            "text-1": "",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "<p>Average User</p>",
+            "text-5": "{{ block.settings.product.metafields.custom.product_warranty_tab | metafield_tag }}",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_ee9XXd": {
+          "type": "content",
+          "settings": {
+            "product": "",
+            "text-1": "",
+            "text-2": "",
+            "text-3": "",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_CPFEDJ",
+        "content_bzxehr",
+        "content_7cDVnc",
+        "content_4LQWnd",
+        "content_ee9XXd"
+      ],
+      "name": "t:sections.comparison-table.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "header_layout": "horizontal",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Recommended Chairs for Your Table",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "<p>Compare our recommended seating options for this table. Each chair listed below has been selected for its ergonomic performance, build quality, and suitability for professional settings.</p>",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "icon_size": 10,
+        "text_line_limit": "4-lines",
+        "show_view_more_button": true,
+        "show_section_divider": true,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 50
+      }
+    },
     "rich_text_Edz7aR": {
       "type": "rich-text",
       "blocks": {
@@ -682,137 +811,6 @@
         "padding_bottom": 20,
         "show_section_divider": true,
         "divider_width": "fixed"
-      }
-    },
-    "comparison_table_dDRPPg": {
-      "type": "comparison-table",
-      "blocks": {
-        "heading_CPFEDJ": {
-          "type": "heading",
-          "settings": {
-            "icon-1": "none",
-            "title-1": "Price",
-            "icon-2": "none",
-            "title-2": "Features",
-            "icon-3": "none",
-            "title-3": "Specifications",
-            "icon-4": "none",
-            "title-4": "Intended User Size",
-            "icon-5": "none",
-            "title-5": "Warranty",
-            "icon-6": "none",
-            "title-6": "",
-            "icon-7": "none",
-            "title-7": "",
-            "icon-8": "chat",
-            "title-8": "",
-            "icon-9": "chat",
-            "title-9": "",
-            "icon-10": "chat",
-            "title-10": ""
-          }
-        },
-        "content_bzxehr": {
-          "type": "content",
-          "settings": {
-            "product": "{{ product.metafields.custom.chair_recommendation_1.value }}",
-            "text-1": "<p>$699.99</p>",
-            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
-            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
-            "text-4": "<p>Average User</p>",
-            "text-5": "{{ block.settings.product.metafields.custom.product_warranty_tab | metafield_tag }}",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_7cDVnc": {
-          "type": "content",
-          "settings": {
-            "product": "{{ product.metafields.custom.chair_recommendation_2.value }}",
-            "text-1": "<p>Inspired to create a chair where the back and arms are moulded</p>",
-            "text-2": "<p>46mm or 42mm</p>",
-            "text-3": "<p>Up to 18 hours</p>",
-            "text-4": "<p>S10 SiP</p>",
-            "text-5": "<p>Up to 2,000 nits</p>",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_4LQWnd": {
-          "type": "content",
-          "settings": {
-            "product": "{{ product.metafields.custom.chair_recommendation_3.value }}",
-            "text-1": "<p>$499.99</p>",
-            "text-2": "<p>18\"-22\"</p>",
-            "text-3": "<ul><li>Height</li><li>Back</li><li>Test</li><li>Test</li><li>Test</li></ul>",
-            "text-4": "<p>S9 SiP</p>",
-            "text-5": "<p>Up to 3,000 nits</p>",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_ee9XXd": {
-          "type": "content",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "text-1": "",
-            "text-2": "",
-            "text-3": "",
-            "text-4": "",
-            "text-5": "",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_CPFEDJ",
-        "content_bzxehr",
-        "content_7cDVnc",
-        "content_4LQWnd",
-        "content_ee9XXd"
-      ],
-      "disabled": true,
-      "name": "t:sections.comparison-table.name",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "scheme-1",
-        "header_layout": "horizontal",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Recommended Chairs for Your Table",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h3",
-        "description": "<p>Compare our recommended seating options for this table. Each chair listed below has been selected for its ergonomic performance, build quality, and suitability for professional settings.</p>",
-        "text_size": "text-base",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn--primary",
-        "button_icon": "none",
-        "icon_size": 10,
-        "text_line_limit": "4-lines",
-        "show_view_more_button": true,
-        "show_section_divider": true,
-        "divider_width": "fixed",
-        "padding_top": 80,
-        "padding_bottom": 50
       }
     },
     "featured_products_tab_By89HA": {
@@ -1173,8 +1171,8 @@
     "tabs_content_8rnbnj",
     "slideshow_VGhFGA",
     "image_with_text_overlay_Cqtc4P",
-    "rich_text_Edz7aR",
     "comparison_table_dDRPPg",
+    "rich_text_Edz7aR",
     "featured_products_tab_By89HA",
     "image_with_feature_VVEak8",
     "1758007826e5a7d4fb",
