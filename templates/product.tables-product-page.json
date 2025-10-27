@@ -628,6 +628,62 @@
         "enable_preload_image": false
       }
     },
+    "rich_text_Edz7aR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BxmeLL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Can't find exactly what you're looking for?",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3"
+          }
+        },
+        "text_ARVMcW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don’t see the table you need? We can source any Special-T model or custom configuration. Reach out via chat or <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">contact us</a> and we’ll help right away.</p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_JqkP67": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BxmeLL",
+        "text_ARVMcW",
+        "button_JqkP67"
+      ],
+      "custom_css": [
+        ".rich-text p,.rich-text div {text-align: left;}"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-2",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "fitted",
+        "content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "show_section_divider": true,
+        "divider_width": "fixed"
+      }
+    },
     "comparison_table_dDRPPg": {
       "type": "comparison-table",
       "blocks": {
@@ -755,62 +811,6 @@
         "divider_width": "fixed",
         "padding_top": 80,
         "padding_bottom": 50
-      }
-    },
-    "rich_text_Edz7aR": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_BxmeLL": {
-          "type": "heading",
-          "settings": {
-            "heading": "Can't find exactly what you're looking for?",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "h3"
-          }
-        },
-        "text_ARVMcW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Don’t see the table you need? We can source any Special-T model or custom configuration. Reach out via chat or <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">contact us</a> and we’ll help right away.</p>",
-            "text_size": "text-base",
-            "text_line_limit": "none",
-            "button_style": "btn--underline",
-            "button_icon": "none"
-          }
-        },
-        "button_JqkP67": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Contact Us",
-            "button_link": "shopify://pages/contact",
-            "button_style": "btn--underline",
-            "button_icon": "none"
-          }
-        }
-      },
-      "block_order": [
-        "heading_BxmeLL",
-        "text_ARVMcW",
-        "button_JqkP67"
-      ],
-      "custom_css": [
-        ".rich-text p,.rich-text div {text-align: left;}"
-      ],
-      "name": "t:sections.rich-text.name",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "scheme-2",
-        "use_color_scheme_in_container": false,
-        "content_spacing": "fitted",
-        "content_alignment": "left",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "show_section_divider": true,
-        "divider_width": "fixed"
       }
     },
     "featured_products_tab_By89HA": {
@@ -1171,8 +1171,8 @@
     "tabs_content_8rnbnj",
     "slideshow_VGhFGA",
     "image_with_text_overlay_Cqtc4P",
-    "comparison_table_dDRPPg",
     "rich_text_Edz7aR",
+    "comparison_table_dDRPPg",
     "featured_products_tab_By89HA",
     "image_with_feature_VVEak8",
     "1758007826e5a7d4fb",
