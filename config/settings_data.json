@@ -2367,9 +2367,9 @@
       ".free-shipping-badge {color: #16a34a; /* green */ font-weight: 600; /* font-size: 1rem; margin: 0em; */}",
       " /* Fix uneven product image sizes in \"You May Also Like\" section */.related-products .media-wrapper.loaded {aspect-ratio: 1 / 1;}",
       ".related-products .products-grid-wrap.swiper {overflow: hidden !important;}",
-      ".collection .card__media,.collection .media-wrapper,.related-products .media-wrapper.loaded,.section--recently-viewed-products .media-wrapper.loaded {aspect-ratio: 4 / 5; overflow: hidden; background: #fff; }",
+      ".collection .card__media,.collection .media-wrapper,.related-products .media-wrapper.loaded,.section--recently-viewed-products .media-wrapper.loaded {aspect-ratio: 1 / 1; overflow: hidden; /* background: #fff; */}",
       ".products-grid-wrap.swiper,.related-products .products-grid-wrap.swiper,.section--recently-viewed-products .products-grid-wrap.swiper {overflow: hidden !important;}",
-      ".collection .card__media img,.collection .media-wrapper img,.related-products .media-wrapper img,.section--recently-viewed-products .media-wrapper img {width: 100%; height: 100%; object-fit: cover; object-position: center;}"
+      ".collection .card__media img,.collection .media-wrapper img,.related-products .media-wrapper img,.section--recently-viewed-products .media-wrapper img {/* width: 100%; height: 100%; */ object-fit: cover; object-position: center;}"
     ]
   }
 }
