@@ -697,7 +697,7 @@
             "icon-3": "none",
             "title-3": "Specifications",
             "icon-4": "none",
-            "title-4": "Intended User Size",
+            "title-4": "",
             "icon-5": "none",
             "title-5": "Warranty",
             "icon-6": "none",
@@ -784,7 +784,6 @@
         "content_4LQWnd",
         "content_ee9XXd"
       ],
-      "disabled": true,
       "name": "t:sections.comparison-table.name",
       "settings": {
         "container": "fixed",
@@ -806,7 +805,7 @@
         "button_style": "btn--primary",
         "button_icon": "none",
         "icon_size": 10,
-        "text_line_limit": "4-lines",
+        "text_line_limit": "5-lines",
         "show_view_more_button": true,
         "show_section_divider": true,
         "divider_width": "fixed",
@@ -988,9 +987,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
+            "max_width": 1200,
             "show_shop_reviews": false,
-            "empty_state": "empty_widget",
-            "max_width": 1200
+            "empty_state": "empty_widget"
           }
         }
       },
