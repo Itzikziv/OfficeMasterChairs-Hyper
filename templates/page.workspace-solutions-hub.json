@@ -168,7 +168,7 @@
       "name": "t:sections.multicolumn-with-icon.name",
       "settings": {
         "container": "fixed",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "header_layout": "vertical",
         "section_header_alignment": "left",
         "section_header_alignment_mobile": "inherit",
@@ -390,7 +390,7 @@
         "text_size": "text-base",
         "button_label": "",
         "button_link": "",
-        "button_style": "btn--underline",
+        "button_style": "btn--plain",
         "button_icon": "none",
         "content_alignment": "left",
         "show_col_count": false,
