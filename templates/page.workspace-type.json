@@ -324,7 +324,7 @@
         "highlight_style_color": "",
         "highlight_text_color": "",
         "heading_size": "h2",
-        "description": "<p>Compare our top recommendations for {{ page.metafields.custom.workspace_name.value }} chairs. Each chair is totally customizable in color, fabric, arms, and much more.</p>",
+        "description": "<p>Compare our top recommendations for {{ page.metafields.custom.workspace_name.value }} chairs. Each chair is totally customizable in color, fabric, arms, and more.</p>",
         "text_size": "text-base",
         "button_label": "View All {{ page.metafields.custom.workspace_name.value }} Chairs",
         "button_link": "{{ page.metafields.custom.workspace_view_all_chairs_url.value }}",
