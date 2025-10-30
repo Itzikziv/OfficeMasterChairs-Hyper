@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "container": "fixed",
         "text_alignment": "center",
@@ -18,826 +19,118 @@
         "padding_bottom": 28
       }
     },
-    "collection_list_slider_wXxhKJ": {
-      "type": "collection-list-slider",
+    "image_with_text_overlay_XDzVgT": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "featured_collection_7fGLmg": {
-          "type": "featured_collection",
+        "subheading_htj7zR": {
+          "type": "subheading",
           "settings": {
-            "collection": "",
-            "title": ""
+            "subheading": "<em>Furnish every space with purpose, comfort, and style.</em>"
           }
         },
-        "featured_collection_LfcfLD": {
-          "type": "featured_collection",
+        "heading_mg9BfM": {
+          "type": "heading",
           "settings": {
-            "collection": "",
-            "title": ""
+            "heading": "Workspace Solutions",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2"
           }
         },
-        "featured_collection_eFi4C3": {
-          "type": "featured_collection",
+        "text_YwU9iq": {
+          "type": "text",
           "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured_collection_nhE7U9": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured_collection_TXYp8y": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured_collection_PNahBc": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured_collection_qEMiJn": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "featured_collection_7BYjRc": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "title": ""
+            "text": "<p>Every workspace is unique. Our Workspace Solutions pair OM Seating chairs with Special-T tables to create <br/>cohesive, ergonomic setups — from conference rooms and training areas to cafés and home offices.</p>",
+            "text_size": "text-lg"
           }
         }
       },
       "block_order": [
-        "featured_collection_7fGLmg",
-        "featured_collection_LfcfLD",
-        "featured_collection_eFi4C3",
-        "featured_collection_nhE7U9",
-        "featured_collection_TXYp8y",
-        "featured_collection_PNahBc",
-        "featured_collection_qEMiJn",
-        "featured_collection_7BYjRc"
+        "subheading_htj7zR",
+        "heading_mg9BfM",
+        "text_YwU9iq"
       ],
-      "disabled": true,
-      "name": "t:sections.collection-list-slider.name",
+      "name": "t:sections.image-with-text-overlay.name",
       "settings": {
-        "container": "fixed",
+        "container": "full",
+        "image": "shopify://shop_images/SpecialT_BV.ELLA-2448_14_C_62ed5ffc-fdc0-497c-b6f3-eab5facd7bff.jpg",
+        "desktop_height": "medium",
+        "overlay_opacity": 65,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
         "color_scheme": "",
-        "section_header_alignment": "center",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Collections",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h1",
-        "description": "",
-        "text_size": "text-base",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn--underline",
-        "button_icon": "none",
-        "card_color_scheme": "",
-        "card_style": "standard",
-        "card_heading_size": "text-base",
-        "card_image_ratio": "1/1",
-        "card_image_width": "medium",
-        "card_image_padding": "none",
-        "rounded_card_image": true,
-        "mobile_layout": "vertical",
-        "carousel_item_size": "auto",
-        "columns_desktop": 6,
-        "carousel_control_color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
+        "content_position": "middle-center",
+        "content_alignment": "center",
+        "mobile_height": "auto",
+        "content_position_mobile": "middle-center-mobile",
+        "content_alignment_mobile": "left",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "enable_preload_image": false
       }
     },
-    "collection_list_ajtqCB": {
-      "type": "collection-list",
+    "rich_text_yDnhLc": {
+      "type": "rich-text",
       "blocks": {
-        "featured_collection_Gf7VVR": {
-          "type": "featured_collection",
+        "heading_tjGUiA": {
+          "type": "heading",
+          "disabled": true,
           "settings": {
-            "collection": "affirm-series",
-            "title": ""
+            "heading": "Talk about your brand",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd1"
           }
         },
-        "featured_collection_ggkABw": {
-          "type": "featured_collection",
+        "text_qjUjUL": {
+          "type": "text",
           "settings": {
-            "collection": "bc-chairs",
-            "title": ""
+            "text": "<p>Every workspace is different — and so are the needs of the people using it. Whether you’re designing a conference room for focused collaboration, setting up a training area, or furnishing a café-style lounge, we make it easy to find seating and tables that fit your environment.</p>",
+            "text_size": "text-lg",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
           }
         },
-        "featured_collection_tDietW": {
-          "type": "featured_collection",
+        "text_w7wF99": {
+          "type": "text",
           "settings": {
-            "collection": "ce2-series",
-            "title": ""
+            "text": "<p>Our Workspace Solutions bring together curated combinations of <strong>OM Seating chairs</strong> and <strong>Special-T tables</strong> to create cohesive, ergonomic spaces that look good and perform even better.</p>",
+            "text_size": "text-lg",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
           }
         },
-        "featured_collection_fgdVXm": {
-          "type": "featured_collection",
+        "button_6eKJ4X": {
+          "type": "button",
+          "disabled": true,
           "settings": {
-            "collection": "classic-exam-room-stools-cl",
-            "title": ""
-          }
-        },
-        "featured_collection_hVkRF8": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "classic-chairs-task-stool",
-            "title": ""
-          }
-        },
-        "featured_collection_WcJapg": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "discovery-back-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_d3hq4W": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ginny-collection",
-            "title": ""
-          }
-        },
-        "featured_collection_cEDb9K": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "intensive-use-heavy-duty-police-department-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_fVbXP8": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "lorien-series",
-            "title": ""
-          }
-        },
-        "featured_collection_Cw4ewk": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "maxwell-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_WLGQ6f": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "om5-series",
-            "title": ""
-          }
-        },
-        "featured_collection_eAzLck": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "om5-active",
-            "title": ""
-          }
-        },
-        "featured_collection_3CwWQD": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pac-series",
-            "title": ""
-          }
-        },
-        "featured_collection_jrCwd8": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pac-lab-stools",
-            "title": ""
-          }
-        },
-        "featured_collection_M46tNT": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pt-value-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_rdbFDF": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "plot-twist-collection",
-            "title": ""
-          }
-        },
-        "featured_collection_jBrRWQ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pt-intensive-use-24-seven-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_UF9ana": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "pt-intensive-use-heavy-duty",
-            "title": ""
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
           }
         }
       },
       "block_order": [
-        "featured_collection_Gf7VVR",
-        "featured_collection_ggkABw",
-        "featured_collection_tDietW",
-        "featured_collection_fgdVXm",
-        "featured_collection_hVkRF8",
-        "featured_collection_WcJapg",
-        "featured_collection_d3hq4W",
-        "featured_collection_cEDb9K",
-        "featured_collection_fVbXP8",
-        "featured_collection_Cw4ewk",
-        "featured_collection_WLGQ6f",
-        "featured_collection_eAzLck",
-        "featured_collection_3CwWQD",
-        "featured_collection_jrCwd8",
-        "featured_collection_M46tNT",
-        "featured_collection_rdbFDF",
-        "featured_collection_jBrRWQ",
-        "featured_collection_UF9ana"
+        "heading_tjGUiA",
+        "text_qjUjUL",
+        "text_w7wF99",
+        "button_6eKJ4X"
       ],
       "disabled": true,
-      "custom_css": [
-        "p {text-align: left;}"
-      ],
-      "name": "t:sections.collection-list.name",
+      "name": "t:sections.rich-text.name",
       "settings": {
         "container": "fixed",
         "color_scheme": "",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Chairs by Series",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h3",
-        "description": "<p>Browse the Office Master (OM Seating) chairs by series</p>",
-        "text_size": "text-base",
-        "button_label": "View All OM Series",
-        "button_link": "",
-        "button_style": "btn--underline",
-        "button_icon": "none",
-        "card_color_scheme": "",
-        "card_style": "standard",
-        "card_heading_size": "text-base",
-        "card_text_line_limit": "none",
-        "card_image_ratio": "4/3",
-        "card_image_width": "full",
-        "card_image_padding": "none",
-        "rounded_card_image": false,
-        "card_show_border": false,
-        "mobile_layout": "vertical",
-        "columns_desktop": 6,
-        "column_gap": "medium",
-        "row_gap": "inherit",
-        "grid_bordered": true,
-        "columns_mobile": "3",
-        "swipe_on_mobile": true,
-        "padding_top": 50,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "collection_list_94TDyk": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_apd44X": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "stackable-guest-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_zrjQPN": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "stacking-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_pTYwPp": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "tibidi-series",
-            "title": ""
-          }
-        },
-        "featured_collection_idqn3i": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "truly-series",
-            "title": ""
-          }
-        },
-        "featured_collection_mHxAPX": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "werksy-collection",
-            "title": ""
-          }
-        },
-        "featured_collection_MgFwg6": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "work-stool-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_jHTygD": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "yes-mesh-office-chairs",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_apd44X",
-        "featured_collection_zrjQPN",
-        "featured_collection_pTYwPp",
-        "featured_collection_idqn3i",
-        "featured_collection_mHxAPX",
-        "featured_collection_MgFwg6",
-        "featured_collection_jHTygD"
-      ],
-      "disabled": true,
-      "name": "t:sections.collection-list.name",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "section_header_alignment": "center",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h1",
-        "description": "",
-        "text_size": "text-base",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn--underline",
-        "button_icon": "none",
-        "card_color_scheme": "",
-        "card_style": "standard",
-        "card_heading_size": "text-base",
-        "card_text_line_limit": "none",
-        "card_image_ratio": "4/3",
-        "card_image_width": "full",
-        "card_image_padding": "none",
-        "rounded_card_image": false,
-        "card_show_border": false,
-        "mobile_layout": "vertical",
-        "columns_desktop": 6,
-        "column_gap": "medium",
-        "row_gap": "inherit",
-        "grid_bordered": true,
-        "columns_mobile": "3",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "collection_list_8XJmAG": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_AiinpD": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "collaborative-and-public-spaces",
-            "title": ""
-          }
-        },
-        "featured_collection_DL4fYa": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "education-classroom-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_CUwKma": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "executive-conference-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_Bg8RxU": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "healthcare-chairs-stools",
-            "title": ""
-          }
-        },
-        "featured_collection_HEAp6i": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "heavy-duty-intensive-use-chairs-stools",
-            "title": ""
-          }
-        },
-        "featured_collection_rqWwei": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "office-workstation-chairs",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_AiinpD",
-        "featured_collection_DL4fYa",
-        "featured_collection_CUwKma",
-        "featured_collection_Bg8RxU",
-        "featured_collection_HEAp6i",
-        "featured_collection_rqWwei"
-      ],
-      "disabled": true,
-      "name": "t:sections.collection-list.name",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Chairs by Work Environment",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h3",
-        "description": "<p>Explore ergonomic chairs designed for every workspace setting</p>",
-        "text_size": "text-base",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn--underline",
-        "button_icon": "none",
-        "card_color_scheme": "",
-        "card_style": "standard",
-        "card_heading_size": "text-base",
-        "card_text_line_limit": "none",
-        "card_image_ratio": "4/3",
-        "card_image_width": "full",
-        "card_image_padding": "none",
-        "rounded_card_image": false,
-        "card_show_border": false,
-        "mobile_layout": "vertical",
-        "columns_desktop": 6,
-        "column_gap": "medium",
-        "row_gap": "inherit",
-        "grid_bordered": true,
-        "columns_mobile": "3",
-        "swipe_on_mobile": true,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "collection_list_slider_JUnM8V": {
-      "type": "collection-list-slider",
-      "blocks": {
-        "featured_collection_jJMxHg": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "collaborative-and-public-spaces",
-            "title": ""
-          }
-        },
-        "featured_collection_QUYYrW": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "education-classroom-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_tnybxm": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "executive-and-conference-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_9PfDip": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "healthcare-chairs-stools",
-            "title": ""
-          }
-        },
-        "featured_collection_7whbQt": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "heavy-duty-intensive-use-chairs-stools",
-            "title": ""
-          }
-        },
-        "featured_collection_9FHJYG": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "office-workstation-chairs",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_jJMxHg",
-        "featured_collection_QUYYrW",
-        "featured_collection_tnybxm",
-        "featured_collection_9PfDip",
-        "featured_collection_7whbQt",
-        "featured_collection_9FHJYG"
-      ],
-      "disabled": true,
-      "name": "t:sections.collection-list-slider.name",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Chairs by Work Environment",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h3",
-        "description": "<p>Explore ergonomic chairs designed for every workspace setting</p>",
-        "text_size": "text-base",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn--underline",
-        "button_icon": "none",
-        "card_color_scheme": "",
-        "card_style": "standard",
-        "card_heading_size": "text-base",
-        "card_image_ratio": "4/3",
-        "card_image_width": "full",
-        "card_image_padding": "none",
-        "rounded_card_image": false,
-        "mobile_layout": "vertical",
-        "carousel_item_size": "fixed",
-        "columns_desktop": 6,
-        "carousel_control_color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 30,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "collection_list_slider_wqcwKX": {
-      "type": "collection-list-slider",
-      "blocks": {
-        "featured_collection_8jLJyY": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "task-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_BqfK4i": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "guest-lobby-reception-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_q6MTAA": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cushioned-back-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_kckGBe": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mesh-back-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_pimNQr": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "exam-and-utility-stools",
-            "title": ""
-          }
-        },
-        "featured_collection_d9md4g": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "task-stools",
-            "title": ""
-          }
-        },
-        "featured_collection_WgTLn4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "executive-conference-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_tFRjFw": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "light-multi-taskers",
-            "title": ""
-          }
-        },
-        "featured_collection_3E3yFe": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "polymer-plastic-back-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_PQ73YA": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "guest-stackable-nesting-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_Tg3qE3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "electrostatic-discharge-esd-chairs-and-parts",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_8jLJyY",
-        "featured_collection_BqfK4i",
-        "featured_collection_q6MTAA",
-        "featured_collection_kckGBe",
-        "featured_collection_pimNQr",
-        "featured_collection_d9md4g",
-        "featured_collection_WgTLn4",
-        "featured_collection_tFRjFw",
-        "featured_collection_3E3yFe",
-        "featured_collection_PQ73YA",
-        "featured_collection_Tg3qE3"
-      ],
-      "disabled": true,
-      "name": "t:sections.collection-list-slider.name",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Chairs by Type",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h3",
-        "description": "<p>Shop seating organized by chair style and function</p>",
-        "text_size": "text-base",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn--underline",
-        "button_icon": "none",
-        "card_color_scheme": "",
-        "card_style": "standard",
-        "card_heading_size": "text-base",
-        "card_image_ratio": "4/3",
-        "card_image_width": "full",
-        "card_image_padding": "none",
-        "rounded_card_image": false,
-        "mobile_layout": "vertical",
-        "carousel_item_size": "fixed",
-        "columns_desktop": 6,
-        "carousel_control_color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 30,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "collection_cards_pyXLwp": {
-      "type": "collection-cards",
-      "blocks": {
-        "collection_CKNmFJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "zia-collection",
-            "image": "shopify://shop_images/SpecialT_BV.ZIA-T01_17_C_3302fe9e-3822-44ff-a6e2-dfdd5832827f.jpg",
-            "title": ""
-          }
-        },
-        "collection_p3fXpa": {
-          "type": "collection",
-          "settings": {
-            "collection": "kingston-collection",
-            "title": ""
-          }
-        },
-        "collection_6MBg9i": {
-          "type": "collection",
-          "settings": {
-            "collection": "link-collection",
-            "title": ""
-          }
-        },
-        "collection_ML4rXU": {
-          "type": "collection",
-          "settings": {
-            "collection": "ella-collection",
-            "title": ""
-          }
-        },
-        "collection_U8y4aJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "classix-collection",
-            "title": ""
-          }
-        },
-        "collection_mRrN7W": {
-          "type": "collection",
-          "settings": {
-            "collection": "caliber-collection",
-            "title": ""
-          }
-        },
-        "collection_9NCgc6": {
-          "type": "collection",
-          "settings": {
-            "collection": "aim-collection",
-            "title": ""
-          }
-        },
-        "collection_Jj4rVU": {
-          "type": "collection",
-          "settings": {
-            "collection": "hike-collection",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_CKNmFJ",
-        "collection_p3fXpa",
-        "collection_6MBg9i",
-        "collection_ML4rXU",
-        "collection_U8y4aJ",
-        "collection_mRrN7W",
-        "collection_9NCgc6",
-        "collection_Jj4rVU"
-      ],
-      "disabled": true,
-      "name": "t:sections.collection-cards.presets",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Tables by Series",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h3",
-        "description": "<p>Discover versatile tables from Special T, designed for training rooms, conference spaces, cafés, and more.</p>",
-        "text_size": "text-base",
-        "columns_desktop": 3,
-        "column_gap": "medium",
-        "row_gap": "inherit",
-        "enable_slider": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "card_color_scheme": "",
-        "image_ratio": "4/3",
-        "show_product_count": true,
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "left",
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
@@ -847,12 +140,7 @@
   },
   "order": [
     "main",
-    "collection_list_slider_wXxhKJ",
-    "collection_list_ajtqCB",
-    "collection_list_94TDyk",
-    "collection_list_8XJmAG",
-    "collection_list_slider_JUnM8V",
-    "collection_list_slider_wqcwKX",
-    "collection_cards_pyXLwp"
+    "image_with_text_overlay_XDzVgT",
+    "rich_text_yDnhLc"
   ]
 }
