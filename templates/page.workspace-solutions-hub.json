@@ -61,8 +61,8 @@
         "enable_parallax": false,
         "parallax_direction": "vertical",
         "color_scheme": "",
-        "content_position": "middle-center",
-        "content_alignment": "center",
+        "content_position": "middle-left",
+        "content_alignment": "left",
         "mobile_height": "auto",
         "content_position_mobile": "middle-center-mobile",
         "content_alignment_mobile": "left",
@@ -71,46 +71,148 @@
         "enable_preload_image": false
       }
     },
-    "rich_text_yDnhLc": {
-      "type": "rich-text",
+    "multicolumn_JUpagH": {
+      "type": "multicolumn",
       "blocks": {
-        "heading_tjGUiA": {
-          "type": "heading",
-          "disabled": true,
+        "column_qEkxwD": {
+          "type": "column",
           "settings": {
-            "heading": "Talk about your brand",
+            "image": "shopify://shop_images/Multi-Column-Conference.jpg",
+            "title": "Conference Rooms",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
-            "heading_size": "hd1"
-          }
-        },
-        "text_qjUjUL": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Every workspace is different — and so are the needs of the people using it. Whether you’re designing a conference room for focused collaboration, setting up a training area, or furnishing a café-style lounge, we make it easy to find seating and tables that fit your environment.</p>",
-            "text_size": "text-lg",
-            "text_line_limit": "none",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
             "button_style": "btn--underline",
             "button_icon": "none"
           }
         },
-        "text_w7wF99": {
-          "type": "text",
+        "column_Y9CAmX": {
+          "type": "column",
           "settings": {
-            "text": "<p>Our Workspace Solutions bring together curated combinations of <strong>OM Seating chairs</strong> and <strong>Special-T tables</strong> to create cohesive, ergonomic spaces that look good and perform even better.</p>",
-            "text_size": "text-lg",
-            "text_line_limit": "none",
+            "image": "shopify://shop_images/Multi-Column-Training.jpg",
+            "title": "Training Rooms",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
             "button_style": "btn--underline",
             "button_icon": "none"
           }
         },
-        "button_6eKJ4X": {
-          "type": "button",
-          "disabled": true,
+        "column_eJVJce": {
+          "type": "column",
           "settings": {
-            "button_label": "Button label",
+            "image": "shopify://shop_images/Multi-Column-Education.jpg",
+            "title": "Education",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_nCD7YY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Multi-Column-Individual_Workstation.jpg",
+            "title": "Office Workstations",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_MqKTDN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Multi-Column-Reception_Waiting_Areas.jpg",
+            "title": "Reception & Waiting Areas",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_GctRNw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Multi-Column-Collaborative.jpg",
+            "title": "Collaborative Spaces",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_YbkYeX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Multi-Column-Cafes_Hospitality.jpg",
+            "title": "Cafés & Hospitality",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_bwDcMA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Multi-Column-Work_From_Home.jpg",
+            "title": "Work From Home",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
             "button_link": "",
             "button_style": "btn--primary",
             "button_icon": "none"
@@ -118,29 +220,52 @@
         }
       },
       "block_order": [
-        "heading_tjGUiA",
-        "text_qjUjUL",
-        "text_w7wF99",
-        "button_6eKJ4X"
+        "column_qEkxwD",
+        "column_Y9CAmX",
+        "column_eJVJce",
+        "column_nCD7YY",
+        "column_MqKTDN",
+        "column_GctRNw",
+        "column_YbkYeX",
+        "column_bwDcMA"
       ],
-      "disabled": true,
-      "name": "t:sections.rich-text.name",
+      "name": "t:sections.multicolumn.name",
       "settings": {
         "container": "fixed",
         "color_scheme": "",
-        "use_color_scheme_in_container": false,
-        "content_spacing": "standard",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Explore Workspace Solutions by Space",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "<p>Browse spaces designed around how people actually work, meet, and collaborate. Each space features recommended seating and table products intended for that space.</p>",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
         "content_alignment": "left",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "show_col_count": false,
+        "show_image": true,
+        "columns_desktop": 4,
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "show_section_divider": false,
-        "divider_width": "fixed"
+        "divider_width": "fixed",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     }
   },
   "order": [
     "main",
     "image_with_text_overlay_XDzVgT",
-    "rich_text_yDnhLc"
+    "multicolumn_JUpagH"
   ]
 }
