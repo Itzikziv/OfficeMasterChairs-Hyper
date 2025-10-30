@@ -44,7 +44,7 @@
         "custom_card_aNYdpG": {
           "type": "custom_card",
           "settings": {
-            "menu_title": "OM Seating Chairs",
+            "menu_title": "OM Seating Series",
             "menu_columns": 2,
             "enable_hl_link": false,
             "hl_link_style": "text_color",
@@ -280,7 +280,7 @@
         "promotion_banner_PLwaD8": {
           "type": "promotion_banner",
           "settings": {
-            "menu_title": "Shop Chairs By",
+            "menu_title": "Chairs",
             "menu_columns": 3,
             "enable_hl_link": false,
             "hl_link_style": "text_color",
