@@ -71,6 +71,137 @@
         "enable_preload_image": false
       }
     },
+    "multicolumn_icon_FTc7zc": {
+      "type": "multicolumn-icon",
+      "blocks": {
+        "column_Arza3z": {
+          "type": "column",
+          "settings": {
+            "icon": "check",
+            "max_width": 10,
+            "max_width_mb": 10,
+            "title": "1. Choose your space type",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "heading_font": "heading",
+            "text": "<p>Start by identifying the type of area you’re furnishing — conference room, training room, workstation, café, etc..</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_X8tfzX": {
+          "type": "column",
+          "settings": {
+            "icon": "phone",
+            "max_width": 10,
+            "max_width_mb": 10,
+            "title": "2. Evaluate your space",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "heading_font": "heading",
+            "text": "<p>Consider how many people the space will serve and the size of the room itself. This helps determine how many tables and chairs you’ll need and what configurations will work best.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_abbwFb": {
+          "type": "column",
+          "settings": {
+            "icon": "paperplane",
+            "max_width": 10,
+            "max_width_mb": 10,
+            "title": "Step 3. Assess ergonomic needs",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "heading_font": "heading",
+            "text": "<p>Think about how your team works and moves throughout the day. What level of adjustability or support will optimize comfort and productivity?</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_JeAmbA": {
+          "type": "column",
+          "settings": {
+            "icon": "chat",
+            "max_width": 10,
+            "max_width_mb": 10,
+            "title": "4. Choose Your Setup",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "heading_font": "heading",
+            "text": "<p>Explore our Workspace Solutions to find curated tables and chairs that fit your ergonomic goals, capacity, and style. We hand-pick the optimal seating and table combinations to best match the space you’re furnishing.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "column_Arza3z",
+        "column_X8tfzX",
+        "column_abbwFb",
+        "column_JeAmbA"
+      ],
+      "name": "t:sections.multicolumn-with-icon.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "How to Plan Your Workspace",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "enable_sticky": false,
+        "card_color_scheme": "",
+        "content_alignment": "left",
+        "image_position": "left",
+        "icon_color": "#FFFFFF",
+        "columns_desktop": 4,
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "show_divider_col": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "multicolumn_JUpagH": {
       "type": "multicolumn",
       "blocks": {
@@ -266,6 +397,7 @@
   "order": [
     "main",
     "image_with_text_overlay_XDzVgT",
+    "multicolumn_icon_FTc7zc",
     "multicolumn_JUpagH"
   ]
 }
