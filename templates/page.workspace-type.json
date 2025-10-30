@@ -31,7 +31,7 @@
         "heading_mg9BfM": {
           "type": "heading",
           "settings": {
-            "heading": "Workspace Solutions",
+            "heading": "Furniture for {{ page.metafields.custom.workspace_name.value }}'s",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
@@ -42,7 +42,7 @@
         "text_YwU9iq": {
           "type": "text",
           "settings": {
-            "text": "<p>Every workspace is unique. Our Workspace Solutions pair OM Seating chairs with Special-T tables to create <br/>cohesive, ergonomic setups — from conference rooms and training areas to cafés and home offices.</p>",
+            "text": "",
             "text_size": "text-lg"
           }
         }
@@ -55,7 +55,6 @@
       "name": "t:sections.image-with-text-overlay.name",
       "settings": {
         "container": "full",
-        "image": "shopify://shop_images/SpecialT_BV.ELLA-2448_14_C_62ed5ffc-fdc0-497c-b6f3-eab5facd7bff.jpg",
         "desktop_height": "extra-small",
         "overlay_opacity": 65,
         "enable_parallax": false,
@@ -69,6 +68,257 @@
         "padding_top": 20,
         "padding_bottom": 20,
         "enable_preload_image": false
+      }
+    },
+    "horizontal_products_list_PzPWAC": {
+      "type": "horizontal-products-list",
+      "disabled": true,
+      "name": "t:sections.horizontal-products-list.presets.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "collection": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Products list",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "max_height": 0,
+        "pcard_button_type": "icon",
+        "pcard_title_line_limit": "1-line",
+        "limit": 9,
+        "columns": 3,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "max_height_mobile": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "featured_collection_D8cXbA": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_FCM84T": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "show_banner": false,
+            "color_scheme": "",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        },
+        "collection_xpmTXM": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "title": "",
+            "show_banner": false,
+            "color_scheme": "",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collection_FCM84T",
+        "collection_xpmTXM"
+      ],
+      "name": "t:sections.featured-collection.presets__2.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Recommended Chairs",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "View All Conference Chairs",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "limit": 12,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "content_overflow": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "comparison_table_MWAAy8": {
+      "type": "comparison-table",
+      "blocks": {
+        "heading_4eQj6W": {
+          "type": "heading",
+          "settings": {
+            "icon-1": "chat",
+            "title-1": "Description",
+            "icon-2": "chat",
+            "title-2": "Aluminium Case",
+            "icon-3": "chat",
+            "title-3": "Battery",
+            "icon-4": "chat",
+            "title-4": "Screen",
+            "icon-5": "chat",
+            "title-5": "Display",
+            "icon-6": "chat",
+            "title-6": "",
+            "icon-7": "chat",
+            "title-7": "",
+            "icon-8": "chat",
+            "title-8": "",
+            "icon-9": "chat",
+            "title-9": "",
+            "icon-10": "chat",
+            "title-10": ""
+          }
+        },
+        "content_tycpFj": {
+          "type": "content",
+          "settings": {
+            "product": "",
+            "text-1": "<p>Hecht and Colin describe employing a process similar</p>",
+            "text-2": "<p>44mm or 40mm</p>",
+            "text-3": "<p>Up to 18 hours</p>",
+            "text-4": "<p>S8 SiP</p>",
+            "text-5": "<p>Up to 1,000 nits</p>",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_tgHgVK": {
+          "type": "content",
+          "settings": {
+            "product": "",
+            "text-1": "<p>Inspired to create a chair where the back and arms are moulded</p>",
+            "text-2": "<p>46mm or 42mm</p>",
+            "text-3": "<p>Up to 18 hours</p>",
+            "text-4": "<p>S10 SiP</p>",
+            "text-5": "<p>Up to 2,000 nits</p>",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_yNiYPn": {
+          "type": "content",
+          "settings": {
+            "product": "",
+            "text-1": "<p>Inspired to create a chair where the back and arms are moulded</p>",
+            "text-2": "<p>49mm</p>",
+            "text-3": "<p>Up to 36 hours</p>",
+            "text-4": "<p>S9 SiP</p>",
+            "text-5": "<p>Up to 3,000 nits</p>",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_4eQj6W",
+        "content_tycpFj",
+        "content_tgHgVK",
+        "content_yNiYPn"
+      ],
+      "disabled": true,
+      "name": "t:sections.comparison-table.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "standing-column",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "Subheading",
+        "heading": "Comparison table",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "<p>Displays a quick comparison table for the current product and its related products</p>",
+        "text_size": "text-base",
+        "button_label": "Button label",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "icon_size": 28,
+        "text_line_limit": "2-lines",
+        "show_view_more_button": false,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "multicolumn_JUpagH": {
@@ -229,9 +479,7 @@
         "column_YbkYeX",
         "column_bwDcMA"
       ],
-      "custom_css": [
-        ".multicolumn-card__title {font-size: 1.2em; /* adjust as needed, try 0.85em–1em range */ font-weight: 500; /* removes bold */}"
-      ],
+      "disabled": true,
       "name": "t:sections.multicolumn.name",
       "settings": {
         "container": "fixed",
@@ -359,6 +607,7 @@
         "column_abbwFb",
         "column_JeAmbA"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn-with-icon.name",
       "settings": {
         "container": "fixed",
@@ -463,6 +712,7 @@
         "text_3rc3zC",
         "button_cCgfB8"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.name",
       "settings": {
         "container": "fixed",
@@ -531,54 +781,18 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
-    },
-    "contact_form_dRNMwn": {
-      "type": "contact-form",
-      "blocks": {
-        "custom_field_qUiYYR": {
-          "type": "custom_field",
-          "settings": {
-            "field_type": "phone",
-            "heading": "Phone",
-            "placeholder": "",
-            "required": false,
-            "full_width": true,
-            "select_options": "",
-            "checkbox_checked_value": "Yes",
-            "checkbox_uncheck_value": "No",
-            "radio_options": ""
-          }
-        }
-      },
-      "block_order": [
-        "custom_field_qUiYYR"
-      ],
-      "disabled": true,
-      "name": "t:sections.contact-form.name",
-      "settings": {
-        "container": "fixed",
-        "section_color_scheme": "scheme-4",
-        "heading": "We're Here to Help!",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h1",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
     }
   },
   "order": [
     "main",
     "image_with_text_overlay_XDzVgT",
+    "horizontal_products_list_PzPWAC",
+    "featured_collection_D8cXbA",
+    "comparison_table_MWAAy8",
     "multicolumn_JUpagH",
     "multicolumn_icon_FTc7zc",
     "spacer_aWhxjL",
     "image_with_text_C8884p",
-    "rich_text_LCrRmB",
-    "contact_form_dRNMwn"
+    "rich_text_LCrRmB"
   ]
 }
