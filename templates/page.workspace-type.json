@@ -25,7 +25,7 @@
         "subheading_htj7zR": {
           "type": "subheading",
           "settings": {
-            "subheading": "<em>Furnish every space with purpose, comfort, and style.</em>"
+            "subheading": ""
           }
         },
         "heading_mg9BfM": {
@@ -56,7 +56,7 @@
       "settings": {
         "container": "full",
         "image": "shopify://shop_images/SpecialT_BV.ELLA-2448_14_C_62ed5ffc-fdc0-497c-b6f3-eab5facd7bff.jpg",
-        "desktop_height": "medium",
+        "desktop_height": "extra-small",
         "overlay_opacity": 65,
         "enable_parallax": false,
         "parallax_direction": "vertical",
@@ -383,7 +383,7 @@
         "card_color_scheme": "",
         "content_alignment": "left",
         "image_position": "left",
-        "icon_color": "#FFFFFF",
+        "icon_color": "#ffffff",
         "columns_desktop": 4,
         "column_gap": "large",
         "row_gap": "inherit",

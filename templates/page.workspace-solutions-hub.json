@@ -259,7 +259,7 @@
         "row_gap": "inherit",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "show_section_divider": true,
+        "show_section_divider": false,
         "divider_width": "fixed",
         "padding_top": 70,
         "padding_bottom": 50
@@ -390,7 +390,7 @@
         "show_divider_col": true,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "show_section_divider": false,
+        "show_section_divider": true,
         "divider_width": "fixed",
         "padding_top": 50,
         "padding_bottom": 70
