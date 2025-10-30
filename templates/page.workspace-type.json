@@ -451,6 +451,7 @@
         "collapsible_item_pKMrmH",
         "collapsible_item_r7zyFw"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible-tabs.name",
       "settings": {
         "container": "fixed",
