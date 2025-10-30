@@ -390,8 +390,8 @@
         "header_top_padding_bottom": 10,
         "navigation_color_scheme": "scheme-1",
         "navigation_content_alignment": "center",
-        "navigation_padding_top": 0,
-        "navigation_padding_bottom": 12
+        "navigation_padding_top": 6,
+        "navigation_padding_bottom": 6
       }
     }
   },
