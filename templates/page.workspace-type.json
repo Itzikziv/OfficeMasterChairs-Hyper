@@ -52,6 +52,7 @@
         "heading_mg9BfM",
         "text_YwU9iq"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text-overlay.name",
       "settings": {
         "container": "full",
@@ -210,6 +211,72 @@
         "divider_width": "fixed"
       }
     },
+    "slideshow_with_product_HtiURB": {
+      "type": "slideshow-with-product",
+      "blocks": {
+        "slide_HyCMxn": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "background": "shopify://shop_images/Multi-Column-Conference.jpg",
+            "image_overlay_opacity": 20,
+            "product": "office-master-ce2p-executive-conference-ergonomic-chair-with-pillow-top",
+            "subheading": "",
+            "title": "{{ page.title }}",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "bottom_heading": "{{ block.settings.product.title }}",
+            "enable_preload_image": false
+          }
+        },
+        "slide_NGnxEJ": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "background": "shopify://shop_images/Conference_Room_Hero_2.jpg",
+            "image_overlay_opacity": 40,
+            "product": "special-t-aim-xl-rectangular-extra-large-conference-table",
+            "subheading": "",
+            "title": "{{ page.title }}",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "bottom_heading": "{{ block.settings.product.title }}",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_HyCMxn",
+        "slide_NGnxEJ"
+      ],
+      "name": "t:sections.slideshow-with-product.name",
+      "settings": {
+        "container": "full",
+        "slide_height": "medium",
+        "show_controls": true,
+        "autoplay": false,
+        "autoplay_delay": 3,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "comparison_table_MWAAy8": {
       "type": "comparison-table",
       "blocks": {
@@ -337,6 +404,84 @@
         "divider_width": "full",
         "padding_top": 50,
         "padding_bottom": 50
+      }
+    },
+    "collapsible_tabs_dHyfA4": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "collapsible_item_3zaMBE": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_pKMrmH": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_r7zyFw": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_item_3zaMBE",
+        "collapsible_item_pKMrmH",
+        "collapsible_item_r7zyFw"
+      ],
+      "name": "t:sections.collapsible-tabs.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Collapsible tabs",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h4",
+        "item_icon_size": "extra-large",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
       }
     },
     "multicolumn_JUpagH": {
@@ -806,7 +951,9 @@
     "image_with_text_overlay_XDzVgT",
     "horizontal_products_list_PzPWAC",
     "featured_collection_D8cXbA",
+    "slideshow_with_product_HtiURB",
     "comparison_table_MWAAy8",
+    "collapsible_tabs_dHyfA4",
     "multicolumn_JUpagH",
     "multicolumn_icon_FTc7zc",
     "spacer_aWhxjL",
