@@ -374,6 +374,9 @@
         "column_YbkYeX",
         "column_bwDcMA"
       ],
+      "custom_css": [
+        ".multicolumn-card__title {font-size: 1.2em; /* adjust as needed, try 0.85em–1em range */ font-weight: 500; /* removes bold */}"
+      ],
       "name": "t:sections.multicolumn.name",
       "settings": {
         "container": "fixed",
