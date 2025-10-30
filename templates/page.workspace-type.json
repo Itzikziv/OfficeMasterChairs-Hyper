@@ -31,7 +31,7 @@
         "heading_mg9BfM": {
           "type": "heading",
           "settings": {
-            "heading": "Furniture for {{ page.metafields.custom.workspace_name.value }}'s",
+            "heading": "Furniture for {{ page.metafields.custom.workspace_name.value }} Workspaces",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
@@ -187,7 +187,7 @@
         "heading_size": "h2",
         "description": "",
         "text_size": "text-base",
-        "button_label": "View All Conference Chairs",
+        "button_label": "View All {{ page.metafields.custom.workspace_name.value }} Chairs",
         "button_link": "",
         "button_style": "btn--underline",
         "button_icon": "none",
@@ -291,7 +291,6 @@
         "content_tgHgVK",
         "content_yNiYPn"
       ],
-      "disabled": true,
       "name": "t:sections.comparison-table.name",
       "settings": {
         "container": "fixed",
