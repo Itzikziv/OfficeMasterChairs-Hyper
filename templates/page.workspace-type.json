@@ -218,9 +218,9 @@
           "type": "slide",
           "settings": {
             "color_scheme": "",
-            "background": "shopify://shop_images/Multi-Column-Conference.jpg",
+            "background": "{{ page.metafields.custom.workspace_hero_image.value }}",
             "image_overlay_opacity": 20,
-            "product": "office-master-ce2p-executive-conference-ergonomic-chair-with-pillow-top",
+            "product": "{{ page.metafields.custom.workspace_hero_product_1.value }}",
             "subheading": "",
             "title": "{{ page.title }}",
             "highlight_style": "none",
@@ -238,13 +238,37 @@
             "enable_preload_image": false
           }
         },
-        "slide_NGnxEJ": {
+        "slide_peYecw": {
           "type": "slide",
           "settings": {
             "color_scheme": "",
-            "background": "shopify://shop_images/Conference_Room_Hero_2.jpg",
-            "image_overlay_opacity": 40,
-            "product": "special-t-aim-xl-rectangular-extra-large-conference-table",
+            "background": "{{ page.metafields.custom.workspace_hero_image_2.value }}",
+            "image_overlay_opacity": 20,
+            "product": "{{ page.metafields.custom.workspace_hero_product_2.value }}",
+            "subheading": "",
+            "title": "{{ page.title }}",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "bottom_heading": "{{ block.settings.product.title }}",
+            "enable_preload_image": false
+          }
+        },
+        "slide_t9rQMU": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "background": "{{ page.metafields.custom.workspace_hero_image_3.value }}",
+            "image_overlay_opacity": 20,
+            "product": "{{ page.metafields.custom.workspace_hero_product_3.value }}",
             "subheading": "",
             "title": "{{ page.title }}",
             "highlight_style": "none",
@@ -265,7 +289,8 @@
       },
       "block_order": [
         "slide_HyCMxn",
-        "slide_NGnxEJ"
+        "slide_peYecw",
+        "slide_t9rQMU"
       ],
       "name": "t:sections.slideshow-with-product.name",
       "settings": {
