@@ -78,7 +78,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Multi-Column-Conference.jpg",
-            "title": "Conference Rooms",
+            "title": "<a href=\"/pages/conference-room-workspaces\" target=\"_blank\" title=\"Conference Room Workspaces\">Conference Rooms</a>",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
@@ -89,7 +89,7 @@
             "button_label": "",
             "button_link": "",
             "button_style": "btn--underline",
-            "button_icon": "none"
+            "button_icon": "caret-right"
           }
         },
         "column_Y9CAmX": {
