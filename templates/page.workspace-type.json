@@ -424,7 +424,7 @@
         "content_ipLxWU": {
           "type": "content",
           "settings": {
-            "product": "{{ page.metafields.custom.workspace_recommended_chairs_1.value }}",
+            "product": "{{ page.metafields.custom.workspace_recommended_tables_1.value }}",
             "text-1": "",
             "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
             "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
@@ -440,39 +440,7 @@
         "content_NnfHWP": {
           "type": "content",
           "settings": {
-            "product": "{{ page.metafields.custom.workspace_recommended_chairs_2.value }}",
-            "text-1": "",
-            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
-            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
-            "text-4": "",
-            "text-5": "",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_yw89yy": {
-          "type": "content",
-          "settings": {
-            "product": "{{ page.metafields.custom.workspace_recommended_chairs_3.value }}",
-            "text-1": "",
-            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
-            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
-            "text-4": "",
-            "text-5": "",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_8zaXQF": {
-          "type": "content",
-          "settings": {
-            "product": "{{ page.metafields.custom.workspace_recommended_chairs_4.value }}",
+            "product": "{{ page.metafields.custom.workspace_recommended_tables_2.value }}",
             "text-1": "",
             "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
             "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
@@ -489,9 +457,7 @@
       "block_order": [
         "heading_b9r6Lk",
         "content_ipLxWU",
-        "content_NnfHWP",
-        "content_yw89yy",
-        "content_8zaXQF"
+        "content_NnfHWP"
       ],
       "name": "Comparison table Tables",
       "settings": {
