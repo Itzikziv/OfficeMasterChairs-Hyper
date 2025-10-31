@@ -716,7 +716,7 @@
           "type": "content",
           "settings": {
             "product": "{{ product.metafields.custom.chair_recommendation_1.value }}",
-            "text-1": "",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
             "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
             "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
             "text-4": "<p>Average User</p>",
@@ -733,10 +733,10 @@
           "settings": {
             "product": "{{ product.metafields.custom.chair_recommendation_2.value }}",
             "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
-            "text-2": "<p>{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}</p>",
-            "text-3": "<p>{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}</p>",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
             "text-4": "<p>Average User</p>",
-            "text-5": "<p>{{ block.settings.product.metafields.custom.product_warranty_tab | metafield_tag }}</p>",
+            "text-5": "{{ block.settings.product.metafields.custom.product_warranty_tab | metafield_tag }}",
             "text-6": "",
             "text-7": "",
             "text-8": "",
@@ -748,7 +748,7 @@
           "type": "content",
           "settings": {
             "product": "{{ product.metafields.custom.chair_recommendation_3.value }}",
-            "text-1": "",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
             "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
             "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
             "text-4": "<p>Average User</p>",
@@ -764,7 +764,7 @@
           "type": "content",
           "settings": {
             "product": "{{ product.metafields.custom.chair_recommendation_4.value }}",
-            "text-1": "",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
             "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
             "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
             "text-4": "<p>Average User</p>",
@@ -784,7 +784,6 @@
         "content_4LQWnd",
         "content_ee9XXd"
       ],
-      "disabled": true,
       "name": "t:sections.comparison-table.name",
       "settings": {
         "container": "fixed",
