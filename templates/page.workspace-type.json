@@ -325,7 +325,7 @@
         "description": "<p>Compare our top recommendations for {{ page.metafields.custom.workspace_name.value }} tables. </p><p>Each product shown is fully customizable to fit your space, style, and preferences.</p>",
         "text_size": "text-base",
         "button_label": "View All {{ page.metafields.custom.workspace_name.value }} Tables",
-        "button_link": "{{ page.metafields.custom.workspace_view_all_chairs_url.value }}",
+        "button_link": "{{ page.metafields.custom.workspace_view_all_tables_url.value }}",
         "button_style": "btn--underline",
         "button_icon": "caret-right",
         "icon_size": 10,
