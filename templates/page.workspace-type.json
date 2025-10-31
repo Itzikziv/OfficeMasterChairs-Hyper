@@ -238,7 +238,7 @@
         "show_view_more_button": true,
         "show_section_divider": false,
         "divider_width": "full",
-        "padding_top": 50,
+        "padding_top": 70,
         "padding_bottom": 80
       }
     },
