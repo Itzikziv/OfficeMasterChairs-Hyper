@@ -145,7 +145,7 @@
           "type": "content",
           "settings": {
             "product": "{{ page.metafields.custom.workspace_recommended_chairs_1.value }}",
-            "text-1": "",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
             "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
             "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
             "text-4": "",
@@ -161,7 +161,7 @@
           "type": "content",
           "settings": {
             "product": "{{ page.metafields.custom.workspace_recommended_chairs_2.value }}",
-            "text-1": "",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
             "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
             "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
             "text-4": "",
@@ -177,7 +177,7 @@
           "type": "content",
           "settings": {
             "product": "{{ page.metafields.custom.workspace_recommended_chairs_3.value }}",
-            "text-1": "",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
             "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
             "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
             "text-4": "",
@@ -193,7 +193,7 @@
           "type": "content",
           "settings": {
             "product": "{{ page.metafields.custom.workspace_recommended_chairs_4.value }}",
-            "text-1": "",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
             "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
             "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
             "text-4": "",
@@ -425,7 +425,7 @@
           "type": "content",
           "settings": {
             "product": "{{ page.metafields.custom.workspace_recommended_tables_1.value }}",
-            "text-1": "",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
             "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
             "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
             "text-4": "",
@@ -441,7 +441,7 @@
           "type": "content",
           "settings": {
             "product": "{{ page.metafields.custom.workspace_recommended_tables_2.value }}",
-            "text-1": "",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
             "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
             "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
             "text-4": "",
