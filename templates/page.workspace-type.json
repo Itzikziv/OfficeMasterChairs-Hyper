@@ -27,7 +27,7 @@
           "settings": {
             "color_scheme": "",
             "background": "{{ page.metafields.custom.workspace_hero_image.value }}",
-            "image_overlay_opacity": 20,
+            "image_overlay_opacity": 30,
             "product": "{{ page.metafields.custom.workspace_hero_product_1.value }}",
             "subheading": "",
             "title": "{{ page.title }}",
@@ -51,7 +51,7 @@
           "settings": {
             "color_scheme": "",
             "background": "{{ page.metafields.custom.workspace_hero_image_2.value }}",
-            "image_overlay_opacity": 20,
+            "image_overlay_opacity": 30,
             "product": "{{ page.metafields.custom.workspace_hero_product_2.value }}",
             "subheading": "",
             "title": "{{ page.title }}",
@@ -75,7 +75,7 @@
           "settings": {
             "color_scheme": "",
             "background": "{{ page.metafields.custom.workspace_hero_image_3.value }}",
-            "image_overlay_opacity": 20,
+            "image_overlay_opacity": 30,
             "product": "{{ page.metafields.custom.workspace_hero_product_3.value }}",
             "subheading": "",
             "title": "{{ page.title }}",
