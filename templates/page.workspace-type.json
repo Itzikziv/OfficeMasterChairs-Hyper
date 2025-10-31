@@ -207,6 +207,7 @@
         "lookbook_card_rqR4w9",
         "lookbook_card_mPRkTM"
       ],
+      "disabled": true,
       "name": "t:sections.lookbook-slider.name",
       "settings": {
         "container": "full",
@@ -318,7 +319,6 @@
         "slide_peYecw",
         "slide_t9rQMU"
       ],
-      "disabled": true,
       "custom_css": [
         ".slideshow-with-product__content {max-height: 480px; /* adjust as needed */ overflow: hidden;}"
       ],
