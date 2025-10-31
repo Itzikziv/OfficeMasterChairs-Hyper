@@ -213,7 +213,7 @@
         "content_BcwYpL",
         "content_iAxK3L"
       ],
-      "name": "t:sections.comparison-table.name",
+      "name": "Comparison table Chairs",
       "settings": {
         "container": "full",
         "color_scheme": "",
@@ -221,13 +221,13 @@
         "section_header_alignment": "left",
         "section_header_alignment_mobile": "inherit",
         "subheading": "",
-        "heading": "Top Chairs for {{ page.metafields.custom.workspace_name.value }}s",
+        "heading": "Best Chairs for {{ page.metafields.custom.workspace_name.value }}s",
         "highlight_style": "none",
         "highlight_font_style": "italic",
         "highlight_style_color": "",
         "highlight_text_color": "",
         "heading_size": "h2",
-        "description": "<p>Compare our top recommendations for {{ page.metafields.custom.workspace_name.value }} chairs. Each chair is totally customizable in color, fabric, arms, and more.</p>",
+        "description": "<p>Compare our top recommendations for {{ page.metafields.custom.workspace_name.value }} chairs. <br/><br/>Each product shown is fully customizable to fit your space, style, and preferences.</p>",
         "text_size": "text-base",
         "button_label": "View All {{ page.metafields.custom.workspace_name.value }} Chairs",
         "button_link": "{{ page.metafields.custom.workspace_view_all_chairs_url.value }}",
@@ -319,6 +319,207 @@
         "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
+      }
+    },
+    "featured_collection_gMQiKc": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_f6NddF": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "show_banner": false,
+            "color_scheme": "scheme-1",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collection_f6NddF"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured-collection.presets__1.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Featured collection",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "content_overflow": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "comparison_table_nM7eJf": {
+      "type": "comparison-table",
+      "blocks": {
+        "heading_b9r6Lk": {
+          "type": "heading",
+          "settings": {
+            "icon-1": "none",
+            "title-1": "Price",
+            "icon-2": "none",
+            "title-2": "Features",
+            "icon-3": "none",
+            "title-3": "Specifications",
+            "icon-4": "chat",
+            "title-4": "",
+            "icon-5": "chat",
+            "title-5": "",
+            "icon-6": "chat",
+            "title-6": "",
+            "icon-7": "chat",
+            "title-7": "",
+            "icon-8": "chat",
+            "title-8": "",
+            "icon-9": "chat",
+            "title-9": "",
+            "icon-10": "chat",
+            "title-10": ""
+          }
+        },
+        "content_ipLxWU": {
+          "type": "content",
+          "settings": {
+            "product": "{{ page.metafields.custom.workspace_recommended_chairs_1.value }}",
+            "text-1": "",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_NnfHWP": {
+          "type": "content",
+          "settings": {
+            "product": "{{ page.metafields.custom.workspace_recommended_chairs_2.value }}",
+            "text-1": "",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_yw89yy": {
+          "type": "content",
+          "settings": {
+            "product": "{{ page.metafields.custom.workspace_recommended_chairs_3.value }}",
+            "text-1": "",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_8zaXQF": {
+          "type": "content",
+          "settings": {
+            "product": "{{ page.metafields.custom.workspace_recommended_chairs_4.value }}",
+            "text-1": "",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_b9r6Lk",
+        "content_ipLxWU",
+        "content_NnfHWP",
+        "content_yw89yy",
+        "content_8zaXQF"
+      ],
+      "name": "Comparison table Tables",
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "header_layout": "standing-column",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Best Tables for {{ page.metafields.custom.workspace_name.value }}s",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "<p>Compare our top recommendations for {{ page.metafields.custom.workspace_name.value }} tables. </p><p>Each product shown is fully customizable to fit your space, style, and preferences.</p>",
+        "text_size": "text-base",
+        "button_label": "View All {{ page.metafields.custom.workspace_name.value }} Tables",
+        "button_link": "{{ page.metafields.custom.workspace_view_all_chairs_url.value }}",
+        "button_style": "btn--underline",
+        "button_icon": "caret-right",
+        "icon_size": 10,
+        "text_line_limit": "5-lines",
+        "show_view_more_button": true,
+        "show_section_divider": true,
+        "divider_width": "full",
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "multicolumn_JUpagH": {
@@ -788,6 +989,8 @@
     "slideshow_with_product_HtiURB",
     "comparison_table_MWAAy8",
     "collapsible_tabs_dHyfA4",
+    "featured_collection_gMQiKc",
+    "comparison_table_nM7eJf",
     "multicolumn_JUpagH",
     "multicolumn_icon_FTc7zc",
     "spacer_aWhxjL",
