@@ -108,8 +108,8 @@
         "container": "full",
         "slide_height": "small",
         "show_controls": true,
-        "autoplay": false,
-        "autoplay_delay": 3,
+        "autoplay": true,
+        "autoplay_delay": 5,
         "accessibility_info": "Slideshow showing different products in the workspace category"
       }
     },
