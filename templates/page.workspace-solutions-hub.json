@@ -97,7 +97,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Multi-Column-Training.jpg",
-            "title": "Training Rooms",
+            "title": "<a href=\"/pages/training-room-workspaces\" target=\"_blank\" title=\"Training Room Workspaces\">Training Rooms</a>",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
