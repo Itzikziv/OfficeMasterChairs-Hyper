@@ -11,106 +11,11 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "container": "fixed",
         "text_alignment": "center",
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "slideshow_with_product_HtiURB": {
-      "type": "slideshow-with-product",
-      "blocks": {
-        "slide_HyCMxn": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "",
-            "background": "{{ page.metafields.custom.workspace_hero_image.value }}",
-            "image_overlay_opacity": 20,
-            "product": "{{ page.metafields.custom.workspace_hero_product_1.value }}",
-            "subheading": "",
-            "title": "{{ page.title }}",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "hd2",
-            "description": "",
-            "description_size": "text-base",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "button_icon": "none",
-            "bottom_heading": "{{ block.settings.product.title }}",
-            "enable_preload_image": false
-          }
-        },
-        "slide_peYecw": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "",
-            "background": "{{ page.metafields.custom.workspace_hero_image_2.value }}",
-            "image_overlay_opacity": 20,
-            "product": "{{ page.metafields.custom.workspace_hero_product_2.value }}",
-            "subheading": "",
-            "title": "{{ page.title }}",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "hd2",
-            "description": "",
-            "description_size": "text-base",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "button_icon": "none",
-            "bottom_heading": "{{ block.settings.product.title }}",
-            "enable_preload_image": false
-          }
-        },
-        "slide_t9rQMU": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "",
-            "background": "{{ page.metafields.custom.workspace_hero_image_3.value }}",
-            "image_overlay_opacity": 20,
-            "product": "{{ page.metafields.custom.workspace_hero_product_3.value }}",
-            "subheading": "",
-            "title": "{{ page.title }}",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "hd2",
-            "description": "",
-            "description_size": "text-base",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "button_icon": "none",
-            "bottom_heading": "{{ block.settings.product.title }}",
-            "enable_preload_image": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_HyCMxn",
-        "slide_peYecw",
-        "slide_t9rQMU"
-      ],
-      "custom_css": [
-        ".slideshow-with-product__content {max-height: 380px; /* adjust as needed */ overflow: hidden;}"
-      ],
-      "name": "t:sections.slideshow-with-product.name",
-      "settings": {
-        "container": "full",
-        "slide_height": "small",
-        "show_controls": true,
-        "autoplay": true,
-        "autoplay_delay": 5,
-        "accessibility_info": "Slideshow showing different products in the workspace category"
       }
     },
     "comparison_table_MWAAy8": {
@@ -240,6 +145,260 @@
         "divider_width": "full",
         "padding_top": 50,
         "padding_bottom": 50
+      }
+    },
+    "slideshow_with_product_HtiURB": {
+      "type": "slideshow-with-product",
+      "blocks": {
+        "slide_HyCMxn": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "background": "{{ page.metafields.custom.workspace_hero_image.value }}",
+            "image_overlay_opacity": 20,
+            "product": "{{ page.metafields.custom.workspace_hero_product_1.value }}",
+            "subheading": "",
+            "title": "{{ page.title }}",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "bottom_heading": "{{ block.settings.product.title }}",
+            "enable_preload_image": false
+          }
+        },
+        "slide_peYecw": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "background": "{{ page.metafields.custom.workspace_hero_image_2.value }}",
+            "image_overlay_opacity": 20,
+            "product": "{{ page.metafields.custom.workspace_hero_product_2.value }}",
+            "subheading": "",
+            "title": "{{ page.title }}",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "bottom_heading": "{{ block.settings.product.title }}",
+            "enable_preload_image": false
+          }
+        },
+        "slide_t9rQMU": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "background": "{{ page.metafields.custom.workspace_hero_image_3.value }}",
+            "image_overlay_opacity": 20,
+            "product": "{{ page.metafields.custom.workspace_hero_product_3.value }}",
+            "subheading": "",
+            "title": "{{ page.title }}",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "bottom_heading": "{{ block.settings.product.title }}",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_HyCMxn",
+        "slide_peYecw",
+        "slide_t9rQMU"
+      ],
+      "custom_css": [
+        ".slideshow-with-product__content {max-height: 480px; /* adjust as needed */ overflow: hidden;}"
+      ],
+      "name": "t:sections.slideshow-with-product.name",
+      "settings": {
+        "container": "full",
+        "slide_height": "medium",
+        "show_controls": true,
+        "autoplay": true,
+        "autoplay_delay": 5,
+        "accessibility_info": "Slideshow showing different products in the workspace category"
+      }
+    },
+    "featured_collection_DWcjRb": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_X3h6gh": {
+          "type": "collection",
+          "settings": {
+            "collection": "conference-chairs",
+            "title": "All",
+            "show_banner": false,
+            "color_scheme": "",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collection_X3h6gh"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured-collection.presets__1.name",
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Browse All {{ page.metafields.custom.workspace_name.value }} Chairs",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "limit": 12,
+        "columns": 6,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "content_overflow": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "tabs_content_JYTj6M": {
+      "type": "tabs-content",
+      "blocks": {
+        "image_with_text_MU6tGd": {
+          "type": "image_with_text",
+          "settings": {
+            "navigation_title": "",
+            "image": "shopify://shop_images/Fabrics_3.jpg",
+            "desktop_image_position": "left",
+            "image_aspect_ratio": "4/3",
+            "heading": "Talk about your brand",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "subheading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "description_size": "text-base",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "icon_1": "check",
+            "heading_1": "Heading",
+            "icon_2": "check",
+            "heading_2": "Heading",
+            "icon_3": "check",
+            "heading_3": "Heading"
+          }
+        },
+        "image_with_text_dhbreq": {
+          "type": "image_with_text",
+          "settings": {
+            "navigation_title": "Tab 2",
+            "desktop_image_position": "left",
+            "image_aspect_ratio": "adapt",
+            "heading": "Talk about your brand",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "subheading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "description_size": "text-base",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "icon_1": "check",
+            "heading_1": "Heading",
+            "icon_2": "check",
+            "heading_2": "Heading",
+            "icon_3": "check",
+            "heading_3": "Heading"
+          }
+        },
+        "tab_irUtDM": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "navigation_title": "",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_MU6tGd",
+        "image_with_text_dhbreq",
+        "tab_irUtDM"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "name": "t:sections.tabs-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "navigation_style": "headings",
+        "navigation_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
       }
     },
     "collapsible_tabs_dHyfA4": {
@@ -395,6 +554,7 @@
     },
     "spacer_YkqCAr": {
       "type": "spacer",
+      "disabled": true,
       "name": "t:sections.spacer.name",
       "settings": {
         "color_scheme": "",
@@ -749,8 +909,10 @@
   },
   "order": [
     "main",
-    "slideshow_with_product_HtiURB",
     "comparison_table_MWAAy8",
+    "slideshow_with_product_HtiURB",
+    "featured_collection_DWcjRb",
+    "tabs_content_JYTj6M",
     "collapsible_tabs_dHyfA4",
     "featured_collection_gMQiKc",
     "spacer_YkqCAr",
