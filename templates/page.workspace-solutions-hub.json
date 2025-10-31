@@ -24,6 +24,7 @@
       "blocks": {
         "subheading_htj7zR": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "<em>Furnish every space with purpose, comfort, and style.</em>"
           }
