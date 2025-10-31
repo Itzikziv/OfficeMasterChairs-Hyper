@@ -983,6 +983,7 @@
         "text_m7KFUR",
         "button_8cGXqV"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.name",
       "settings": {
         "container": "fixed",
@@ -994,6 +995,75 @@
         "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
+      }
+    },
+    "image_with_text_c9bzeL": {
+      "type": "image-with-text",
+      "blocks": {
+        "badge_mpCNM8": {
+          "type": "badge",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "text": "image with text - spinning text -",
+            "position_mobile": "right"
+          }
+        },
+        "subheading_Kj4Dd6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_tcyxU7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need Help Planning Your Workspace?",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "text_mVN4pT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re here to help you find the right furniture for your space.<br/><br/>Our team can recommend the best chair and table combinations based on your layout, usage, and budget — and provide a quote with updated lead times and bulk pricing.</p>",
+            "subtext_color": true
+          }
+        },
+        "button_y6pk8z": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "badge_mpCNM8",
+        "subheading_Kj4Dd6",
+        "heading_tcyxU7",
+        "text_mVN4pT",
+        "button_y6pk8z"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-10",
+        "image": "shopify://shop_images/Help_Planning_Your_Workspace_Image.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     }
   },
@@ -1009,6 +1079,7 @@
     "spacer_YkqCAr",
     "comparison_table_nM7eJf",
     "multicolumn_JUpagH",
-    "rich_text_LCrRmB"
+    "rich_text_LCrRmB",
+    "image_with_text_c9bzeL"
   ]
 }
