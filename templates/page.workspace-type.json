@@ -295,7 +295,7 @@
       "name": "t:sections.slideshow-with-product.name",
       "settings": {
         "container": "full",
-        "slide_height": "medium",
+        "slide_height": "small",
         "show_controls": true,
         "autoplay": false,
         "autoplay_delay": 3,
