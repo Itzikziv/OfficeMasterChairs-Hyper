@@ -292,6 +292,9 @@
         "slide_peYecw",
         "slide_t9rQMU"
       ],
+      "custom_css": [
+        ".slideshow-with-product__content {max-height: 380px; /* adjust as needed */ overflow: hidden;}"
+      ],
       "name": "t:sections.slideshow-with-product.name",
       "settings": {
         "container": "full",
@@ -299,7 +302,7 @@
         "show_controls": true,
         "autoplay": false,
         "autoplay_delay": 3,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": "Slideshow showing different products in the workspace category"
       }
     },
     "comparison_table_MWAAy8": {
