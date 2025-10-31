@@ -147,6 +147,96 @@
         "padding_bottom": 50
       }
     },
+    "lookbook_slider_TVpdnt": {
+      "type": "lookbook-slider",
+      "blocks": {
+        "lookbook_card_CEgiKh": {
+          "type": "lookbook_card",
+          "settings": {
+            "product_list": [
+              "special-t-aim-xl-rectangular-extra-large-conference-table"
+            ],
+            "width": 80,
+            "width_mobile": 50,
+            "image": "{{ page.metafields.custom.workspace_hero_image.value }}",
+            "heading": "Featured Product",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5"
+          }
+        },
+        "lookbook_card_rqR4w9": {
+          "type": "lookbook_card",
+          "settings": {
+            "product_list": [
+              "office-master-ln5-high-lorien-high-back-mesh-chair"
+            ],
+            "width": 80,
+            "width_mobile": 50,
+            "image": "{{ page.metafields.custom.workspace_hero_image_2.value }}",
+            "heading": "Featured Product",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5"
+          }
+        },
+        "lookbook_card_mPRkTM": {
+          "type": "lookbook_card",
+          "settings": {
+            "product_list": [
+              "office-master-ce2p-executive-conference-ergonomic-chair-with-pillow-top"
+            ],
+            "width": 80,
+            "width_mobile": 50,
+            "image": "{{ page.metafields.custom.workspace_hero_image_3.value }}",
+            "heading": "Featured Product",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "lookbook_card_CEgiKh",
+        "lookbook_card_rqR4w9",
+        "lookbook_card_mPRkTM"
+      ],
+      "name": "t:sections.lookbook-slider.name",
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Get Inspired",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "<p>Check out some example {{ page.metafields.custom.workspace_name.value }}s. Each photo features a different product. </p>",
+        "description_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "medium",
+        "enable_slider": true,
+        "slide_height": "small",
+        "enable_swiper_mobile": true,
+        "show_progress_bar": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "slideshow_with_product_HtiURB": {
       "type": "slideshow-with-product",
       "blocks": {
@@ -228,6 +318,7 @@
         "slide_peYecw",
         "slide_t9rQMU"
       ],
+      "disabled": true,
       "custom_css": [
         ".slideshow-with-product__content {max-height: 480px; /* adjust as needed */ overflow: hidden;}"
       ],
@@ -892,7 +983,6 @@
         "text_m7KFUR",
         "button_8cGXqV"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.name",
       "settings": {
         "container": "fixed",
@@ -910,6 +1000,7 @@
   "order": [
     "main",
     "comparison_table_MWAAy8",
+    "lookbook_slider_TVpdnt",
     "slideshow_with_product_HtiURB",
     "featured_collection_DWcjRb",
     "tabs_content_JYTj6M",
