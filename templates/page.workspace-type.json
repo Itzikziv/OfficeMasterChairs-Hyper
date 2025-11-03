@@ -100,7 +100,6 @@
         "slide_peYecw",
         "slide_t9rQMU"
       ],
-      "disabled": true,
       "custom_css": [
         ".slideshow-with-product__content {max-height: 420px; /* adjust as needed */ overflow: hidden;}"
       ],
@@ -250,7 +249,6 @@
         "content_BcwYpL",
         "content_iAxK3L"
       ],
-      "disabled": true,
       "name": "Comparison table Chairs",
       "settings": {
         "container": "full",
@@ -346,7 +344,6 @@
         "content_ipLxWU",
         "content_NnfHWP"
       ],
-      "disabled": true,
       "name": "Comparison table Tables",
       "settings": {
         "container": "full",
@@ -411,6 +408,7 @@
       "block_order": [
         "collection_X3h6gh"
       ],
+      "disabled": true,
       "name": "t:sections.featured-collection.presets__1.name",
       "settings": {
         "container": "full",
@@ -482,6 +480,7 @@
       "block_order": [
         "collection_hychey"
       ],
+      "disabled": true,
       "name": "t:sections.featured-collection.presets__1.name",
       "settings": {
         "container": "full",
