@@ -1,0 +1,1195 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "container": "fixed",
+        "text_alignment": "center",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "slideshow_with_product_HtiURB": {
+      "type": "slideshow-with-product",
+      "blocks": {
+        "slide_HyCMxn": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "background": "{{ page.metafields.custom.workspace_hero_image.value }}",
+            "image_overlay_opacity": 30,
+            "product": "{{ page.metafields.custom.workspace_hero_product_1.value }}",
+            "subheading": "",
+            "title": "{{ page.title }}",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "bottom_heading": "{{ block.settings.product.title }}",
+            "enable_preload_image": false
+          }
+        },
+        "slide_peYecw": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "background": "{{ page.metafields.custom.workspace_hero_image_2.value }}",
+            "image_overlay_opacity": 30,
+            "product": "{{ page.metafields.custom.workspace_hero_product_2.value }}",
+            "subheading": "",
+            "title": "{{ page.title }}",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "bottom_heading": "{{ block.settings.product.title }}",
+            "enable_preload_image": false
+          }
+        },
+        "slide_t9rQMU": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "background": "{{ page.metafields.custom.workspace_hero_image_3.value }}",
+            "image_overlay_opacity": 30,
+            "product": "{{ page.metafields.custom.workspace_hero_product_3.value }}",
+            "subheading": "",
+            "title": "{{ page.title }}",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "bottom_heading": "{{ block.settings.product.title }}",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_HyCMxn",
+        "slide_peYecw",
+        "slide_t9rQMU"
+      ],
+      "custom_css": [
+        ".slideshow-with-product__content {max-height: 420px; /* adjust as needed */ overflow: hidden;}"
+      ],
+      "name": "t:sections.slideshow-with-product.name",
+      "settings": {
+        "container": "full",
+        "slide_height": "medium",
+        "show_controls": true,
+        "autoplay": true,
+        "autoplay_delay": 5,
+        "accessibility_info": "Slideshow showing different products in the workspace category"
+      }
+    },
+    "comparison_table_MWAAy8": {
+      "type": "comparison-table",
+      "blocks": {
+        "heading_4eQj6W": {
+          "type": "heading",
+          "settings": {
+            "icon-1": "none",
+            "title-1": "Price",
+            "icon-2": "none",
+            "title-2": "Features",
+            "icon-3": "none",
+            "title-3": "Specifications",
+            "icon-4": "chat",
+            "title-4": "",
+            "icon-5": "chat",
+            "title-5": "",
+            "icon-6": "chat",
+            "title-6": "",
+            "icon-7": "chat",
+            "title-7": "",
+            "icon-8": "chat",
+            "title-8": "",
+            "icon-9": "chat",
+            "title-9": "",
+            "icon-10": "chat",
+            "title-10": ""
+          }
+        },
+        "content_tycpFj": {
+          "type": "content",
+          "settings": {
+            "product": "{{ page.metafields.custom.workspace_recommended_chairs_1.value }}",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_qmJTn9": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "product": "{{ page.metafields.custom.workspace_recommended_tables_1.value }}",
+            "text-1": "",
+            "text-2": "",
+            "text-3": "",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_tgHgVK": {
+          "type": "content",
+          "settings": {
+            "product": "{{ page.metafields.custom.workspace_recommended_chairs_2.value }}",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_C7LEKe": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "product": "{{ page.metafields.custom.workspace_recommended_tables_2.value }}",
+            "text-1": "",
+            "text-2": "",
+            "text-3": "",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_BcwYpL": {
+          "type": "content",
+          "settings": {
+            "product": "{{ page.metafields.custom.workspace_recommended_chairs_3.value }}",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_iAxK3L": {
+          "type": "content",
+          "settings": {
+            "product": "{{ page.metafields.custom.workspace_recommended_chairs_4.value }}",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_4eQj6W",
+        "content_tycpFj",
+        "content_qmJTn9",
+        "content_tgHgVK",
+        "content_C7LEKe",
+        "content_BcwYpL",
+        "content_iAxK3L"
+      ],
+      "name": "Comparison table Chairs",
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "header_layout": "standing-column",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Best Chairs for {{ page.metafields.custom.workspace_name.value }}s",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "<p>Compare our top recommendations for {{ page.metafields.custom.workspace_name.value }} chairs. Pair with tables below.<br/><br/>Each product shown is fully customizable to fit your space, style, and preferences.</p>",
+        "text_size": "text-base",
+        "button_label": "View All {{ page.metafields.custom.workspace_name.value }} Chairs",
+        "button_link": "{{ page.metafields.custom.workspace_view_all_chairs_url.value }}",
+        "button_style": "btn--underline",
+        "button_icon": "caret-right",
+        "icon_size": 10,
+        "text_line_limit": "3-lines",
+        "show_view_more_button": true,
+        "show_section_divider": false,
+        "divider_width": "full",
+        "padding_top": 70,
+        "padding_bottom": 80
+      }
+    },
+    "comparison_table_nM7eJf": {
+      "type": "comparison-table",
+      "blocks": {
+        "heading_b9r6Lk": {
+          "type": "heading",
+          "settings": {
+            "icon-1": "none",
+            "title-1": "Price",
+            "icon-2": "none",
+            "title-2": "Features",
+            "icon-3": "none",
+            "title-3": "Specifications",
+            "icon-4": "chat",
+            "title-4": "",
+            "icon-5": "chat",
+            "title-5": "",
+            "icon-6": "chat",
+            "title-6": "",
+            "icon-7": "chat",
+            "title-7": "",
+            "icon-8": "chat",
+            "title-8": "",
+            "icon-9": "chat",
+            "title-9": "",
+            "icon-10": "chat",
+            "title-10": ""
+          }
+        },
+        "content_ipLxWU": {
+          "type": "content",
+          "settings": {
+            "product": "{{ page.metafields.custom.workspace_recommended_tables_1.value }}",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_NnfHWP": {
+          "type": "content",
+          "settings": {
+            "product": "{{ page.metafields.custom.workspace_recommended_tables_2.value }}",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_b9r6Lk",
+        "content_ipLxWU",
+        "content_NnfHWP"
+      ],
+      "name": "Comparison table Tables",
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "header_layout": "standing-column",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Best Tables for {{ page.metafields.custom.workspace_name.value }}s",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "<p>Compare our top recommendations for {{ page.metafields.custom.workspace_name.value }} tables. </p><p>Each product shown is fully customizable to fit your space, style, and preferences.</p>",
+        "text_size": "text-base",
+        "button_label": "View All {{ page.metafields.custom.workspace_name.value }} Tables",
+        "button_link": "{{ page.metafields.custom.workspace_view_all_tables_url.value }}",
+        "button_style": "btn--underline",
+        "button_icon": "caret-right",
+        "icon_size": 10,
+        "text_line_limit": "3-lines",
+        "show_view_more_button": true,
+        "show_section_divider": true,
+        "divider_width": "full",
+        "padding_top": 80,
+        "padding_bottom": 50
+      }
+    },
+    "featured_collection_DWcjRb": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_X3h6gh": {
+          "type": "collection",
+          "settings": {
+            "collection": "conference-chairs",
+            "title": "All",
+            "show_banner": false,
+            "color_scheme": "",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collection_X3h6gh"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured-collection.presets__1.name",
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Suggested {{ page.metafields.custom.workspace_name.value }} Chairs",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "limit": 12,
+        "columns": 6,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "content_overflow": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "featured_collection_9JjdhU": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_hychey": {
+          "type": "collection",
+          "settings": {
+            "collection": "conference-tables",
+            "title": "All",
+            "show_banner": false,
+            "color_scheme": "",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collection_hychey"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured-collection.presets__1.name",
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Suggested {{ page.metafields.custom.workspace_name.value }} Chairs",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "limit": 12,
+        "columns": 6,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "content_overflow": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_c9bzeL": {
+      "type": "image-with-text",
+      "blocks": {
+        "badge_mpCNM8": {
+          "type": "badge",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "text": "image with text - spinning text -",
+            "position_mobile": "right"
+          }
+        },
+        "subheading_Kj4Dd6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_tcyxU7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need Help Planning Your Workspace?",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "text_mVN4pT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re here to help you find the right furniture for your space.<br/><br/>Our team can recommend the best chair and table combinations based on your layout, usage, and budget — and provide a quote with updated lead times and bulk pricing.</p>",
+            "subtext_color": true
+          }
+        },
+        "button_y6pk8z": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "badge_mpCNM8",
+        "subheading_Kj4Dd6",
+        "heading_tcyxU7",
+        "text_mVN4pT",
+        "button_y6pk8z"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-10",
+        "image": "shopify://shop_images/Help_Planning_Your_Workspace_Image.jpg",
+        "image_position": "left",
+        "image_width": 50,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "inherit",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "lookbook_slider_TVpdnt": {
+      "type": "lookbook-slider",
+      "blocks": {
+        "lookbook_card_CEgiKh": {
+          "type": "lookbook_card",
+          "settings": {
+            "product_list": [
+              "special-t-aim-xl-rectangular-extra-large-conference-table"
+            ],
+            "width": 80,
+            "width_mobile": 50,
+            "image": "{{ page.metafields.custom.workspace_hero_image.value }}",
+            "heading": "Featured Product",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5"
+          }
+        },
+        "lookbook_card_rqR4w9": {
+          "type": "lookbook_card",
+          "settings": {
+            "product_list": [
+              "office-master-ln5-high-lorien-high-back-mesh-chair"
+            ],
+            "width": 80,
+            "width_mobile": 50,
+            "image": "{{ page.metafields.custom.workspace_hero_image_2.value }}",
+            "heading": "Featured Product",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5"
+          }
+        },
+        "lookbook_card_mPRkTM": {
+          "type": "lookbook_card",
+          "settings": {
+            "product_list": [
+              "office-master-ce2p-executive-conference-ergonomic-chair-with-pillow-top"
+            ],
+            "width": 80,
+            "width_mobile": 50,
+            "image": "{{ page.metafields.custom.workspace_hero_image_3.value }}",
+            "heading": "Featured Product",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h5"
+          }
+        }
+      },
+      "block_order": [
+        "lookbook_card_CEgiKh",
+        "lookbook_card_rqR4w9",
+        "lookbook_card_mPRkTM"
+      ],
+      "disabled": true,
+      "name": "t:sections.lookbook-slider.name",
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Get Inspired",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "<p>Check out some example {{ page.metafields.custom.workspace_name.value }}s. Each photo features a different product. </p>",
+        "description_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "medium",
+        "enable_slider": true,
+        "slide_height": "small",
+        "enable_swiper_mobile": true,
+        "show_progress_bar": true,
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "tabs_content_JYTj6M": {
+      "type": "tabs-content",
+      "blocks": {
+        "image_with_text_MU6tGd": {
+          "type": "image_with_text",
+          "settings": {
+            "navigation_title": "",
+            "image": "shopify://shop_images/Fabrics_3.jpg",
+            "desktop_image_position": "left",
+            "image_aspect_ratio": "4/3",
+            "heading": "Talk about your brand",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h3",
+            "subheading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "description_size": "text-base",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "icon_1": "check",
+            "heading_1": "Heading",
+            "icon_2": "check",
+            "heading_2": "Heading",
+            "icon_3": "check",
+            "heading_3": "Heading"
+          }
+        },
+        "image_with_text_dhbreq": {
+          "type": "image_with_text",
+          "settings": {
+            "navigation_title": "Tab 2",
+            "desktop_image_position": "left",
+            "image_aspect_ratio": "adapt",
+            "heading": "Talk about your brand",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "subheading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "description_size": "text-base",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "icon_1": "check",
+            "heading_1": "Heading",
+            "icon_2": "check",
+            "heading_2": "Heading",
+            "icon_3": "check",
+            "heading_3": "Heading"
+          }
+        },
+        "tab_irUtDM": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "navigation_title": "",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_MU6tGd",
+        "image_with_text_dhbreq",
+        "tab_irUtDM"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "name": "t:sections.tabs-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "navigation_style": "headings",
+        "navigation_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collapsible_tabs_dHyfA4": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "collapsible_item_3zaMBE": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_pKMrmH": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_r7zyFw": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_item_3zaMBE",
+        "collapsible_item_pKMrmH",
+        "collapsible_item_r7zyFw"
+      ],
+      "disabled": true,
+      "name": "t:sections.collapsible-tabs.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Collapsible tabs",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h4",
+        "item_icon_size": "extra-large",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "featured_collection_gMQiKc": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_f6NddF": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "show_banner": false,
+            "color_scheme": "scheme-1",
+            "card_link": "",
+            "image_overlay_opacity": 0,
+            "content_position": "top-left",
+            "content_alignment": "left",
+            "subheading": "",
+            "subheading_style": "",
+            "heading": "Collections",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2",
+            "heading_size_mobile": "inherit",
+            "heading_size_custom": 18,
+            "description": "",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "collection_f6NddF"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured-collection.presets__1.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Featured collection",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "content_overflow": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "spacer_YkqCAr": {
+      "type": "spacer",
+      "disabled": true,
+      "name": "t:sections.spacer.name",
+      "settings": {
+        "color_scheme": "",
+        "show_section_divider": false,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 24
+      }
+    },
+    "multicolumn_JUpagH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qEkxwD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Multi-Column-Conference.jpg",
+            "title": "Conference Rooms",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_Y9CAmX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Multi-Column-Training.jpg",
+            "title": "Training Rooms",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_eJVJce": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Multi-Column-Education.jpg",
+            "title": "Education",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_nCD7YY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Multi-Column-Individual_Workstation.jpg",
+            "title": "Office Workstations",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_MqKTDN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Multi-Column-Reception_Waiting_Areas.jpg",
+            "title": "Reception & Waiting Areas",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_GctRNw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Multi-Column-Collaborative.jpg",
+            "title": "Collaborative Spaces",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_YbkYeX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Multi-Column-Cafes_Hospitality.jpg",
+            "title": "Cafés & Hospitality",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "column_bwDcMA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Multi-Column-Work_From_Home.jpg",
+            "title": "Work From Home",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h4",
+            "text": "",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "column_qEkxwD",
+        "column_Y9CAmX",
+        "column_eJVJce",
+        "column_nCD7YY",
+        "column_MqKTDN",
+        "column_GctRNw",
+        "column_YbkYeX",
+        "column_bwDcMA"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Explore Workspace Solutions by Space",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "<p>Browse spaces designed around how people actually work, meet, and collaborate. Each space features recommended seating and table products intended for that space.</p>",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--plain",
+        "button_icon": "none",
+        "content_alignment": "left",
+        "show_col_count": false,
+        "show_image": true,
+        "columns_desktop": 4,
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_section_divider": true,
+        "divider_width": "fixed",
+        "padding_top": 70,
+        "padding_bottom": 50
+      }
+    },
+    "rich_text_LCrRmB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QeEQjr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h2"
+          }
+        },
+        "text_m7KFUR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_size": "text-base",
+            "text_line_limit": "none",
+            "button_style": "btn--underline",
+            "button_icon": "none"
+          }
+        },
+        "button_8cGXqV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QeEQjr",
+        "text_m7KFUR",
+        "button_8cGXqV"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-2",
+        "use_color_scheme_in_container": false,
+        "content_spacing": "standard",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_with_product_HtiURB",
+    "comparison_table_MWAAy8",
+    "comparison_table_nM7eJf",
+    "featured_collection_DWcjRb",
+    "featured_collection_9JjdhU",
+    "image_with_text_c9bzeL",
+    "lookbook_slider_TVpdnt",
+    "tabs_content_JYTj6M",
+    "collapsible_tabs_dHyfA4",
+    "featured_collection_gMQiKc",
+    "spacer_YkqCAr",
+    "multicolumn_JUpagH",
+    "rich_text_LCrRmB"
+  ]
+}
