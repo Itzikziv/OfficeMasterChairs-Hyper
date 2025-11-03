@@ -149,7 +149,6 @@
         },
         "column_MqKTDN": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Multi-Column-Reception_Waiting_Areas.jpg",
             "title": "Reception & Waiting Areas",
@@ -204,7 +203,6 @@
         },
         "column_bwDcMA": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Multi-Column-Work_From_Home.jpg",
             "title": "Work From Home",
@@ -257,7 +255,7 @@
         "content_alignment": "left",
         "show_col_count": false,
         "show_image": true,
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_gap": "large",
         "row_gap": "inherit",
         "columns_mobile": "1",
