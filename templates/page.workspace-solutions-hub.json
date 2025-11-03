@@ -133,7 +133,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Multi-Column-Individual_Workstation.jpg",
-            "title": "Office Workstation",
+            "title": "<a href=\"/pages/office-workstations\" target=\"_blank\" title=\"Office Workstations\">Office Workstation</a>",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
