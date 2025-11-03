@@ -115,7 +115,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Multi-Column-Education.jpg",
-            "title": "Education",
+            "title": "<a href=\"/pages/education-workspaces\" target=\"_blank\" title=\"Education Workspaces\">Education</a>",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
