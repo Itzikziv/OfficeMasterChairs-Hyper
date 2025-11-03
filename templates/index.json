@@ -1030,7 +1030,7 @@
         "featured_collection_bwCtML": {
           "type": "featured_collection",
           "settings": {
-            "collection": "training-tables",
+            "collection": "training-and-education-tables",
             "title": "Training Tables"
           }
         },
