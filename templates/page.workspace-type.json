@@ -54,7 +54,7 @@
             "image_overlay_opacity": 30,
             "product": "{{ page.metafields.custom.workspace_hero_product_2.value }}",
             "subheading": "",
-            "title": "{{ page.title }}",
+            "title": "{{ page.metafields.custom.workspace_name.value }} Tables and Chairs",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
@@ -78,7 +78,7 @@
             "image_overlay_opacity": 30,
             "product": "{{ page.metafields.custom.workspace_hero_product_3.value }}",
             "subheading": "",
-            "title": "{{ page.title }}",
+            "title": "{{ page.metafields.custom.workspace_name.value }} Tables and Chairs",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
@@ -249,6 +249,7 @@
         "content_BcwYpL",
         "content_iAxK3L"
       ],
+      "disabled": true,
       "name": "Comparison table Chairs",
       "settings": {
         "container": "full",
@@ -276,6 +277,101 @@
         "divider_width": "full",
         "padding_top": 70,
         "padding_bottom": 80
+      }
+    },
+    "comparison_table_nM7eJf": {
+      "type": "comparison-table",
+      "blocks": {
+        "heading_b9r6Lk": {
+          "type": "heading",
+          "settings": {
+            "icon-1": "none",
+            "title-1": "Price",
+            "icon-2": "none",
+            "title-2": "Features",
+            "icon-3": "none",
+            "title-3": "Specifications",
+            "icon-4": "chat",
+            "title-4": "",
+            "icon-5": "chat",
+            "title-5": "",
+            "icon-6": "chat",
+            "title-6": "",
+            "icon-7": "chat",
+            "title-7": "",
+            "icon-8": "chat",
+            "title-8": "",
+            "icon-9": "chat",
+            "title-9": "",
+            "icon-10": "chat",
+            "title-10": ""
+          }
+        },
+        "content_ipLxWU": {
+          "type": "content",
+          "settings": {
+            "product": "{{ page.metafields.custom.workspace_recommended_tables_1.value }}",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_NnfHWP": {
+          "type": "content",
+          "settings": {
+            "product": "{{ page.metafields.custom.workspace_recommended_tables_2.value }}",
+            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
+            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_b9r6Lk",
+        "content_ipLxWU",
+        "content_NnfHWP"
+      ],
+      "name": "Comparison table Tables",
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "header_layout": "standing-column",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Best Tables for {{ page.metafields.custom.workspace_name.value }}s",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "<p>Compare our top recommendations for {{ page.metafields.custom.workspace_name.value }} tables. </p><p>Each product shown is fully customizable to fit your space, style, and preferences.</p>",
+        "text_size": "text-base",
+        "button_label": "View All {{ page.metafields.custom.workspace_name.value }} Tables",
+        "button_link": "{{ page.metafields.custom.workspace_view_all_tables_url.value }}",
+        "button_style": "btn--underline",
+        "button_icon": "caret-right",
+        "icon_size": 10,
+        "text_line_limit": "3-lines",
+        "show_view_more_button": true,
+        "show_section_divider": true,
+        "divider_width": "full",
+        "padding_top": 80,
+        "padding_bottom": 50
       }
     },
     "comparison_table_i8DAcc": {
@@ -414,7 +510,6 @@
         "content_4wxyRM",
         "content_X3YWrx"
       ],
-      "disabled": true,
       "name": "Comparison table Chairs",
       "settings": {
         "container": "full",
@@ -442,102 +537,6 @@
         "divider_width": "full",
         "padding_top": 70,
         "padding_bottom": 80
-      }
-    },
-    "comparison_table_nM7eJf": {
-      "type": "comparison-table",
-      "blocks": {
-        "heading_b9r6Lk": {
-          "type": "heading",
-          "settings": {
-            "icon-1": "none",
-            "title-1": "Price",
-            "icon-2": "none",
-            "title-2": "Features",
-            "icon-3": "none",
-            "title-3": "Specifications",
-            "icon-4": "chat",
-            "title-4": "",
-            "icon-5": "chat",
-            "title-5": "",
-            "icon-6": "chat",
-            "title-6": "",
-            "icon-7": "chat",
-            "title-7": "",
-            "icon-8": "chat",
-            "title-8": "",
-            "icon-9": "chat",
-            "title-9": "",
-            "icon-10": "chat",
-            "title-10": ""
-          }
-        },
-        "content_ipLxWU": {
-          "type": "content",
-          "settings": {
-            "product": "{{ page.metafields.custom.workspace_recommended_tables_1.value }}",
-            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
-            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
-            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
-            "text-4": "",
-            "text-5": "",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_NnfHWP": {
-          "type": "content",
-          "settings": {
-            "product": "{{ page.metafields.custom.workspace_recommended_tables_2.value }}",
-            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
-            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
-            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
-            "text-4": "",
-            "text-5": "",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_b9r6Lk",
-        "content_ipLxWU",
-        "content_NnfHWP"
-      ],
-      "disabled": true,
-      "name": "Comparison table Tables",
-      "settings": {
-        "container": "full",
-        "color_scheme": "",
-        "header_layout": "standing-column",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Best Tables for {{ page.metafields.custom.workspace_name.value }}s",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h2",
-        "description": "<p>Compare our top recommendations for {{ page.metafields.custom.workspace_name.value }} tables. </p><p>Each product shown is fully customizable to fit your space, style, and preferences.</p>",
-        "text_size": "text-base",
-        "button_label": "View All {{ page.metafields.custom.workspace_name.value }} Tables",
-        "button_link": "{{ page.metafields.custom.workspace_view_all_tables_url.value }}",
-        "button_style": "btn--underline",
-        "button_icon": "caret-right",
-        "icon_size": 10,
-        "text_line_limit": "3-lines",
-        "show_view_more_button": true,
-        "show_section_divider": true,
-        "divider_width": "full",
-        "padding_top": 80,
-        "padding_bottom": 50
       }
     },
     "featured_collection_DWcjRb": {
@@ -1347,8 +1346,8 @@
     "main",
     "slideshow_with_product_HtiURB",
     "comparison_table_MWAAy8",
-    "comparison_table_i8DAcc",
     "comparison_table_nM7eJf",
+    "comparison_table_i8DAcc",
     "featured_collection_DWcjRb",
     "featured_collection_9JjdhU",
     "image_with_text_c9bzeL",
