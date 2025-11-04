@@ -493,7 +493,7 @@
         "collection_ydJPzX": {
           "type": "collection",
           "settings": {
-            "collection": "break-room-cafe-tables",
+            "collection": "hospitality-cafe-and-break-room-tables",
             "title": "New Arrivals",
             "show_banner": true,
             "color_scheme": "scheme-inverse",
@@ -1065,7 +1065,7 @@
         "featured_collection_KTmigw": {
           "type": "featured_collection",
           "settings": {
-            "collection": "break-room-cafe-tables",
+            "collection": "hospitality-cafe-and-break-room-tables",
             "title": "Break Room & Cafe Tables"
           }
         }
