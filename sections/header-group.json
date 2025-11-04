@@ -29,6 +29,7 @@
       "block_order": [
         "text_Ahn3nP"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "fixed",
@@ -36,6 +37,38 @@
         "show_separator_line": false,
         "padding_top": 12,
         "padding_bottom": 12
+      }
+    },
+    "announcement_bar_UFiPD7": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_bar_TtdpHQ": {
+          "type": "announcement_bar",
+          "settings": {
+            "text": "Shopping for business? We offer bulk discounts!",
+            "link": "shopify://pages/bulk-order-discounts"
+          }
+        },
+        "announcement_bar_nngktg": {
+          "type": "announcement_bar",
+          "settings": {
+            "text": "Enjoy Free Shipping on Almost All Orders!",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_bar_TtdpHQ",
+        "announcement_bar_nngktg"
+      ],
+      "name": "t:sections.announcement-bar.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "content_width": 30,
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     },
     "header": {
@@ -397,6 +430,7 @@
   },
   "order": [
     "topbar_3YD96h",
+    "announcement_bar_UFiPD7",
     "header"
   ]
 }
