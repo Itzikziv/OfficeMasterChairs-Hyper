@@ -113,172 +113,6 @@
         "accessibility_info": "Slideshow showing different products in the workspace category"
       }
     },
-    "comparison_table_MWAAy8": {
-      "type": "comparison-table",
-      "blocks": {
-        "heading_4eQj6W": {
-          "type": "heading",
-          "settings": {
-            "icon-1": "none",
-            "title-1": "Price",
-            "icon-2": "none",
-            "title-2": "Features",
-            "icon-3": "none",
-            "title-3": "Specifications",
-            "icon-4": "chat",
-            "title-4": "",
-            "icon-5": "chat",
-            "title-5": "",
-            "icon-6": "chat",
-            "title-6": "",
-            "icon-7": "chat",
-            "title-7": "",
-            "icon-8": "chat",
-            "title-8": "",
-            "icon-9": "chat",
-            "title-9": "",
-            "icon-10": "chat",
-            "title-10": ""
-          }
-        },
-        "content_tycpFj": {
-          "type": "content",
-          "settings": {
-            "product": "{{ page.metafields.custom.workspace_recommended_chairs_1.value }}",
-            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
-            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
-            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
-            "text-4": "",
-            "text-5": "",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_qmJTn9": {
-          "type": "content",
-          "disabled": true,
-          "settings": {
-            "product": "{{ page.metafields.custom.workspace_recommended_tables_1.value }}",
-            "text-1": "",
-            "text-2": "",
-            "text-3": "",
-            "text-4": "",
-            "text-5": "",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_tgHgVK": {
-          "type": "content",
-          "settings": {
-            "product": "{{ page.metafields.custom.workspace_recommended_chairs_2.value }}",
-            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
-            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
-            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
-            "text-4": "",
-            "text-5": "",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_C7LEKe": {
-          "type": "content",
-          "disabled": true,
-          "settings": {
-            "product": "{{ page.metafields.custom.workspace_recommended_tables_2.value }}",
-            "text-1": "",
-            "text-2": "",
-            "text-3": "",
-            "text-4": "",
-            "text-5": "",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_BcwYpL": {
-          "type": "content",
-          "settings": {
-            "product": "{{ page.metafields.custom.workspace_recommended_chairs_3.value }}",
-            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
-            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
-            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
-            "text-4": "",
-            "text-5": "",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_iAxK3L": {
-          "type": "content",
-          "settings": {
-            "product": "{{ page.metafields.custom.workspace_recommended_chairs_4.value }}",
-            "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
-            "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
-            "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
-            "text-4": "",
-            "text-5": "",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_4eQj6W",
-        "content_tycpFj",
-        "content_qmJTn9",
-        "content_tgHgVK",
-        "content_C7LEKe",
-        "content_BcwYpL",
-        "content_iAxK3L"
-      ],
-      "disabled": true,
-      "name": "Comparison table Chairs",
-      "settings": {
-        "container": "full",
-        "color_scheme": "",
-        "header_layout": "standing-column",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Best Chairs for {{ page.metafields.custom.workspace_name.value }}s",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h2",
-        "description": "<p>Compare our top recommendations for {{ page.metafields.custom.workspace_name.value }} chairs. Pair with tables below.<br/><br/>Each product shown is fully customizable to fit your space, style, and preferences.</p>",
-        "text_size": "text-base",
-        "button_label": "View All {{ page.metafields.custom.workspace_name.value }} Chairs",
-        "button_link": "{{ page.metafields.custom.workspace_view_all_chairs_url.value }}",
-        "button_style": "btn--underline",
-        "button_icon": "caret-right",
-        "icon_size": 10,
-        "text_line_limit": "3-lines",
-        "show_view_more_button": true,
-        "show_section_divider": false,
-        "divider_width": "full",
-        "padding_top": 70,
-        "padding_bottom": 80
-      }
-    },
     "comparison_table_i8DAcc": {
       "type": "comparison-table",
       "blocks": {
@@ -849,73 +683,34 @@
         "image_with_text_MU6tGd": {
           "type": "image_with_text",
           "settings": {
-            "navigation_title": "",
+            "navigation_title": "Plan Your Space",
             "image": "shopify://shop_images/Fabrics_3.jpg",
             "desktop_image_position": "left",
             "image_aspect_ratio": "4/3",
-            "heading": "Talk about your brand",
+            "heading": "",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
             "highlight_text_color": "",
             "heading_size": "h3",
             "subheading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "description_size": "text-base",
-            "button_label": "Button label",
+            "description": "<p>Use the guide below to measure out exactly how many tables you will need to fit your room space and user count.  </p>",
+            "description_size": "text-lg",
+            "button_label": "View Guide",
             "button_link": "",
             "button_style": "btn--primary",
             "button_icon": "none",
-            "icon_1": "check",
-            "heading_1": "Heading",
-            "icon_2": "check",
-            "heading_2": "Heading",
-            "icon_3": "check",
-            "heading_3": "Heading"
-          }
-        },
-        "image_with_text_dhbreq": {
-          "type": "image_with_text",
-          "settings": {
-            "navigation_title": "Tab 2",
-            "desktop_image_position": "left",
-            "image_aspect_ratio": "adapt",
-            "heading": "Talk about your brand",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "hd2",
-            "subheading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "description_size": "text-base",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "button_icon": "none",
-            "icon_1": "check",
-            "heading_1": "Heading",
-            "icon_2": "check",
-            "heading_2": "Heading",
-            "icon_3": "check",
-            "heading_3": "Heading"
-          }
-        },
-        "tab_irUtDM": {
-          "type": "tab",
-          "disabled": true,
-          "settings": {
-            "navigation_title": "",
-            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
-            "custom_liquid": "",
-            "page": ""
+            "icon_1": "none",
+            "heading_1": "",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
           }
         }
       },
       "block_order": [
-        "image_with_text_MU6tGd",
-        "image_with_text_dhbreq",
-        "tab_irUtDM"
+        "image_with_text_MU6tGd"
       ],
       "disabled": true,
       "custom_css": [],
@@ -1345,7 +1140,6 @@
   "order": [
     "main",
     "slideshow_with_product_HtiURB",
-    "comparison_table_MWAAy8",
     "comparison_table_i8DAcc",
     "comparison_table_nM7eJf",
     "featured_collection_DWcjRb",
