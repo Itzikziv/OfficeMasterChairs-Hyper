@@ -429,7 +429,7 @@
         "highlight_style_color": "",
         "highlight_text_color": "",
         "heading_size": "h2",
-        "description": "<p>Compare our top recommendations for {{ page.metafields.custom.workspace_name.value }} chairs. Pair with tables below.<br/><br/>Each product shown is fully customizable to fit your space, style, and preferences.</p>",
+        "description": "<p>Each product shown is fully customizable to fit your space, style, and preferences. Pair with tables below.</p>",
         "text_size": "text-base",
         "button_label": "View All {{ page.metafields.custom.workspace_name.value }} Chairs",
         "button_link": "{{ page.metafields.custom.workspace_view_all_chairs_url.value }}",
