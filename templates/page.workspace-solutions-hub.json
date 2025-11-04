@@ -170,7 +170,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Multi-Column-Collaborative.jpg",
-            "title": "Collaborative Spaces",
+            "title": "<a href=\"/pages/collaborative-informal-spaces\" target=\"_blank\" title=\"Collaborative & Informal Spaces\">Collaborative Spaces</a>",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
@@ -188,7 +188,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Multi-Column-Cafes_Hospitality.jpg",
-            "title": "Cafés & Hospitality",
+            "title": "<a href=\"/pages/cafe-hospitality-spaces\" target=\"_blank\" title=\"Café & Hospitality Spaces\">Cafés & Hospitality</a>",
             "highlight_style": "none",
             "highlight_font_style": "italic",
             "highlight_style_color": "",
