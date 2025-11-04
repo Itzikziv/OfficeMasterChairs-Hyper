@@ -45,7 +45,7 @@
         "announcement_bar_TtdpHQ": {
           "type": "announcement_bar",
           "settings": {
-            "text": "View Bulk Discounts for Large Orders",
+            "text": "View Bulk Discounts for Large Orders!",
             "link": "shopify://pages/bulk-order-discounts"
           }
         },
