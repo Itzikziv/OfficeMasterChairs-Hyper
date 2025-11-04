@@ -35,7 +35,7 @@
         "text_HtqGJW": {
           "type": "text",
           "settings": {
-            "text": "<p>We are proud to partner with Special T, a trusted name in high-quality tables built for today’s dynamic workspaces. Special T offers a wide range of durable, customizable solutions, from training and conference tables to hospitality, café, and height-adjustable designs. Their products combine modern style with long-lasting performance, making them ideal for offices, schools, and collaborative environments. With Special T, every space can be equipped with tables that balance function, flexibility, and value.</p>",
+            "text": "<p>We’re proud to partner with Special T, a leading manufacturer of high-quality tables for modern workspaces. Their lineup includes training, conference, hospitality, café, and height-adjustable tables—durable, customizable, and designed for offices, schools, and collaborative environments.</p>",
             "subtext_color": true
           }
         }
@@ -62,6 +62,97 @@
         "divider_width": "fixed",
         "padding_top": 0,
         "padding_bottom": 20
+      }
+    },
+    "collection_list_slider_nBWnnJ": {
+      "type": "collection-list-slider",
+      "blocks": {
+        "featured_collection_Lt7Dhn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "training-and-education-tables",
+            "title": ""
+          }
+        },
+        "featured_collection_r3pMkA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nesting-tables",
+            "title": ""
+          }
+        },
+        "featured_collection_M9CWcB": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "hospitality-tables",
+            "title": ""
+          }
+        },
+        "featured_collection_LGR3iF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hospitality-cafe-and-break-room-tables",
+            "title": ""
+          }
+        },
+        "featured_collection_Y9cARf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "conference-tables",
+            "title": ""
+          }
+        },
+        "featured_collection_C3tVtz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "height-adjustable-tables",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_Lt7Dhn",
+        "featured_collection_r3pMkA",
+        "featured_collection_M9CWcB",
+        "featured_collection_LGR3iF",
+        "featured_collection_Y9cARf",
+        "featured_collection_C3tVtz"
+      ],
+      "name": "t:sections.collection-list-slider.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Special T Tables by Type",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "<p>Browse tables by category: training, conference, café, hospitality, and more.</p>",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "card_color_scheme": "",
+        "card_style": "standard",
+        "card_heading_size": "text-base",
+        "card_image_ratio": "4/3",
+        "card_image_width": "full",
+        "card_image_padding": "none",
+        "rounded_card_image": false,
+        "mobile_layout": "vertical",
+        "carousel_item_size": "fixed",
+        "columns_desktop": 4,
+        "carousel_control_color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "show_section_divider": true,
+        "divider_width": "fixed"
       }
     },
     "collection_list_slider_rrMHrK": {
@@ -170,97 +261,6 @@
         "divider_width": "fixed"
       }
     },
-    "collection_list_slider_nBWnnJ": {
-      "type": "collection-list-slider",
-      "blocks": {
-        "featured_collection_Lt7Dhn": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "training-and-education-tables",
-            "title": ""
-          }
-        },
-        "featured_collection_r3pMkA": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "nesting-tables",
-            "title": ""
-          }
-        },
-        "featured_collection_M9CWcB": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": "hospitality-tables",
-            "title": ""
-          }
-        },
-        "featured_collection_LGR3iF": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hospitality-cafe-and-break-room-tables",
-            "title": ""
-          }
-        },
-        "featured_collection_Y9cARf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "conference-tables",
-            "title": ""
-          }
-        },
-        "featured_collection_C3tVtz": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "height-adjustable-tables",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_Lt7Dhn",
-        "featured_collection_r3pMkA",
-        "featured_collection_M9CWcB",
-        "featured_collection_LGR3iF",
-        "featured_collection_Y9cARf",
-        "featured_collection_C3tVtz"
-      ],
-      "name": "t:sections.collection-list-slider.name",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Special T Tables by Type",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h3",
-        "description": "<p>Browse tables by category: training, conference, café, hospitality, and more.</p>",
-        "text_size": "text-base",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn--underline",
-        "button_icon": "none",
-        "card_color_scheme": "",
-        "card_style": "standard",
-        "card_heading_size": "text-base",
-        "card_image_ratio": "4/3",
-        "card_image_width": "full",
-        "card_image_padding": "none",
-        "rounded_card_image": false,
-        "mobile_layout": "vertical",
-        "carousel_item_size": "fixed",
-        "columns_desktop": 4,
-        "carousel_control_color_scheme": "",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "show_section_divider": true,
-        "divider_width": "fixed"
-      }
-    },
     "featured_collection_rDttjE": {
       "type": "featured-collection",
       "blocks": {
@@ -303,7 +303,7 @@
         "section_header_alignment": "left",
         "section_header_alignment_mobile": "inherit",
         "subheading": "",
-        "heading": "Browse Tables",
+        "heading": "Browse All Tables",
         "highlight_style": "none",
         "highlight_font_style": "italic",
         "highlight_style_color": "",
@@ -391,8 +391,8 @@
   "order": [
     "main",
     "image_with_text_kA37xc",
-    "collection_list_slider_rrMHrK",
     "collection_list_slider_nBWnnJ",
+    "collection_list_slider_rrMHrK",
     "featured_collection_rDttjE",
     "rich_text_P7z3Nb"
   ]
