@@ -150,8 +150,8 @@
           "type": "image_text",
           "disabled": true,
           "settings": {
-            "block_width": 21,
-            "layout": "image_top",
+            "block_width": 25,
+            "layout": "image_left",
             "heading": "",
             "heading_size": "h6",
             "image": "shopify://shop_images/Logo_-_White_Background_-_SVG.svg",
@@ -187,7 +187,7 @@
         "menu_DEKGYP": {
           "type": "menu",
           "settings": {
-            "block_width": 25,
+            "block_width": 10,
             "heading": "Menu",
             "heading_size": "h6",
             "menu": "footer",
@@ -198,7 +198,7 @@
         "menu_kkEJ4U": {
           "type": "menu",
           "settings": {
-            "block_width": 25,
+            "block_width": 10,
             "heading": "Policies",
             "heading_size": "h6",
             "menu": "footer-menu-policies-1",
