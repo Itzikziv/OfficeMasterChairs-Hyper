@@ -189,6 +189,7 @@
         },
         "featured_collection_M9CWcB": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "hospitality-tables",
             "title": ""
