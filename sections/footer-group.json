@@ -187,10 +187,21 @@
         "menu_DEKGYP": {
           "type": "menu",
           "settings": {
-            "block_width": 15,
+            "block_width": 25,
             "heading": "Menu",
             "heading_size": "h6",
             "menu": "footer",
+            "open_default": false,
+            "show_divider": false
+          }
+        },
+        "menu_kkEJ4U": {
+          "type": "menu",
+          "settings": {
+            "block_width": 25,
+            "heading": "Policies",
+            "heading_size": "h6",
+            "menu": "footer-menu-policies-1",
             "open_default": false,
             "show_divider": false
           }
@@ -199,7 +210,7 @@
           "type": "contact_information",
           "settings": {
             "block_width": 25,
-            "heading": "Contact Us",
+            "heading": "Contact Information",
             "heading_size": "h6",
             "address": "",
             "working_hours": "Mon to Fri | 8:00am - 6:00pm MST",
@@ -214,6 +225,7 @@
         "image_text_AQfagQ",
         "newsletter_3qCrWc",
         "menu_DEKGYP",
+        "menu_kkEJ4U",
         "contact_information_JB644F"
       ],
       "custom_css": [],
