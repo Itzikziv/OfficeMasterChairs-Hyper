@@ -395,6 +395,7 @@
         },
         "promotion_banner_TNjj8h": {
           "type": "promotion_banner",
+          "disabled": true,
           "settings": {
             "menu_title": "Workspace Solution",
             "menu_columns": 4,
@@ -480,6 +481,20 @@
             "button_style_5": "btn--primary",
             "button_icon_5": "none"
           }
+        },
+        "sidebar_DGVxH3": {
+          "type": "sidebar",
+          "disabled": true,
+          "settings": {
+            "menu_title": "Workspace Solutions",
+            "enable_hl_link": false,
+            "hl_link_style": "text_color",
+            "hl_link_color": "",
+            "menu_columns": 2,
+            "show_collection_image": true,
+            "show_image_of_first_product": false,
+            "image_ratio": "adapt"
+          }
         }
       },
       "block_order": [
@@ -488,7 +503,8 @@
         "custom_card_49Axc9",
         "promotion_banner_Q9ha6m",
         "promotion_banner_PLwaD8",
-        "promotion_banner_TNjj8h"
+        "promotion_banner_TNjj8h",
+        "sidebar_DGVxH3"
       ],
       "custom_css": [
         "@media (max-width: 749px) {.logo-sub-text {display: none !important; }}"
