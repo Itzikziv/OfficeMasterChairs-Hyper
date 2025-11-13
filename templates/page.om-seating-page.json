@@ -35,7 +35,7 @@
         "text_HtqGJW": {
           "type": "text",
           "settings": {
-            "text": "<p>Office Master Chairs has partnered with OM Seating for over 15 years as an authorized retailer. OM Seating is a leader in ergonomic, fully customizable seating—trusted by professionals, ergonomists, and organizations nationwide. Their lineup spans task and executive chairs to lab stools, guest seating, and nesting options, all built for comfort, durability, and long-term support in any environment.</p>",
+            "text": "<p>Office Master Chairs has partnered with OM Seating for over 15 years. OM Seating is a leader in customizable ergonomic chairs used by professionals nationwide, offering everything from task and executive seating to lab stools, guest chairs, and nesting solutions—all built for lasting comfort and support.</p>",
             "subtext_color": true
           }
         }
@@ -62,6 +62,231 @@
         "divider_width": "fixed",
         "padding_top": 0,
         "padding_bottom": 20
+      }
+    },
+    "collection_list_slider_wqcwKX": {
+      "type": "collection-list-slider",
+      "blocks": {
+        "featured_collection_8jLJyY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "task-chairs",
+            "title": ""
+          }
+        },
+        "featured_collection_BqfK4i": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "guest-lobby-reception-chairs",
+            "title": ""
+          }
+        },
+        "featured_collection_q6MTAA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cushioned-back-chairs",
+            "title": ""
+          }
+        },
+        "featured_collection_kckGBe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mesh-back-chairs",
+            "title": ""
+          }
+        },
+        "featured_collection_pimNQr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "exam-and-utility-stools",
+            "title": ""
+          }
+        },
+        "featured_collection_d9md4g": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "task-stools",
+            "title": ""
+          }
+        },
+        "featured_collection_WgTLn4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "executive-conference-chairs",
+            "title": ""
+          }
+        },
+        "featured_collection_tFRjFw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "light-multi-taskers",
+            "title": ""
+          }
+        },
+        "featured_collection_3E3yFe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "polymer-plastic-back-chairs",
+            "title": ""
+          }
+        },
+        "featured_collection_PQ73YA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "guest-stackable-nesting-chairs",
+            "title": ""
+          }
+        },
+        "featured_collection_Tg3qE3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "electrostatic-discharge-esd-chairs-and-parts",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_8jLJyY",
+        "featured_collection_BqfK4i",
+        "featured_collection_q6MTAA",
+        "featured_collection_kckGBe",
+        "featured_collection_pimNQr",
+        "featured_collection_d9md4g",
+        "featured_collection_WgTLn4",
+        "featured_collection_tFRjFw",
+        "featured_collection_3E3yFe",
+        "featured_collection_PQ73YA",
+        "featured_collection_Tg3qE3"
+      ],
+      "name": "t:sections.collection-list-slider.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Chairs by Type",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "<p>Shop seating organized by chair style and function</p>",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "card_color_scheme": "",
+        "card_style": "standard",
+        "card_heading_size": "text-base",
+        "card_image_ratio": "4/3",
+        "card_image_width": "full",
+        "card_image_padding": "none",
+        "rounded_card_image": false,
+        "mobile_layout": "vertical",
+        "carousel_item_size": "fixed",
+        "columns_desktop": 6,
+        "carousel_control_color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 30,
+        "show_section_divider": true,
+        "divider_width": "fixed"
+      }
+    },
+    "collection_list_8XJmAG": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_AiinpD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "collaborative-and-public-spaces",
+            "title": ""
+          }
+        },
+        "featured_collection_DL4fYa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "education-classroom-chairs",
+            "title": ""
+          }
+        },
+        "featured_collection_CUwKma": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "executive-conference-chairs",
+            "title": ""
+          }
+        },
+        "featured_collection_Bg8RxU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "healthcare-chairs-stools",
+            "title": ""
+          }
+        },
+        "featured_collection_HEAp6i": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "heavy-duty-intensive-use-chairs-stools",
+            "title": ""
+          }
+        },
+        "featured_collection_rqWwei": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "office-workstation-chairs",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_AiinpD",
+        "featured_collection_DL4fYa",
+        "featured_collection_CUwKma",
+        "featured_collection_Bg8RxU",
+        "featured_collection_HEAp6i",
+        "featured_collection_rqWwei"
+      ],
+      "name": "t:sections.collection-list.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Chairs by Work Environment",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "<p>Explore ergonomic chairs designed for every workspace setting</p>",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "button_icon": "none",
+        "card_color_scheme": "",
+        "card_style": "standard",
+        "card_heading_size": "text-base",
+        "card_text_line_limit": "none",
+        "card_image_ratio": "4/3",
+        "card_image_width": "full",
+        "card_image_padding": "none",
+        "rounded_card_image": false,
+        "card_show_border": false,
+        "mobile_layout": "vertical",
+        "columns_desktop": 6,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "grid_bordered": false,
+        "columns_mobile": "3",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": true,
+        "divider_width": "fixed"
       }
     },
     "collection_list_ajtqCB": {
@@ -355,231 +580,6 @@
         "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 50,
-        "show_section_divider": true,
-        "divider_width": "fixed"
-      }
-    },
-    "collection_list_8XJmAG": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_AiinpD": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "collaborative-and-public-spaces",
-            "title": ""
-          }
-        },
-        "featured_collection_DL4fYa": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "education-classroom-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_CUwKma": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "executive-conference-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_Bg8RxU": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "healthcare-chairs-stools",
-            "title": ""
-          }
-        },
-        "featured_collection_HEAp6i": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "heavy-duty-intensive-use-chairs-stools",
-            "title": ""
-          }
-        },
-        "featured_collection_rqWwei": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "office-workstation-chairs",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_AiinpD",
-        "featured_collection_DL4fYa",
-        "featured_collection_CUwKma",
-        "featured_collection_Bg8RxU",
-        "featured_collection_HEAp6i",
-        "featured_collection_rqWwei"
-      ],
-      "name": "t:sections.collection-list.name",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Chairs by Work Environment",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h3",
-        "description": "<p>Explore ergonomic chairs designed for every workspace setting</p>",
-        "text_size": "text-base",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn--underline",
-        "button_icon": "none",
-        "card_color_scheme": "",
-        "card_style": "standard",
-        "card_heading_size": "text-base",
-        "card_text_line_limit": "none",
-        "card_image_ratio": "4/3",
-        "card_image_width": "full",
-        "card_image_padding": "none",
-        "rounded_card_image": false,
-        "card_show_border": false,
-        "mobile_layout": "vertical",
-        "columns_desktop": 6,
-        "column_gap": "medium",
-        "row_gap": "inherit",
-        "grid_bordered": false,
-        "columns_mobile": "3",
-        "swipe_on_mobile": true,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": true,
-        "divider_width": "fixed"
-      }
-    },
-    "collection_list_slider_wqcwKX": {
-      "type": "collection-list-slider",
-      "blocks": {
-        "featured_collection_8jLJyY": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "task-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_BqfK4i": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "guest-lobby-reception-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_q6MTAA": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cushioned-back-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_kckGBe": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mesh-back-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_pimNQr": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "exam-and-utility-stools",
-            "title": ""
-          }
-        },
-        "featured_collection_d9md4g": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "task-stools",
-            "title": ""
-          }
-        },
-        "featured_collection_WgTLn4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "executive-conference-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_tFRjFw": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "light-multi-taskers",
-            "title": ""
-          }
-        },
-        "featured_collection_3E3yFe": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "polymer-plastic-back-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_PQ73YA": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "guest-stackable-nesting-chairs",
-            "title": ""
-          }
-        },
-        "featured_collection_Tg3qE3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "electrostatic-discharge-esd-chairs-and-parts",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_8jLJyY",
-        "featured_collection_BqfK4i",
-        "featured_collection_q6MTAA",
-        "featured_collection_kckGBe",
-        "featured_collection_pimNQr",
-        "featured_collection_d9md4g",
-        "featured_collection_WgTLn4",
-        "featured_collection_tFRjFw",
-        "featured_collection_3E3yFe",
-        "featured_collection_PQ73YA",
-        "featured_collection_Tg3qE3"
-      ],
-      "name": "t:sections.collection-list-slider.name",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Chairs by Type",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h2",
-        "description": "<p>Shop seating organized by chair style and function</p>",
-        "text_size": "text-base",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn--underline",
-        "button_icon": "none",
-        "card_color_scheme": "",
-        "card_style": "standard",
-        "card_heading_size": "text-base",
-        "card_image_ratio": "4/3",
-        "card_image_width": "full",
-        "card_image_padding": "none",
-        "rounded_card_image": false,
-        "mobile_layout": "vertical",
-        "carousel_item_size": "fixed",
-        "columns_desktop": 6,
-        "carousel_control_color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 30,
         "show_section_divider": true,
         "divider_width": "fixed"
       }
