@@ -1057,8 +1057,9 @@
         },
         "featured_collection_mxBErY": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
-            "collection": "hospitality-tables",
+            "collection": "hospitality-cafe-and-break-room-tables",
             "title": "Hospitality Tables"
           }
         },
