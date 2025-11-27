@@ -11,37 +11,30 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "topbar_3YD96h": {
-      "type": "topbar",
-      "blocks": {
-        "text_Ahn3nP": {
-          "type": "text",
-          "settings": {
-            "text": "Shopping for business? We offer bulk discounts!",
-            "position": "center",
-            "highlight_text": "",
-            "highlight_text_style": "button",
-            "highlight_text_color": "#c4301c",
-            "highlight_text_background_color": "#f0f2ff"
-          }
-        }
-      },
-      "block_order": [
-        "text_Ahn3nP"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "scheme-2",
-        "show_separator_line": false,
-        "padding_top": 12,
-        "padding_bottom": 12
-      }
-    },
     "announcement_bar_UFiPD7": {
       "type": "announcement-bar",
       "blocks": {
+        "timer_zhApkq": {
+          "type": "timer",
+          "disabled": true,
+          "settings": {
+            "type": "fixed_time",
+            "duration": "every_month",
+            "time": "2025/12/03 00:00 AM",
+            "text": "BLACK FRIDAY WEEKEND | 10% Off Entire Site with code: BFCM2025",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none"
+          }
+        },
+        "announcement_bar_aemTBD": {
+          "type": "announcement_bar",
+          "settings": {
+            "text": "Black Friday Weekend | 10% Off Entire Site With Code: <strong>BFCM2025</strong>",
+            "link": ""
+          }
+        },
         "announcement_bar_TtdpHQ": {
           "type": "announcement_bar",
           "settings": {
@@ -58,14 +51,16 @@
         }
       },
       "block_order": [
+        "timer_zhApkq",
+        "announcement_bar_aemTBD",
         "announcement_bar_TtdpHQ",
         "announcement_bar_nngktg"
       ],
       "name": "t:sections.announcement-bar.name",
       "settings": {
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-inverse",
         "content_width": 30,
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 5,
         "padding_top": 10,
         "padding_bottom": 10
@@ -534,7 +529,6 @@
     }
   },
   "order": [
-    "topbar_3YD96h",
     "announcement_bar_UFiPD7",
     "header"
   ]
