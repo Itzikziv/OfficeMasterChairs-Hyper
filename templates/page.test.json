@@ -843,6 +843,80 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
+    },
+    "tabs_content_Q7XGwD": {
+      "type": "tabs-content",
+      "blocks": {
+        "image_with_text_ykHznq": {
+          "type": "image_with_text",
+          "settings": {
+            "navigation_title": "Tab 1",
+            "desktop_image_position": "left",
+            "image_aspect_ratio": "adapt",
+            "heading": "Talk about your brand",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "subheading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "description_size": "text-base",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "icon_1": "check",
+            "heading_1": "Heading",
+            "icon_2": "check",
+            "heading_2": "Heading",
+            "icon_3": "check",
+            "heading_3": "Heading"
+          }
+        },
+        "image_with_text_tPNMLy": {
+          "type": "image_with_text",
+          "settings": {
+            "navigation_title": "Tab 2",
+            "desktop_image_position": "left",
+            "image_aspect_ratio": "adapt",
+            "heading": "Talk about your brand",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "subheading": "",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "description_size": "text-base",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "icon_1": "check",
+            "heading_1": "Heading",
+            "icon_2": "check",
+            "heading_2": "Heading",
+            "icon_3": "check",
+            "heading_3": "Heading"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_ykHznq",
+        "image_with_text_tPNMLy"
+      ],
+      "name": "t:sections.tabs-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "navigation_style": "headings",
+        "navigation_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
@@ -853,6 +927,7 @@
     "collection_list_8XJmAG",
     "collection_list_slider_JUnM8V",
     "collection_list_slider_wqcwKX",
-    "collection_cards_pyXLwp"
+    "collection_cards_pyXLwp",
+    "tabs_content_Q7XGwD"
   ]
 }
