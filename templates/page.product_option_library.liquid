@@ -20,8 +20,6 @@
       return setTimeout(waitForJquery, 50);
     }  
 
-
-
       $(function() {        
        alert(1);
         //BEGIN
@@ -44,17 +42,17 @@
     })();
 
 
-    function toggleAccordion(titleEle){      
-        if (!titleEle.hasClass("accordion-active")) {
-            $(".accordion__content").slideUp(400);
-            $(".accordion__title").removeClass("accordion-active");
-            $('.accordion__arrow').removeClass('accordion__rotate');
-        }
+  function toggleAccordion(titleEle){      
+      if (!titleEle.hasClass("accordion-active")) {
+          $(".accordion__content").slideUp(400);
+          $(".accordion__title").removeClass("accordion-active");
+          $('.accordion__arrow').removeClass('accordion__rotate');
+      }
 
-        titleEle.toggleClass("accordion-active");
-        titleEle.next().slideToggle();
-        $('.accordion__arrow', titleEle).toggleClass('accordion__rotate');          
-    };
+      titleEle.toggleClass("accordion-active");
+      titleEle.next().slideToggle();
+      $('.accordion__arrow', titleEle).toggleClass('accordion__rotate');          
+  };
 
   // START TABS
   var hideTabsIfSingle = true;
