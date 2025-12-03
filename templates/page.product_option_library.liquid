@@ -14,14 +14,8 @@
 
 
 <script type="text/javascript">
-
-  (function waitForJquery() {
-    
-    if (typeof $ === "undefined") {
-      return setTimeout(waitForJquery, 50);
-    }  
-
-      $(function() {        
+  window.addEventListener("load", function () {
+    $(function() {        
        alert(1);
         //BEGIN
         $(".accordion__title").on("click", function(e) {
@@ -39,10 +33,10 @@
         }
         
         //END
-      });
-    })();
+      });       
+  });
 
-
+      
   function toggleAccordion(titleEle){      
       if (!titleEle.hasClass("accordion-active")) {
           $(".accordion__content").slideUp(400);
