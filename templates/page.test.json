@@ -917,6 +917,84 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
+    },
+    "collapsible_tabs_pcyAxB": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "collapsible_item_46nikd": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_ae8ehU": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        },
+        "collapsible_item_LLfHmj": {
+          "type": "collapsible_item",
+          "settings": {
+            "icon": "none",
+            "heading": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "page": "",
+            "open": false,
+            "use_subtext_color": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_item_46nikd",
+        "collapsible_item_ae8ehU",
+        "collapsible_item_LLfHmj"
+      ],
+      "name": "t:sections.collapsible-tabs.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "Collapsible tabs",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h1",
+        "description": "",
+        "text_size": "text-base",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "column_gap": "large",
+        "row_gap": "inherit",
+        "item_style": "standard",
+        "item_color_scheme": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h4",
+        "item_icon_size": "extra-large",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
@@ -928,6 +1006,7 @@
     "collection_list_slider_JUnM8V",
     "collection_list_slider_wqcwKX",
     "collection_cards_pyXLwp",
-    "tabs_content_Q7XGwD"
+    "tabs_content_Q7XGwD",
+    "collapsible_tabs_pcyAxB"
   ]
 }
