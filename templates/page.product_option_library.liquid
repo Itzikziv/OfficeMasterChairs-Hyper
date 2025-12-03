@@ -1,0 +1,321 @@
+<div class="page-width">
+  <div class="grid">
+    <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
+      <div class="section-header text-center">
+        {% include 'breadcrumbs' %}
+        <h1>{{ page.title }}</h1>
+      </div>
+
+      <div class="rte11">
+        {{ page.content }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+      $(function() {
+        //BEGIN
+        $(".accordion__title").on("click", function(e) {
+            e.preventDefault();
+            var $this = $(this);
+
+            toggleAccordion($this);              
+        });
+  
+        if(window.location.hash){
+          // open the relevant accordion
+          var titleEleId = window.location.hash;
+          var titleEle= $(".accordion__title", titleEleId);
+          toggleAccordion(titleEle);
+        }
+        
+        //END
+    }); 
+
+    function toggleAccordion(titleEle){      
+        if (!titleEle.hasClass("accordion-active")) {
+            $(".accordion__content").slideUp(400);
+            $(".accordion__title").removeClass("accordion-active");
+            $('.accordion__arrow').removeClass('accordion__rotate');
+        }
+
+        titleEle.toggleClass("accordion-active");
+        titleEle.next().slideToggle();
+        $('.accordion__arrow', titleEle).toggleClass('accordion__rotate');          
+    };
+
+  // START TABS
+  var hideTabsIfSingle = true;
+  $(function () {
+    $( ".tab-set" ).each(function( i ) {
+      var tabInstance = $(this) ;
+      //console.log( index + ": " + $( this ).text() );      
+      var activeIndex = $('.active-tab', tabInstance).index();     
+      if(activeIndex < 0){
+        activeIndex = 0;
+        $('.tabs li', tabInstance).first().addClass("active-tab");                
+      }      
+      var $contentlis = $('.tabs-content > li', tabInstance);
+      var $tabslis = $('.tabs li', tabInstance);      
+      if(hideTabsIfSingle){
+        if($tabslis.length < 2){
+          $('.tabs', tabInstance).hide();
+          return;
+        }
+      }
+  
+      // Show content of active tab on loads
+      $contentlis.hide().eq(activeIndex).show();
+    
+      tabInstance.on('click', '.tabs li', function (e) {
+        var $current = $(e.currentTarget),
+        index = $current.index();
+        
+        $tabslis.removeClass('active-tab');
+        $current.addClass('active-tab');
+        $contentlis.hide().eq(index).show();
+	 });
+    });
+    
+  });
+  // END TABS
+
+</script>
+
+<style type="text/css">
+      /*-------------------------------------*/
+
+      .accordion__item {
+          margin: 5px auto;
+      }
+      .accordion__item .accordion__title {
+          position: relative;
+          display: block;
+          padding: 13px 60px 15px 13px;
+          margin-bottom: 2px;
+          color: #202020;
+          /*font-size: 28px;*/
+          font-weight: bold;
+          text-decoration: none;
+          background-color: #eaeaea;
+          border-radius: 3px;
+          -webkit-transition: background-color 0.2s;
+          transition: background-color 0.2s;
+        cursor: pointer;
+      }
+      .accordion__item .accordion__title:hover {
+          background-color: #e5e4e4;
+          transition: all 0.5s ease-out;
+      }
+      .accordion__item .accordion-active {
+          background-color: #e5e4e4;
+      }
+      .accordion__item .accordion__title .accordion__arrow {
+          position: absolute;
+          top: 13px; right: 10px;
+          display: inline-block;
+          vertical-align: middle;
+          width: 30px;
+          height: 30px;
+          text-align: center;
+          color: #fff;
+          line-height: 30px;
+          font-size: 20px;
+          font-weight: 700;
+          margin-right: 5px;
+          background-color: #c9c9c9;
+          border-radius: 50%;
+          -webkit-transition: all 0.2s ease-out;
+          transition: all 0.2s ease-out;
+      }
+      .accordion__item .accordion__rotate {
+          transform: rotate(225deg);
+      }
+      .accordion__item .accordion__content {
+          padding: 10px;
+          margin-bottom: 2px;
+          font-size: 14px;
+          display: none;
+          /*background-color: #f3f3f3;*/
+      }
+      .accordion__item .accordion__arrow-item {
+          font-weight: 700;
+      }
+
+      /*-------------------------------------*/
+  .name_col {
+      width: 100px;
+    font-size: 0.9em;
+  }
+
+  .desc_col {
+    font-size: 0.9em;
+  }
+
+  .title_col {
+      width: 150px;
+    font-size: 0.9em;
+  }
+
+  .image_col {
+      width: 200px;
+  }
+
+  .image_col img{
+    width: 200px;
+  }
+
+  th.name_col {
+    width: 100px;
+    font-size: 0.9em;
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+
+  th.desc_col {
+    font-size: 0.9em;
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+
+  th.title_col {
+      width: 150px;
+    font-size: 0.9em;
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+
+  th.image_col {
+    width: 200px;
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .group_section td{
+      vertical-align: top;
+  }
+        
+  .box-r {
+    text-align: center;
+    display: inline-block;
+    /*width: 200px;
+    height: 200px; */
+    background-color: #f6f6f6;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .box-r-title {
+      margin: 5px;
+      font-size: 1.1em;
+      font-weight: bold;
+  }
+
+  .box-container {
+    text-align: left;
+  }
+
+  .box-r img {     
+    width: 250px
+  }
+
+  .group_section li {
+      list-style: circle;
+  }
+
+  .group_section ul {
+      margin: 0 0 0px 10px;
+  }
+
+  .tabs-content td {
+    border: none;
+  }
+  
+  .group_section_header {
+      padding-left: 10px;
+      padding-right: 10px;
+      /*text-decoration: underline solid grey;*/
+      padding-top: 10px;
+      /*font-size: 0.8em;*/
+  }
+
+  .group_section_header h3{
+      /*font-size: 0.8em;*/
+      margin-bottom: 5px;
+  }
+
+
+  /*TABS*/
+
+.tabs {
+  margin: 20px;
+  padding: 0;
+	list-style: none;
+	position: relative;
+	border-bottom: 1px solid #ccc;
+  }
+  
+  .tabs .active-tab {
+  		border-top: 1px solid #ccc;
+  		border-left: 1px solid #ccc;
+  		border-right: 1px solid #ccc;
+  		border-bottom: none;
+  		position: relative;
+  		color: black;
+  }
+    
+  .tabs .active-tab:after {
+      width: 100%;
+      height: 2px;
+      position: absolute;
+      content: "";
+      bottom: -0.1em;
+      left: 0;
+      background: white;
+  }
+	
+  
+	.tabs li {
+		display: inline-block;
+		cursor: pointer;
+		color: #3a5ea7;
+		padding: 5px 10px;
+      text-align: center;
+      font-size: 0.8em;
+    }
+    
+    .tabs li:first-child {
+        margin-left: 10px;
+    }
+    
+
+.tabs-content {
+	margin: 20px;
+	padding: 0;
+	list-style: none;
+  
+	li {
+        /* iz: removed as it hides the fabric items */
+		/* display: none; */
+	}
+}
+
+  .tabs-content > li{
+	list-style: none;
+}
+
+  
+  /*END TAbS*/
+
+  .fabric-tabs img{
+     width: 60px;
+  }
+  .fabric-items{
+    font-size: 0.9em;
+  }
+  .fabric-spec{
+    width: 250px;
+    font-size: 0.9em;
+  }
+</style>
