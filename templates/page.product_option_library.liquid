@@ -17,7 +17,7 @@
 
   (function waitForJquery() {
     
-    if (typeof window.jQuery === "undefined") {
+    if (typeof $ === "undefined") {
       return setTimeout(waitForJquery, 50);
     }  
 
