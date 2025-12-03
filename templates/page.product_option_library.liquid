@@ -16,16 +16,11 @@
 <script type="text/javascript">
 
   (function waitForJquery() {
-  if (typeof window.jQuery === "undefined") {
-    return setTimeout(waitForJquery, 50);
-  }
+    if (typeof window.jQuery === "undefined") {
+      return setTimeout(waitForJquery, 50);
+    }  
 
-  // jQuery now exists, safe to use $
-  $(function() {
-      // your entire accordion + tabs code here
-  });
 
-})();
 
       $(function() {        
        alert(1);
@@ -45,7 +40,9 @@
         }
         
         //END
-    }); 
+      });
+    })();
+
 
     function toggleAccordion(titleEle){      
         if (!titleEle.hasClass("accordion-active")) {
