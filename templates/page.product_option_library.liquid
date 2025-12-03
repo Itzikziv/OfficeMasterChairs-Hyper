@@ -14,8 +14,18 @@
 
 
 <script type="text/javascript">
-  console.log("typeof $:", typeof $);
-console.log("typeof jQuery:", typeof jQuery);
+
+  (function waitForJquery() {
+  if (typeof window.jQuery === "undefined") {
+    return setTimeout(waitForJquery, 50);
+  }
+
+  // jQuery now exists, safe to use $
+  $(function() {
+      // your entire accordion + tabs code here
+  });
+
+})();
 
       $(function() {        
        alert(1);
