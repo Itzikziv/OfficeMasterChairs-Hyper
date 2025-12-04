@@ -30,6 +30,7 @@
         },
         "announcement_bar_aemTBD": {
           "type": "announcement_bar",
+          "disabled": true,
           "settings": {
             "text": "Black Friday Deal | 10% Off Entire Site With Code: <strong>BFCM2025</strong>",
             "link": ""
@@ -58,7 +59,7 @@
       ],
       "name": "t:sections.announcement-bar.name",
       "settings": {
-        "color_scheme": "scheme-inverse",
+        "color_scheme": "scheme-2",
         "content_width": 100,
         "autoplay": false,
         "autoplay_speed": 5,
