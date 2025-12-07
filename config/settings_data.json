@@ -2385,7 +2385,8 @@
       "/* Universal product media override (desktop) */.product__media,.product__media-wrapper,.product__media img {width: auto; height: auto; max-width: 100%; max-height: 100%; display: block; margin: 0 auto; object-fit: contain;}",
       "/* Mobile: allow full expansion */@media screen and (max-width: 749px) {.product__media, .product__media-wrapper, .product__media img {width: 100% !important; height: 100% !important; object-fit: contain !important; }}",
       "/* Related products + collection cards: enforce square shape */.related-products .media-wrapper.loaded,.collection .card__media,.collection .media-wrapper,.section--recently-viewed-products .media-wrapper.loaded {aspect-ratio: 1 / 1;}",
-      "/* Disable overflow inside swiper wrappers */.products-grid-wrap.swiper,.related-products .products-grid-wrap.swiper,.section--recently-viewed-products .products-grid-wrap.swiper {overflow: hidden !important;}"
+      "/* Disable overflow inside swiper wrappers */.products-grid-wrap.swiper,.related-products .products-grid-wrap.swiper,.section--recently-viewed-products .products-grid-wrap.swiper {overflow: hidden !important;}",
+      "/* Laptop: shrink tall images only (chairs) */@media (min-width: 1024px) and (max-width: 1600px) {/* Default: wide images (tables) stay full width */ .product__media img {width: 100% !important; } /* Tall images only (height > width) → shrink to 70% */ .product__media img[height][width]:not([height=\"0\"]):not([width=\"0\"]) {width: 70% !important; }}"
     ]
   }
 }
