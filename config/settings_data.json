@@ -2386,7 +2386,7 @@
       "/* Mobile: allow full expansion */@media screen and (max-width: 749px) {.product__media, .product__media-wrapper, .product__media img {width: 100% !important; height: 100% !important; object-fit: contain !important; }}",
       "/* Related products + collection cards: enforce square shape */.related-products .media-wrapper.loaded,.collection .card__media,.collection .media-wrapper,.section--recently-viewed-products .media-wrapper.loaded {aspect-ratio: 1 / 1;}",
       "/* Disable overflow inside swiper wrappers */.products-grid-wrap.swiper,.related-products .products-grid-wrap.swiper,.section--recently-viewed-products .products-grid-wrap.swiper {overflow: hidden !important;}",
-      "/* Laptop screens */@media (min-width: 1024px) and (max-width: 1600px) {/* Default: wide images (tables) → full width */ .product__media img {width: 100% !important; height: auto !important; } /* Portrait (tall) images only → shrink to 70% */ .product__media:has(img[style*=\"aspect-ratio:\"][style*=\"/1\"]) img {width: 70% !important; }}"
+      "/* Laptop screens */@media (min-width: 1024px) and (max-width: 1600px) {/* Default: wide images (tables) → full width */ .product__media img {width: 100% !important; height: auto !important; }}"
     ]
   }
 }
