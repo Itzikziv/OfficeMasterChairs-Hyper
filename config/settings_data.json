@@ -2381,7 +2381,7 @@
   "platform_customizations": {
     "custom_css": [
       "[style*=\"--aspect-ratio\"]:not(.collection-card__image [style*=\"--aspect-ratio\"]) > :first-child {object-fit: contain !important;}",
-      " /* make sure not to exceed the image actual size. fix the tall/wide images issue (tables vs chairs) */@media (min-width: 1360px) {.product__media img {width: 100%; height: auto; object-fit: contain; }}",
+      " /* make sure not to exceed the image actual size. fix the tall/wide images issue (tables vs chairs) */.product__media img {width: 100% !important; height: auto !important; object-fit: contain;}",
       ".product__media,.product__media-wrapper,.product__media img {width: auto; height: auto; max-width: 100%; max-height: 100%; display: block; margin: 0 auto; object-fit: contain;}",
       "@media screen and (max-width: 749px) {.product__media, .product__media-wrapper, .product__media img {width: 100% !important; height: 100% !important; object-fit: contain !important; }}",
       ".free-shipping-badge {color: #16a34a; /* green */ font-weight: 600; /* font-size: 1rem; margin: 0em; */}",
