@@ -2388,9 +2388,7 @@
       ".related-products .products-grid-wrap.swiper {overflow: hidden !important;}",
       ".collection .card__media,.collection .media-wrapper,.related-products .media-wrapper.loaded,.section--recently-viewed-products .media-wrapper.loaded {aspect-ratio: 1 / 1; /* overflow: hidden; */ /* background: #fff; */}",
       ".products-grid-wrap.swiper,.related-products .products-grid-wrap.swiper,.section--recently-viewed-products .products-grid-wrap.swiper {overflow: hidden !important;}",
-      ".collection .card__media img,.collection .media-wrapper img,.related-products .media-wrapper img,.section--recently-viewed-products .media-wrapper img {}",
-      "@media (min-width: 1024px) {.product__media {min-height: 1200px !important; }}",
-      ".product__media img {outline: 4px solid red !important; }"
+      "@media (min-width: 1024px) and (max-width: 1440px) {.product--large-media-left .product__media-wrapper, .product--large-media-left .product__media {width: 60% !important; /* widen image column */ } .product--large-media-left .product__info-wrapper {width: 40% !important; /* narrow the text column */ }}"
     ]
   }
 }
