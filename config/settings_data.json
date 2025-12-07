@@ -2381,7 +2381,8 @@
   "platform_customizations": {
     "custom_css": [
       "[style*=\"--aspect-ratio\"]:not(.collection-card__image [style*=\"--aspect-ratio\"]) > :first-child {object-fit: contain !important;}",
-      " /* make sure not to exceed the image actual size. fix the tall/wide images issue (tables vs chairs) *//* Let the theme handle the wrappers again */.product__media,.product__media-wrapper {width: 100%; height: auto; }",
+      " .product__media-wrapper {aspect-ratio: 3 / 4; /* Tall shape – matches typical OM Seating chairs */ max-height: 80vh; /* Prevents huge images on large monitors */}",
+      ".product__media,.product__media-wrapper {width: 100%; height: auto;}",
       ".product__media img {display: block; width: 100%; height: auto; max-width: 700px; margin: 0 auto; object-fit: contain;}",
       "@media screen and (max-width: 749px) {.product__media, .product__media-wrapper, .product__media img {width: 100% !important; height: 100% !important; object-fit: contain !important; }}",
       ".free-shipping-badge {color: #16a34a; /* green */ font-weight: 600; /* font-size: 1rem; margin: 0em; */}",
