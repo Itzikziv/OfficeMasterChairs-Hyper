@@ -3579,6 +3579,7 @@
           if (link.href.includes(oldPart)) {
             link.href = link.href.replace(oldPart, newPart);
             link.target = "_blank";
+            link.classList.add("hulkapps_helptext_lib");
           }
         });
       document.querySelectorAll(".optionLibraryLink").forEach((obj) => {
