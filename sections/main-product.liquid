@@ -3580,7 +3580,7 @@
           if (link.href.includes(oldPart)) {
             link.href = link.href.replace(oldPart, newPart);
             link.target = "_blank";
-            link.parentElement.classList.remove("hulkapps_helptext");
+            // link.parentElement.classList.remove("hulkapps_helptext");
             link.parentElement.classList.add("hulkapps_helptext_lib");
           }
         });
