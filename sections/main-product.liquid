@@ -3575,6 +3575,7 @@
     const newPart = `office-master-${model.toLowerCase()}-options-library`
 
     setTimeout(() => {
+
         document.querySelectorAll('.hulkapps_helptext a').forEach(link => {
           if (link.href.includes(oldPart)) {
             link.href = link.href.replace(oldPart, newPart);
