@@ -29,6 +29,7 @@
         if(window.location.hash){
           // open the relevant accordion
           var titleEleId = window.location.hash;
+          titleEleId = titleEleId.replace(/\+/g, '\\+'); // fix cases with + in id
           var titleEle= $(".accordion__title", titleEleId);
           toggleAccordion(titleEle);
         }
