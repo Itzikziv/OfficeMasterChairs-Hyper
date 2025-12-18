@@ -637,13 +637,13 @@
           "type": "heading",
           "settings": {
             "icon-1": "none",
-            "title-1": "Price",
+            "title-1": "Use Case",
             "icon-2": "none",
-            "title-2": "Use Case",
+            "title-2": "Price",
             "icon-3": "none",
             "title-3": "Features",
             "icon-4": "none",
-            "title-4": "Specifications",
+            "title-4": "",
             "icon-5": "none",
             "title-5": "",
             "icon-6": "none",
@@ -661,58 +661,10 @@
         "content_bzxehr": {
           "type": "content",
           "settings": {
-            "product": "{{ product.metafields.custom.chair_recommendation_2.value }}",
+            "product": "{{ product.metafields.custom.table_recommendation_1.value }}",
             "text-1": "",
-            "text-2": "",
-            "text-3": "",
-            "text-4": "",
-            "text-5": "",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_7cDVnc": {
-          "type": "content",
-          "settings": {
-            "product": "office-master-ptym-paramount-value-mid-back-ergonomic-office-chair",
-            "text-1": "<p>Inspired to create a chair where the back and arms are moulded</p>",
-            "text-2": "<p>46mm or 42mm</p>",
-            "text-3": "<p>Up to 18 hours</p>",
-            "text-4": "<p>S10 SiP</p>",
-            "text-5": "<p>Up to 2,000 nits</p>",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_4LQWnd": {
-          "type": "content",
-          "settings": {
-            "product": "office-master-pt69-paramount-value-high-back-ergonomic-office-chair",
-            "text-1": "<p>$499.99</p>",
-            "text-2": "<p>18\"-22\"</p>",
-            "text-3": "<ul><li>Height</li><li>Back</li><li>Test</li><li>Test</li><li>Test</li></ul>",
-            "text-4": "<p>S9 SiP</p>",
-            "text-5": "<p>Up to 3,000 nits</p>",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_fzQxHn": {
-          "type": "content",
-          "settings": {
-            "product": "",
-            "text-1": "",
-            "text-2": "",
-            "text-3": "",
+            "text-2": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
+            "text-3": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
             "text-4": "",
             "text-5": "",
             "text-6": "",
@@ -725,12 +677,8 @@
       },
       "block_order": [
         "heading_CPFEDJ",
-        "content_bzxehr",
-        "content_7cDVnc",
-        "content_4LQWnd",
-        "content_fzQxHn"
+        "content_bzxehr"
       ],
-      "disabled": true,
       "name": "t:sections.comparison-table.name",
       "settings": {
         "container": "fixed",
