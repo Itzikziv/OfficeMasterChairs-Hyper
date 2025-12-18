@@ -11,11 +11,22 @@
   assign heading_block = section.blocks | find: 'type', 'heading'
   assign content_block = section.blocks | where: 'type', 'content'
 
-  assign featured_media = product.featured_media
-  if featured_media.media_type == 'model' or featured_media.media_type == 'video'
-    assign featured_media = product.featured_media.preview_image
-  endif
+  assign filtered_content_block = ''
+  assign filtered_content_block = filtered_content_block | split: ','
+  for block in content_block
+      if block.settings.product != blank
+        assign filtered_content_block = filtered_content_block | push: block
+      endif
+    endfor
+  assign content_block = filtered_content_blockZ
+
 -%}
+
+<!-- DEBUG content_block.size = {{ content_block.size }} -->
+
+{% if content_block.size > 0 %}
+
+
 {%- render 'divider',
   show_divider: section.settings.show_section_divider,
   divider_width: section.settings.divider_width
@@ -91,7 +102,12 @@
             assign text_key = 'text-' | append: i
             assign has_content = false
             if heading_block.settings[title_key] != blank
-              assign has_content = true
+              for block in content_block
+                if block.settings[text_key] != blank
+                  assign has_content = true
+                  break
+                endif
+              endfor
             endif
           -%}
           {% if has_content %}
@@ -182,6 +198,7 @@
     </div>
   </comparison-table>
 </div>
+{% endif %}
 {% schema %}
 {
   "name": "t:sections.comparison-table.name",
