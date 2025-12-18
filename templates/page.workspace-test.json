@@ -19,100 +19,6 @@
         "padding_bottom": 28
       }
     },
-    "slideshow_with_product_HtiURB": {
-      "type": "slideshow-with-product",
-      "blocks": {
-        "slide_HyCMxn": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "",
-            "background": "{{ page.metafields.custom.workspace_hero_image.value }}",
-            "image_overlay_opacity": 30,
-            "product": "{{ page.metafields.custom.workspace_hero_product_1.value }}",
-            "subheading": "",
-            "title": "{{ page.title }}",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "hd2",
-            "description": "",
-            "description_size": "text-base",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "button_icon": "none",
-            "bottom_heading": "{{ block.settings.product.title }}",
-            "enable_preload_image": false
-          }
-        },
-        "slide_peYecw": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "",
-            "background": "{{ page.metafields.custom.workspace_hero_image_2.value }}",
-            "image_overlay_opacity": 30,
-            "product": "{{ page.metafields.custom.workspace_hero_product_2.value }}",
-            "subheading": "",
-            "title": "{{ page.title }}",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "hd2",
-            "description": "",
-            "description_size": "text-base",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "button_icon": "none",
-            "bottom_heading": "{{ block.settings.product.title }}",
-            "enable_preload_image": false
-          }
-        },
-        "slide_t9rQMU": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "",
-            "background": "{{ page.metafields.custom.workspace_hero_image_3.value }}",
-            "image_overlay_opacity": 30,
-            "product": "{{ page.metafields.custom.workspace_hero_product_3.value }}",
-            "subheading": "",
-            "title": "{{ page.title }}",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "hd2",
-            "description": "",
-            "description_size": "text-base",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "button_icon": "none",
-            "bottom_heading": "{{ block.settings.product.title }}",
-            "enable_preload_image": false
-          }
-        }
-      },
-      "block_order": [
-        "slide_HyCMxn",
-        "slide_peYecw",
-        "slide_t9rQMU"
-      ],
-      "custom_css": [
-        ".slideshow-with-product__content {max-height: 420px; /* adjust as needed */ overflow: hidden;}"
-      ],
-      "name": "t:sections.slideshow-with-product.name",
-      "settings": {
-        "container": "full",
-        "slide_height": "medium",
-        "show_controls": true,
-        "autoplay": true,
-        "autoplay_delay": 5,
-        "accessibility_info": "Slideshow showing different products in the workspace category"
-      }
-    },
     "comparison_table_MWAAy8": {
       "type": "comparison-table",
       "blocks": {
@@ -144,7 +50,7 @@
         "content_tycpFj": {
           "type": "content",
           "settings": {
-            "product": "{{ page.metafields.custom.workspace_recommended_chairs_1.value }}",
+            "product": "office-master-10chd-cylinder",
             "text-1": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
             "text-2": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
             "text-3": "{{ block.settings.product.metafields.custom.product_specifications_tab | metafield_tag }}",
@@ -276,6 +182,100 @@
         "divider_width": "full",
         "padding_top": 70,
         "padding_bottom": 80
+      }
+    },
+    "slideshow_with_product_HtiURB": {
+      "type": "slideshow-with-product",
+      "blocks": {
+        "slide_HyCMxn": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "background": "{{ page.metafields.custom.workspace_hero_image.value }}",
+            "image_overlay_opacity": 30,
+            "product": "{{ page.metafields.custom.workspace_hero_product_1.value }}",
+            "subheading": "",
+            "title": "{{ page.title }}",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "bottom_heading": "{{ block.settings.product.title }}",
+            "enable_preload_image": false
+          }
+        },
+        "slide_peYecw": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "background": "{{ page.metafields.custom.workspace_hero_image_2.value }}",
+            "image_overlay_opacity": 30,
+            "product": "{{ page.metafields.custom.workspace_hero_product_2.value }}",
+            "subheading": "",
+            "title": "{{ page.title }}",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "bottom_heading": "{{ block.settings.product.title }}",
+            "enable_preload_image": false
+          }
+        },
+        "slide_t9rQMU": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "background": "{{ page.metafields.custom.workspace_hero_image_3.value }}",
+            "image_overlay_opacity": 30,
+            "product": "{{ page.metafields.custom.workspace_hero_product_3.value }}",
+            "subheading": "",
+            "title": "{{ page.title }}",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "bottom_heading": "{{ block.settings.product.title }}",
+            "enable_preload_image": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_HyCMxn",
+        "slide_peYecw",
+        "slide_t9rQMU"
+      ],
+      "custom_css": [
+        ".slideshow-with-product__content {max-height: 420px; /* adjust as needed */ overflow: hidden;}"
+      ],
+      "name": "t:sections.slideshow-with-product.name",
+      "settings": {
+        "container": "full",
+        "slide_height": "medium",
+        "show_controls": true,
+        "autoplay": true,
+        "autoplay_delay": 5,
+        "accessibility_info": "Slideshow showing different products in the workspace category"
       }
     },
     "comparison_table_nM7eJf": {
@@ -1178,8 +1178,8 @@
   },
   "order": [
     "main",
-    "slideshow_with_product_HtiURB",
     "comparison_table_MWAAy8",
+    "slideshow_with_product_HtiURB",
     "comparison_table_nM7eJf",
     "featured_collection_DWcjRb",
     "featured_collection_9JjdhU",
