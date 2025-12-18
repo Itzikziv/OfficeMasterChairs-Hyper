@@ -630,106 +630,147 @@
         "enable_preload_image": false
       }
     },
-    "image_with_feature_VVEak8": {
-      "type": "image-with-feature",
+    "comparison_table_dDRPPg": {
+      "type": "comparison-table",
       "blocks": {
-        "column_4zCKmy": {
-          "type": "column",
+        "heading_CPFEDJ": {
+          "type": "heading",
           "settings": {
-            "icon": "check",
-            "max_width": 38,
-            "max_width_mb": 32,
-            "title": "Full Manufacturer Warranties",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "h6",
-            "heading_font": "heading",
-            "text": "<p>Every chair and table is backed by the official warranty.</p>",
-            "text_size": "text-base"
+            "icon-1": "none",
+            "title-1": "Use Case",
+            "icon-2": "none",
+            "title-2": "Price",
+            "icon-3": "none",
+            "title-3": "Features",
+            "icon-4": "none",
+            "title-4": "",
+            "icon-5": "none",
+            "title-5": "",
+            "icon-6": "none",
+            "title-6": "Weight Capacity",
+            "icon-7": "none",
+            "title-7": "Warranty",
+            "icon-8": "chat",
+            "title-8": "",
+            "icon-9": "chat",
+            "title-9": "",
+            "icon-10": "chat",
+            "title-10": ""
           }
         },
-        "column_K8MkWQ": {
-          "type": "column",
+        "content_bzxehr": {
+          "type": "content",
           "settings": {
-            "icon": "check",
-            "max_width": 38,
-            "max_width_mb": 32,
-            "title": "Guaranteed Quality",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "h6",
-            "heading_font": "heading",
-            "text": "<p>Shop confidently knowing you’re buying authentic, factory-fresh products.</p>",
-            "text_size": "text-base"
+            "product": "{{ product.metafields.custom.table_recommendation_1.value }}",
+            "text-1": "<p>{{ product.metafields.custom.tr_use_case_1.value }}</p>",
+            "text-2": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
+            "text-3": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
           }
         },
-        "column_wxnjme": {
-          "type": "column",
+        "content_EdXE4w": {
+          "type": "content",
           "settings": {
-            "icon": "check",
-            "max_width": 38,
-            "max_width_mb": 32,
-            "title": "Safe & Secure Purchases",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "h6",
-            "heading_font": "heading",
-            "text": "<p>Transparent policies and verified sourcing give you peace of mind.</p>",
-            "text_size": "text-base"
+            "product": "{{ product.metafields.custom.table_recommendation_2.value }}",
+            "text-1": "<p>{{ product.metafields.custom.tr_use_case_2.value }}</p>",
+            "text-2": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
+            "text-3": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
           }
         },
-        "column_W33qHi": {
-          "type": "column",
+        "content_ag3CrY": {
+          "type": "content",
           "settings": {
-            "icon": "check",
-            "max_width": 38,
-            "max_width_mb": 32,
-            "title": "Expert Product Knowledge",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "h6",
-            "heading_font": "heading",
-            "text": "<p>Our team is trained directly on OM Seating and Special-T solutions.</p>",
-            "text_size": "text-base"
+            "product": "{{ product.metafields.custom.table_recommendation_3.value }}",
+            "text-1": "<p>{{ product.metafields.custom.tr_use_case_3.value }}</p>",
+            "text-2": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
+            "text-3": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
           }
         }
       },
       "block_order": [
-        "column_4zCKmy",
-        "column_K8MkWQ",
-        "column_wxnjme",
-        "column_W33qHi"
+        "heading_CPFEDJ",
+        "content_bzxehr",
+        "content_EdXE4w",
+        "content_ag3CrY"
       ],
-      "name": "t:sections.image-with-feature.presets",
+      "name": "t:sections.comparison-table.name",
       "settings": {
         "container": "fixed",
-        "color_scheme": "scheme-10",
-        "image": "shopify://shop_images/Authorized_Dealer_Image_Horizontal_1.svg",
-        "image_ratio": "4/3",
-        "enable_sticky": true,
+        "color_scheme": "",
+        "header_layout": "horizontal",
         "section_header_alignment": "left",
         "section_header_alignment_mobile": "inherit",
         "subheading": "",
-        "heading": "An Official Dealer for OM Seating & Special-T",
+        "heading": "<strong>Recommended Tables for Your Chair</strong>",
         "highlight_style": "none",
         "highlight_font_style": "italic",
         "highlight_style_color": "",
         "highlight_text_color": "",
-        "heading_size": "h3",
-        "description": "<p>We’re proud to be an authorized reseller for OM Seating and Special-T, bringing you direct access to their high-quality products with the full support you deserve.</p>",
+        "heading_size": "h2",
+        "description": "<p>Compare our recommended table options for this chair. Each table listed below has been selected for its ergonomic performance, build quality, and how well it fits the chair's intended work environment. </p>",
         "text_size": "text-base",
-        "show_section_divider": true,
+        "button_label": "",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "button_icon": "none",
+        "icon_size": 10,
+        "text_line_limit": "3-lines",
+        "show_view_more_button": true,
+        "show_section_divider": false,
         "divider_width": "fixed",
-        "padding_top": 80,
-        "padding_bottom": 60
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "You May Also Like",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "limit": 6,
+        "columns": 5,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
       }
     },
     "1758007826e5a7d4fb": {
@@ -752,119 +793,6 @@
         "include_margins": true,
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "comparison_table_dDRPPg": {
-      "type": "comparison-table",
-      "blocks": {
-        "heading_CPFEDJ": {
-          "type": "heading",
-          "settings": {
-            "icon-1": "none",
-            "title-1": "Price",
-            "icon-2": "none",
-            "title-2": "Seat Height",
-            "icon-3": "none",
-            "title-3": "Adjustability",
-            "icon-4": "none",
-            "title-4": "Overall Dimensions",
-            "icon-5": "none",
-            "title-5": "Intended User Size",
-            "icon-6": "none",
-            "title-6": "Weight Capacity",
-            "icon-7": "none",
-            "title-7": "Warranty",
-            "icon-8": "chat",
-            "title-8": "",
-            "icon-9": "chat",
-            "title-9": "",
-            "icon-10": "chat",
-            "title-10": ""
-          }
-        },
-        "content_bzxehr": {
-          "type": "content",
-          "settings": {
-            "product": "office-master-pt79-paramount-value-extra-tall-back-multi-function-chair",
-            "text-1": "<p>$699.99</p>",
-            "text-2": "<p>17-23\"</p>",
-            "text-3": "<ul><li>Height</li><li>Back</li><li>Test</li><li>Test</li><li>Test</li></ul>",
-            "text-4": "<p>18-45\"</p>",
-            "text-5": "<p>Up to 1,000 nits</p>",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_7cDVnc": {
-          "type": "content",
-          "settings": {
-            "product": "office-master-ptym-paramount-value-mid-back-ergonomic-office-chair",
-            "text-1": "<p>Inspired to create a chair where the back and arms are moulded</p>",
-            "text-2": "<p>46mm or 42mm</p>",
-            "text-3": "<p>Up to 18 hours</p>",
-            "text-4": "<p>S10 SiP</p>",
-            "text-5": "<p>Up to 2,000 nits</p>",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        },
-        "content_4LQWnd": {
-          "type": "content",
-          "settings": {
-            "product": "office-master-pt69-paramount-value-high-back-ergonomic-office-chair",
-            "text-1": "<p>$499.99</p>",
-            "text-2": "<p>18\"-22\"</p>",
-            "text-3": "<ul><li>Height</li><li>Back</li><li>Test</li><li>Test</li><li>Test</li></ul>",
-            "text-4": "<p>S9 SiP</p>",
-            "text-5": "<p>Up to 3,000 nits</p>",
-            "text-6": "",
-            "text-7": "",
-            "text-8": "",
-            "text-9": "",
-            "text-10": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_CPFEDJ",
-        "content_bzxehr",
-        "content_7cDVnc",
-        "content_4LQWnd"
-      ],
-      "disabled": true,
-      "name": "t:sections.comparison-table.name",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "header_layout": "horizontal",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "Comparison Table",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h1",
-        "description": "<p>Compare similar products within the Paramount Collection</p>",
-        "text_size": "text-base",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "btn--primary",
-        "button_icon": "none",
-        "icon_size": 20,
-        "text_line_limit": "2-lines",
-        "show_view_more_button": true,
-        "show_section_divider": false,
-        "divider_width": "fixed",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     },
     "collapsible_tabs_pkbGAq": {
@@ -994,38 +922,7 @@
         "item_icon_size": "extra-large",
         "padding_top": 50,
         "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "scheme-1",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "You May Also Like",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h2",
-        "description": "",
-        "limit": 6,
-        "columns": 5,
-        "column_gap": "medium",
-        "row_gap": "inherit",
-        "enable_slider": true,
-        "navigation_position": "bottom",
-        "pcard_image_ratio": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "show_progress_bar": true,
-        "padding_top": 60,
-        "padding_bottom": 0,
-        "show_section_divider": false,
+        "show_section_divider": true,
         "divider_width": "fixed"
       }
     },
@@ -1147,6 +1044,108 @@
         "text_alignment_mobile": "center",
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "image_with_feature_VVEak8": {
+      "type": "image-with-feature",
+      "blocks": {
+        "column_4zCKmy": {
+          "type": "column",
+          "settings": {
+            "icon": "check",
+            "max_width": 38,
+            "max_width_mb": 32,
+            "title": "Full Manufacturer Warranties",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h6",
+            "heading_font": "heading",
+            "text": "<p>Every chair and table is backed by the official warranty.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "column_K8MkWQ": {
+          "type": "column",
+          "settings": {
+            "icon": "check",
+            "max_width": 38,
+            "max_width_mb": 32,
+            "title": "Guaranteed Quality",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h6",
+            "heading_font": "heading",
+            "text": "<p>Shop confidently knowing you’re buying authentic, factory-fresh products.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "column_wxnjme": {
+          "type": "column",
+          "settings": {
+            "icon": "check",
+            "max_width": 38,
+            "max_width_mb": 32,
+            "title": "Safe & Secure Purchases",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h6",
+            "heading_font": "heading",
+            "text": "<p>Transparent policies and verified sourcing give you peace of mind.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "column_W33qHi": {
+          "type": "column",
+          "settings": {
+            "icon": "check",
+            "max_width": 38,
+            "max_width_mb": 32,
+            "title": "Expert Product Knowledge",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "h6",
+            "heading_font": "heading",
+            "text": "<p>Our team is trained directly on OM Seating and Special-T solutions.</p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "column_4zCKmy",
+        "column_K8MkWQ",
+        "column_wxnjme",
+        "column_W33qHi"
+      ],
+      "name": "t:sections.image-with-feature.presets",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-10",
+        "image": "shopify://shop_images/Authorized_Dealer_Image_Horizontal_1.svg",
+        "image_ratio": "4/3",
+        "enable_sticky": true,
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "An Official Dealer for OM Seating & Special-T",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h3",
+        "description": "<p>We’re proud to be an authorized reseller for OM Seating and Special-T, bringing you direct access to their high-quality products with the full support you deserve.</p>",
+        "text_size": "text-base",
+        "show_section_divider": true,
+        "divider_width": "fixed",
+        "padding_top": 80,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -1154,11 +1153,11 @@
     "tabs_content_8rnbnj",
     "slideshow_VGhFGA",
     "image_with_text_overlay_Cqtc4P",
-    "image_with_feature_VVEak8",
-    "1758007826e5a7d4fb",
     "comparison_table_dDRPPg",
-    "collapsible_tabs_pkbGAq",
     "related-products",
-    "slideshow_PqfVCk"
+    "1758007826e5a7d4fb",
+    "collapsible_tabs_pkbGAq",
+    "slideshow_PqfVCk",
+    "image_with_feature_VVEak8"
   ]
 }
