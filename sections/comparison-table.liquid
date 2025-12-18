@@ -164,6 +164,9 @@
 
               {% comment %} Content Columns  {% endcomment %}
               {% for block in content_block %}
+              {% if block.settings.product == blank %}
+                {% continue %}
+              {% endif %}
                 {% assign text = block.settings[text_key] %}
                 <td>
                   {% comment %} <div class="rte text-limit-{{ section.settings.text_line_limit }}">{{ text }}</div> {% endcomment %}
