@@ -662,7 +662,39 @@
           "type": "content",
           "settings": {
             "product": "{{ product.metafields.custom.table_recommendation_1.value }}",
-            "text-1": "",
+            "text-1": "<p>{{ product.metafields.custom.tr_use_case_1.value }}</p>",
+            "text-2": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
+            "text-3": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_EdXE4w": {
+          "type": "content",
+          "settings": {
+            "product": "{{ product.metafields.custom.table_recommendation_2.value }}",
+            "text-1": "<p>{{ product.metafields.custom.tr_use_case_2.value }}</p>",
+            "text-2": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
+            "text-3": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "text-8": "",
+            "text-9": "",
+            "text-10": ""
+          }
+        },
+        "content_ag3CrY": {
+          "type": "content",
+          "settings": {
+            "product": "{{ product.metafields.custom.table_recommendation_3.value }}",
+            "text-1": "<p>{{ product.metafields.custom.tr_use_case_3.value }}</p>",
             "text-2": "<p>{{ block.settings.product.metafields.custom.product_price | metafield_tag }}</p>",
             "text-3": "{{ block.settings.product.metafields.custom.product_features_tab | metafield_tag }}",
             "text-4": "",
@@ -677,7 +709,9 @@
       },
       "block_order": [
         "heading_CPFEDJ",
-        "content_bzxehr"
+        "content_bzxehr",
+        "content_EdXE4w",
+        "content_ag3CrY"
       ],
       "name": "t:sections.comparison-table.name",
       "settings": {
