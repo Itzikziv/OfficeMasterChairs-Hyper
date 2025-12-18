@@ -10,7 +10,13 @@
 
   assign heading_block = section.blocks | find: 'type', 'heading'
   assign content_block = section.blocks | where: 'type', 'content'
-  assign content_block = content_block | where: 'settings.product'
+
+  for block in content_block
+      if block.settings.product != blank
+        assign filtered_content_block = filtered_content_block | push: block
+      endif
+    endfor
+  assign content_block = filtered_content_block
 
   assign featured_media = product.featured_media
   if featured_media.media_type == 'model' or featured_media.media_type == 'video'
