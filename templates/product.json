@@ -742,6 +742,37 @@
         "padding_bottom": 50
       }
     },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "scheme-1",
+        "section_header_alignment": "left",
+        "section_header_alignment_mobile": "inherit",
+        "subheading": "",
+        "heading": "You May Also Like",
+        "highlight_style": "none",
+        "highlight_font_style": "italic",
+        "highlight_style_color": "",
+        "highlight_text_color": "",
+        "heading_size": "h2",
+        "description": "",
+        "limit": 6,
+        "columns": 5,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "enable_slider": true,
+        "navigation_position": "bottom",
+        "pcard_image_ratio": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "show_progress_bar": true,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "1758007826e5a7d4fb": {
       "type": "apps",
       "blocks": {
@@ -892,37 +923,6 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": true,
-        "divider_width": "fixed"
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "scheme-1",
-        "section_header_alignment": "left",
-        "section_header_alignment_mobile": "inherit",
-        "subheading": "",
-        "heading": "You May Also Like",
-        "highlight_style": "none",
-        "highlight_font_style": "italic",
-        "highlight_style_color": "",
-        "highlight_text_color": "",
-        "heading_size": "h2",
-        "description": "",
-        "limit": 6,
-        "columns": 5,
-        "column_gap": "medium",
-        "row_gap": "inherit",
-        "enable_slider": true,
-        "navigation_position": "bottom",
-        "pcard_image_ratio": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "show_progress_bar": true,
-        "padding_top": 60,
-        "padding_bottom": 0,
-        "show_section_divider": false,
         "divider_width": "fixed"
       }
     },
@@ -1154,9 +1154,9 @@
     "slideshow_VGhFGA",
     "image_with_text_overlay_Cqtc4P",
     "comparison_table_dDRPPg",
+    "related-products",
     "1758007826e5a7d4fb",
     "collapsible_tabs_pkbGAq",
-    "related-products",
     "slideshow_PqfVCk",
     "image_with_feature_VVEak8"
   ]
