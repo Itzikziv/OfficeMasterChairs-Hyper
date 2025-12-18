@@ -11,8 +11,8 @@
   assign heading_block = section.blocks | find: 'type', 'heading'
   assign content_block = section.blocks | where: 'type', 'content'
 
-  assign filtered_content_block = ''
-  assign filtered_content_block = filtered_content_block | split: ','
+  assign filtered_content_block = section.blocks | where: 'type', '__none__'
+
   for block in content_block
       if block.settings.product != blank
         assign filtered_content_block = filtered_content_block | push: block
