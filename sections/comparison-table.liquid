@@ -22,8 +22,7 @@
 
 <!-- DEBUG content_block.size = {{ content_block.size }} -->
 
-{% if has_products %}
-
+{% if has_products or request.design_mode %}
 
 {%- render 'divider',
   show_divider: section.settings.show_section_divider,
