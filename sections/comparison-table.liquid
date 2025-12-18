@@ -20,12 +20,6 @@
     endfor
   assign content_block = filtered_content_block
 
-  {% comment %}
-  assign featured_media = product.featured_media
-  if featured_media.media_type == 'model' or featured_media.media_type == 'video'
-    assign featured_media = product.featured_media.preview_image
-  endif
-  {% endcomment %}
 -%}
 
 {% if content_block.size > 0 %}
