@@ -122,9 +122,43 @@
     <script src="{{ 'product-model.js' | asset_url }}" defer></script>
   {%- endif -%}
 
+{% comment %}
   <script type="application/ld+json">
     {{ product | structured_data }}
   </script>
+ {% endcomment %}
+  {%- assign current_variant = product.selected_or_first_available_variant -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "@id": {{ canonical_url | append: "#product" | json }},
+    "name": {{ product.title | json }},
+    "url": {{ canonical_url | json }},
+    "image": [
+      {{ product.featured_media | image_url: width: 1024 | prepend: "https:" | json }}
+    ],
+    "description": {{ product.description | strip_html | strip_newlines | truncatewords: 50 | json }},
+    "sku": {{ current_variant.sku | json }},
+    "brand": {
+      "@type": "Brand",
+      "name": {{ product.vendor | default: "OM Seating" | json }},
+      "sameAs": {% if product.vendor contains 'Special-T' %}{{ "https://www.specialt.net" | json }}{% else %}{{ "https://omseating.com" | json }}{% endif %}
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": {{ canonical_url | json }},
+      "priceCurrency": {{ cart.currency.iso_code | json }},
+      "price": {{ current_variant.price | divided_by: 100.00 | json }},
+      "itemCondition": "https://schema.org/NewCondition",
+      "availability": "https://schema.org/{% if current_variant.available %}InStock{% else %}OutOfStock{% endif %}",
+      "seller": {
+        "@id": {{ shop.url | append: "/#organization" | json }}
+      }
+    }
+  }
+  </script>
+
 </product-info>
 {%- assign block_atc_bar = section.blocks | where: 'type', 'sticky-atc-bar' | first -%}
 {%- if block_atc_bar != blank -%}
