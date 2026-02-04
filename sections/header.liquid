@@ -267,8 +267,16 @@
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
-    "@type": "Organization",
+    "@type": "OnlineStore",
+    "@id": {{ shop.url | append: "/#organization" | json }},
+    "url": {{ request.origin | append: page.url | json }},
     "name": {{ shop.name | json }},
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": {{ shop.email | json }},
+        "availableLanguage": "English"
+      },
     {% if settings.logo %}
       "logo": {{ settings.logo | image_url: width: 500 | prepend: "https:" | json }},
     {% endif %}
@@ -283,7 +291,18 @@
       {{ settings.social_youtube_link | json }},
       {{ settings.social_vimeo_link | json }}
     ],
-    "url": {{ request.origin | append: page.url | json }}
+    "brand": [
+        {
+          "@type": "Brand",
+          "name": "OM Seating",
+          "sameAs": "https://omseating.com"
+        },
+        {
+          "@type": "Brand",
+          "name": "Special-T",
+          "sameAs": "https://www.specialt.net"
+        }
+     ]
   }
 </script>
 
