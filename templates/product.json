@@ -69,12 +69,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "rich_text_nMAWNA": {
-          "type": "rich-text",
-          "settings": {
-            "text": "<p><em>Disclaimer - All fabrics, arms, and other options shown are examples of available customizations. Fabric shown may not be available on all models — see product options below for current selections. Colors are approximate. Arms sold separately.</em></p>"
-          }
-        },
         "payment_info": {
           "type": "payment_info",
           "settings": {
@@ -87,7 +81,13 @@
             "heading_size": "h5",
             "description": "<p><em>Your payment information is processed securely. We do not store credit card details nor have access to your credit card information.</em></p>",
             "show_payment_icons": true,
-            "show_below_product_media": true
+            "show_below_product_media": false
+          }
+        },
+        "rich_text_nMAWNA": {
+          "type": "rich-text",
+          "settings": {
+            "text": "<p><em>Disclaimer - All fabrics, arms, and other options shown are examples of available customizations. Fabric shown may not be available on all models — see product options below for current selections. Colors are approximate. Arms sold separately.</em></p>"
           }
         },
         "promotion_alert_L7ipQp": {
@@ -152,21 +152,21 @@
         },
         "rich_text_cAgBnF": {
           "type": "rich-text",
+          "disabled": true,
           "settings": {
             "text": "<h4>Description</h4>{{ product.description }}"
           }
         },
         "collapsible_tab_mCf9pr": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Description",
             "heading_size": "h4",
-            "icon": "check",
+            "icon": "none",
             "content": "{{ product.description }}",
             "page": "",
             "default_open": true,
-            "show_below_product_media": false
+            "show_below_product_media": true
           }
         },
         "collapsible-row-2": {
@@ -175,9 +175,9 @@
             "heading": "Features",
             "heading_size": "h4",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.product_features_tab | metafield_tag }}</p>",
+            "content": "{{ product.metafields.custom.product_features_tab | metafield_tag }}",
             "page": "",
-            "default_open": true,
+            "default_open": false,
             "show_below_product_media": true
           }
         },
@@ -262,8 +262,8 @@
         "custom_liquid_Bantdx",
         "inventory",
         "buy_buttons",
-        "rich_text_nMAWNA",
         "payment_info",
+        "rich_text_nMAWNA",
         "promotion_alert_L7ipQp",
         "description",
         "variant_picker",
