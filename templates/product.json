@@ -284,7 +284,7 @@
       "custom_css": [
         "@media (min-width: 1280px) {.product {padding-inline: 5rem; }}",
         ".btn--primary {padding: 16px 32px; /* bigger overall size */ font-size: 16px; /* larger text */ min-height: 5px; /* ensures height grows */}",
-        " /* Mobile adjustments */"
+        " /* Mobile adjustments */.f-price--large {font-size: calc(var(--font-h4-size) * 1);}"
       ],
       "settings": {
         "color_scheme": "scheme-14",
