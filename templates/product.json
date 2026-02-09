@@ -469,15 +469,16 @@
       "custom_css": [
         "@media (min-width: 1024px) {.tabs__panel {padding-inline: 5rem; }}",
         ".tabs-nav--buttons button {padding: 16px 32px; font-size: 18px; min-height: 55px; min-width: 160px;}",
-        " /* Mobile adjustments */@media (max-width: 768px) {.tabs-nav--buttons button {padding: 10px 16px; font-size: 15px; min-height: 44px; min-width: 120px; }}"
+        " /* Mobile adjustments */@media (max-width: 768px) {.tabs-nav--buttons button {padding: 10px 16px; font-size: 15px; min-height: 44px; min-width: 120px; }}",
+        ".h3 {font-size: calc(var(--font-h4-size) * 1);}"
       ],
       "settings": {
-        "container": "full",
+        "container": "fixed",
         "color_scheme": "scheme-4",
         "navigation_style": "headings",
         "navigation_alignment": "center",
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 16,
+        "padding_bottom": 16,
         "show_section_divider": true,
         "divider_width": "fixed"
       }
@@ -726,7 +727,7 @@
         "highlight_font_style": "italic",
         "highlight_style_color": "",
         "highlight_text_color": "",
-        "heading_size": "h2",
+        "heading_size": "h4",
         "description": "<p>Compare our recommended table options for this chair. Each table listed below has been selected for its ergonomic performance, build quality, and how well it fits the chair's intended work environment. </p>",
         "text_size": "text-base",
         "button_label": "",
