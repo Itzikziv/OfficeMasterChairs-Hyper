@@ -45,6 +45,23 @@
           "type": "price",
           "settings": {}
         },
+        "rich_text_KAGfEr": {
+          "type": "rich-text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about a product, highlight its features, or provide useful details to help customers make informed decisions..</p>"
+          }
+        },
+        "popup_qMLdrx": {
+          "type": "popup",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_style": "btn--underline",
+            "button_icon": "none",
+            "page": "all-options-library"
+          }
+        },
         "custom_liquid_Bantdx": {
           "type": "custom_liquid",
           "disabled": true,
@@ -59,6 +76,15 @@
             "text_style": "body",
             "inventory_threshold": 10,
             "show_inventory_quantity": true
+          }
+        },
+        "shipping_HVBhRT": {
+          "type": "shipping",
+          "disabled": true,
+          "settings": {
+            "deliver_text": "Free Shipping | Estimated delivery:",
+            "deliver_days": "7",
+            "date_format": "%b %d"
           }
         },
         "buy_buttons": {
@@ -259,8 +285,11 @@
         "meta",
         "judge_me_reviews_preview_badge_affX98",
         "price",
+        "rich_text_KAGfEr",
+        "popup_qMLdrx",
         "custom_liquid_Bantdx",
         "inventory",
+        "shipping_HVBhRT",
         "buy_buttons",
         "payment_info",
         "rich_text_nMAWNA",
