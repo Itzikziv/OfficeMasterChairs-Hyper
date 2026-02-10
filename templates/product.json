@@ -45,6 +45,22 @@
           "type": "price",
           "settings": {}
         },
+        "icon_with_text_8DgD9A": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "title_font": "body",
+            "title_size": "text-base",
+            "icon_1": "truck",
+            "heading_1": "<strong>Shipping: Free!</strong>",
+            "icon_2": "none",
+            "image_2": "shopify://shop_images/User_Size.png",
+            "heading_2": "User Size: Average (5'4\"-6'1\")",
+            "icon_3": "none",
+            "image_3": "shopify://shop_images/Weight_Rating.png",
+            "heading_3": "Weight Rating: 250lbs"
+          }
+        },
         "rich_text_KAGfEr": {
           "type": "rich-text",
           "settings": {
@@ -129,18 +145,6 @@
           "disabled": true,
           "settings": {}
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_type": "shopify_swatch",
-            "swatch_style": "square",
-            "swatch_size": 32,
-            "button_style": "normal",
-            "size_title": "Size",
-            "size_chart_from_page": ""
-          }
-        },
         "icon_with_text_UAYgQU": {
           "type": "icon-with-text",
           "disabled": true,
@@ -155,10 +159,6 @@
             "icon_3": "star-four",
             "heading_3": ""
           }
-        },
-        "pickup_availability": {
-          "type": "pickup_availability",
-          "settings": {}
         },
         "complementary": {
           "type": "complementary",
@@ -284,6 +284,7 @@
         "meta",
         "judge_me_reviews_preview_badge_affX98",
         "price",
+        "icon_with_text_8DgD9A",
         "rich_text_KAGfEr",
         "popup_qMLdrx",
         "custom_liquid_Bantdx",
@@ -294,9 +295,7 @@
         "rich_text_nMAWNA",
         "promotion_alert_L7ipQp",
         "description",
-        "variant_picker",
         "icon_with_text_UAYgQU",
-        "pickup_availability",
         "complementary",
         "rich_text_cAgBnF",
         "collapsible_tab_mCf9pr",
