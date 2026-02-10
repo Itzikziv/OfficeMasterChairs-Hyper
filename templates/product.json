@@ -52,7 +52,7 @@
             "title_font": "body",
             "title_size": "text-base",
             "icon_1": "truck",
-            "heading_1": "<strong>Shipping: Free!</strong>",
+            "heading_1": "Shipping: Free!",
             "icon_2": "none",
             "image_2": "shopify://shop_images/User_Size.png",
             "heading_2": "User Size: Average (5'4\"-6'1\")",
