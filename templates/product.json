@@ -48,7 +48,7 @@
         "icon_with_text_8DgD9A": {
           "type": "icon-with-text",
           "settings": {
-            "layout": "vertical",
+            "layout": "horizontal",
             "title_font": "body",
             "title_size": "text-base",
             "icon_1": "truck",
