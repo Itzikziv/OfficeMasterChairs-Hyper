@@ -47,9 +47,8 @@
         },
         "rich_text_KAGfEr": {
           "type": "rich-text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Use this text to share information about a product, highlight its features, or provide useful details to help customers make informed decisions..</p>"
+            "text": "<p>{{ product.metafields.custom.product_short_desc | metafield_tag }}</p>"
           }
         },
         "popup_qMLdrx": {
