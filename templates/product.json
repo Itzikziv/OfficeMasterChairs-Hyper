@@ -249,7 +249,7 @@
           "settings": {
             "heading": "Warranty",
             "heading_size": "h4",
-            "icon": "lightning",
+            "icon": "none",
             "content": "{{ product.metafields.custom.product_warranty_tab | metafield_tag }}",
             "page": "",
             "default_open": false,
