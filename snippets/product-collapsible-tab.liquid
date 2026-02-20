@@ -3,7 +3,7 @@
   assign heading_text = block.settings.heading | default: block.settings.page.title
   assign body_content = block.settings.content | append: block.settings.page.content
 -%}
-{% if heading_text != blank %}
+{% if heading_text != blank or request.design_mode%}
 <details
   id="Details-{{ block.id }}-{{ section_id }}"
   class="accordion-details"
