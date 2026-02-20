@@ -1,6 +1,9 @@
 {%- liquid
   assign heading_size = block.settings.heading_size | default: 'h4'
+  assign heading_text = block.settings.heading | default: block.settings.page.title
+  assign body_content = block.settings.content | append: block.settings.page.content
 -%}
++{% if heading_text != blank or body_content != blank %}
 <details
   id="Details-{{ block.id }}-{{ section_id }}"
   class="accordion-details"
@@ -26,3 +29,4 @@
     {{ block.settings.page.content }}
   </div>
 </details>
++{% endif %}
