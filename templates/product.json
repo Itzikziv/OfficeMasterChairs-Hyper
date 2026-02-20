@@ -231,12 +231,25 @@
             "show_below_product_media": true
           }
         },
+        "collapsible_tab_7Lq3VA": {
+          "type": "collapsible_tab",
+          "name": "Collapsible row - series",
+          "settings": {
+            "heading": "{{ product.metafields.custom.product_series_heading.value }}",
+            "heading_size": "h4",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.product_series_content | metafield_tag }}",
+            "page": "",
+            "default_open": false,
+            "show_below_product_media": true
+          }
+        },
         "collapsible_tab_pnt6Q8": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Warranty",
             "heading_size": "h4",
-            "icon": "none",
+            "icon": "lightning",
             "content": "{{ product.metafields.custom.product_warranty_tab | metafield_tag }}",
             "page": "",
             "default_open": false,
@@ -248,7 +261,7 @@
           "settings": {
             "heading": "Shipping",
             "heading_size": "h4",
-            "icon": "none",
+            "icon": "truck",
             "content": "<p>Each OM Seating product is built from scratch and requires time to be manufactured. <br/><br/>Lead time is typically up to 7-10 business days, however for a most updated production time estimate, please reach out to us via the chat or email at <a href=\"mailto:cs@estorescorp.com\" target=\"_blank\" title=\"mailto:cs@estorescorp.com\">cs@estorescorp.com</a></p>",
             "page": "",
             "default_open": false,
@@ -303,6 +316,7 @@
         "collapsible-row-2",
         "collapsible-row-1",
         "collapsible-row-3",
+        "collapsible_tab_7Lq3VA",
         "collapsible_tab_pnt6Q8",
         "collapsible_tab_gqPcD6",
         "divider_pPz3Kw",
