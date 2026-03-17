@@ -40,7 +40,7 @@
           "type": "announcement_bar",
           "settings": {
             "text": "View Bulk Discounts for Large Orders!",
-            "link": "shopify://pages/bulk-order-discounts"
+            "link": "shopify://pages/bulk-order-discounts-net-30-accounts"
           }
         },
         "announcement_bar_nngktg": {
