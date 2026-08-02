@@ -53,7 +53,7 @@
             "title_font": "heading",
             "title_size": "h5",
             "icon_1": "none",
-            "heading_1": "",
+            "heading_1": "<em>{{ product.metafields.custom.product_phasing_out_text.value }}</em>",
             "icon_2": "none",
             "heading_2": "",
             "icon_3": "none",
