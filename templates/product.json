@@ -47,7 +47,7 @@
         },
         "icon_with_text_BdtV9t": {
           "type": "icon-with-text",
-          "name": "Phasing Out Tet",
+          "name": "Phasing Out Text",
           "settings": {
             "layout": "horizontal",
             "title_font": "heading",
