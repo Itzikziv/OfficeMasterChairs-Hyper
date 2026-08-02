@@ -45,6 +45,21 @@
           "type": "price",
           "settings": {}
         },
+        "icon_with_text_BdtV9t": {
+          "type": "icon-with-text",
+          "name": "Phasing Out Tet",
+          "settings": {
+            "layout": "horizontal",
+            "title_font": "heading",
+            "title_size": "h5",
+            "icon_1": "none",
+            "heading_1": "",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
+          }
+        },
         "icon_with_text_8DgD9A": {
           "type": "icon-with-text",
           "disabled": true,
@@ -298,6 +313,7 @@
         "meta",
         "judge_me_reviews_preview_badge_affX98",
         "price",
+        "icon_with_text_BdtV9t",
         "icon_with_text_8DgD9A",
         "rich_text_KAGfEr",
         "popup_qMLdrx",
