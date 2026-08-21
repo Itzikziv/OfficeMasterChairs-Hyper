@@ -151,6 +151,55 @@
     "slideshow_q3U4Jn": {
       "type": "slideshow",
       "blocks": {
+        "slide_rz6nQT": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "background": "shopify://shop_images/OM_SEATING_OM5-XP_LIFESTYLE_2_C.webp",
+            "image_overlay_opacity": 15,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "subheading": "Made for gaming, built with real ergonomic support.",
+            "title": "OM5-XP Gaming",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-inherit",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": false
+          }
+        },
+        "slide_pXBqBx": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "background": "shopify://shop_images/OM_SEATING_GINNY_LIFESTYLE_C.webp",
+            "image_overlay_opacity": 35,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "subheading": "One coordinated design for desks, counters, and shared spaces.",
+            "title": "Ginny Conference Casual",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/ginny-collection",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": true
+          }
+        },
         "slide_U9bPyj": {
           "type": "slide",
           "settings": {
@@ -175,30 +224,6 @@
             "enable_preload_image": false
           }
         },
-        "slide_PzpfKC": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-inverse",
-            "background": "shopify://shop_images/SpecialT_BV.KINGFLIP-2448_15_C_459e3d64-1de4-43d5-a972-1a7cab9647f8.jpg",
-            "image_overlay_opacity": 35,
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "subheading": "Built for training rooms with smart flexibility and durability.",
-            "title": "Kingston Training Tables",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "hd2",
-            "description": "",
-            "description_size": "text-base",
-            "button_label": "Shop Now",
-            "button_link": "shopify://collections/kingston-collection",
-            "button_style": "btn--primary",
-            "button_icon": "none",
-            "enable_preload_image": true
-          }
-        },
         "slide_JhU8hg": {
           "type": "slide",
           "settings": {
@@ -218,30 +243,6 @@
             "description_size": "text-base",
             "button_label": "Shop Now",
             "button_link": "shopify://collections/pt-value-chairs",
-            "button_style": "btn--primary",
-            "button_icon": "none",
-            "enable_preload_image": true
-          }
-        },
-        "slide_pXBqBx": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-inverse",
-            "background": "shopify://shop_images/SpecialT_AIM-XL-3672-RT_19_C_0b2ff014-2c17-4cf2-aa75-6263475e5410.jpg",
-            "image_overlay_opacity": 35,
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "subheading": "Modern conference tables with clean lines and lasting strength.",
-            "title": "AIM XL Conference Tables",
-            "highlight_style": "none",
-            "highlight_font_style": "italic",
-            "highlight_style_color": "",
-            "highlight_text_color": "",
-            "heading_size": "hd2",
-            "description": "",
-            "description_size": "text-base",
-            "button_label": "Shop Now",
-            "button_link": "shopify://collections/aim-collection",
             "button_style": "btn--primary",
             "button_icon": "none",
             "enable_preload_image": true
@@ -270,18 +271,43 @@
             "button_icon": "none",
             "enable_preload_image": true
           }
+        },
+        "slide_PzpfKC": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-inverse",
+            "background": "shopify://shop_images/SpecialT_BV.KINGFLIP-2448_15_C_459e3d64-1de4-43d5-a972-1a7cab9647f8.jpg",
+            "image_overlay_opacity": 35,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "subheading": "Built for training rooms with smart flexibility and durability.",
+            "title": "Kingston Training Tables",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/kingston-collection",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": true
+          }
         }
       },
       "block_order": [
-        "slide_U9bPyj",
-        "slide_PzpfKC",
-        "slide_JhU8hg",
+        "slide_rz6nQT",
         "slide_pXBqBx",
-        "slide_BrBzeK"
+        "slide_U9bPyj",
+        "slide_JhU8hg",
+        "slide_BrBzeK",
+        "slide_PzpfKC"
       ],
       "settings": {
         "container": "full",
-        "slide_height": "large",
+        "slide_height": "medium",
         "show_controls": true,
         "autoplay": false,
         "autoplay_delay": 6,
@@ -602,7 +628,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "education-classroom-chairs",
-            "title": "Education & Classrom"
+            "title": "Education & Classroom"
           }
         },
         "featured_collection_FzRWDn": {
@@ -779,6 +805,78 @@
     "image_with_text_slider_Pfb74V": {
       "type": "image-with-text-slider",
       "blocks": {
+        "image_slide_zwNXxU": {
+          "type": "image-slide",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/OM_SEATING_OM5-XP_LIFESTYLE_2_C.webp",
+            "desktop_content_position": "top-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_alignment": "left",
+            "subheading": "New Product",
+            "heading": "OM5-XP Gaming Chair",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "text": "<p>Made for gaming, built with real ergonomic support. <br/>OM5-XP combines bold styling with the responsive comfort of OM5’s body-activated motion.</p>",
+            "text_size": "text-base",
+            "button_label": "View Product",
+            "button_link": "shopify://products/office-master-om5-xp-body-activated-gaming-chair",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": false
+          }
+        },
+        "image_slide_RYjyyq": {
+          "type": "image-slide",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/OM_SEATING_GINNY_LIFESTYLE_C.webp",
+            "desktop_content_position": "top-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_alignment": "left",
+            "subheading": "New Products",
+            "heading": "Ginny Conference",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "text": "<p>One soft, sculpted design. Three ways to sit. <br/><br/>The Ginny collection brings on a new coordinated look to desks, counters, meeting rooms, and shared spaces.</p>",
+            "text_size": "text-base",
+            "button_label": "View Products",
+            "button_link": "shopify://collections/ginny-collection",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": false
+          }
+        },
+        "image_slide_bpkYEh": {
+          "type": "image-slide",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "image": "shopify://shop_images/OM_SEATING_WERKSY_LIFESTYLE_C.webp",
+            "desktop_content_position": "top-left",
+            "desktop_content_alignment": "left",
+            "mobile_content_alignment": "left",
+            "subheading": "New Product",
+            "heading": "Werksy 4 Star Stool",
+            "highlight_style": "none",
+            "highlight_font_style": "italic",
+            "highlight_style_color": "",
+            "highlight_text_color": "",
+            "heading_size": "hd2",
+            "text": "<p>A supportive perch for standing-height tables, collaborative spaces, and quick touchdown work. Werksy keeps elevated seating comfortable and polished.</p>",
+            "text_size": "text-base",
+            "button_label": "View Product",
+            "button_link": "shopify://products/office-master-wy2-4s-gs-4-star-stool",
+            "button_style": "btn--primary",
+            "button_icon": "none",
+            "enable_preload_image": false
+          }
+        },
         "image_slide_VMcXtN": {
           "type": "image-slide",
           "settings": {
@@ -787,7 +885,7 @@
             "desktop_content_position": "top-left",
             "desktop_content_alignment": "left",
             "mobile_content_alignment": "left",
-            "subheading": "New Collection",
+            "subheading": "Featured Collection",
             "heading": "Plot Twist",
             "highlight_style": "none",
             "highlight_font_style": "italic",
@@ -811,7 +909,7 @@
             "desktop_content_position": "top-left",
             "desktop_content_alignment": "left",
             "mobile_content_alignment": "left",
-            "subheading": "New Collection",
+            "subheading": "Featured Collection",
             "heading": "OM5 Evolved",
             "highlight_style": "none",
             "highlight_font_style": "italic",
@@ -835,7 +933,7 @@
             "desktop_content_position": "top-left",
             "desktop_content_alignment": "left",
             "mobile_content_alignment": "left",
-            "subheading": "New Collection",
+            "subheading": "Featured Collection",
             "heading": "Lorien",
             "highlight_style": "none",
             "highlight_font_style": "italic",
@@ -853,6 +951,7 @@
         },
         "image_slide_6BJLyz": {
           "type": "image-slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-10",
             "image": "shopify://shop_images/CE2-Conference-Room-min.jpg",
@@ -877,6 +976,7 @@
         },
         "image_slide_rgVgeE": {
           "type": "image-slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-10",
             "image": "shopify://shop_images/Werksy_Series_2-min.jpg",
@@ -901,6 +1001,9 @@
         }
       },
       "block_order": [
+        "image_slide_zwNXxU",
+        "image_slide_RYjyyq",
+        "image_slide_bpkYEh",
         "image_slide_VMcXtN",
         "image_slide_nfTAn6",
         "image_slide_xATCwT",
@@ -1473,6 +1576,7 @@
         "text_7pdWgH",
         "button_FGwgbj"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.name",
       "settings": {
         "container": "fixed",
