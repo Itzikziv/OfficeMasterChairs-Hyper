@@ -8265,7 +8265,7 @@ body.search-template #MainContent,
   }
 }
 
-/* Hide Shopify Inbox on mobile */
+/* Hide Shopify Inbox on mobile 
 @media screen and (max-width: 767.98px) {
   #ShopifyChat,
   shopify-chat,
@@ -8273,3 +8273,4 @@ body.search-template #MainContent,
     display: none !important;
   }
 }
+*/
