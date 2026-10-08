@@ -583,5 +583,12 @@
       "send_on": "YYYY-MM-DD",
       "send_on_label": "Send on (optional)"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "payment": {
+        "card_security_notice": "All transactions are secure and encrypted. Need to pay with a purchase order? Please contact cs@estorescorp.com. "
+      }
+    }
   }
 }
