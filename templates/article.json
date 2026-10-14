@@ -24,7 +24,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "show_tags": true,
+            "show_tags": false,
             "show_date": true,
             "show_author": false,
             "heading_size": "h1"
