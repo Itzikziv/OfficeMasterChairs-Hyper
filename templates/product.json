@@ -128,6 +128,7 @@
         },
         "payment_info": {
           "type": "payment_info",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-1",
             "heading": "",
