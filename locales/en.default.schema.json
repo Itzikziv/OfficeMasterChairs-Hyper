@@ -4097,13 +4097,13 @@
       }
     },
     "highlight-text-with-image": {
-          "name": "Highlight text with image",
-          "settings": {
-            "text": {
-              "info": "Use a specific placeholder format `[imgX]` where you want the image to appear. X is the image index. For example: `[img1]` will be replaced by the first image."
-            }
-          }
-        },
+      "name": "Highlight text with image",
+      "settings": {
+        "text": {
+          "info": "Use a specific placeholder format `[imgX]` where you want the image to appear. X is the image index. For example: `[img1]` will be replaced by the first image."
+        }
+      }
+    },
     "scrolling-promotion": {
       "name": "Scrolling promotion",
       "settings": {
@@ -4542,6 +4542,17 @@
     },
     "layered-images-with-text": {
       "name": "Layered images with text"
+    },
+    "editorial_article": {
+      "name": "Editorial article",
+      "layout": "Article layout",
+      "show_contents": "Show table of contents",
+      "contents_heading": "Contents heading",
+      "heading_size": "Section heading size",
+      "show_dividers": "Show dividers before section headings",
+      "show_cta": "Show call to action",
+      "cta_name": "Call to action",
+      "cta_info": "Content is connected to each blog post’s CTA fields. Changing an unconnected content setting applies to every post using this template."
     }
   }
 }

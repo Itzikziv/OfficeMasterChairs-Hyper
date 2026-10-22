@@ -164,6 +164,10 @@
       "previous_post": "Previous Post",
       "next_post": "Next Post",
       "related_posts_title": "Related Posts"
+    },
+    "editorial": {
+      "comparison_table": "Comparison table",
+      "contents_heading": "On this page"
     }
   },
   "onboarding": {
@@ -315,6 +319,10 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "404 Page not found",
+      "subtext": "The page you requested does not exist."
+    },
     "collections": {
       "title": "Collections"
     },
@@ -353,10 +361,6 @@
         "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
         "error_heading": "Please adjust the following:"
       }
-    },
-    "404": {
-      "title": "404 Page not found",
-      "subtext": "The page you requested does not exist."
     }
   },
   "sections": {
