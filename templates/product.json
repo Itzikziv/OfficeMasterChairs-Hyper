@@ -360,6 +360,20 @@
         "padding_bottom": 60
       }
     },
+    "options_guide_aBAKMW": {
+      "type": "options-guide",
+      "name": "Options guide",
+      "settings": {
+        "heading": "Options & Chair Adjustment",
+        "summary_file": "",
+        "files_base_url": "",
+        "mech_guide_url": "https://www.omseating.com/wp-content/themes/omseating/adjustments/{id}.html",
+        "default_tab": "fabric",
+        "min_tabs": 2,
+        "start_collapsed": false,
+        "max_width": 0
+      }
+    },
     "tabs_content_8rnbnj": {
       "type": "tabs-content",
       "blocks": {
@@ -564,7 +578,8 @@
         "padding_bottom": 16,
         "show_section_divider": true,
         "divider_width": "fixed"
-      }
+      },
+      "disabled": true
     },
     "slideshow_VGhFGA": {
       "type": "slideshow",
@@ -1234,6 +1249,7 @@
   },
   "order": [
     "main",
+    "options_guide_aBAKMW",
     "tabs_content_8rnbnj",
     "slideshow_VGhFGA",
     "image_with_text_overlay_Cqtc4P",

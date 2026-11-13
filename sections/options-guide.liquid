@@ -1,0 +1,111 @@
+{%- comment -%}
+  Options & Chair Adjustment guide (informational only).
+
+  Placement: add this section to the product template BELOW the buy box / options (not inside the product form).
+  It never reads or writes the Hulk option inputs.
+
+  Data (first match wins), always ONE json file per option set, fetched by the script after the page has loaded:
+    1. product metafield  guide.summary_url  (type: url)   -> URL of the file in Shopify Files (written by the pipeline)
+    2. theme asset named in the "Data file name" setting    -> used for testing on a duplicate theme
+{%- endcomment -%}
+
+{%- liquid
+  assign data_url = product.metafields.guide.summary_url.value
+  if data_url == blank and section.settings.summary_file != blank
+    assign data_url = section.settings.summary_file | asset_url
+  endif
+  if product.metafields.guide.hide.value == true
+    assign data_url = blank
+  endif
+  assign assets_base = 'options-guide.js' | asset_url | split: 'options-guide.js' | first
+-%}
+
+{%- if data_url != blank -%}
+  {{ 'options-guide.css' | asset_url | stylesheet_tag }}
+
+  <section
+    id="options-guide-{{ section.id }}"
+    class="og-section page-width"
+    {% if section.settings.max_width > 0 %}style="max-width: {{ section.settings.max_width }}px; margin-inline: auto;"{% endif %}
+  >
+    <options-guide
+      class="og og-wrap"
+      data-assets-base="{{ assets_base }}"
+      data-files-base="{{ section.settings.files_base_url | escape }}"
+      data-summary-url="{{ data_url }}"
+      data-mech-guide-url="{{ section.settings.mech_guide_url | escape }}"
+      data-min-tabs="{{ section.settings.min_tabs }}"
+      data-handle="{{ product.handle }}"
+      data-heading="{{ section.settings.heading | escape }}"
+      data-default-tab="{{ section.settings.default_tab }}"
+      data-collapsed="{{ section.settings.start_collapsed }}"
+      {% if section.settings.seat_min > 0 and section.settings.seat_max >= section.settings.seat_min %}data-seat="{{ section.settings.seat_min }},{{ section.settings.seat_max }}"{% endif %}
+    >
+      <h2 class="og-title">{{ section.settings.heading }}</h2>
+      <noscript><p class="og-muted">Turn on JavaScript to browse fabrics, arms, casters and chair adjustment.</p></noscript>
+    </options-guide>
+  </section>
+
+  <link rel="preload" as="fetch" href="{{ data_url }}" crossorigin="anonymous">
+  <script src="{{ 'options-guide.js' | asset_url }}" defer></script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Options guide",
+  "tag": "div",
+  "class": "og-section-root",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading (the model is added: \"… for the PT74\")", "default": "Options & Chair Adjustment" },
+    {
+      "type": "text",
+      "id": "summary_file",
+      "label": "Data file name (testing)",
+      "info": "Name of a theme asset, e.g. guide-os_PT74.json (one file per option set). Ignored when the product has the guide.summary_url metafield."
+    },
+    {
+      "type": "text",
+      "id": "files_base_url",
+      "label": "Files base URL for guide images (optional)",
+      "info": "Where bare image file names in the guide data (e.g. OM_Seating_Mech_-4a.png) are found. Leave empty to use theme assets. Must end with a slash."
+    },
+    {
+      "type": "text",
+      "id": "mech_guide_url",
+      "label": "Mechanism guide link pattern",
+      "info": "Use {id} for the guide name, e.g. https://www.omseating.com/wp-content/themes/omseating/adjustments/{id}.html. Shown inside the page in a frame. A guide value that is an image file name (e.g. om-mech-4a.png) is shown as an image from the theme assets instead. Only used when the guide value is not already a link.",
+      "default": "https://www.omseating.com/wp-content/themes/omseating/adjustments/{id}.html"
+    },
+    {
+      "type": "select",
+      "id": "default_tab",
+      "label": "Tab shown first",
+      "options": [
+        { "value": "fabric", "label": "Fabrics" },
+        { "value": "arms", "label": "Arms" },
+        { "value": "casters", "label": "Casters" },
+        { "value": "cylinders", "label": "Cylinders" },
+        { "value": "mech", "label": "Chair Adjustment" }
+      ],
+      "default": "fabric"
+    },
+    {
+      "type": "range",
+      "id": "min_tabs",
+      "label": "Hide the guide when it has fewer option tabs than this",
+      "info": "Counts Fabrics, Arms, Casters and Cylinders (not Chair Adjustment). 1 = hide only when empty. To hide one product, set its metafield guide.hide (true/false) to true.",
+      "min": 1, "max": 4, "step": 1, "default": 2
+    },
+    { "type": "checkbox", "id": "start_collapsed", "label": "Start collapsed", "default": false },
+    {
+      "type": "number",
+      "id": "seat_min",
+      "label": "Seat height min (in, testing)",
+      "info": "Used only when the summary has no seat height. Fills the Cylinders tab seat-height column."
+    },
+    { "type": "number", "id": "seat_max", "label": "Seat height max (in, testing)" },
+    { "type": "range", "id": "max_width", "label": "Maximum width (px, 0 = theme default)", "min": 0, "max": 1600, "step": 40, "default": 0 }
+  ],
+  "presets": [{ "name": "Options guide" }]
+}
+{% endschema %}
