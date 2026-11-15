@@ -101,10 +101,9 @@
         if (sp.length === 2 && sp[0] > 0 && sp[1] >= sp[0]) data.seat = sp;
       }
       this.tabs = this.availableTabs();
-      // Too little to guide: fewer option tabs (Chair Adjustment not counted) than the section's minimum.
+      // Too little to guide: fewer tabs (Chair Adjustment counted) than the section's minimum.
       var minTabs = parseInt(this.dataset.minTabs, 10) || 1;
-      var optTabs = this.tabs.filter(function (t) { return t[0] !== 'mech'; }).length;
-      if (!this.tabs.length || optTabs < minTabs) { this.hide(); return; }
+      if (!this.tabs.length || this.tabs.length < minTabs) { this.hide(); return; }
       if (!this.tabs.some(function (t) { return t[0] === this.s.tab; }, this)) this.s.tab = this.tabs[0][0];
       var F = data.fabrics;
       if (F && F.grades.length) this.s.gSel = F.grades[0].code;
