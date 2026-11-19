@@ -22,7 +22,9 @@
   };
   var sized = function (u, w) { return u ? u + (u.indexOf('?') > -1 ? '&' : '?') + 'width=' + w : ''; };
   var num = function (s) { var m = /([\d,]{4,})/.exec(String(s || '')); return m ? parseInt(m[1].replace(/,/g, ''), 10) : 0; };
+  var GRADE_NAMES = {};
   var gname = function (c) {
+    if (GRADE_NAMES[c]) return GRADE_NAMES[c];
     var m = /^(L?)G(\d+)$/i.exec(c);
     return m ? (m[1] ? 'Leather Grade ' : 'Grade ') + m[2] : c;
   };
@@ -107,6 +109,7 @@
       if (!this.tabs.some(function (t) { return t[0] === this.s.tab; }, this)) this.s.tab = this.tabs[0][0];
       var F = data.fabrics;
       if (F && F.grades.length) this.s.gSel = F.grades[0].code;
+      if (F) F.grades.forEach(function (g) { if (g.name) GRADE_NAMES[g.code] = g.name; });
       var M = data.mechanisms;
       if (M && M.items.length) this.s.mech = M.items[0].id;
       this.bind();
@@ -329,7 +332,9 @@
       /* Some sets (OM5) price the same grade for two parts, e.g. seat and back upholstery. */
       var priceCell = function (g) {
         if (!g.alt || !g.alt.length) return esc(up(g.price));
-        return esc((g.part || 'Seat') + ' ' + up(g.price)) + g.alt.map(function (a) { return '<div class="og-muted">' + esc(a.label + ' ' + up(a.price)) + '</div>'; }).join('');
+        return esc((g.part || 'Seat') + ' ' + up(g.price)) + g.alt.map(function (a) {
+          return '<div class="og-muted">' + esc(a.label + ' ' + up(a.price) + (a.codes ? ' (' + a.codes.length + ' of ' + g.colorCount + ' colors)' : '')) + '</div>';
+        }).join('');
       };
       var self = this, F = this.summary.fabrics, s = this.s, model = this.summary.model;
       var rows = F.grades.map(function (g) {
@@ -556,6 +561,16 @@
       return g ? g.price : 0;
     }
 
+    /* [label, price] rows for one fabric: one row, or one per upholstery part (seat / back, seat top / side panel,
+       jacket / wrap) when the grade is priced per part. Jacket / wrap rows appear only for the colors they list. */
+    fabricPrices(v) {
+      var g = this.summary.fabrics.grades.filter(function (x) { return x.code === v.grade; })[0];
+      if (!g) return [];
+      if (!g.alt || !g.alt.length) return [[null, g.price]];
+      return [[g.part || 'Seat', g.price]].concat(g.alt.filter(function (a) { return !a.codes || a.codes.indexOf(v.code) > -1; })
+        .map(function (a) { return [a.label, a.price]; }));
+    }
+
     fabFiltered() {
       var d = this.detail.fabricsData, f = this.s.fab, self = this;
       var q = f.q.trim().toLowerCase(), min = parseInt(f.abr, 10) || 0;
@@ -565,7 +580,11 @@
         if (f.type !== 'all' && x.type !== f.type) return false;
         if (f.pattern !== 'all' && x.pattern !== f.pattern) return false;
         if (f.fam !== 'all' && x.family !== f.fam) return false;
-        if (f.clean !== 'all' && (p.clean || '').split(/[\s,]+/).indexOf(f.clean) < 0) return false;
+        if (f.clean !== 'all') {
+          var codes = (p.clean || '').toUpperCase().split(/[\s,]+/);
+          var allowed = f.clean === 'W' ? ['W', 'WS', 'SW'] : [f.clean];
+          if (!allowed.some(function (code) { return codes.indexOf(code) >= 0; })) return false;
+        }
         if (min && num(p.abr) < min) return false;
         if (q && (x.code + ' ' + x.name + ' ' + x.pattern + ' ' + (x.family || '')).toLowerCase().indexOf(q) < 0) return false;
         return true;
@@ -602,7 +621,7 @@
         sel('fab.grade', 'Grade', 'og-fG', '<option value="all">All grades</option>' + this.opts(F.grades.map(function (g) { return [g.code, gname(g.code)]; }), f.grade)) +
         sel('fab.type', 'Material type', 'og-fM', '<option value="all">All materials</option>' + this.opts(types, f.type)) +
         sel('fab.pattern', 'Pattern', 'og-fP', '<option value="all">All patterns</option>' + this.opts(pats, f.pattern)) +
-        sel('fab.clean', 'Cleanability', 'og-fK', this.opts([['all', 'Any method'], ['W', 'Water-based OK (W)'], ['BC', 'Bleach-cleanable (BC)']], f.clean)) +
+        sel('fab.clean', 'Cleanability', 'og-fK', this.opts([['all', 'Any method'], ['W', 'Water-based OK (W or WS)'], ['BC', 'Bleach-cleanable (BC)']], f.clean)) +
         sel('fab.abr', 'Abrasion / durability', 'og-fA', this.opts([['0', 'Any rating'], ['100000', '100,000+ double rubs'], ['150000', '150,000+ double rubs'], ['200000', '200,000+ double rubs']], f.abr));
       var search = '<div class="og-fm-sr"><div><svg class="og-search-ic" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#5c5c5c" stroke-width="1.6" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="M11 11l3.5 3.5"/></svg>' +
         '<input class="og-search" type="search" aria-label="Search fabrics" placeholder="Search pattern, color or code" value="' + esc(f.q) + '" data-bind="fab.q"></div>' +
@@ -632,7 +651,8 @@
       if (!dlg || !dlg.isConnected || !this.detail.fabricsData) return;
       var d = this.detail.fabricsData, f = this.s.fab, F = this.summary.fabrics, self = this;
       var list = this.fabFiltered();
-      if (list.length && !list.some(function (x) { return x.code === f.picked; })) f.picked = list[0].code;
+      if (!list.length) f.picked = null;
+      else if (!list.some(function (x) { return x.code === f.picked; })) f.picked = list[0].code;
       var chips = this.chips().map(function (c) { return '<button type="button" class="og-badge" data-act="fab-chip" data-key="' + c[0] + '" aria-label="Remove filter ' + esc(c[1]) + '">' + esc(c[1]) + ' ×</button>'; }).join(' ');
       var grid = '', last = null;
       list.forEach(function (x) {
@@ -652,7 +672,7 @@
       var det = this.fabDlg.querySelector('[data-og-details]');
       var v = this.fabByCode(f.picked);
       det.classList.toggle('og-picked', !!v);
-      if (!v) { det.innerHTML = '<p class="og-muted">Select a fabric to see its details.</p>'; return; }
+      if (!v) { det.innerHTML = ''; return; }
       var p = d.patterns[v.pattern] || {};
       var lookups = (this.summary.lookups && this.summary.lookups.cleaning_code) || {};
       var cleanNote = (p.clean || '').split(/[\s,]+/).filter(Boolean).map(function (c) { return lookups[c] ? c + ': ' + lookups[c] : ''; }).filter(Boolean).join('; ');
@@ -662,7 +682,10 @@
         '<div>' + (v.img ? '<button type="button" class="og-zbtn og-zbig" data-act="fab-zoom" aria-label="Enlarge swatch of ' + esc(v.code + ' ' + v.name) + '">' + swatch(v, 640, 'og-sw-wide') + '</button>' : swatch(v, 640, 'og-sw-wide')) + '</div>' +
         '<div><div><strong>' + esc(v.code + ' ' + v.name) + '</strong></div><div class="og-muted">' + esc([v.pattern, gname(v.grade), v.type].join(' · ')) + '</div>' +
         (v.status === 'phasing out' ? '<div><span class="og-badge">Phasing out</span></div>' : '') + '</div>' +
-        '<div style="display:flex;justify-content:space-between;align-items:baseline"><span class="og-muted">Price on ' + esc(this.summary.model) + '</span><strong>' + esc(up(this.gradePrice(v.grade))) + '</strong></div>' +
+        this.fabricPrices(v).map(function (r, i, all) {
+          var lbl = r[0] == null ? 'Price on ' + self.summary.model : (i === 0 ? 'Price on ' + self.summary.model + ': ' : '') + r[0];
+          return '<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px"><span class="og-muted">' + esc(lbl) + '</span><strong>' + esc(up(r[1])) + '</strong></div>';
+        }).join('') +
         '<dl class="og-dl">' + rows.map(function (r) { return '<dt>' + esc(r[0]) + '</dt><dd>' + esc(r[1]) + (r[2] ? '<br><small>' + esc(r[2]) + '</small>' : '') + '</dd>'; }).join('') + '</dl>' +
         (Object.keys(p).length === 0 || !(p.content || p.abr) ? '<p class="og-muted">Detailed specifications for this pattern are not available yet.</p>' : '') +
         '<p class="og-muted">Colors on screen are approximate. Choose this color in the product options above.</p>';
@@ -745,7 +768,7 @@
     var guide = document.querySelector('options-guide');
     if (!guide || guide.hidden || !guide.summary || !guide.goTo) return;
     var hash = (/#([^#]+)$/.exec(href) || [])[1] || (a.getAttribute('optionId') || '');
-    var m = /^fab_std_(l?g\d+)$/i.exec(hash);
+    var m = /^fab_std_(l?g\d+(?:_[a-z0-9]+)?)$/i.exec(hash);
     var tab = m || /^fab_/i.test(hash) ? 'fabric' : /^arms/i.test(hash) ? 'arms' : null;
     var done = m && guide.openGrade ? guide.openGrade(m[1].toUpperCase(), a, pickerFabric(a)) : false;
     if (!done) done = guide.goTo(tab || guide.s.tab, m ? m[1].toUpperCase() : null);
