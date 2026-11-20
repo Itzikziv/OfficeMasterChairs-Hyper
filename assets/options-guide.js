@@ -186,15 +186,21 @@
       track(name, p);
     }
 
-    /* One "view" per page, when at least a third of the guide is on screen. */
+    /* One "view" per page, once 200px of the guide (or half of it, if it is shorter) is on screen.
+       The guide is often taller than the screen, so a share of its height would never be reached. */
     trackView() {
       var self = this;
       if (!('IntersectionObserver' in window)) return;
+      var steps = [];
+      for (var i = 0; i <= 20; i++) steps.push(i / 20);
       var io = new IntersectionObserver(function (entries) {
-        if (!entries.some(function (e) { return e.isIntersecting; })) return;
+        var seen = entries.some(function (e) {
+          return e.isIntersecting && e.intersectionRect.height >= Math.min(200, e.boundingClientRect.height / 2);
+        });
+        if (!seen) return;
         io.disconnect();
         self.track('options_guide_view', { guide_tabs: self.tabs.map(function (t) { return t[0]; }).join(',') });
-      }, { threshold: 0.3 });
+      }, { threshold: steps });
       io.observe(this);
     }
 
