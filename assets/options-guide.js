@@ -45,6 +45,15 @@
     else setTimeout(fn, 1200);
   }
 
+  /* Usage tracking: sends a GA4 event through the store's existing gtag. No personal data, no typed text.
+     If gtag is missing (ad blocker, declined cookies) or throws, nothing happens and the guide works as before. */
+  function track(name, params) {
+    try {
+      if (typeof window.gtag !== 'function') return;
+      window.gtag('event', name, params || {});
+    } catch (e) { /* tracking must never break the guide */ }
+  }
+
   /* ---------- the element ---------- */
   class OptionsGuide extends HTMLElement {
     connectedCallback() {
@@ -112,6 +121,7 @@
       this.bind();
       this.render();
       var self = this;
+      this.trackView();
       if (!data.detail && 'IntersectionObserver' in window && F) {
         var io = new IntersectionObserver(function (entries) {
           if (entries.some(function (e) { return e.isIntersecting; })) { io.disconnect(); whenIdle(function () { self.load('fabrics'); }); }
@@ -169,6 +179,25 @@
       });
     }
 
+    /* ----- usage tracking (GA4) ----- */
+    track(name, params) {
+      var p = { chair_model: (this.summary && this.summary.model) || '' };
+      for (var k in params) if (Object.prototype.hasOwnProperty.call(params, k)) p[k] = params[k];
+      track(name, p);
+    }
+
+    /* One "view" per page, when at least a third of the guide is on screen. */
+    trackView() {
+      var self = this;
+      if (!('IntersectionObserver' in window)) return;
+      var io = new IntersectionObserver(function (entries) {
+        if (!entries.some(function (e) { return e.isIntersecting; })) return;
+        io.disconnect();
+        self.track('options_guide_view', { guide_tabs: self.tabs.map(function (t) { return t[0]; }).join(',') });
+      }, { threshold: 0.3 });
+      io.observe(this);
+    }
+
     /* ----- events ----- */
     bind() {
       var self = this;
@@ -201,18 +230,31 @@
         if (!el) return;
         clearTimeout(self._qt);
         self._qt = setTimeout(function () { self.s.fab.q = el.value; self.updateFab(); }, 150);
+        // One event per search (after typing stops), without the typed text.
+        clearTimeout(self._qtt);
+        self._qtt = setTimeout(function () { if (el.value) self.track('options_guide_filter', { filter_name: 'fab.search' }); }, 1500);
       });
     }
 
     setBound(el) {
       var path = el.dataset.bind.split('.');
       var v = el.type === 'checkbox' ? el.checked : el.value;
+      this.track('options_guide_filter', { filter_name: el.dataset.bind, filter_value: String(v) });
       this.s[path[0]][path[1]] = v;
       if (path[0] === 'fab') this.updateFab(); else this.updateArms();
     }
 
     act(a, el) {
       var s = this.s;
+      switch (a) {
+        case 'toggle': this.track('options_guide_toggle', { guide_state: s.open ? 'closed' : 'opened' }); break;
+        case 'tab': if (el.dataset.tab !== s.tab) this.track('options_guide_tab', { guide_tab: el.dataset.tab }); break;
+        case 'grade': this.track('options_guide_grade', { fabric_grade: el.dataset.g }); break;
+        case 'mech': if (el.dataset.id !== s.mech) this.track('options_guide_mechanism', { mechanism: el.dataset.id }); break;
+        case 'open-arms': this.track('options_guide_arms_browser', {}); break;
+        case 'fab-pick': this.track('options_guide_fabric_pick', { fabric_code: el.dataset.code }); break;
+        case 'zoom': case 'fab-zoom': this.track('options_guide_photo_zoom', { guide_tab: s.tab }); break;
+      }
       switch (a) {
         case 'toggle': this.setOpen(!s.open); break;
         case 'mech-load': s.mechLoaded[el.dataset.id] = true; this.renderPanelOnly(); break;
@@ -286,6 +328,7 @@
       var ids = this.tabs.map(function (t) { return t[0]; });
       var i = ids.indexOf(this.s.tab) + (e.key === 'ArrowRight' ? 1 : -1);
       this.s.tab = ids[(i + ids.length) % ids.length];
+      this.track('options_guide_tab', { guide_tab: this.s.tab });
       this.renderPanelOnly(true);
       var b = this.querySelector('#og-t-' + this.s.tab);
       if (b) b.focus();
@@ -530,6 +573,8 @@
     openFabrics(code, opener, grade) {
       var self = this;
       var f0 = this.s.fab;
+      // source: "picker_link" = a grade link in the option picker, "swatch" = a fabric swatch in the guide, "button" = Explore fabrics.
+      this.track('options_guide_fabric_browser', { source: grade ? 'picker_link' : (code ? 'swatch' : 'button'), fabric_grade: grade || '' });
       if (code || grade) {
         // From a swatch: start on that fabric's pattern. From a grade link: start on that grade
         // (with the fabric already chosen in the option picker, if any, picked).
@@ -755,6 +800,7 @@
     var done = m && guide.openGrade ? guide.openGrade(m[1].toUpperCase(), a, pickerFabric(a)) : false;
     if (!done) done = guide.goTo(tab || guide.s.tab, m ? m[1].toUpperCase() : null);
     if (done) {
+      if (guide.track) guide.track('options_guide_picker_link', { guide_tab: tab || guide.s.tab, link_target: hash || '' });
       e.preventDefault();
       e.stopPropagation();
     }
