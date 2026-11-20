@@ -565,7 +565,11 @@
         if (f.type !== 'all' && x.type !== f.type) return false;
         if (f.pattern !== 'all' && x.pattern !== f.pattern) return false;
         if (f.fam !== 'all' && x.family !== f.fam) return false;
-        if (f.clean !== 'all' && (p.clean || '').split(/[\s,]+/).indexOf(f.clean) < 0) return false;
+        if (f.clean !== 'all') {
+          var codes = (p.clean || '').toUpperCase().split(/[\s,]+/);
+          var allowed = f.clean === 'W' ? ['W', 'WS', 'SW'] : [f.clean];
+          if (!allowed.some(function (code) { return codes.indexOf(code) >= 0; })) return false;
+        }
         if (min && num(p.abr) < min) return false;
         if (q && (x.code + ' ' + x.name + ' ' + x.pattern + ' ' + (x.family || '')).toLowerCase().indexOf(q) < 0) return false;
         return true;
@@ -602,7 +606,7 @@
         sel('fab.grade', 'Grade', 'og-fG', '<option value="all">All grades</option>' + this.opts(F.grades.map(function (g) { return [g.code, gname(g.code)]; }), f.grade)) +
         sel('fab.type', 'Material type', 'og-fM', '<option value="all">All materials</option>' + this.opts(types, f.type)) +
         sel('fab.pattern', 'Pattern', 'og-fP', '<option value="all">All patterns</option>' + this.opts(pats, f.pattern)) +
-        sel('fab.clean', 'Cleanability', 'og-fK', this.opts([['all', 'Any method'], ['W', 'Water-based OK (W)'], ['BC', 'Bleach-cleanable (BC)']], f.clean)) +
+        sel('fab.clean', 'Cleanability', 'og-fK', this.opts([['all', 'Any method'], ['W', 'Water-based OK (W or WS)'], ['BC', 'Bleach-cleanable (BC)']], f.clean)) +
         sel('fab.abr', 'Abrasion / durability', 'og-fA', this.opts([['0', 'Any rating'], ['100000', '100,000+ double rubs'], ['150000', '150,000+ double rubs'], ['200000', '200,000+ double rubs']], f.abr));
       var search = '<div class="og-fm-sr"><div><svg class="og-search-ic" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#5c5c5c" stroke-width="1.6" aria-hidden="true"><circle cx="7" cy="7" r="5"/><path d="M11 11l3.5 3.5"/></svg>' +
         '<input class="og-search" type="search" aria-label="Search fabrics" placeholder="Search pattern, color or code" value="' + esc(f.q) + '" data-bind="fab.q"></div>' +
@@ -632,7 +636,8 @@
       if (!dlg || !dlg.isConnected || !this.detail.fabricsData) return;
       var d = this.detail.fabricsData, f = this.s.fab, F = this.summary.fabrics, self = this;
       var list = this.fabFiltered();
-      if (list.length && !list.some(function (x) { return x.code === f.picked; })) f.picked = list[0].code;
+      if (!list.length) f.picked = null;
+      else if (!list.some(function (x) { return x.code === f.picked; })) f.picked = list[0].code;
       var chips = this.chips().map(function (c) { return '<button type="button" class="og-badge" data-act="fab-chip" data-key="' + c[0] + '" aria-label="Remove filter ' + esc(c[1]) + '">' + esc(c[1]) + ' ×</button>'; }).join(' ');
       var grid = '', last = null;
       list.forEach(function (x) {
@@ -652,7 +657,7 @@
       var det = this.fabDlg.querySelector('[data-og-details]');
       var v = this.fabByCode(f.picked);
       det.classList.toggle('og-picked', !!v);
-      if (!v) { det.innerHTML = '<p class="og-muted">Select a fabric to see its details.</p>'; return; }
+      if (!v) { det.innerHTML = '<p class="og-muted">No fabric to show. Adjust the filters.</p>'; return; }
       var p = d.patterns[v.pattern] || {};
       var lookups = (this.summary.lookups && this.summary.lookups.cleaning_code) || {};
       var cleanNote = (p.clean || '').split(/[\s,]+/).filter(Boolean).map(function (c) { return lookups[c] ? c + ': ' + lookups[c] : ''; }).filter(Boolean).join('; ');
