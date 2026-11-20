@@ -197,7 +197,8 @@
         var seen = entries.some(function (e) {
           return e.isIntersecting && e.intersectionRect.height >= Math.min(200, e.boundingClientRect.height / 2);
         });
-        if (!seen) return;
+        if (!seen || self._viewed) return;
+        self._viewed = true;
         io.disconnect();
         self.track('options_guide_view', { guide_tabs: self.tabs.map(function (t) { return t[0]; }).join(',') });
       }, { threshold: steps });
